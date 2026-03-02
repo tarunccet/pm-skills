@@ -42,23 +42,7 @@ It’s about product judgment.
 
 Commands use skills. Some skills serve multiple commands. Some skills (like `prioritization-frameworks` or `opportunity-solution-tree`) are standalone references that Claude draws on whenever relevant — no command needed.
 
-Commands are designed to flow into each other, matching the PM workflow:
-
-```
-/strategy → /business-model → /pricing
-     ↓
-/discover → /brainstorm → /write-prd → /write-stories → /sprint plan
-     ↓              ↓           ↓
-/interview    /triage-requests  /pre-mortem
-     ↓
-/research-users → /analyze-feedback
-                       ↓
-/plan-launch → /growth-strategy → /battlecard
-     ↓
-/market-product → /north-star → /setup-metrics
-```
-
-After any command completes, it suggests relevant next commands — just follow the prompts.
+Commands are designed to flow into each other, matching the PM workflow. After any command completes, it suggests relevant next commands — just follow the prompts.
 
 ## Installation
 
