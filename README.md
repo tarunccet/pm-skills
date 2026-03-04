@@ -408,6 +408,9 @@ Register-ScheduledTask -TaskName "CoworkVMServiceMonitor" `
   -User "SYSTEM"
 ```
 
+It solves 90% of the issues on Windows.
+The remaining 10%: open services.msc > start "Claude" service manually
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
