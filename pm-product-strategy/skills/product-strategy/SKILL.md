@@ -65,11 +65,13 @@ For each target segment:
 - What competencies and resources do we need?
 - What do we build vs. partner for?
 - What capabilities must we develop to win?
+- **For AI products**: Do we have the data, ML engineering, and AI safety expertise needed? What is our AI model sourcing strategy (API, fine-tune, custom)?
 
 ### 9. Can't/Won't
 - Why can't competitors easily copy this?
 - What defensibility do we have (network effects, switching costs, IP)?
 - What barriers to entry exist for new competitors?
+- **For AI products**: Consider data moats (proprietary training data), model moats (fine-tuned or custom models), and distribution moats (embedded AI in existing workflows).
 
 ## Output Process
 1. Define the vision and aspirational impact

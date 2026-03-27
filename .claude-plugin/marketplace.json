@@ -2,13 +2,19 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
   "version": "1.0.1",
-  "description": "Structured AI workflows for better product decisions. 65 domain-specific skills and 36 chained workflows across 8 PM plugins — from discovery to strategy, execution, launch, and growth.",
+  "description": "Structured AI workflows for better product decisions. 75 domain-specific skills and 41 chained workflows across 9 PM plugins — from AI product management, discovery, strategy, execution, launch, and growth.",
   "owner": {
     "name": "Paweł Huryn",
     "email": "pawel@productcompass.pm",
     "url": "https://www.productcompass.pm"
   },
   "plugins": [
+    {
+      "name": "pm-ai-product-management",
+      "description": "AI product management skills: model evaluation, responsible AI, AI metrics, prompt engineering, AI feature specs, build-vs-buy decisions, AI user research, data strategy, incident response, and competitive analysis.",
+      "source": "./pm-ai-product-management",
+      "category": "product-management"
+    },
     {
       "name": "pm-product-discovery",
       "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.",

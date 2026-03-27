@@ -28,7 +28,13 @@ The user will describe their product, objective, market segment, and feature ide
    - **Viability**: Can marketing, sales, finance, and legal support it?
    - **Feasibility**: Can it be built with existing technology? Are there integration risks?
 
-3. **For each assumption**, note:
+3. **If the feature uses AI/ML, also evaluate**:
+   - **AI Quality**: Will model outputs be accurate and reliable enough? What's the error tolerance? How will model drift or regressions be detected?
+   - **AI Trust**: Will users trust the AI outputs? Is there a risk of automation bias or distrust leading to low adoption?
+   - **Data**: Is there sufficient, unbiased, and permissioned data available? Could the training or retrieval data introduce harmful biases?
+   - **Responsible AI**: Could the AI outputs cause harm, embarrassment, or regulatory issues? Are guardrails sufficient?
+
+4. **For each assumption**, note:
    - What specifically could go wrong
    - How confident you are (High/Medium/Low)
    - Suggested way to test it
