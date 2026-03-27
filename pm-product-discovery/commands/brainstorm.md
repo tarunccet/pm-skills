@@ -68,7 +68,7 @@ After presenting initial results, offer:
 - "Want me to **detail** any of these ideas into a fuller spec?"
 - "Should I **identify assumptions** behind the top ideas?" (chains into the `identify-assumptions-existing` or `identify-assumptions-new` skill)
 - "Want to **design experiments** to validate the top ideas?" (chains into experiment mode)
-- "Should I **prioritize** these against your current backlog?" (chains into the `prioritize-features` skill)
+- "Should I **prioritize** these against your current backlog?" (chains into the `prioritization` skill in `features` mode)
 
 ## Output Format
 

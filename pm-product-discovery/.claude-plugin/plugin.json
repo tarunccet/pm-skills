@@ -1,7 +1,7 @@
 {
   "name": "pm-product-discovery",
-  "version": "1.0.1",
-  "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.",
+  "version": "1.0.2",
+  "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, and customer interview synthesis. Feature prioritization and assumption prioritization are now part of the unified prioritization skill in pm-execution. Product metrics are now in the product-metrics skill in pm-data-analytics.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",

@@ -51,7 +51,7 @@ Apply the **analyze-feature-requests** skill:
 
 ### Step 4: Prioritize
 
-Apply the **prioritize-features** skill:
+Apply the **prioritization** skill (in `pm-execution`) in `features` mode:
 
 For each theme (and the top individual requests within each theme):
 

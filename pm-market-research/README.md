@@ -1,16 +1,15 @@
 # pm-market-research
 
-Market research skills for PMs: user personas, market segmentation, sentiment analysis, and competitive analysis.
+Market research skills for PMs: user personas, unified segmentation (market, user, and beachhead modes), sentiment analysis, and competitive analysis with standard, AI-focused, and battlecard output modes.
 
-## Skills (7)
+## Skills (6)
 
-- **competitor-analysis** — Analyze competitors with strengths, weaknesses, and differentiation opportunities.
+- **competitor-analysis** — Analyze competitors in three modes: standard (comprehensive landscape with 5 competitors), ai-focused (AI-specific dimensions including model quality, data moats, and capability gaps), or battlecard (sales-ready one-pager with objection handling and landmines).
 - **customer-journey-map** — Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities.
-- **market-segments** — Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis.
 - **market-sizing** — Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches.
+- **segmentation** — Unified segmentation skill with three modes: market segmentation (3-5 opportunity segments with JTBD and fit analysis), user segmentation (cluster existing users from feedback data), or beachhead selection (pick the best launch segment using burning pain, WTP, winnability, and referral criteria).
 - **sentiment-analysis** — Analyze user feedback data to identify market segments with sentiment scores, JTBD, and product satisfaction insights.
 - **user-personas** — Create refined user personas from research data.
-- **user-segmentation** — Segment users from feedback data based on behavior, JTBD, and needs.
 
 ## Commands (3)
 

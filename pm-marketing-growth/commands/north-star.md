@@ -27,7 +27,7 @@ Ask:
 
 ### Step 2: Classify the Business Game
 
-Apply the **north-star-metric** skill:
+Apply the **product-metrics** skill (in `pm-data-analytics`):
 
 Identify which game the product is playing:
 - **Attention**: Revenue from user time/engagement (media, social, ad-supported)
@@ -100,7 +100,7 @@ Save as markdown.
 
 ### Step 6: Offer Next Steps
 
-- "Want me to **build a full metrics dashboard** around this?"
+- "Want me to **build a full metrics dashboard** around this?" (use `product-metrics` skill in `pm-data-analytics`)
 - "Should I **create OKRs** based on these metrics?"
 - "Want me to **write SQL queries** to compute these metrics?"
 

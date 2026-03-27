@@ -1,7 +1,7 @@
 {
   "name": "pm-go-to-market",
-  "version": "1.0.1",
-  "description": "Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, and ideal customer profiles.",
+  "version": "1.0.2",
+  "description": "Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, and ideal customer profiles. Competitive battlecards and beachhead segment selection are now part of the unified competitor-analysis and segmentation skills.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",

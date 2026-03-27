@@ -15,7 +15,7 @@ Product strategy skills for PMs: vision, strategy canvas, startup canvas, value 
 - **product-vision** — Brainstorm an inspiring, achievable, and emotional product vision that motivates teams.
 - **startup-canvas** — Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (Cost Structure + Revenue Streams) for a new product. An alternative to Business Model Canvas and Lean Canvas that separates strategy from business model.
 - **swot-analysis** — Perform a detailed SWOT analysis identifying strengths, weaknesses, opportunities, and threats with actionable recommendations.
-- **value-proposition** — Generate a detailed value proposition using a 6-part JTBD template (Who, Why, What before, How, What after, Alternatives).
+- **value-proposition** — Design a value proposition using the 6-part JTBD template (Who, Why, What before, How, What after, Alternatives), then generate marketing-ready statements for specific segments and channels.
 
 ## Commands (5)
 

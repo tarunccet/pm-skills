@@ -28,7 +28,9 @@ Ask the user:
 
 ### Step 2: Define the Metrics Framework
 
-Apply the **metrics-dashboard** skill:
+Apply the **product-metrics** skill (in `pm-data-analytics`):
+
+Ask the user upfront: **Is this for an AI product or feature?** The skill adds a four-layer AI metrics stack (model quality, operational, product-level, business) when yes.
 
 **North Star Metric:**
 - Identify the single metric that best captures the value your product delivers to users

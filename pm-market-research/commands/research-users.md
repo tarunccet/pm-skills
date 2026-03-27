@@ -43,7 +43,7 @@ Apply the **user-personas** skill:
 
 ### Step 3: Segment Users
 
-Apply the **user-segmentation** and **market-segments** skills:
+Apply the **segmentation** skill (in `pm-market-research`) in `user` mode:
 
 - Create behavioral segments (not just demographics)
 - For each segment: size, JTBD, product fit, willingness to pay, engagement level
