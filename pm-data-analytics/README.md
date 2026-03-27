@@ -16,6 +16,7 @@ Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze
 
 ## Author
 
+Tarun Narang
 
 ## License
 

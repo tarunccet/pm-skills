@@ -27,6 +27,7 @@ Product strategy skills for PMs: vision, strategy canvas, startup canvas, value 
 
 ## Author
 
+Tarun Narang
 
 ## License
 

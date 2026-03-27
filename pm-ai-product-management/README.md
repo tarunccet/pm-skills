@@ -93,7 +93,7 @@ Create an AI product roadmap that accounts for model uncertainty, data milestone
 
 ## Author
 
-**Tarun Narang** — Product Compass
+**Tarun Narang**
 
 ---
 

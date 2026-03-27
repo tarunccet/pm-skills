@@ -17,6 +17,7 @@ Product marketing and growth skills: marketing ideas, value proposition statemen
 
 ## Author
 
+Tarun Narang
 
 ## License
 

@@ -20,6 +20,7 @@ Market research skills for PMs: user personas, market segmentation, sentiment an
 
 ## Author
 
+Tarun Narang
 
 ## License
 

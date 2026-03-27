@@ -35,6 +35,7 @@ Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mort
 
 ## Author
 
+Tarun Narang
 
 ## License
 

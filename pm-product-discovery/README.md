@@ -28,6 +28,7 @@ Product discovery skills for PMs: ideation, experiments, assumption testing, fea
 
 ## Author
 
+Tarun Narang
 
 ## License
 

@@ -19,6 +19,7 @@ Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead 
 
 ## Author
 
+Tarun Narang
 
 ## License
 

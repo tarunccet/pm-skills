@@ -74,7 +74,7 @@ A structured GTM strategy document including:
 - 90-day execution roadmap
 
 ## Framework
-This skill applies Product Compass GTM strategy methodology, focusing on market selection, channel fit, and message-market fit for sustainable product growth.
+This skill applies a structured GTM strategy methodology, focusing on market selection, channel fit, and message-market fit for sustainable product growth.
 
 ## Tips
 - Start with your most confident customer segment

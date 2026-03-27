@@ -135,7 +135,7 @@ A comprehensive GTM motions analysis including:
 - Competitive differentiation through motion choice
 
 ## Framework
-Based on Product Compass GTM motion analysis. Provides a systematic approach to balancing customer acquisition across multiple channels.
+Based on a structured GTM motion analysis approach. Provides a systematic approach to balancing customer acquisition across multiple channels.
 
 ## Tips
 - Most successful products use 2-4 complementary motions
