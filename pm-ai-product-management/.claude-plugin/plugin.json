@@ -1,0 +1,23 @@
+{
+  "name": "pm-ai-product-management",
+  "version": "1.0.0",
+  "description": "AI product management skills: model evaluation, responsible AI, AI metrics, prompt engineering, AI feature specs, build-vs-buy decisions, AI user research, data strategy, and more.",
+  "author": {
+    "name": "Paweł Huryn",
+    "email": "pawel@productcompass.pm",
+    "url": "https://www.productcompass.pm"
+  },
+  "keywords": [
+    "product-management",
+    "ai",
+    "machine-learning",
+    "llm",
+    "responsible-ai",
+    "ai-metrics",
+    "prompt-engineering",
+    "mlops",
+    "generative-ai"
+  ],
+  "homepage": "https://www.productcompass.pm",
+  "license": "MIT"
+}
