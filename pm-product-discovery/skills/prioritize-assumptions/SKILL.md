@@ -41,8 +41,3 @@ The user will provide a list of assumptions to prioritize. Apply the following f
 Think step by step. Save as markdown if the output is substantial.
 
 ---
-
-### Further Reading
-
-- [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

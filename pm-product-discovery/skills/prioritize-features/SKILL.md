@@ -44,9 +44,3 @@ The user will describe their product objective, desired outcomes, and provide fe
 Think step by step. Save as markdown if the output is substantial.
 
 ---
-
-### Further Reading
-
-- [Kano Model: How to Delight Your Customers Without Becoming a Feature Factory](https://www.productcompass.pm/p/kano-model-how-to-delight-your-customers)
-- [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

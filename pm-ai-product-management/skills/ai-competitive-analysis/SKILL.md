@@ -95,9 +95,3 @@ You are conducting an AI competitive analysis for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [AI Competitive Analysis for Product Managers](https://www.productcompass.pm/p/ai-competitive-analysis-framework)
-- [How to Benchmark AI Products Against Competitors](https://www.productcompass.pm/p/benchmarking-ai-products)
-- [Data Moats and AI Competitive Strategy](https://www.productcompass.pm/p/data-moats-ai-competitive-strategy)

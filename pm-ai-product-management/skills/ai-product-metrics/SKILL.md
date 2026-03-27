@@ -91,9 +91,3 @@ You are defining success metrics for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [AI Product Metrics: Beyond Accuracy](https://www.productcompass.pm/p/ai-product-metrics-beyond-accuracy)
-- [How to Measure LLM Product Quality](https://www.productcompass.pm/p/measuring-llm-product-quality)
-- [North Star Metric Framework for AI Products](https://www.productcompass.pm/p/north-star-metric-ai-products)

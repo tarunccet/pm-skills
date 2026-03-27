@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze user data, generate queries, and identify retention patterns.",
   "author": {
-    "name": "Paweł Huryn",
-    "email": "pawel@productcompass.pm",
-    "url": "https://www.productcompass.pm"
+    "name": "Tarun Narang",
+    "email": "tarunccet@gmail.com",
+    "url": "https://github.com/tarunccet/pm-skills"
   },
   "keywords": [
     "product-management",
@@ -14,6 +14,6 @@
     "cohort-analysis",
     "retention"
   ],
-  "homepage": "https://www.productcompass.pm",
+  "homepage": "https://github.com/tarunccet/pm-skills",
   "license": "MIT"
 }

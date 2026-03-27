@@ -71,7 +71,3 @@ Use web search to research the competitor's current product, pricing, positionin
 Save as markdown. Format for easy printing or sharing in Notion/Confluence.
 
 ---
-
-### Further Reading
-
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

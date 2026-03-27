@@ -44,8 +44,3 @@ If the user provides files (org charts, project briefs, team rosters), read them
 Think step by step. Save the stakeholder map as a markdown document.
 
 ---
-
-### Further Reading
-
-- [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)
-- [Team Topologies: A Handbook to Set and Scale Product Teams](https://www.productcompass.pm/p/team-topologies-a-handbook-to-set)

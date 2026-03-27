@@ -19,7 +19,6 @@ Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead 
 
 ## Author
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
 ## License
 

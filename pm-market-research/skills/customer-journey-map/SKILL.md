@@ -56,10 +56,3 @@ If the user provides files (interview transcripts, survey data, analytics, suppo
 Think step by step. Save as a markdown document. For visual journey maps, suggest the user create one in Miro or FigJam using this analysis as the foundation.
 
 ---
-
-### Further Reading
-
-- [User Journey Mapping 101](https://www.productcompass.pm/p/user-journey-mapping-101)
-- [Funnel Analysis 101: How to Track and Optimize Your User Journey](https://www.productcompass.pm/p/funnel-analysis)
-- [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)

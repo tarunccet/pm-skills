@@ -98,8 +98,3 @@ If the user provides files (personas, hypothesis lists, product briefs, or previ
 Save as markdown. Include both the script and the note-taking template.
 
 ---
-
-### Further Reading
-
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

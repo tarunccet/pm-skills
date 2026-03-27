@@ -68,7 +68,3 @@ Create user stories following the 3 C's (Card, Conversation, Confirmation) and I
 - Stories reference related design documentation
 
 ---
-
-### Further Reading
-
-- [How to Write User Stories: The Ultimate Guide](https://www.productcompass.pm/p/how-to-write-user-stories)

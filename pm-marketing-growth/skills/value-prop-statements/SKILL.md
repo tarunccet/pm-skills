@@ -45,7 +45,3 @@ To illustrate the approach, here are value proposition statements for Canva:
 - Mention any brand tone or voice guidelines
 
 ---
-
-### Further Reading
-
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

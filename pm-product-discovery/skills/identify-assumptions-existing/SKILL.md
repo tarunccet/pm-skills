@@ -42,9 +42,3 @@ The user will describe their product, objective, market segment, and feature ide
 Think step by step. Be thorough but constructive — the goal is to strengthen the idea, not kill it.
 
 ---
-
-### Further Reading
-
-- [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
-- [How to Manage Risks as a Product Manager](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

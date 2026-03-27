@@ -12,7 +12,6 @@ NSM is **NOT**: multiple metrics, a revenue/LTV metric (must be customer-centric
 
 NSM **IS**: a single, customer-centric KPI that reflects the value customers get from the product and serves as a leading indicator of long-term business success. You can use Key Results (OKRs) to express expected change in NSM.
 
-Free resource: [The North Star Framework 101 (PDF)](https://learn.productcompass.pm/nsm101)
 
 ## When to Use
 
@@ -65,10 +64,3 @@ Define 3-5 Input Metrics (also called leading indicators) that most directly inf
 - Describe the primary value you deliver to customers
 
 ---
-
-### Further Reading
-
-- [The North Star Framework 101](https://www.productcompass.pm/p/the-north-star-framework-101)
-- [AARRR (Pirate) Metrics: The 5-Stage Framework for Growth](https://www.productcompass.pm/p/aarrr-pirate-metrics)
-- [The Google HEART Framework: Your Guide to Measuring User-Centric Success](https://www.productcompass.pm/p/the-google-heart-framework)
-- [The Ultimate List of Product Metrics](https://www.productcompass.pm/p/the-ultimate-list-of-product-metrics)

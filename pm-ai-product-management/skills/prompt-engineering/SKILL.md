@@ -81,9 +81,3 @@ You are engineering prompts for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [Prompt Engineering for Product Managers](https://www.productcompass.pm/p/prompt-engineering-for-product-managers)
-- [Building a Prompt Library: Best Practices](https://www.productcompass.pm/p/building-a-prompt-library)
-- [Prompt Injection: What PMs Need to Know](https://www.productcompass.pm/p/prompt-injection-guide)

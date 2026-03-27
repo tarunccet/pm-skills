@@ -90,9 +90,3 @@ You are evaluating AI capability sourcing options for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [LLM Build vs. Buy: A Framework for Product Teams](https://www.productcompass.pm/p/llm-build-vs-buy)
-- [Fine-Tuning vs. RAG: When to Use Each](https://www.productcompass.pm/p/fine-tuning-vs-rag)
-- [AI Vendor Risk Assessment for PMs](https://www.productcompass.pm/p/ai-vendor-risk-assessment)

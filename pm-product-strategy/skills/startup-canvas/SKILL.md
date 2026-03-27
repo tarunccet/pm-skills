@@ -13,7 +13,7 @@ description: "Generate a Startup Canvas combining Product Strategy (9 sections) 
 
 ### Startup Canvas vs Business Model Canvas vs Lean Canvas
 
-Popular approaches like Business Model Canvas (Strategyzer) and Lean Canvas (Ash Maurya) mix strategy and business model into one artifact. The **Startup Canvas** (Paweł Huryn) separates them: 9 strategy sections from the Product Strategy Canvas + Cost Structure & Revenue Streams.
+Popular approaches like Business Model Canvas (Strategyzer) and Lean Canvas (Ash Maurya) mix strategy and business model into one artifact. The **Startup Canvas** (Tarun Narang) separates them: 9 strategy sections from the Product Strategy Canvas + Cost Structure & Revenue Streams.
 
 **Why not Business Model Canvas?**
 - No vision — why should your team wake up every day?
@@ -129,10 +129,3 @@ For each market segment:
 - [Startup Canvas (PPTX)](https://docs.google.com/presentation/d/1lA0SPflj5JT6jFV_jIDsqZJAYYperTFx/edit?usp=sharing&ouid=111307342557889008106&rtpof=true&sd=true)
 
 ---
-
-### Further Reading
-
-- [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)
-- [Product Strategy Canvas](https://www.productcompass.pm/p/product-strategy-canvas)
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
-- [Business Model Canvas Examples: Google Maps, Airbnb, Uber](https://www.productcompass.pm/p/business-model-canvas-examples)

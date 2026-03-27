@@ -16,7 +16,6 @@ Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze
 
 ## Author
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
 ## License
 

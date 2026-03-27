@@ -93,9 +93,7 @@ Create an AI product roadmap that accounts for model uncertainty, data milestone
 
 ## Author
 
-**Paweł Huryn** — Product Compass
-- Website: [productcompass.pm](https://www.productcompass.pm)
-- Newsletter: [Product Compass on Substack](https://www.productcompass.pm)
+**Tarun Narang** — Product Compass
 
 ---
 

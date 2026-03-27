@@ -160,7 +160,3 @@ Grow by entering entirely new markets with new products.
 - Reassess Ansoff Matrix annually or when market conditions shift
 
 ---
-
-### Further Reading
-
-- [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)

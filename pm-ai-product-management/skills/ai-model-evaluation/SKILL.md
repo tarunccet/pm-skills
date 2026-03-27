@@ -89,9 +89,3 @@ You are helping evaluate AI models or vendors for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [How to Evaluate AI Models for Product Use Cases](https://www.productcompass.pm/p/how-to-evaluate-ai-models)
-- [LLM Build vs. Buy: A Framework for Product Teams](https://www.productcompass.pm/p/llm-build-vs-buy)
-- [AI Product Management: The Complete Guide](https://www.productcompass.pm/p/ai-product-management-guide)

@@ -40,14 +40,9 @@ The user will provide an interview transcript — either as an attached file (te
 - [Unexpected findings or notable quotes]
 
 **Action Items**:
-- [Date, Owner, Action — e.g., "2025-01-15, Paweł Huryn, Follow up with customer about pricing"]
+- [Date, Owner, Action — e.g., "2025-01-15, Tarun Narang, Follow up with customer about pricing"]
 ```
 
 Save the summary as a markdown document in the user's workspace.
 
 ---
-
-### Further Reading
-
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

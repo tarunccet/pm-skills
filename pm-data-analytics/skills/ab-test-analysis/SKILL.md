@@ -74,9 +74,3 @@ If the user provides data files (CSV, Excel, or analytics exports), read and ana
 Think step by step. Save as markdown. Generate Python scripts for calculations if raw data is provided.
 
 ---
-
-### Further Reading
-
-- [A/B Testing 101 + Examples](https://www.productcompass.pm/p/ab-testing-101-for-pms)
-- [Testing Product Ideas: The Ultimate Validation Experiments Library](https://www.productcompass.pm/p/the-ultimate-experiments-library)
-- [Are You Tracking the Right Metrics?](https://www.productcompass.pm/p/are-you-tracking-the-right-metrics)

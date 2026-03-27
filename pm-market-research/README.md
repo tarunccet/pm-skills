@@ -20,7 +20,6 @@ Market research skills for PMs: user personas, market segmentation, sentiment an
 
 ## Author
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
 ## License
 

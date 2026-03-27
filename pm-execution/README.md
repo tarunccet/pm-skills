@@ -35,7 +35,6 @@ Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mort
 
 ## Author
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
 ## License
 

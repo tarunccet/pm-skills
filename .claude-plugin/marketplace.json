@@ -4,9 +4,9 @@
   "version": "1.0.1",
   "description": "Structured AI workflows for better product decisions. 75 domain-specific skills and 41 chained workflows across 9 PM plugins — from AI product management, discovery, strategy, execution, launch, and growth.",
   "owner": {
-    "name": "Paweł Huryn",
-    "email": "pawel@productcompass.pm",
-    "url": "https://www.productcompass.pm"
+    "name": "Tarun Narang",
+    "email": "tarunccet@gmail.com",
+    "url": "https://github.com/tarunccet/pm-skills"
   },
   "plugins": [
     {
@@ -58,9 +58,9 @@
       "category": "product-management"
     },
     {
-      "name": "pm-toolkit",
-      "description": "PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar/flow checking. Essential tools for product managers beyond core product work.",
-      "source": "./pm-toolkit",
+      "name": "pm-utilities",
+      "description": "PM utility skills: resume review, NDA drafting, privacy policy generation, grammar/flow checking, and dummy dataset generation. Essential tools for product managers beyond core product work.",
+      "source": "./pm-utilities",
       "category": "product-management"
     }
   ]

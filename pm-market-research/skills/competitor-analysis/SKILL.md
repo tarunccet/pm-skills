@@ -103,8 +103,3 @@ For each of the 5 competitors:
 - Consider long-term competitive dynamics and market shifts
 
 ---
-
-### Further Reading
-
-- [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)

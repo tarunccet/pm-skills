@@ -1,4 +1,4 @@
-# pm-toolkit
+# pm-utilities
 
 PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar/flow checking. Essential tools for product managers beyond core product work.
 
@@ -11,15 +11,14 @@ PM utility skills: resume review, NDA drafting, privacy policy generation, and g
 
 ## Commands (5)
 
-- `/pm-toolkit:draft-nda` — Draft a Non-Disclosure Agreement between two parties with jurisdiction-appropriate clauses.
-- `/pm-toolkit:privacy-policy` — Draft a privacy policy covering data collection, usage, storage, and compliance requirements.
-- `/pm-toolkit:proofread` — Check grammar, logic, and flow in any text — targeted fixes without rewriting.
-- `/pm-toolkit:review-resume` — Comprehensive PM resume review against 10 best practices — structure, impact metrics, keywords, and actionable feedback.
-- `/pm-toolkit:tailor-resume` — Tailor a PM resume to a specific job description — keyword alignment, experience reframing, and strategic optimization.
+- `/pm-utilities:draft-nda` — Draft a Non-Disclosure Agreement between two parties with jurisdiction-appropriate clauses.
+- `/pm-utilities:privacy-policy` — Draft a privacy policy covering data collection, usage, storage, and compliance requirements.
+- `/pm-utilities:proofread` — Check grammar, logic, and flow in any text — targeted fixes without rewriting.
+- `/pm-utilities:review-resume` — Comprehensive PM resume review against 10 best practices — structure, impact metrics, keywords, and actionable feedback.
+- `/pm-utilities:tailor-resume` — Tailor a PM resume to a specific job description — keyword alignment, experience reframing, and strategic optimization.
 
 ## Author
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
 ## License
 

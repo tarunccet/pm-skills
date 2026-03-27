@@ -78,8 +78,3 @@ If the user provides files (competitor pricing, survey data, financial models, o
 Think step by step. Save as markdown. Flag any assumptions that need validation before launch.
 
 ---
-
-### Further Reading
-
-- [Product Pricing Strategies 101](https://www.productcompass.pm/p/product-pricing-strategies-101)
-- [The AI Product Pricing Masterclass: OpenAI Product Lead on Why SaaS Pricing Fails in AI (and How to Fix It)](https://www.productcompass.pm/p/ai-product-pricing) (video course)

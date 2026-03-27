@@ -93,9 +93,3 @@ You are writing an AI feature specification for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [How to Write an AI Feature Spec](https://www.productcompass.pm/p/how-to-write-an-ai-feature-spec)
-- [AI PRD Template for Product Managers](https://www.productcompass.pm/p/ai-prd-template)
-- [Probabilistic Thinking for Product Managers](https://www.productcompass.pm/p/probabilistic-thinking-product-managers)

@@ -17,7 +17,6 @@ Product marketing and growth skills: marketing ideas, value proposition statemen
 
 ## Author
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
 ## License
 

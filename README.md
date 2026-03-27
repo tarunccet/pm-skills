@@ -1,6 +1,6 @@
-![GitHub stars](https://img.shields.io/github/stars/phuryn/pm-skills)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/CONTRIBUTING.md)
+![GitHub stars](https://img.shields.io/github/stars/tarunccet/pm-skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/tarunccet/pm-skills/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/tarunccet/pm-skills/blob/main/CONTRIBUTING.md)
 
 # PM Skills Marketplace: The AI Operating System for Better Product Decisions
 
@@ -51,7 +51,7 @@ Commands are designed to flow into each other, matching the PM workflow. After a
 1. Open **Customize** (bottom-left)
 2. Go to **Browse plugins** → **Personal** → **+**
 3. Select **Add marketplace from GitHub**
-4. Enter: `phuryn/pm-skills`
+4. Enter: `tarunccet/pm-skills`
 
 All 8 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
 
@@ -61,10 +61,10 @@ All 8 plugins install automatically. You get both commands (`/discover`, `/strat
 
 ```bash
 # Step 1: Add the marketplace
-claude plugin marketplace add phuryn/pm-skills
+claude plugin marketplace add tarunccet/pm-skills
 
 # Step 2: Install individual plugins
-claude plugin install pm-toolkit@pm-skills
+claude plugin install pm-utilities@pm-skills
 claude plugin install pm-product-strategy@pm-skills
 claude plugin install pm-product-discovery@pm-skills 
 claude plugin install pm-market-research@pm-skills 
@@ -367,7 +367,7 @@ Commands:
 </details>
 
 <details>
-<summary><strong>8. pm-toolkit</strong> — Resume review, legal documents, proofreading (4 skills, 5 commands)</summary>
+<summary><strong>8. pm-utilities</strong> — Resume review, legal documents, proofreading, dummy datasets (5 skills, 6 commands)</summary>
 
 PM utilities beyond core product work: resume review, legal documents, and proofreading.
 
@@ -420,7 +420,6 @@ Selected skills based on the work of:
 - Sean Ellis — [*Hacking Growth*](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X/)
 - Maja Voje — [*Go-To-Market Strategist*](https://gtmstrategist.com/)
 
-Curated by Paweł Huryn from [The Product Compass Newsletter](https://www.productcompass.pm).
 
 ## Contributing
 

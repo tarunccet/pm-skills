@@ -27,7 +27,6 @@ Product strategy skills for PMs: vision, strategy canvas, startup canvas, value 
 
 ## Author
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
 ## License
 

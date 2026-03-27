@@ -86,9 +86,3 @@ You are conducting a responsible AI review for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [Responsible AI for Product Managers](https://www.productcompass.pm/p/responsible-ai-for-product-managers)
-- [EU AI Act: What Product Managers Need to Know](https://www.productcompass.pm/p/eu-ai-act-product-managers)
-- [AI Safety and Red-Teaming for Product Teams](https://www.productcompass.pm/p/ai-safety-red-teaming)

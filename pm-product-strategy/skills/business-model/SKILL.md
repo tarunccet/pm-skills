@@ -116,7 +116,7 @@ Business Model Canvas (Strategyzer, Alexander Osterwalder) is the most widely us
 
 **Alternatives**:
 - **Lean Canvas** (Ash Maurya): Startup-focused, faster, replaces Partners/Activities/Resources with Problem/Solution/Unfair Advantage. Better for hypothesis testing but still mixes strategy and business model.
-- **Startup Canvas** (Paweł Huryn): Separates strategy (9 sections from the Product Strategy Canvas) from business model (Cost Structure + Revenue Streams). Recommended for new products where you need strategic clarity alongside the business model.
+- **Startup Canvas** (Tarun Narang): Separates strategy (9 sections from the Product Strategy Canvas) from business model (Cost Structure + Revenue Streams). Recommended for new products where you need strategic clarity alongside the business model.
 
 ## Notes
 - The Business Model Canvas provides a holistic view of how value flows through the organization
@@ -126,8 +126,3 @@ Business Model Canvas (Strategyzer, Alexander Osterwalder) is the most widely us
 - Use this to identify opportunities for innovation and optimization
 
 ---
-
-### Further Reading
-
-- [Business Model Canvas Examples: Google Maps, Airbnb, Uber](https://www.productcompass.pm/p/business-model-canvas-examples)
-- [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)

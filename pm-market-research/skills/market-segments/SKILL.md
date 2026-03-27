@@ -70,11 +70,3 @@ For each of the 3-5 segments, provide:
 - Flag segments requiring additional market research
 
 ---
-
-### Further Reading
-
-- [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Crossing the Chasm: The Ultimate Guide For PMs](https://www.productcompass.pm/p/crossing-the-chasm)
-- [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (video course)

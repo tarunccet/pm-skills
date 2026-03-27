@@ -118,7 +118,3 @@ What environmental, climate, and sustainability factors exist?
 - Use PESTLE early in strategy development to avoid blind spots
 
 ---
-
-### Further Reading
-
-- [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)

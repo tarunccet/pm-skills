@@ -42,8 +42,3 @@ The user will describe their product goal and provide feature requests. Work thr
 Think step by step. Save as markdown or create a structured output document.
 
 ---
-
-### Further Reading
-
-- [Kano Model: How to Delight Your Customers Without Becoming a Feature Factory](https://www.productcompass.pm/p/kano-model-how-to-delight-your-customers)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

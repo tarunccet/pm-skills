@@ -1,6 +1,5 @@
 # Contributing
 
-PM Skills Marketplace is maintained by [Paweł Huryn](https://www.productcompass.pm) (pawel@productcompass.pm). Contributions are welcome — whether it's a bug fix, a typo, or a new skill idea.
 
 ## How to Contribute
 

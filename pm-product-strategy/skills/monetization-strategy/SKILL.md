@@ -144,7 +144,3 @@ For each strategy, include:
 - Monitor competitors but don't race to the bottom on price
 
 ---
-
-### Further Reading
-
-- [Product Pricing Strategies 101](https://www.productcompass.pm/p/product-pricing-strategies-101)
