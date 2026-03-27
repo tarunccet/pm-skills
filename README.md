@@ -4,7 +4,7 @@
 
 # PM Skills Marketplace: The AI Operating System for Better Product Decisions
 
-> 65 PM skills and 36 chained workflows across 8 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, and growth. 
+> 78 PM skills and 55 chained workflows across 11 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.
 
 ![Plugin overview](.docs/images/plugins-overview.webp)
 
@@ -16,7 +16,10 @@ New idea? → `/discover`
 Need strategic clarity? → `/strategy`  
 Writing a PRD? → `/write-prd`  
 Planning a launch? → `/plan-launch`  
-Defining metrics? → `/north-star`
+Defining metrics? → `/product-metrics`  
+Building with AI? → `/vibe-spec`  
+Learning PM skills? → `/learn`  
+Not sure what skill to use? → `/find-skill`
 
 If this project helps you, ⭐ the repo.
 
@@ -53,7 +56,7 @@ Commands are designed to flow into each other, matching the PM workflow. After a
 3. Select **Add marketplace from GitHub**
 4. Enter: `tarunccet/pm-skills`
 
-All 8 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
+All 11 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
 
 ![Installing PM Skills in Claude Cowork](.docs/images/pm-skills-install.gif)
 
@@ -72,6 +75,9 @@ claude plugin install pm-data-analytics@pm-skills
 claude plugin install pm-marketing-growth@pm-skills
 claude plugin install pm-go-to-market@pm-skills
 claude plugin install pm-execution@pm-skills
+claude plugin install pm-ai-product-management@pm-skills
+claude plugin install pm-vibe-coding@pm-skills
+claude plugin install pm-guided-learning@pm-skills
 ```
 
 ### Other AI assistants (skills only)
@@ -399,11 +405,79 @@ Commands:
 
 </details>
 
+<details>
+<summary><strong>9. pm-vibe-coding</strong> — NEW — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging (6 skills, 6 commands)</summary>
+
+Skills for PMs building products with AI-assisted coding tools (Cursor, Replit, GitHub Copilot, Claude Code).
+
+**Skills (6):**
+
+- `vibe-coding-spec` — Write a natural-language specification optimized for AI coding assistants
+- `prototype-plan` — Plan an AI-assisted prototyping session with tool selection and build sequence
+- `technical-decision-guide` — Make technical architecture decisions without deep engineering background
+- `code-review-for-pms` — Review AI-generated code from a PM perspective
+- `deploy-checklist` — Pre-launch deployment checklist for PM-builders
+- `debug-with-ai` — Guide through debugging AI-generated code
+
+**Commands (6):**
+
+- `/vibe-spec` — Create a vibe coding specification
+- `/plan-prototype` — Plan an AI-assisted build session
+- `/tech-decision` — Get guidance on a technical architecture decision
+- `/review-code` — Review AI-generated code from a PM perspective
+- `/deploy-check` — Run through a deployment checklist
+- `/debug-help` — Get help debugging AI-generated code
+
+**Examples:**
+
+Commands:
+- `/vibe-spec A job board for climate tech roles`
+- `/plan-prototype A waitlist page with referral tracking`
+- `/tech-decision Which database should I use for my app?`
+- `/deploy-check My Next.js app before sharing with beta users`
+
+</details>
+
+<details>
+<summary><strong>10. pm-guided-learning</strong> — NEW — Interactive Socratic learning modules for PM skills (6 skills, 7 commands)</summary>
+
+Interactive, Socratic-method learning modules. These skills teach PM concepts through guided exercises and simulations — they don't produce deliverables, they build skills.
+
+**Skills (6):**
+
+- `learn-discovery` — Guided learning on continuous discovery (Teresa Torres's OST framework) via simulated scenario
+- `learn-strategy` — Guided learning on product strategy using Roger Martin's Playing to Win cascade
+- `learn-metrics` — Interactive metrics workshop: define NSM, input metrics, and counter-metrics for a fictional product
+- `learn-prioritization` — Apply RICE, ICE, and Opportunity Score to the same backlog and compare results
+- `learn-user-research` — Simulated user interview practice with feedback on question quality and bias
+- `learn-stakeholder-management` — Simulated stakeholder alignment scenario with conflicting priorities
+
+**Commands (7):**
+
+- `/learn` — Discover all learning modules and get a recommendation based on your experience level
+- `/learn-discovery` — Start the discovery learning module
+- `/learn-strategy` — Start the strategy learning module
+- `/learn-metrics` — Start the metrics learning module
+- `/learn-prioritization` — Start the prioritization learning module
+- `/learn-interview` — Start the user research interview practice
+- `/learn-stakeholders` — Start the stakeholder management simulation
+
+**Examples:**
+
+Commands:
+- `/learn` — I'm a new PM, what should I learn first?
+- `/learn-discovery` — Start the OST discovery module
+- `/learn-interview` — Practice user interview techniques
+
+</details>
+
 ---
 
 ## About
 
 This marketplace evolves with product practice and AI capabilities.
+
+Curated by Tarun Narang (tarunccet@gmail.com).
 
 Selected skills based on the work of:
 
