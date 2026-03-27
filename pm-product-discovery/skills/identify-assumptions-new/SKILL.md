@@ -39,7 +39,13 @@ The user will describe the product concept, target segment, and feature idea. Wo
    - **Strategy & Objectives**: What are our assumptions? Can others copy our strategy? Have we considered political, economic, legal, technological, and environmental factors? Are those the best problems to solve?
    - **Team**: How well will the team work together? Do we have the right people? Do we have the right tools? Will the entire team stay with us long enough?
 
-3. **For each assumption**, rate confidence and suggest a test.
+3. **If the product uses AI/ML, add these additional risk categories**:
+   - **AI Quality**: Will the model produce outputs that are accurate and reliable enough for real use? What is the acceptable hallucination or error rate? How will we detect and handle model degradation?
+   - **AI Trust & Adoption**: Will users trust AI-generated outputs? Will they over-rely on AI (automation bias)? Will they under-rely and ignore valuable suggestions?
+   - **Data**: Do we have sufficient, representative, and high-quality training or retrieval data? Are there data privacy, consent, or bias risks in the training data?
+   - **Regulatory & Safety**: Does the product comply with emerging AI regulations (EU AI Act, executive orders)? Are there content safety risks or potential for harmful outputs?
+
+4. **For each assumption**, rate confidence and suggest a test.
 
 Think step by step. Save as markdown.
 

@@ -59,6 +59,14 @@ A well-structured PRD clearly communicates the what, why, and how of your produc
    - 7.2 Key Features (detailed feature descriptions)
    - 7.3 Technology (optional, only if relevant)
    - 7.4 Assumptions (what we believe but haven't proven)
+   - 7.5 AI/ML Considerations *(include this section when the feature uses AI/ML)*
+     - Model or API being used (e.g., GPT-4o, Gemini, custom model)
+     - Desired inputs and expected outputs (include example pairs)
+     - Confidence thresholds and fallback behaviour when AI fails or is uncertain
+     - Human-in-the-loop requirements (where does a human review/override?)
+     - Accuracy floor and latency SLO
+     - Data requirements and privacy constraints
+     - Responsible AI notes: known bias risks, content safety, explainability needs
 
    **8. Release**
    - How long could it take?
