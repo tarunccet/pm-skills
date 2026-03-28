@@ -38,9 +38,3 @@ The user will describe their target segment, opportunity, and desired outcomes. 
 Think step by step. Save substantial output as a markdown document.
 
 ---
-
-### Further Reading
-
-- [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (video course)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

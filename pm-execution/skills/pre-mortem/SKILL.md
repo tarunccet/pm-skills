@@ -86,8 +86,3 @@ A pre-mortem is a structured risk-identification exercise that forces teams to t
 - Revisit the pre-mortem 2-3 weeks before launch to verify mitigations are on track
 
 ---
-
-### Further Reading
-
-- [How Meta and Instagram Use Pre-Mortems to Avoid Post-Mortems](https://www.productcompass.pm/p/how-to-run-pre-mortem-template)
-- [How to Manage Risks as a Product Manager](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)

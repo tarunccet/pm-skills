@@ -61,7 +61,3 @@ If the user provides files (backlogs, velocity data, team rosters, or previous s
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [Product Owner vs Product Manager: What's the difference?](https://www.productcompass.pm/p/product-manager-vs-product-owner)

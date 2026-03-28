@@ -54,8 +54,3 @@ For each idea, provide:
 - Share your long-term vision and business strategy
 
 ---
-
-### Further Reading
-
-- [Product Management vs. Product Marketing vs. Product Growth 101](https://www.productcompass.pm/p/product-management-vs-product-marketing)
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

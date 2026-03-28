@@ -100,9 +100,3 @@ You are creating or executing an AI incident response plan for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [AI Incident Response Planning for Product Managers](https://www.productcompass.pm/p/ai-incident-response-planning)
-- [Model Rollback and Deployment Safety](https://www.productcompass.pm/p/model-rollback-deployment-safety)
-- [Responsible Disclosure for AI Safety Issues](https://www.productcompass.pm/p/responsible-disclosure-ai-safety)

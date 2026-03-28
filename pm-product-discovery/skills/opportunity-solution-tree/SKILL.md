@@ -55,10 +55,3 @@ You are helping a product team build an Opportunity Solution Tree for **$ARGUMEN
 Think step by step. Save as markdown if substantial.
 
 ---
-
-### Further Reading
-
-- [The Extended Opportunity Solution Tree](https://www.productcompass.pm/p/the-extended-opportunity-solution-tree)
-- [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
-- [Product Trio: Beyond the Obvious](https://www.productcompass.pm/p/product-trio)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

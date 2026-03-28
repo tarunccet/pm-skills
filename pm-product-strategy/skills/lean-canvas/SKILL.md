@@ -105,7 +105,7 @@ Lean Canvas (Ash Maurya) is a startup-focused adaptation of the Business Model C
 
 **When to use Lean Canvas**: Quick hypothesis testing when you need speed over completeness. Best as a brainstorming tool, not a strategy document.
 
-**Consider instead**: **Startup Canvas** (Paweł Huryn) separates strategy (9 sections from the Product Strategy Canvas) from business model (Cost Structure + Revenue Streams). Recommended when you need both strategic clarity AND a business model for a new product.
+**Consider instead**: **Startup Canvas** (Tarun Narang) separates strategy (9 sections from the Product Strategy Canvas) from business model (Cost Structure + Revenue Streams). Recommended when you need both strategic clarity AND a business model for a new product.
 
 ## Notes
 - The Lean Canvas is designed for rapid hypothesis testing
@@ -115,7 +115,3 @@ Lean Canvas (Ash Maurya) is a startup-focused adaptation of the Business Model C
 - This canvas helps align founding teams on business strategy
 
 ---
-
-### Further Reading
-
-- [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)

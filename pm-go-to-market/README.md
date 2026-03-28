@@ -1,11 +1,9 @@
 # pm-go-to-market
 
-Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, and ideal customer profiles.
+Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, and ideal customer profiles. Competitive battlecards are now part of the unified `competitor-analysis` skill (battlecard mode) in pm-market-research. Beachhead segment selection is now part of the unified `segmentation` skill (beachhead mode) in pm-market-research.
 
-## Skills (6)
+## Skills (4)
 
-- **beachhead-segment** — Identify the first beachhead market segment for a product launch.
-- **competitive-battlecard** — Create sales-ready competitive battlecards comparing your product against a specific competitor.
 - **growth-loops** — Identify growth loops (flywheels) for sustainable traction.
 - **gtm-motions** — Identify the best GTM motions and tools.
 - **gtm-strategy** — Create a go-to-market strategy for a product launch covering marketing channels, messaging, success metrics, and launch plan.
@@ -13,13 +11,13 @@ Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead 
 
 ## Commands (3)
 
-- `/pm-go-to-market:battlecard` — Create a sales-ready competitive battlecard — positioning, feature comparison, objection handling, and win strategies.
+- `/pm-go-to-market:battlecard` — Create a sales-ready competitive battlecard — positioning, feature comparison, objection handling, and win strategies. (Uses the `competitor-analysis` skill in battlecard mode.)
 - `/pm-go-to-market:growth-strategy` — Design sustainable growth mechanisms — growth loops and GTM motions for product-led and sales-led strategies.
-- `/pm-go-to-market:plan-launch` — Create a full go-to-market strategy — beachhead segment, ICP, messaging, channels, and launch plan.
+- `/pm-go-to-market:plan-launch` — Create a full go-to-market strategy — ICP, messaging, channels, and launch plan. (For beachhead segment selection, use the `segmentation` skill in beachhead mode.)
 
-## Author
+## Maintainer
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
+Tarun Narang
 
 ## License
 

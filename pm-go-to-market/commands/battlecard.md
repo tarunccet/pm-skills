@@ -27,7 +27,7 @@ Ask:
 
 ### Step 2: Research the Competitor
 
-Apply the **competitive-battlecard** skill with web research:
+Apply the **competitor-analysis** skill in `battlecard` mode with web research:
 
 - Current product capabilities and recent launches
 - Pricing model and published pricing
@@ -98,7 +98,7 @@ Save as markdown.
 ### Step 4: Offer Next Steps
 
 - "Want me to **create battlecards for other competitors**?"
-- "Should I **run a full competitive analysis** of the market?"
+- "Should I **run a full competitive analysis** of the market?" (use `competitor-analysis` skill in `standard` or `ai-focused` mode)
 - "Want me to **draft customer-facing comparison content** based on this?"
 - "Should I **update the positioning** based on competitive insights?"
 

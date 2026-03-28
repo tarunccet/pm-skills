@@ -44,11 +44,3 @@ Think step by step. Present ideas in a clear, structured format.
 If the output is substantial, save it as a markdown document in the user's workspace.
 
 ---
-
-### Further Reading
-
-- [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
-- [Product Trio: Beyond the Obvious](https://www.productcompass.pm/p/product-trio)
-- [The Extended Opportunity Solution Tree](https://www.productcompass.pm/p/the-extended-opportunity-solution-tree)
-- [Product Model First Principles: Product Discovery, Product Delivery, and Product Culture In Depth](https://www.productcompass.pm/p/product-model-first-principles-discovery-deliver)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)

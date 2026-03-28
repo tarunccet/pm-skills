@@ -1,6 +1,6 @@
 # pm-execution
 
-Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, and more.
+Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization, and more.
 
 ## Skills (15)
 
@@ -10,7 +10,7 @@ Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mort
 - **job-stories** — Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria.
 - **outcome-roadmap** — Transform an output-focused roadmap into an outcome-focused one.
 - **pre-mortem** — Run a pre-mortem analysis on a PRD.
-- **prioritization-frameworks** — Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates.
+- **prioritization** — Unified prioritization skill with four modes: features (ICE/RICE/Opportunity Score ranking), assumptions (Impact × Risk matrix with experiment design), backlog (strategic sequencing), and general (weighted decision matrix). Includes reference to all 9 prioritization frameworks.
 - **release-notes** — Generate user-facing release notes from tickets, PRDs, or changelogs.
 - **retro** — Facilitate a structured sprint retrospective.
 - **sprint-plan** — Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification.
@@ -33,9 +33,9 @@ Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mort
 - `/pm-execution:write-prd` — Create a comprehensive Product Requirements Document from a feature idea or problem statement.
 - `/pm-execution:write-stories` — Break a feature into backlog items — user stories, job stories, or WWA format with acceptance criteria.
 
-## Author
+## Maintainer
 
-Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
+Tarun Narang
 
 ## License
 

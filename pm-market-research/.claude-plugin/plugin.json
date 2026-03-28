@@ -1,11 +1,11 @@
 {
   "name": "pm-market-research",
-  "version": "1.0.1",
-  "description": "Market research skills for PMs: user personas, market segmentation, sentiment analysis, and competitive analysis.",
+  "version": "1.0.2",
+  "description": "Market research skills for PMs: user personas, unified segmentation (market, user, and beachhead modes), sentiment analysis, and competitive analysis with standard, AI-focused, and battlecard output modes.",
   "author": {
-    "name": "Paweł Huryn",
-    "email": "pawel@productcompass.pm",
-    "url": "https://www.productcompass.pm"
+    "name": "Tarun Narang",
+    "email": "tarunccet@gmail.com",
+    "url": "https://github.com/tarunccet/pm-skills"
   },
   "keywords": [
     "product-management",
@@ -18,6 +18,6 @@
     "SAM",
     "SOM"
   ],
-  "homepage": "https://www.productcompass.pm",
+  "homepage": "https://github.com/tarunccet/pm-skills",
   "license": "MIT"
 }

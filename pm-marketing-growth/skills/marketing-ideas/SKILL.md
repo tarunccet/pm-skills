@@ -38,7 +38,3 @@ Prioritize strategies that deliver high impact with limited budget. Consider unc
 - Include information about your target audience's preferences and behaviors
 
 ---
-
-### Further Reading
-
-- [Product Management vs. Product Marketing vs. Product Growth 101](https://www.productcompass.pm/p/product-management-vs-product-marketing)

@@ -206,7 +206,3 @@ The risk that new competitors will enter the market and capture share.
 - Strategy should directly address the highest-force threats
 
 ---
-
-### Further Reading
-
-- [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)

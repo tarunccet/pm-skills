@@ -83,9 +83,3 @@ You are planning or conducting AI user research for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [User Research Methods for AI Products](https://www.productcompass.pm/p/user-research-methods-ai-products)
-- [Trust Calibration in AI: Research Findings](https://www.productcompass.pm/p/trust-calibration-ai-research)
-- [Wizard of Oz Testing for AI Features](https://www.productcompass.pm/p/wizard-of-oz-testing-ai)

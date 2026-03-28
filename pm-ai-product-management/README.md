@@ -1,8 +1,10 @@
 # pm-ai-product-management
 
-A [Claude Code](https://claude.ai/code) plugin for AI product managers. Provides structured skills and slash commands for every stage of the AI product lifecycle — from evaluating models and writing AI feature specs to running responsible AI reviews, defining metrics, and building data strategies.
+A [Claude Code](https://claude.ai/code) plugin for AI product managers. Provides structured skills and slash commands for every stage of the AI product lifecycle — from evaluating models and writing AI feature specs to running responsible AI reviews, handling AI incidents, and building data strategies.
 
 Built for PMs who ship AI-powered products and need rigorous, repeatable frameworks for the unique challenges of probabilistic systems.
+
+> **Note**: AI competitive analysis is now part of the unified `competitor-analysis` skill (ai-focused mode) in pm-market-research. AI product metrics are now part of the unified `product-metrics` skill in pm-data-analytics.
 
 ---
 
@@ -15,9 +17,6 @@ Evaluate and compare LLMs, ML APIs, and fine-tuned models for product fit. Cover
 
 ### `responsible-ai`
 Assess AI features for ethical risks, bias, safety issues, and regulatory compliance. Covers fairness metrics (demographic parity, equal opportunity, disparate impact), transparency and explainability, harm prevention and red-teaming, privacy governance, environmental impact, EU AI Act risk tiers, NIST AI RMF, and incident response planning.
-
-### `ai-product-metrics`
-Define a four-layer metrics framework for AI features: model quality (precision/recall/F1, BLEU/ROUGE/BERTScore, hallucination rate), operational (latency p50/p95/p99, throughput, cost per inference), product-level (task completion rate, override rate, trust score), and business (revenue attribution, NPS delta, ROI). Includes North Star metric selection and degradation detection strategies.
 
 ### `prompt-engineering`
 Design production-ready prompts including system prompts, few-shot examples, chain-of-thought instructions, structured output schemas, and guardrails. Covers prompt injection prevention, versioning and change management, A/B testing prompts, and automated evaluation strategies.
@@ -36,9 +35,6 @@ Define a data strategy for AI products covering data inventory and audit, ML dat
 
 ### `ai-incident-response`
 Handle AI model failures, quality regressions, bias incidents, and safety events. Covers AI-specific incident taxonomy (model degradation, hallucination spike, bias detection, safety bypass, prompt injection, data poisoning), severity classification, response runbooks by incident type, model rollback procedures, customer communication templates, and post-incident analysis for probabilistic systems.
-
-### `ai-competitive-analysis`
-Analyse AI-powered competitors across model quality, latency, cost, data advantage, ecosystem, safety, and multimodal capability. Covers benchmarking methodology, capability gap analysis, moat assessment (data, model, distribution, network effects), AI feature teardown framework, tracking competitor AI releases, and open-source vs. proprietary analysis.
 
 ---
 
@@ -72,7 +68,7 @@ Review an AI feature or product for ethical risks, bias, safety issues, and regu
 ```
 
 ### `/ai-metrics` — AI Product Metrics Framework
-Define success metrics for an AI feature across model quality, operational, product, and business KPI layers. Produces a metrics document with targets, alert thresholds, and North Star metric.
+Define success metrics for an AI feature across model quality, operational, product, and business KPI layers. Produces a metrics document with targets, alert thresholds, and North Star metric. (Uses the `product-metrics` skill in pm-data-analytics with AI mode enabled.)
 
 ```
 /ai-metrics Smart document summarisation feature
@@ -91,11 +87,9 @@ Create an AI product roadmap that accounts for model uncertainty, data milestone
 
 ---
 
-## Author
+## Maintainer
 
-**Paweł Huryn** — Product Compass
-- Website: [productcompass.pm](https://www.productcompass.pm)
-- Newsletter: [Product Compass on Substack](https://www.productcompass.pm)
+**Tarun Narang**
 
 ---
 

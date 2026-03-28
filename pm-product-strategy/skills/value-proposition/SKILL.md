@@ -1,34 +1,57 @@
 ---
 name: value-proposition
-description: "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product."
+description: "Design a strategic value proposition using a 6-part JTBD template (Who, Why, What before, How, What after, Alternatives), then generate marketing-ready value prop statements for different segments and channels. Use when creating a value proposition, analyzing customer value delivery, writing marketing copy, or developing sales messaging."
+category: strategy
+complexity: intermediate
+tags: ["value-proposition", "jtbd", "marketing-copy", "positioning", "customer-value"]
 ---
+
 # Value Proposition
 
-## Metadata
-- **Name**: value-proposition
-- **Description**: Generate a detailed value proposition using a 6-part template with JTBD framing. Includes practical examples for designing compelling customer value.
-- **Triggers**: value proposition, value prop, customer value, JTBD value, value map
+## Purpose
+Develop a comprehensive value proposition in two layers: first, a strategic JTBD-grounded value prop that clarifies *why* customers should choose your product; second, marketing-ready statements that translate that strategy into copy for specific segments, channels, and use cases.
+
+## Domain Context
+This skill uses a **6-part JTBD template** (by Tarun Narang) that starts with the customer and works toward the solution. It addresses the key limitations of Strategyzer's Value Proposition Canvas:
+
+- **Customer first**: Starts with Who/Why, not the product — avoids solution-first thinking
+- **One segment at a time**: Forces focus; Strategyzer's canvas encourages multi-segment dilution
+- **Explicit alternatives**: Section 6 forces you to name what customers would use without you
+- **Actionable output**: Produces a reusable statement ready for marketing, sales, and onboarding
+
+Use Strategyzer's Value Proposition Canvas when you need detailed pains/gains decomposition for a mature product. Use this template for clarity, speed, and actionable output.
+
+Jobs-to-be-Done (JTBD) framework focuses on the progress the customer is trying to make, not demographics. Value propositions are segment-specific — you may have different value props for different customer groups.
+
+## When to Use
+- Use when creating or refining a value proposition from scratch
+- Use when you need marketing copy, sales messaging, or onboarding messages grounded in strategy
+- Use when preparing a pitch, investor deck, or positioning document
+- Use when expanding to a new customer segment and need tailored messaging
+
+## When NOT to Use
+- Don't use when you need full market segmentation (use the `segmentation` skill instead)
+- Don't use when you need product positioning against competitors (use `competitor-analysis` in battlecard mode)
 
 ## Instructions
 
-You are a product strategist designing a clear value proposition for $ARGUMENTS.
+You are a product strategist and growth expert specializing in value proposition design and marketing-ready messaging.
 
-Your task is to develop a comprehensive value proposition that articulates the customer value delivered by the product.
+### Input
+Your task is to develop a value proposition for **$ARGUMENTS**.
 
-## Input Requirements
-- Product description and features
-- Target customer segment and their problems
-- Competitive alternatives and current solutions
-- Customer insights or market data
+If the user provides customer research, interview transcripts, usage data, or existing marketing copy, read and analyze them before proceeding. Ground the value proposition in evidence wherever possible.
 
-## Value Proposition Template
+---
 
-### 6-Part Structure
+### Part 1: Strategic Value Proposition (6-Part JTBD Template)
+
+Work through each section in order. Ask clarifying questions if critical inputs are missing.
 
 **1. Who**
 - Who is this value proposition for?
 - What customer segment are we addressing?
-- What are their characteristics and constraints?
+- What are their key characteristics, roles, and constraints?
 
 **2. Why (Problem)**
 - What is the customer's core problem or need?
@@ -38,71 +61,86 @@ Your task is to develop a comprehensive value proposition that articulates the c
 **3. What Before**
 - What is the customer's current situation?
 - What are they using today to solve this problem?
-- What friction or pain exists in the current approach?
+- What friction, cost, or pain exists in the current approach?
 
 **4. How (Solution)**
 - How does the product solve the problem?
 - What specific features or capabilities deliver value?
-- Why is this solution better than alternatives?
+- Why is this solution better than the alternatives?
 
 **5. What After**
 - What is the improved outcome or future state?
-- How does the customer's life/work change?
+- How does the customer's life or work change?
 - What becomes possible that wasn't before?
 
 **6. Alternatives**
 - What other solutions could customers use?
-- Why would they choose us instead?
-- What's the switching cost or friction from alternatives?
+- Why would they choose this product instead?
+- What is the switching cost or friction from alternatives?
 
-## Example: Canva
-- **Who**: Non-designers who need to create marketing graphics
-- **Why**: They need professional-looking designs but can't hire designers or use complex tools
-- **What Before**: Using PowerPoint, Photoshop (too complex), or hiring expensive designers
-- **How**: Drag-and-drop templates, built-in design elements, AI design assistance, intuitive interface
-- **What After**: Create professional designs in minutes, launch campaigns faster, save design costs
-- **Alternatives**: Photoshop (complex), Fiverr (slow, expensive), Canva competitors (fewer templates, harder UX)
+**Synthesize into:**
+- A **Value Proposition Statement** (1-2 sentences): Captures the customer, problem, solution, and outcome in a single crisp statement
+- A **Positioning Statement**: "[For] [target customer] [who] [has this need], [product name] is [category] [that] [key benefit]. Unlike [primary alternative], [product name] [key differentiator]."
 
-## Output Process
-1. Identify and profile the target customer segment
-2. Define the core problem and JTBD
-3. Describe the current state and friction points
-4. Articulate how the product solves the problem
-5. Envision the improved outcome
-6. Compare against competitive alternatives
-7. Create a concise value prop statement (1-2 sentences)
-8. Develop a positioning statement for marketing use
+---
 
-### Domain Context
+### Part 2: Marketing-Ready Value Prop Statements
 
-**This template vs Strategyzer's Value Proposition Canvas**: Strategyzer's canvas (by Alexander Osterwalder) is widely used but has structural limitations. This 6-part JTBD template (by Paweł Huryn and Aatir Abdul Rauf) addresses them:
+After completing Part 1, offer to generate marketing-ready statements.
 
-- **Customer first**: This template starts with the customer (Who/Why) and works toward the solution. Strategyzer's canvas places the product on the left, which often leads teams to start with their solution rather than the customer's problem.
-- **One segment at a time**: This template is designed for one segment per pass. Strategyzer's canvas encourages mapping multiple products/services simultaneously, which dilutes focus.
-- **Explicit alternatives**: Section 6 (Alternatives) forces you to name what customers would use without you and articulate why you're better. Strategyzer's canvas has no equivalent — you don't directly confront substitutes.
-- **Simpler structure**: "What before → How → What after" is easier to fill out than separating Customer Jobs, Pains, and Gains on one side and Pain Relievers, Gain Creators, and Products on the other. The separation often creates confusion about where things go.
-- **Actionable output**: The final Value Proposition Statement is ready for marketing, sales, and onboarding. Strategyzer's canvas doesn't produce a reusable statement.
+Ask:
+- Which segments need targeted messaging? (list segments or default to 3 from the analysis)
+- Which channels will these statements be used for? (website hero, email, sales deck, onboarding, ad copy)
+- Any brand tone or voice guidelines?
 
-Use Strategyzer's Value Proposition Canvas when you need a detailed pains/gains decomposition for a mature product with complex customer needs. Use this 6-part template for clarity, speed, and actionable output.
+For each segment × channel combination, generate a value proposition statement that:
+- Directly addresses the segment's specific pain point and desired outcome from Part 1
+- Emphasizes the primary benefit first, then capability second
+- Uses language that resonates with that audience (technical for engineers, outcome-focused for executives, benefit-led for consumers)
+- Is appropriately concise for the channel (headline: ≤10 words; email: 1-2 sentences; slide: ≤25 words)
 
-## Notes
-- Jobs to Be Done (JTBD) framework focuses on the progress the customer is trying to make, not demographics
-- Value propositions are segment-specific; you may have different value props for different customer groups
+**Statement Structure per Segment**:
+```
+[Segment name]
+Channel: [where this will be used]
+Statement: [the value prop statement]
+Proof point: [one data point, customer quote, or specific capability that supports it]
+```
+
+---
+
+## Output Format
+
+**Part 1 output**: Six filled-in template sections → Value Proposition Statement → Positioning Statement
+
+**Part 2 output**: Statements table or list organized by segment, with channel variants and proof points
+
+## Example
+
+**Product**: Canva (for non-designers who need to create marketing graphics)
+
+**Part 1:**
+- **Who**: Non-designers at small businesses and marketing teams who need professional-looking graphics
+- **Why**: They need to produce on-brand designs quickly without hiring designers or learning complex tools
+- **What Before**: Using PowerPoint (limited), Photoshop (too complex), or hiring freelancers (slow, expensive)
+- **How**: Drag-and-drop templates, thousands of design elements, AI design assistance, intuitive interface
+- **What After**: Create professional designs in minutes; launch campaigns faster; eliminate design bottlenecks
+- **Alternatives**: Adobe Suite (steep learning curve), Fiverr (slow turnaround), competitors (fewer templates)
+
+**Value Proposition Statement**: "Canva lets non-designers create professional marketing graphics in minutes with drag-and-drop templates — eliminating the designer bottleneck without sacrificing quality."
+
+**Part 2 sample:**
+> **For Social Media Marketers** (Website hero)
+> "Launch on-brand social campaigns in minutes, not days."
+> *Proof point: Canva users create 30+ designs/month on average with no design background*
+
+## Best Practices
+
+- Always ground the value proposition in customer evidence — interviews, support data, or usage patterns beat assumptions
+- Value props should be segment-specific; avoid one-size-fits-all statements
 - The stronger your value prop, the easier marketing, sales, and product decisions become
-- Test value props with real customers before finalizing
+- Test value propositions with real customers before finalizing — use them in interviews or A/B tests
+- Revisit the value proposition when expanding to new segments or when competitive dynamics shift
 - Use a **Value Curve** (Blue Ocean Strategy) to visually compare your offering against competitors across key factors
 
 ---
-
-### Templates
-
-- [Value Proposition Template (PPTX)](https://docs.google.com/presentation/d/1RXH1Udj71aXQJzGeqYSOStnfQ-6dNz14/edit?slide=id.g2a98aeea3b1_0_247#slide=id.g2a98aeea3b1_0_247)
-
----
-
-### Further Reading
-
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
-- [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)
-- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (video course)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (video course)

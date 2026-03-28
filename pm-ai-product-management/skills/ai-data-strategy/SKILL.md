@@ -88,9 +88,3 @@ You are defining an AI data strategy for **$ARGUMENTS**.
 Think step by step. Save as markdown.
 
 ---
-
-### Further Reading
-
-- [Data Flywheel Design for AI Products](https://www.productcompass.pm/p/data-flywheel-design-ai-products)
-- [Training Data Strategy: A PM's Guide](https://www.productcompass.pm/p/training-data-strategy-pm-guide)
-- [Feedback Loops for Machine Learning Products](https://www.productcompass.pm/p/feedback-loops-ml-products)

@@ -63,7 +63,3 @@ Create product backlog items in Why-What-Acceptance format. Produces independent
 - Design references are included for implementation guidance
 
 ---
-
-### Further Reading
-
-- [How to Write User Stories: The Ultimate Guide](https://www.productcompass.pm/p/how-to-write-user-stories)

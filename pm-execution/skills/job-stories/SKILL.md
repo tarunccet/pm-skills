@@ -68,7 +68,3 @@ Create job stories using the 'When [situation], I want to [motivation], so I can
 - Clear links to design and prototypes
 
 ---
-
-### Further Reading
-
-- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (video course)

@@ -80,8 +80,3 @@ You'll receive:
 - **Test Script** (if requested): Sample data and validation queries
 
 ---
-
-### Further Reading
-
-- [The Product Analytics Playbook: AARRR, HEART, Cohorts & Funnels for PMs](https://www.productcompass.pm/p/the-product-analytics-playbook-aarrr)
-- [How to Become a Technology-Literate PM](https://www.productcompass.pm/p/how-to-become-a-technology-literate)

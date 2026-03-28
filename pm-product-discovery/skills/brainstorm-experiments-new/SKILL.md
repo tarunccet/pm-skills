@@ -37,9 +37,3 @@ If the user provides files (market research, landing page mockups), read them fi
 Think step by step. Save as markdown if substantial.
 
 ---
-
-### Further Reading
-
-- [How to Build the Right Product with Alberto Savoia (ex-Innovator at Google)](https://www.productcompass.pm/p/how-to-build-the-right-product-with)
-- [Testing Product Ideas: The Ultimate Validation Experiments Library](https://www.productcompass.pm/p/the-ultimate-experiments-library)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
