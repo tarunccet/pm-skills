@@ -71,7 +71,7 @@
     },
     {
       "name": "pm-guided-learning",
-      "description": "Interactive Socratic learning modules for PMs: guided exercises, simulations, and quiz checkpoints for discovery, strategy, metrics, prioritization, user research, and stakeholder management.",
+      "description": "Interactive Socratic learning modules for PMs: guided exercises, simulations, and quiz checkpoints for discovery, strategy, metrics, prioritization, user research, stakeholder management, AI product management, and vibe coding.",
       "source": "./pm-guided-learning",
       "category": "product-management"
     }

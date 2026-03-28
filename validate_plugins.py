@@ -14,7 +14,7 @@ Based on:
 - agentskills.io specification
 - Claude Code plugins reference (https://code.claude.com/docs/en/plugins-reference)
 
-Author: Paweł Huryn — The Product Compass Newsletter (https://www.productcompass.pm)
+Maintained by Tarun Narang (https://github.com/tarunccet/pm-skills)
 """
 
 import json

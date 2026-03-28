@@ -6,11 +6,24 @@
 
 # PM Skills Marketplace: The AI Operating System for Better Product Decisions
 
-> 78 PM skills and 55 chained workflows across 11 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.
-
-![Plugin overview](.docs/images/plugins-overview.webp)
+> 80 PM skills and 57 chained workflows across 11 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.
 
 Designed for Claude Code and Cowork. Skills compatible with other AI assistants.
+
+## ✨ Featured Plugins
+
+Three plugins that extend the marketplace beyond traditional PM work:
+
+### 🤖 AI Product Management (`pm-ai-product-management`)
+For PMs building and shipping AI-powered products. Covers model evaluation, responsible AI, prompt engineering, AI feature specs, build-vs-buy decisions, AI user research, data strategy, and incident response. Start with `/ai-feature-spec` or ask _"How do I evaluate which LLM to use for my feature?"_
+
+### ⚡ Vibe Coding (`pm-vibe-coding`)
+For PMs who build with AI coding tools. Helps you go from idea to deployed prototype — without needing deep engineering experience. Covers writing AI coding specs, planning prototype sessions, choosing the right tools, reviewing AI-generated code, and shipping safely. See [How Vibe Coding Skills Work](#how-vibe-coding-skills-work) below.
+
+### 📚 Guided Learning (`pm-guided-learning`)
+Interactive Socratic learning modules that teach PM skills through guided exercises and simulations — not by generating deliverables, but by building your thinking. Covers discovery, strategy, metrics, prioritization, user research, stakeholder management, AI product management, and vibe coding. Start with `/learn`.
+
+---
 
 ## Start Here
 
@@ -35,19 +48,48 @@ The result: better product decisions, not just faster documents.
 
 ## How It Works (Skills, Commands, Plugins)
 
-**Skills** are the building blocks of the marketplace. Each skill gives Claude domain knowledge, analytical frameworks, or a guided workflow for a specific PM task. Some skills also work as reusable foundations that multiple commands share. 
+**Skills** are the building blocks of the marketplace. Each skill gives the AI domain knowledge, analytical frameworks, or a guided workflow for a specific PM task. Some skills also work as reusable foundations that multiple commands share. 
 
-Skills are loaded automatically when relevant to the conversation — no explicit invocation needed. If needed (e.g., prioritizing skills over general knowledge), you can **force loading skills** with `/plugin-name:skill-name` or `/skill-name` (Claude will add the prefix).
+Skills are loaded automatically when relevant to the conversation — no explicit invocation needed. If needed (e.g., prioritizing skills over general knowledge), you can **force loading skills** with `/plugin-name:skill-name` or `/skill-name`.
 
 **Commands** are user-triggered workflows invoked with `/command-name`. They chain one or more skills into an end-to-end process. For example, `/discover` chains four skills together: brainstorm-ideas → identify-assumptions → prioritize-assumptions → brainstorm-experiments.
 
-**Plugins** group related skills and commands into installable packages. Each plugin covers a PM domain — discovery, strategy, execution, and so on. Installing the marketplace gives you all 8 plugins at once.
+**Plugins** group related skills and commands into installable packages. Each plugin covers a PM domain — discovery, strategy, execution, and so on. Installing the marketplace gives you all 11 plugins at once.
 
-![How skills work](.docs/images/how-skills-work.webp)
-
-Commands use skills. Some skills serve multiple commands. Some skills (like `prioritization-frameworks` or `opportunity-solution-tree`) are standalone references that Claude draws on whenever relevant — no command needed.
+Commands use skills. Some skills serve multiple commands. Some skills (like `prioritization-frameworks` or `opportunity-solution-tree`) are standalone references the AI draws on whenever relevant — no command needed.
 
 Commands are designed to flow into each other, matching the PM workflow. After any command completes, it suggests relevant next commands — just follow the prompts.
+
+## How Vibe Coding Skills Work
+
+Vibe coding is the practice of building software through natural language instructions to AI coding assistants, with the human providing product direction, design judgment, and validation rather than writing code line-by-line. The `pm-vibe-coding` plugin is designed specifically to help PMs do this effectively.
+
+### Starting Out
+Use `/plan-prototype` or ask _"Help me plan a prototype build"_. The skill helps you scope the MVP to the minimum features needed, identify the single most important user story, and define what "done" looks like — before writing a single line of code.
+
+### Choosing and Installing the Right Tools
+The `prototype-plan` skill includes a built-in tool selection guide based on your project's needs:
+
+| What you're building | Recommended tool |
+|----------------------|-----------------|
+| Frontend UI only (no backend needed) | Bolt.new or v0.dev |
+| Quick full-stack demo, zero setup | Replit Agent |
+| Complex full-stack app with fine-grained control | Cursor |
+| Existing VS Code project or iterative work | GitHub Copilot |
+| Complex logic, debugging, architecture | Claude Code |
+| Multi-file agentic flows | Windsurf |
+
+Once you pick a tool, `/vibe-spec` generates the natural-language spec document that you paste directly into your chosen AI coding assistant — giving it all the context it needs to build correctly the first time.
+
+### Starting to Code
+The build sequence recommended by `prototype-plan` guides you through:
+1. **Foundation**: Set up the project, define data model, connect database
+2. **Backend/API**: Build core endpoints, add validation, test with a client
+3. **Frontend**: Build the primary user flow, connect to backend
+4. **Auth**: Add sign-up/login, protect routes
+5. **Deploy**: Deploy to hosting, set environment variables, run final checklist
+
+At each stage, checkpoints verify you're ready to move on. The `code-review-for-pms` skill helps you review AI-generated code from a product and security lens, and `debug-with-ai` guides you when things break. Before shipping, `/deploy-check` runs through a pre-launch checklist covering security, performance, and accessibility.
 
 ## Installation
 
@@ -59,8 +101,6 @@ Commands are designed to flow into each other, matching the PM workflow. After a
 4. Enter: `tarunccet/pm-skills`
 
 All 11 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
-
-![Installing PM Skills in Claude Cowork](.docs/images/pm-skills-install.gif)
 
 ### Claude Code (CLI)
 
@@ -441,11 +481,11 @@ Commands:
 </details>
 
 <details>
-<summary><strong>10. pm-guided-learning</strong> — NEW — Interactive Socratic learning modules for PM skills (6 skills, 7 commands)</summary>
+<summary><strong>10. pm-guided-learning</strong> — Interactive Socratic learning modules for PM skills (8 skills, 9 commands)</summary>
 
 Interactive, Socratic-method learning modules. These skills teach PM concepts through guided exercises and simulations — they don't produce deliverables, they build skills.
 
-**Skills (6):**
+**Skills (8):**
 
 - `learn-discovery` — Guided learning on continuous discovery (Teresa Torres's OST framework) via simulated scenario
 - `learn-strategy` — Guided learning on product strategy using Roger Martin's Playing to Win cascade
@@ -453,8 +493,10 @@ Interactive, Socratic-method learning modules. These skills teach PM concepts th
 - `learn-prioritization` — Apply RICE, ICE, and Opportunity Score to the same backlog and compare results
 - `learn-user-research` — Simulated user interview practice with feedback on question quality and bias
 - `learn-stakeholder-management` — Simulated stakeholder alignment scenario with conflicting priorities
+- `learn-ai-pm` — Guided learning on AI product management: model evaluation, responsible AI, prompt engineering, and AI metrics
+- `learn-vibe-coding` — Interactive guide to getting started with vibe coding: tool selection, writing specs, building prototypes, and shipping
 
-**Commands (7):**
+**Commands (9):**
 
 - `/learn` — Discover all learning modules and get a recommendation based on your experience level
 - `/learn-discovery` — Start the discovery learning module
@@ -463,6 +505,8 @@ Interactive, Socratic-method learning modules. These skills teach PM concepts th
 - `/learn-prioritization` — Start the prioritization learning module
 - `/learn-interview` — Start the user research interview practice
 - `/learn-stakeholders` — Start the stakeholder management simulation
+- `/learn-ai-pm` — Start the AI product management learning module
+- `/learn-vibe-coding` — Start the vibe coding learning module
 
 **Examples:**
 
@@ -470,6 +514,8 @@ Commands:
 - `/learn` — I'm a new PM, what should I learn first?
 - `/learn-discovery` — Start the OST discovery module
 - `/learn-interview` — Practice user interview techniques
+- `/learn-ai-pm` — Learn how to evaluate and manage AI features
+- `/learn-vibe-coding` — Get started building with AI coding tools
 
 </details>
 
