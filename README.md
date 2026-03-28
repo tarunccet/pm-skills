@@ -1,6 +1,8 @@
-![GitHub stars](https://img.shields.io/github/stars/tarunccet/pm-skills)
+<!-- ![GitHub stars](https://img.shields.io/github/stars/tarunccet/pm-skills) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/tarunccet/pm-skills/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/tarunccet/pm-skills/blob/main/CONTRIBUTING.md)
+
+> **Attribution**: This repository is a fork of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by Paweł Huryn. It has been significantly extended and maintained by [Tarun Narang](mailto:tarunccet@gmail.com).
 
 # PM Skills Marketplace: The AI Operating System for Better Product Decisions
 
@@ -477,9 +479,9 @@ Commands:
 
 This marketplace evolves with product practice and AI capabilities.
 
-Curated by Tarun Narang (tarunccet@gmail.com).
+Originally curated by Paweł Huryn. Extended and maintained by [Tarun Narang](mailto:tarunccet@gmail.com).
 
-Selected skills based on the work of:
+This project builds on the original [phuryn/pm-skills](https://github.com/phuryn/pm-skills) repository. Selected skills based on the work of:
 
 - Teresa Torres — [*Continuous Discovery Habits*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309/)
 - Marty Cagan — [*INSPIRED*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/) and [*TRANSFORMED*](https://www.amazon.com/dp/1119697336/)

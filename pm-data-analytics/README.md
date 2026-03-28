@@ -15,7 +15,7 @@ Data analytics skills for PMs: SQL query generation, cohort analysis, A/B test a
 - `/pm-data-analytics:analyze-test` — Analyze A/B test results — statistical significance, sample size validation, and ship/extend/stop recommendations.
 - `/pm-data-analytics:write-query` — Generate SQL queries from natural language — supports BigQuery, PostgreSQL, MySQL, and more.
 
-## Author
+## Maintainer
 
 Tarun Narang
 

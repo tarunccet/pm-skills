@@ -33,7 +33,7 @@ Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mort
 - `/pm-execution:write-prd` — Create a comprehensive Product Requirements Document from a feature idea or problem statement.
 - `/pm-execution:write-stories` — Break a feature into backlog items — user stories, job stories, or WWA format with acceptance criteria.
 
-## Author
+## Maintainer
 
 Tarun Narang
 

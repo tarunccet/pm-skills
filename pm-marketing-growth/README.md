@@ -13,7 +13,7 @@ Product marketing and growth skills: marketing ideas, product naming, and positi
 - `/pm-marketing-growth:market-product` — Brainstorm marketing ideas, positioning, and product names — creative marketing toolkit.
 - `/pm-marketing-growth:north-star` — Define your North Star Metric and supporting input metrics — classify the business game and validate against best practices. (Uses the `product-metrics` skill in pm-data-analytics.)
 
-## Author
+## Maintainer
 
 Tarun Narang
 

@@ -19,7 +19,7 @@ PM utility skills: resume review, NDA drafting, privacy policy generation, gramm
 - `/pm-utilities:review-resume` — Comprehensive PM resume review against 10 best practices — structure, impact metrics, keywords, and actionable feedback.
 - `/pm-utilities:tailor-resume` — Tailor a PM resume to a specific job description — keyword alignment, experience reframing, and strategic optimization.
 
-## Author
+## Maintainer
 
 Tarun Narang
 

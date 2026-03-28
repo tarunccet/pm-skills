@@ -132,7 +132,7 @@ AI:  [as Alex] Yeah, it can be... [short answer — you asked a leading question
 **Full curriculum (6–8 hours)**:
 `/learn-discovery` → `/learn-metrics` → `/learn-prioritization` → `/learn-interview` → `/learn-strategy` → `/learn-stakeholders`
 
-## Author
+## Maintainer
 
 Tarun Narang
 

@@ -25,7 +25,7 @@ Product strategy skills for PMs: vision, strategy canvas, startup canvas, value 
 - `/pm-product-strategy:strategy` — Create a comprehensive product strategy using the 9-section Strategy Canvas — from vision to defensibility.
 - `/pm-product-strategy:value-proposition` — Design a value proposition using the 6-part JTBD template — Who, Why, What before, How, What after, Alternatives.
 
-## Author
+## Maintainer
 
 Tarun Narang
 

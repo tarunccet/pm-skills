@@ -15,7 +15,7 @@ Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, and ideal 
 - `/pm-go-to-market:growth-strategy` — Design sustainable growth mechanisms — growth loops and GTM motions for product-led and sales-led strategies.
 - `/pm-go-to-market:plan-launch` — Create a full go-to-market strategy — ICP, messaging, channels, and launch plan. (For beachhead segment selection, use the `segmentation` skill in beachhead mode.)
 
-## Author
+## Maintainer
 
 Tarun Narang
 

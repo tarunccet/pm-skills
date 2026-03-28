@@ -23,7 +23,7 @@ Product discovery skills for PMs: ideation, experiments, assumption testing, and
 - `/pm-product-discovery:setup-metrics` — Design a product metrics dashboard with North Star metric, input metrics, health metrics, and alert thresholds. (Uses the `product-metrics` skill in pm-data-analytics.)
 - `/pm-product-discovery:triage-requests` — Analyze, categorize, and prioritize a batch of feature requests from customers or stakeholders.
 
-## Author
+## Maintainer
 
 Tarun Narang
 

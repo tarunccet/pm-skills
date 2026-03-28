@@ -17,7 +17,7 @@ Market research skills for PMs: user personas, unified segmentation (market, use
 - `/pm-market-research:competitive-analysis` — Analyze the competitive landscape — identify competitors, compare strengths and weaknesses, find differentiation opportunities.
 - `/pm-market-research:research-users` — Comprehensive user research — build personas, segment users, and map the customer journey from research data.
 
-## Author
+## Maintainer
 
 Tarun Narang
 
