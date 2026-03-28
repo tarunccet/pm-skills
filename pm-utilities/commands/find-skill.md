@@ -48,4 +48,4 @@ For each recommendation, include:
 - **Learning**: learn-discovery, learn-strategy, learn-prioritization, learn-metrics, learn-user-research, learn-stakeholder-management
 - **Utilities**: review-resume, draft-nda, privacy-policy, grammar-check, dummy-dataset
 
-**End with:** "You can also browse the full [SKILL-INDEX.md](../SKILL-INDEX.md) or see how skills connect in [SKILL-MAP.md](../SKILL-MAP.md)."
+**End with:** "You can also browse the full plugin list in [marketplace.json](../../marketplace.json) or see the skill overview in the [README](../../README.md)."

@@ -10,7 +10,7 @@ Maintained by [Tarun Narang](mailto:tarunccet@gmail.com) (tarunccet@gmail.com). 
 
 ## Skill Quality Standards
 
-Every skill must meet these minimum standards before submission:
+All **new skills** must meet these minimum standards before submission. Existing skills may follow a simpler format and will be updated incrementally:
 
 ### Required Frontmatter
 
