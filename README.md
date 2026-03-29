@@ -1,50 +1,46 @@
-<!-- ![GitHub stars](https://img.shields.io/github/stars/tarunccet/pm-skills) -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/tarunccet/pm-skills/blob/main/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/tarunccet/pm-skills/blob/main/CONTRIBUTING.md)
+# Agentic PM Skills: The AI Operating System for Product Managers
 
-> **Attribution**: This repository is a fork of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by Paweł Huryn. It has been significantly extended and maintained by [Tarun Narang](mailto:tarunccet@gmail.com).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
-# PM Skills Marketplace — 80 structured AI skills for product managers
+> **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
-> 80 PM skills and 57 chained workflows across 11 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.
+**Agentic PM Skills** is a marketplace of 78 specialized AI skills and 55 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
 
-Natively supported on **Claude Code** and **Claude Cowork** (full plugin + command support). Skills work with any AI assistant that reads markdown — including VS Code Copilot Chat, Cursor, Gemini CLI, OpenCode, Codex CLI, Kiro, and Windsurf.
+From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
 
-## ✨ Featured Plugins
+## 🚀 The "Aha" Moment: Why Use This?
 
-Three plugins that extend the marketplace beyond traditional PM work:
+Generic AI gives you walls of text. This repository gives you structure. 
 
-### 🤖 AI Product Management (`pm-ai-product-management`)
-For PMs building and shipping AI-powered products. Covers model evaluation, responsible AI, prompt engineering, AI feature specs, build-vs-buy decisions, AI user research, data strategy, and incident response. Start with `/ai-feature-spec` or ask _"How do I evaluate which LLM to use for my feature?"_
+Each skill encodes a specific, proven analytical framework. When you trigger a command, the AI doesn't just guess; it walks you through a step-by-step process for assumption mapping, prioritization, and strategy definition. 
 
-### ⚡ Vibe Coding (`pm-vibe-coding`)
-For PMs who build with AI coding tools. Helps you go from idea to deployed prototype — without needing deep engineering experience. Covers writing AI coding specs, planning prototype sessions, choosing the right tools, reviewing AI-generated code, and shipping safely. See [How Vibe Coding Skills Work](#how-vibe-coding-skills-work) below.
+**The result:** Better, faster product decisions, not just faster documents.
 
-### 📚 Guided Learning (`pm-guided-learning`)
-Interactive Socratic learning modules that teach PM skills through guided exercises and simulations — not by generating deliverables, but by building your thinking. Covers discovery, strategy, metrics, prioritization, user research, stakeholder management, AI product management, and vibe coding. Start with `/learn`.
+## ⚡ Start Here: The Workflows
+
+Our commands chain multiple skills into end-to-end agentic processes. Just type the command and let the AI guide you:
+
+### 🧠 Core Product Management
+* **New idea?** → `/discover`
+* **Need strategic clarity?** → `/strategy`
+* **Writing a PRD?** → `/write-prd`
+* **Planning a launch?** → `/plan-launch`
+* **Defining metrics?** → `/product-metrics`
+
+### 🤖 AI Product Management & Building (New!)
+* **Building an AI feature?** → `/[Insert your AI PM command here, e.g., /ai-product-strategy]` 
+* **Vibe coding a prototype?** → `/vibe-spec`
+* **Designing AI evaluations?** → `/[Insert your AI eval command here]`
+
+### 📚 Growth & Navigation
+* **Learning PM skills?** → `/learn`
+* **Not sure where to start?** → `/find-skill`
+
 
 ---
+*Note: This repository is a heavily extended and actively maintained fork of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by Paweł Huryn. Maintained by Tarun Narang.*
 
-## Start Here
-
-New idea? → `/discover`  
-Need strategic clarity? → `/strategy`  
-Writing a PRD? → `/write-prd`  
-Planning a launch? → `/plan-launch`  
-Defining metrics? → `/product-metrics`  
-Building with AI? → `/vibe-spec`  
-Learning PM skills? → `/learn`  
-Not sure what skill to use? → `/find-skill`
-
-If this project helps you, ⭐ the repo.
-
-## Why PM Skills Marketplace?
-
-Generic AI gives you text. PM Skills Marketplace gives you structure.
-
-Each skill encodes a proven PM framework — discovery, assumption mapping, prioritization, strategy — and walks you through it step by step. You get the rigor of Teresa Torres, Marty Cagan, and Alberto Savoia built into your daily workflow, not sitting on a bookshelf.
-
-The result: better product decisions, not just faster documents.
 
 ## How It Works (Skills, Commands, Plugins)
 
