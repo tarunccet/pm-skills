@@ -5,7 +5,7 @@
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
-**Agentic PM Skills** is a marketplace of 78 specialized AI skills and 55 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
+**Agentic PM Skills** is a marketplace of 80 PM skills and 57 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
 
 From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
 
