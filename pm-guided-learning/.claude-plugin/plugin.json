@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "pm-guided-learning",
-  "version": "1.0.0",
-  "description": "Interactive Socratic learning modules for PMs: guided exercises, simulations, and quiz checkpoints for discovery, strategy, metrics, prioritization, user research, and stakeholder management.",
+  "version": "1.1.0",
+  "description": "Interactive Socratic learning modules for PMs: guided exercises, simulations, and quiz checkpoints for discovery, strategy, metrics, prioritization, user research, stakeholder management, AI product management, and vibe coding.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -15,7 +15,9 @@
     "socratic-method",
     "interactive",
     "simulation",
-    "coaching"
+    "coaching",
+    "ai-product-management",
+    "vibe-coding"
   ],
   "homepage": "https://github.com/tarunccet/pm-skills",
   "license": "MIT"

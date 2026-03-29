@@ -24,7 +24,7 @@ Each module:
 | One interaction | 20–45 minute guided session |
 | Output: a document | Output: a skill |
 
-## Learning Modules (6)
+## Learning Modules (8)
 
 ### 1. `learn-discovery` — Continuous Product Discovery
 **Complexity**: Intermediate | **Time**: ~45 min
@@ -80,7 +80,25 @@ Present Finova's Q3 roadmap to 4 executives with conflicting priorities: VP Sale
 
 ---
 
-## Commands (7)
+### 7. `learn-ai-pm` — AI Product Management
+**Complexity**: Intermediate | **Time**: ~50 min
+
+Work as PM on Assist, an AI-powered customer support feature for a B2B SaaS product. Make real decisions about model selection, responsible AI requirements, prompt engineering, and AI performance metrics. Covers the full lifecycle from build decision to incident response.
+
+**You'll learn**: Model evaluation dimensions, responsible AI risks and mitigations, system prompt design, AI-specific product metrics, incident response planning
+
+---
+
+### 8. `learn-vibe-coding` — Vibe Coding for PMs
+**Complexity**: Basic | **Time**: ~30–45 min
+
+Interactive guide to getting started with AI-assisted coding. Choose the right tool for your project (Bolt.new, Replit, Cursor, Claude Code, etc.), write your first vibe spec, plan a build session by session, and understand what to do when things break. Practical and hands-on — you'll end with a real project started.
+
+**You'll learn**: Tool selection criteria, vibe spec writing, build sequence, how to review AI-generated code, debugging basics
+
+---
+
+## Commands (9)
 
 | Command | Description |
 |---------|-------------|
@@ -91,6 +109,8 @@ Present Finova's Q3 roadmap to 4 executives with conflicting priorities: VP Sale
 | `/learn-prioritization` | Start the prioritization frameworks module |
 | `/learn-interview` | Start the user interview simulation |
 | `/learn-stakeholders` | Start the stakeholder management simulation |
+| `/learn-ai-pm` | Start the AI product management module |
+| `/learn-vibe-coding` | Start the vibe coding for PMs module |
 
 ## Example Interactions
 
@@ -109,16 +129,20 @@ AI:  Interesting. But if Connectly only optimizes for attention, what risk
      does that create for users and the business long-term?
 ```
 
-**Mid-interview simulation:**
+**Starting the vibe coding module:**
 ```
-You: Alex, do you find it frustrating when your team doesn't update tasks?
+You: /learn-vibe-coding I want to build a simple waitlist page for my startup
 
-AI:  [as Alex] Yeah, it can be... [short answer — you asked a leading question]
+AI:  Great starting point. A waitlist page is a perfect first vibe coding
+     project — it's focused, achievable in one session, and immediately useful.
+     Before we pick a tool, let me ask: does your waitlist need a backend?
+     Specifically — do you want to store the email addresses yourself, or
+     is using a third-party service like Mailchimp or Beehiiv fine?
 
-     [after interview, as coach]
-     That question was leading. You told Alex how to feel before they answered.
-     Try instead: "Walk me through what happens when you check on a project's
-     status." This gets the same information without contaminating the answer.
+You: I want to store them myself so I can export them later.
+
+AI:  That means you need a backend with a database. That changes the tool
+     recommendation. Let me walk you through the options...
 ```
 
 ## Learning Path Recommendations
@@ -129,8 +153,12 @@ AI:  [as Alex] Yeah, it can be... [short answer — you asked a leading question
 
 **Senior PM / aspiring CPO**: `/learn-strategy` → `/learn-stakeholders`
 
-**Full curriculum (6–8 hours)**:
-`/learn-discovery` → `/learn-metrics` → `/learn-prioritization` → `/learn-interview` → `/learn-strategy` → `/learn-stakeholders`
+**Building AI features**: `/learn-ai-pm`
+
+**Building with AI coding tools**: `/learn-vibe-coding`
+
+**Full curriculum (8–10 hours)**:
+`/learn-discovery` → `/learn-metrics` → `/learn-prioritization` → `/learn-interview` → `/learn-strategy` → `/learn-stakeholders` → `/learn-ai-pm` → `/learn-vibe-coding`
 
 ## Maintainer
 
