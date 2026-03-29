@@ -5,7 +5,7 @@
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
-**Agentic PM Skills** is a marketplace of 87 PM skills and 62 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
+**Agentic PM Skills** is a marketplace of 85 PM skills and 60 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
 
 From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
 
@@ -31,9 +31,7 @@ Our commands chain multiple skills into end-to-end agentic processes. Just type 
 ### 💬 Communication & Thinking
 * **Preparing for a meeting?** → `/prep-meeting`
 * **Writing a status update?** → `/write-update`
-* **Need a thinking partner?** → `/think`
 * **Stress-testing an idea?** → `/challenge`
-* **Planning your week?** → `/plan-week`
 
 ### 🤖 AI Product Management & Building (New!)
 * **Building an AI feature?** → `/[Insert your AI PM command here, e.g., /ai-product-strategy]` 
@@ -198,11 +196,11 @@ Commands:
 </details>
 
 <details>
-<summary><strong>2. pm-product-strategy</strong> — Vision, business models, pricing, competitive landscape, thinking partner, devil's advocate, strategic clarity (15 skills, 7 commands)</summary>
+<summary><strong>2. pm-product-strategy</strong> — Vision, business models, pricing, competitive landscape, devil's advocate (13 skills, 6 commands)</summary>
 
-Product strategy, vision, business models, pricing, macro environment analysis, collaborative thinking, and strategic clarity. Covers the full strategic toolkit from vision crafting through competitive landscape scanning to stress-testing ideas and establishing team identity.
+Product strategy, vision, business models, pricing, macro environment analysis, and stress-testing. Covers the full strategic toolkit from vision crafting through competitive landscape scanning to stress-testing ideas.
 
-**Skills (15):**
+**Skills (13):**
 
 - `product-strategy` — Comprehensive 9-section Product Strategy Canvas (vision → defensibility)
 - `startup-canvas` — Startup Canvas combining Product Strategy (9 sections) + Business Model — an alternative to BMC and Lean Canvas for new products
@@ -216,18 +214,15 @@ Product strategy, vision, business models, pricing, macro environment analysis, 
 - `pestle-analysis` — Macro environment: Political, Economic, Social, Technological, Legal, Environmental
 - `porters-five-forces` — Competitive forces analysis (rivalry, suppliers, buyers, substitutes, new entrants)
 - `ansoff-matrix` — Growth strategy mapping across markets and products
-- `thought-partner` — Collaborative thinking partner for exploring ideas, challenges, and decisions through structured dialogue
 - `devil-advocate` — Constructive critic and stress-tester for PM ideas, proposals, and strategies
-- `strategic-clarity` — Four-phase guided workflow for establishing team identity and strategic positioning (ABSORB → AUDIT → ARTICULATE → ALIGN)
 
-**Commands (7):**
+**Commands (6):**
 
 - `/strategy` — Create a complete 9-section Product Strategy Canvas
 - `/business-model` — Explore business models (`lean|full|startup|value-prop|all`)
 - `/value-proposition` — Design a value proposition using the 6-part JTBD template
 - `/market-scan` — Macro environment analysis combining SWOT + PESTLE + Porter's + Ansoff
 - `/pricing` — Design a pricing strategy with competitive analysis and experiments
-- `/think` — Think through a problem collaboratively — explore ideas, surface assumptions, and find clarity on tough decisions
 - `/challenge` — Stress-test an idea, proposal, or strategy — find weaknesses and strengthen your thinking
 
 **Examples:**
@@ -236,23 +231,20 @@ Skills:
 - `Compare Lean Canvas vs Business Model Canvas vs Startup Canvas for my marketplace startup`
 - `Design a value proposition for our AI writing assistant targeting non-native English speakers`
 - `Run a Porter's Five Forces analysis for the project management SaaS market`
-- `Help me think through whether we should build the new reporting dashboard or improve the existing one`
 - `Challenge my proposal to pause iOS development this quarter`
-- `I just started as PM for the messaging team — help me establish strategic clarity`
 
 Commands:
 - `/strategy B2B project management tool for agencies`
 - `/business-model startup — AI writing tool for non-native English speakers`
 - `/value-proposition SaaS onboarding tool for enterprise customers`
-- `/think Should we invest in improving our existing product or build something new?`
 - `/challenge [paste your PRD or proposal] Find the weaknesses`
 
 </details>
 
 <details>
-<summary><strong>3. pm-execution</strong> — PRDs, OKRs, roadmaps, sprints, retros, release notes, stakeholder management, writing, meeting prep (17 skills, 12 commands)</summary>
+<summary><strong>3. pm-execution</strong> — PRDs, OKRs, roadmaps, sprints, retros, release notes, stakeholder management, writing, meeting prep (17 skills, 11 commands)</summary>
 
-Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, stakeholder management, user stories, prioritization frameworks, general-purpose writing, meeting preparation, stakeholder updates, and weekly planning.
+Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, stakeholder management, user stories, prioritization frameworks, general-purpose writing, meeting preparation, and stakeholder updates.
 
 **Skills (17):**
 
@@ -274,7 +266,7 @@ Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, re
 - `test-scenarios` — Test scenarios: happy paths, edge cases, error handling
 - `prioritization` — Reference guide to 9 prioritization frameworks (Opportunity Score, ICE, RICE, MoSCoW, Kano, etc.)
 
-**Commands (12):**
+**Commands (11):**
 
 - `/write-prd` — Create a PRD from a feature idea or problem statement
 - `/plan-okrs` — Brainstorm team-level OKRs
@@ -287,7 +279,6 @@ Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, re
 - `/test-scenarios` — Generate test scenarios from user stories
 - `/prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria
 - `/write-update` — Create a polished stakeholder update or status report tailored to your audience
-- `/plan-week` — Plan your week as a PM — review last week, set priorities, allocate time, and flag risks
 
 **Examples:**
 
@@ -305,7 +296,6 @@ Commands:
 - `/write-stories job — Break down the "team dashboard" feature into job stories`
 - `/prep-meeting 1:1 with my manager about project deprioritization`
 - `/write-update Weekly progress on the Search Redesign project for leadership`
-- `/plan-week I have a product review Thursday and sprint planning Friday`
 
 </details>
 

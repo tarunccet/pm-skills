@@ -1,6 +1,6 @@
 # pm-execution
 
-Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization, general-purpose writing, meeting preparation, stakeholder updates, and weekly planning.
+Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization, general-purpose writing, meeting preparation, and stakeholder updates.
 
 ## Skills (17)
 
@@ -22,11 +22,10 @@ Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mort
 - **writer** — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations — adapts tone and structure to audience.
 - **wwas** — Create product backlog items in Why-What-Acceptance format.
 
-## Commands (12)
+## Commands (11)
 
 - `/pm-execution:meeting-notes` — Summarize a meeting transcript into structured notes with decisions, action items, and follow-ups.
 - `/pm-execution:plan-okrs` — Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results.
-- `/pm-execution:plan-week` — Plan your week as a PM — review last week, set priorities, allocate time, and flag risks.
 - `/pm-execution:pre-mortem` — Run a pre-mortem risk analysis on a PRD, launch plan, or feature — identify what could go wrong before it does.
 - `/pm-execution:prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria.
 - `/pm-execution:sprint` — Sprint lifecycle — plan a sprint, run a retrospective, or generate release notes.

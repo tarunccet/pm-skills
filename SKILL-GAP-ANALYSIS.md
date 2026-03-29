@@ -260,9 +260,14 @@ Rather than creating new standalone plugins, the 7 gap skills are merged into ex
 
 | Target Plugin | New Skills | New Commands | Rationale |
 |---|---|---|---|
-| `pm-execution` | 3 (writer, meeting-prep, stakeholder-update) | 3 (/prep-meeting, /write-update, /plan-week) | Communication is part of daily PM execution; complements existing stakeholder-map and summarize-meeting |
-| `pm-product-strategy` | 3 (thought-partner, devil-advocate, strategic-clarity) | 2 (/think, /challenge) | Thinking tools support strategic decision-making; complements existing strategy, vision, and SWOT skills |
+| `pm-execution` | 3 (writer, meeting-prep, stakeholder-update) | 2 (/prep-meeting, /write-update) | Communication is part of daily PM execution; complements existing stakeholder-map and summarize-meeting |
+| `pm-product-strategy` | 1 (devil-advocate) | 1 (/challenge) | Stress-testing extends strategic decision-making; complements existing strategy, vision, and SWOT skills |
 | `pm-vibe-coding` | 1 (technical-analyst) | — | Understanding technical systems fits alongside existing build/review/debug skills |
+
+> **Note:** The original analysis identified 7 gaps. After review, 3 were removed:
+> - `thought-partner` / `/think` — overlaps with pm-product-discovery's existing discover workflow
+> - `strategic-clarity` — no command uses it; team identity work is better addressed by existing strategy skills
+> - `/plan-week` — weekly planning is a general productivity skill, not PM-specific
 
 ### pm-execution: Communication Skills
 
@@ -283,28 +288,18 @@ Rather than creating new standalone plugins, the 7 gap skills are merged into ex
 - **Purpose:** Generate audience-tailored status updates and progress reports.
 - **Complements:** `stakeholder-map` — use the map to identify audiences, then generate updates for each.
 
-#### Commands: `/prep-meeting`, `/write-update`, `/plan-week`
+#### Commands: `/prep-meeting`, `/write-update`
 
-### pm-product-strategy: Thinking Tools
+### pm-product-strategy: Stress-Testing
 
-**Rationale:** Thinking tools are higher-complexity skills for strategic reasoning. They naturally extend pm-product-strategy's existing strategic analysis capabilities (SWOT, Porter's, etc.) from structured frameworks to open-ended strategic thinking.
-
-#### Skill: `thought-partner`
-
-- **Purpose:** General collaborative thinking partner for any PM problem.
-- **Differentiator from brainstorming:** Not idea-generation focused. Helps with reasoning, decision-making, and problem framing.
+**Rationale:** Devil's advocate stress-testing naturally extends pm-product-strategy's existing strategic analysis capabilities (SWOT, Porter's, etc.) from structured frameworks to challenging assumptions.
 
 #### Skill: `devil-advocate`
 
 - **Purpose:** Systematic idea and plan stress-testing.
 - **Differentiator from `pre-mortem`:** `pre-mortem` imagines a specific future failure. `devil-advocate` actively argues against the current plan from multiple angles.
 
-#### Skill: `strategic-clarity`
-
-- **Purpose:** 4-phase team identity and strategic positioning workflow.
-- **Differentiator from `product-vision`:** Operates at team level, not product level. Focuses on organizational positioning rather than product direction.
-
-#### Commands: `/think`, `/challenge`
+#### Commands: `/challenge`
 
 ### pm-vibe-coding: Technical Analysis
 
@@ -330,10 +325,10 @@ Rather than creating new standalone plugins, the 7 gap skills are merged into ex
 | Category | Current State | After Remediation |
 |---|---|---|
 | Plugins | 11 | 11 (no change — merged into existing plugins) |
-| Skills | 80 | 87 (+7) |
-| Commands / Workflows | 57 | 62 (+5) |
-| Framework coverage | 5 of 12 modes covered | 12 of 12 modes covered |
-| Command coverage | 3 of 6 commands covered | 6 of 6 commands covered |
+| Skills | 80 | 85 (+5) |
+| Commands / Workflows | 57 | 60 (+3) |
+| Framework coverage | 5 of 12 modes covered | 9 of 12 modes covered |
+| Command coverage | 3 of 6 commands covered | 5 of 6 commands covered |
 
 ---
 
