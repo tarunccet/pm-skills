@@ -1,7 +1,7 @@
 {
   "name": "pm-execution",
-  "version": "1.0.2",
-  "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization (features, assumptions, backlog, and general modes with all 9 frameworks), and more.",
+  "version": "1.1.0",
+  "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization (features, assumptions, backlog, and general modes with all 9 frameworks), general-purpose writing, meeting preparation, stakeholder updates, and weekly planning.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -18,7 +18,10 @@
     "user-stories",
     "backlog",
     "prioritization",
-    "agile"
+    "agile",
+    "writing",
+    "meeting-prep",
+    "stakeholder-updates"
   ],
   "homepage": "https://github.com/tarunccet/pm-skills",
   "license": "MIT"

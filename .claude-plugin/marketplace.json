@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
   "version": "2.0.0",
-  "description": "Structured AI workflows for better product decisions. 87 skills and 62 commands across 13 plugins — discovery, strategy, execution, launch, growth, AI product management, communication, critical thinking, vibe coding, and guided learning.",
+  "description": "Structured AI workflows for better product decisions. 87 skills and 62 commands across 11 plugins — discovery, strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.",
   "owner": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -23,13 +23,13 @@
     },
     {
       "name": "pm-product-strategy",
-      "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, and monetization.",
+      "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, monetization, collaborative thinking partner, devil's advocate stress-testing, and strategic clarity.",
       "source": "./pm-product-strategy",
       "category": "product-management"
     },
     {
       "name": "pm-execution",
-      "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, and more.",
+      "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, general-purpose writing, meeting preparation, stakeholder updates, and weekly planning.",
       "source": "./pm-execution",
       "category": "product-management"
     },
@@ -65,20 +65,8 @@
     },
     {
       "name": "pm-vibe-coding",
-      "description": "Vibe coding skills for PM-builders: write AI coding specs, plan prototypes, make technical architecture decisions, review AI-generated code, run deployment checklists, and debug with AI assistance.",
+      "description": "Vibe coding skills for PM-builders: write AI coding specs, plan prototypes, make technical architecture decisions, review AI-generated code, run deployment checklists, debug with AI assistance, and understand codebases in PM-friendly terms.",
       "source": "./pm-vibe-coding",
-      "category": "product-management"
-    },
-    {
-      "name": "pm-communication",
-      "description": "Communication skills for PMs: general-purpose writing assistant, meeting preparation, and stakeholder updates covering briefs, emails, status reports, executive summaries, and presentation prep.",
-      "source": "./pm-communication",
-      "category": "product-management"
-    },
-    {
-      "name": "pm-thinking-tools",
-      "description": "Critical thinking and analysis skills for PMs: collaborative thinking partner, constructive criticism and stress-testing, strategic clarity for team identity, and technical translation for understanding systems and codebases.",
-      "source": "./pm-thinking-tools",
       "category": "product-management"
     },
     {

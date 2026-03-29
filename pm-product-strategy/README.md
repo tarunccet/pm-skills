@@ -1,11 +1,12 @@
 # pm-product-strategy
 
-Product strategy skills for PMs: vision, strategy canvas, startup canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, pricing, and monetization.
+Product strategy skills for PMs: vision, strategy canvas, startup canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, pricing, monetization, collaborative thinking partner, devil's advocate stress-testing, and strategic clarity for team identity.
 
-## Skills (12)
+## Skills (15)
 
 - **ansoff-matrix** — Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification.
 - **business-model** — Generate a Business Model Canvas with all 9 building blocks.
+- **devil-advocate** — Constructive critic and stress-tester for PM ideas, proposals, and strategies — finds weaknesses and strengthens arguments.
 - **lean-canvas** — Generate a Lean Canvas business model with sections for problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue.
 - **monetization-strategy** — Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments.
 - **pestle-analysis** — Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors.
@@ -14,15 +15,19 @@ Product strategy skills for PMs: vision, strategy canvas, startup canvas, value 
 - **product-strategy** — Generate a comprehensive product strategy using the 9-section Product Strategy Canvas covering vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility.
 - **product-vision** — Brainstorm an inspiring, achievable, and emotional product vision that motivates teams.
 - **startup-canvas** — Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (Cost Structure + Revenue Streams) for a new product. An alternative to Business Model Canvas and Lean Canvas that separates strategy from business model.
+- **strategic-clarity** — Four-phase guided workflow for establishing team identity and strategic positioning — ABSORB, AUDIT, ARTICULATE, ALIGN.
 - **swot-analysis** — Perform a detailed SWOT analysis identifying strengths, weaknesses, opportunities, and threats with actionable recommendations.
+- **thought-partner** — Collaborative thinking partner for exploring ideas, challenges, and decisions through structured dialogue.
 - **value-proposition** — Design a value proposition using the 6-part JTBD template (Who, Why, What before, How, What after, Alternatives), then generate marketing-ready statements for specific segments and channels.
 
-## Commands (5)
+## Commands (7)
 
 - `/pm-product-strategy:business-model` — Explore business models using Lean Canvas, Business Model Canvas, Startup Canvas, or Value Proposition frameworks.
+- `/pm-product-strategy:challenge` — Stress-test an idea, proposal, or strategy — find weaknesses and strengthen your thinking before presenting to stakeholders.
 - `/pm-product-strategy:market-scan` — Comprehensive macro environment analysis — SWOT, PESTLE, Porter's Five Forces, and Ansoff Matrix in one scan.
 - `/pm-product-strategy:pricing` — Design a pricing strategy — models, competitive analysis, willingness-to-pay estimation, and pricing experiments.
 - `/pm-product-strategy:strategy` — Create a comprehensive product strategy using the 9-section Strategy Canvas — from vision to defensibility.
+- `/pm-product-strategy:think` — Think through a problem collaboratively — explore ideas, surface assumptions, and find clarity on tough decisions.
 - `/pm-product-strategy:value-proposition` — Design a value proposition using the 6-part JTBD template — Who, Why, What before, How, What after, Alternatives.
 
 ## Maintainer

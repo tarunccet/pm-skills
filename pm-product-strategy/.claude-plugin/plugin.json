@@ -1,7 +1,7 @@
 {
   "name": "pm-product-strategy",
-  "version": "1.0.2",
-  "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions (strategic JTBD template plus marketing-ready statements), lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, and monetization.",
+  "version": "1.1.0",
+  "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions (strategic JTBD template plus marketing-ready statements), lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, monetization, collaborative thinking partner, devil's advocate stress-testing, and strategic clarity for team identity.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -14,7 +14,10 @@
     "business-model",
     "swot",
     "competitive-analysis",
-    "value-proposition"
+    "value-proposition",
+    "thinking-partner",
+    "devil-advocate",
+    "strategic-clarity"
   ],
   "homepage": "https://github.com/tarunccet/pm-skills",
   "license": "MIT"

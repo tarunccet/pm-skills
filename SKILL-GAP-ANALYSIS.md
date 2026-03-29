@@ -12,7 +12,7 @@ This document analyzes the capability gaps between the **pm-skills** repository 
 
 While pm-skills offers significantly deeper coverage in product strategy, discovery, execution, and data analytics, the PM-AI-Partner-Framework introduces **7 capability gaps** — primarily in collaborative thinking, general-purpose writing, meeting preparation, stakeholder communication, strategic clarity, and technical translation for PMs.
 
-**Key finding:** 5 of 12 PM-AI-Partner-Framework skills already have equivalents in pm-skills. The remaining 7 gaps can be addressed by creating **2 new plugins** with **7 new skills** and **5 new commands**, requiring an estimated 2–3 sprints of development effort.
+**Key finding:** 5 of 12 PM-AI-Partner-Framework skills already have equivalents in pm-skills. The remaining 7 gaps are addressed by adding **7 new skills** and **5 new commands** into existing plugins — `pm-execution` (communication skills), `pm-product-strategy` (thinking tools), and `pm-vibe-coding` (technical analysis).
 
 | Metric | pm-skills | PM-AI-Partner-Framework |
 |---|---|---|
@@ -95,7 +95,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 | **What it does** | General-purpose collaborative thinking and brainstorming mode. Helps PMs think through any problem — not just product ideas — including career decisions, team dynamics, process design, and strategic dilemmas. |
 | **Nearest pm-skills equivalent** | `brainstorm-ideas-new` / `brainstorm-ideas-existing` |
 | **Why it's a gap** | pm-skills brainstorming is scoped to product feature ideas. There is no general "help me think through this" capability for open-ended problems. PMs frequently need a sounding board for non-product questions. |
-| **Proposed plugin** | `pm-thinking-tools` |
+| **Target plugin** | `pm-product-strategy` |
 | **Proposed skill name** | `thought-partner` |
 | **Proposed command** | `/think` |
 
@@ -108,7 +108,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 | **What it does** | Systematically stress-tests ideas, plans, and assumptions. Asks tough questions, surfaces blind spots, and challenges reasoning — without being destructive. |
 | **Nearest pm-skills equivalent** | `pre-mortem` |
 | **Why it's a gap** | `pre-mortem` is a specific technique for imagining future failure of a project. `devil-advocate` is broader — it can critique a pitch deck, challenge a strategy pivot, poke holes in a hiring plan, or stress-test any decision. |
-| **Proposed plugin** | `pm-thinking-tools` |
+| **Target plugin** | `pm-product-strategy` |
 | **Proposed skill name** | `devil-advocate` |
 | **Proposed command** | `/challenge` |
 
@@ -121,7 +121,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 | **What it does** | General-purpose writing assistant for PMs. Drafts, edits, restructures, and polishes any PM document — emails, Slack messages, proposals, blog posts, presentations, and more. |
 | **Nearest pm-skills equivalent** | `create-prd`, `brainstorm-okrs`, `release-notes`, `grammar-check` |
 | **Why it's a gap** | pm-skills has excellent templates for specific document types (PRDs, OKRs, release notes) and a grammar checker, but no general "help me write/rewrite this" skill. PMs spend significant time writing ad-hoc content that doesn't fit a template. |
-| **Proposed plugin** | `pm-communication` |
+| **Target plugin** | `pm-execution` |
 | **Proposed skill name** | `writer` |
 
 ### Gap 4: Meeting Prep — Meeting Preparation Assistant
@@ -133,7 +133,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 | **What it does** | Helps PMs prepare for meetings by generating agendas, talking points, anticipated questions, stakeholder briefings, and pre-read materials. |
 | **Nearest pm-skills equivalent** | `summarize-meeting` (post-meeting only) |
 | **Why it's a gap** | pm-skills can summarize meetings after they happen but has zero support for preparation before meetings. Meeting prep is one of the most time-consuming PM activities and a high-value automation target. |
-| **Proposed plugin** | `pm-communication` |
+| **Target plugin** | `pm-execution` |
 | **Proposed skill name** | `meeting-prep` |
 | **Proposed command** | `/prep-meeting` |
 
@@ -146,7 +146,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 | **What it does** | Generates status reports, stakeholder updates, and executive summaries. Tailors communication style and detail level to the audience (executive, engineering, cross-functional). |
 | **Nearest pm-skills equivalent** | `stakeholder-map` |
 | **Why it's a gap** | `stakeholder-map` identifies and categorizes stakeholders. It does not help write communications to them. PMs need to produce regular status updates, and the format varies significantly by audience. |
-| **Proposed plugin** | `pm-communication` |
+| **Target plugin** | `pm-execution` |
 | **Proposed skill name** | `stakeholder-update` |
 | **Proposed command** | `/write-update` |
 
@@ -159,7 +159,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 | **What it does** | A 4-phase guided workflow for establishing team identity and strategic positioning: (1) Team identity, (2) Stakeholder landscape, (3) Strategic positioning, (4) Communication plan. |
 | **Nearest pm-skills equivalent** | `product-vision`, `product-strategy` |
 | **Why it's a gap** | pm-skills strategy tools focus on product-level strategy (vision, pricing, business model). `strategic-clarity` operates at the team level — helping a PM team define who they are, how they fit in the org, and how they communicate their value. This is particularly valuable for new PMs or teams undergoing reorgs. |
-| **Proposed plugin** | `pm-thinking-tools` |
+| **Target plugin** | `pm-product-strategy` |
 | **Proposed skill name** | `strategic-clarity` |
 
 ### Gap 7: Technical Analyst — Technical Translation for PMs
@@ -171,7 +171,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 | **What it does** | Translates technical concepts, architectures, and codebases into PM-friendly language. Helps PMs understand system dependencies, technical debt implications, and engineering trade-offs without needing to read code. |
 | **Nearest pm-skills equivalent** | `code-review-for-pms`, `technical-decision-guide` |
 | **Why it's a gap** | pm-skills vibe-coding tools are oriented toward PMs who want to build/code. `technical-analyst` serves PMs who need to understand existing systems to make better product decisions — a fundamentally different use case. |
-| **Proposed plugin** | `pm-thinking-tools` |
+| **Target plugin** | `pm-vibe-coding` |
 | **Proposed skill name** | `technical-analyst` |
 
 ---
@@ -184,7 +184,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 |---|---|
 | **What it does** | Generates a structured weekly plan based on current priorities, meetings, deadlines, and OKR progress. |
 | **Why pm-skills lacks it** | pm-skills focuses on project-level planning (`sprint-plan`, `outcome-roadmap`) but not personal weekly planning for individual PMs. |
-| **Proposed plugin** | `pm-thinking-tools` |
+| **Target plugin** | `pm-execution` |
 | **Proposed command** | `/plan-week` |
 
 ### `/prep-meeting` — Meeting Preparation
@@ -193,7 +193,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 |---|---|
 | **What it does** | Quick command to generate a meeting prep document with agenda, talking points, and anticipated questions. |
 | **Why pm-skills lacks it** | No meeting preparation capability exists. `summarize-meeting` only handles post-meeting summaries. |
-| **Proposed plugin** | `pm-communication` |
+| **Target plugin** | `pm-execution` |
 | **Proposed command** | `/prep-meeting` |
 
 ### `/audit-codebase` — PM-Perspective Codebase Audit
@@ -202,8 +202,7 @@ While pm-skills offers significantly deeper coverage in product strategy, discov
 |---|---|
 | **What it does** | Audits a codebase from a PM perspective — identifying feature flags, technical debt risks, deployment patterns, and product implications of the architecture. |
 | **Why pm-skills lacks it** | `code-review-for-pms` focuses on reviewing specific code changes, not auditing an entire codebase for product-relevant insights. |
-| **Proposed plugin** | `pm-thinking-tools` |
-| **Proposed command** | `/audit-codebase` (stretch goal) |
+| **Target plugin** | `pm-vibe-coding` |
 
 ---
 
@@ -255,126 +254,66 @@ The following PM-AI-Partner-Framework capabilities already have strong equivalen
 
 ## Remediation Plan
 
-### Overview
+### Approach: Merge Into Existing Plugins
 
-| Plugin | New Skills | New Commands | Priority | Estimated Effort |
-|---|---|---|---|---|
-| `pm-communication` | 3 (writer, meeting-prep, stakeholder-update) | 2 (/prep-meeting, /write-update) | 🔴 P1 — Sprint 1 | 1 sprint |
-| `pm-thinking-tools` | 4 (thought-partner, devil-advocate, strategic-clarity, technical-analyst) | 3 (/think, /challenge, /plan-week) | 🟡 P2 — Sprint 2 | 1–2 sprints |
+Rather than creating new standalone plugins, the 7 gap skills are merged into existing plugin categories where they naturally fit:
 
-### Phase 1: pm-communication Plugin (Sprint 1)
+| Target Plugin | New Skills | New Commands | Rationale |
+|---|---|---|---|
+| `pm-execution` | 3 (writer, meeting-prep, stakeholder-update) | 3 (/prep-meeting, /write-update, /plan-week) | Communication is part of daily PM execution; complements existing stakeholder-map and summarize-meeting |
+| `pm-product-strategy` | 3 (thought-partner, devil-advocate, strategic-clarity) | 2 (/think, /challenge) | Thinking tools support strategic decision-making; complements existing strategy, vision, and SWOT skills |
+| `pm-vibe-coding` | 1 (technical-analyst) | — | Understanding technical systems fits alongside existing build/review/debug skills |
 
-**Rationale:** Communication is the highest-frequency PM activity. Meeting prep and stakeholder updates are daily tasks with clear, template-able outputs — making them fast to implement and immediately valuable.
+### pm-execution: Communication Skills
 
-```
-pm-communication/
-├── README.md
-├── plugin.yaml
-├── skills/
-│   ├── writer/
-│   │   └── SKILL.md
-│   ├── meeting-prep/
-│   │   └── SKILL.md
-│   └── stakeholder-update/
-│       └── SKILL.md
-└── commands/
-    ├── prep-meeting.md
-    └── write-update.md
-```
+**Rationale:** Communication is the highest-frequency PM activity. Meeting prep and stakeholder updates are daily tasks with clear, template-able outputs. They naturally extend pm-execution's existing meeting summarization and stakeholder mapping capabilities.
 
 #### Skill: `writer`
 
 - **Purpose:** General-purpose PM writing assistant for drafting, editing, and polishing any document type.
-- **Inputs:** Draft text or writing prompt, target audience, tone (formal/casual/executive), document type.
-- **Outputs:** Polished document with structure suggestions, tone adjustments, and clarity improvements.
 - **Differentiator from `grammar-check`:** Goes beyond grammar — restructures content, adjusts tone for audience, and suggests PM-specific framing.
 
 #### Skill: `meeting-prep`
 
 - **Purpose:** Generate comprehensive meeting preparation materials.
-- **Inputs:** Meeting topic, attendees/roles, context/background, desired outcomes.
-- **Outputs:** Agenda, talking points, anticipated questions with suggested answers, pre-read summary, decision points.
 - **Complements:** `summarize-meeting` (post-meeting) — together they bookend the full meeting lifecycle.
 
 #### Skill: `stakeholder-update`
 
 - **Purpose:** Generate audience-tailored status updates and progress reports.
-- **Inputs:** Project status, key metrics, blockers, audience type (executive/engineering/cross-functional).
-- **Outputs:** Formatted status update with appropriate detail level, highlights, risks, and asks.
 - **Complements:** `stakeholder-map` — use the map to identify audiences, then generate updates for each.
 
-#### Command: `/prep-meeting`
+#### Commands: `/prep-meeting`, `/write-update`, `/plan-week`
 
-- **Workflow:** Gathers meeting context → generates agenda → creates talking points → prepares Q&A → outputs prep document.
-- **Chains:** `meeting-prep` skill.
+### pm-product-strategy: Thinking Tools
 
-#### Command: `/write-update`
-
-- **Workflow:** Collects project status → identifies audience → generates tailored update → applies appropriate formatting.
-- **Chains:** `stakeholder-update` skill, optionally feeds from `stakeholder-map`.
-
-### Phase 2: pm-thinking-tools Plugin (Sprint 2–3)
-
-**Rationale:** Thinking tools are higher-complexity skills requiring more nuanced prompt engineering. They are less template-driven and more conversational, demanding careful design to be genuinely useful rather than generic.
-
-```
-pm-thinking-tools/
-├── README.md
-├── plugin.yaml
-├── skills/
-│   ├── thought-partner/
-│   │   └── SKILL.md
-│   ├── devil-advocate/
-│   │   └── SKILL.md
-│   ├── strategic-clarity/
-│   │   └── SKILL.md
-│   └── technical-analyst/
-│       └── SKILL.md
-└── commands/
-    ├── think.md
-    ├── challenge.md
-    └── plan-week.md
-```
+**Rationale:** Thinking tools are higher-complexity skills for strategic reasoning. They naturally extend pm-product-strategy's existing strategic analysis capabilities (SWOT, Porter's, etc.) from structured frameworks to open-ended strategic thinking.
 
 #### Skill: `thought-partner`
 
 - **Purpose:** General collaborative thinking partner for any PM problem.
-- **Approach:** Socratic method — asks clarifying questions, surfaces assumptions, explores alternatives, and helps structure thinking without prescribing answers.
 - **Differentiator from brainstorming:** Not idea-generation focused. Helps with reasoning, decision-making, and problem framing.
 
 #### Skill: `devil-advocate`
 
 - **Purpose:** Systematic idea and plan stress-testing.
-- **Approach:** Multi-lens critique — examines feasibility, desirability, viability, ethical implications, and second-order effects.
 - **Differentiator from `pre-mortem`:** `pre-mortem` imagines a specific future failure. `devil-advocate` actively argues against the current plan from multiple angles.
 
 #### Skill: `strategic-clarity`
 
 - **Purpose:** 4-phase team identity and strategic positioning workflow.
-- **Phases:** (1) Define team identity and mission, (2) Map stakeholder landscape, (3) Establish strategic positioning, (4) Create communication plan.
 - **Differentiator from `product-vision`:** Operates at team level, not product level. Focuses on organizational positioning rather than product direction.
+
+#### Commands: `/think`, `/challenge`
+
+### pm-vibe-coding: Technical Analysis
+
+**Rationale:** Understanding technical systems complements the existing build/review/debug skills. `technical-analyst` helps PMs understand systems; the other vibe-coding skills help PMs build them.
 
 #### Skill: `technical-analyst`
 
 - **Purpose:** Translate technical systems and concepts into PM-friendly language.
-- **Inputs:** System architecture, codebase overview, technical documentation, or specific technical questions.
-- **Outputs:** Plain-language explanation, product implications, risk assessment, dependency map, and recommended PM actions.
 - **Differentiator from vibe-coding:** Vibe-coding helps PMs build. Technical-analyst helps PMs understand.
-
-#### Command: `/think`
-
-- **Workflow:** Opens collaborative thinking session → asks clarifying questions → explores problem space → structures thinking → summarizes insights.
-- **Chains:** `thought-partner` skill.
-
-#### Command: `/challenge`
-
-- **Workflow:** Takes a proposal/plan → applies multi-lens critique → surfaces risks and blind spots → suggests mitigations → outputs critique report.
-- **Chains:** `devil-advocate` skill, optionally feeds into `pre-mortem` for deeper failure analysis.
-
-#### Command: `/plan-week`
-
-- **Workflow:** Reviews current priorities → maps to OKR progress → incorporates meeting schedule → identifies focus areas → generates structured weekly plan.
-- **Chains:** `thought-partner` skill, references `brainstorm-okrs` and `sprint-plan` outputs.
 
 ### Stretch Goals (Future Sprints)
 
@@ -390,7 +329,7 @@ pm-thinking-tools/
 
 | Category | Current State | After Remediation |
 |---|---|---|
-| Plugins | 11 | 13 (+2) |
+| Plugins | 11 | 11 (no change — merged into existing plugins) |
 | Skills | 80 | 87 (+7) |
 | Commands / Workflows | 57 | 62 (+5) |
 | Framework coverage | 5 of 12 modes covered | 12 of 12 modes covered |

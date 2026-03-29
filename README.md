@@ -5,7 +5,7 @@
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
-**Agentic PM Skills** is a marketplace of 87 PM skills and 62 chained workflows across 13 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
+**Agentic PM Skills** is a marketplace of 87 PM skills and 62 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
 
 From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
 
@@ -198,11 +198,11 @@ Commands:
 </details>
 
 <details>
-<summary><strong>2. pm-product-strategy</strong> — Vision, business models, pricing, competitive landscape (12 skills, 5 commands)</summary>
+<summary><strong>2. pm-product-strategy</strong> — Vision, business models, pricing, competitive landscape, thinking partner, devil's advocate, strategic clarity (15 skills, 7 commands)</summary>
 
-Product strategy, vision, business models, pricing, and macro environment analysis. Covers the full strategic toolkit from vision crafting through competitive landscape scanning.
+Product strategy, vision, business models, pricing, macro environment analysis, collaborative thinking, and strategic clarity. Covers the full strategic toolkit from vision crafting through competitive landscape scanning to stress-testing ideas and establishing team identity.
 
-**Skills (12):**
+**Skills (15):**
 
 - `product-strategy` — Comprehensive 9-section Product Strategy Canvas (vision → defensibility)
 - `startup-canvas` — Startup Canvas combining Product Strategy (9 sections) + Business Model — an alternative to BMC and Lean Canvas for new products
@@ -216,14 +216,19 @@ Product strategy, vision, business models, pricing, and macro environment analys
 - `pestle-analysis` — Macro environment: Political, Economic, Social, Technological, Legal, Environmental
 - `porters-five-forces` — Competitive forces analysis (rivalry, suppliers, buyers, substitutes, new entrants)
 - `ansoff-matrix` — Growth strategy mapping across markets and products
+- `thought-partner` — Collaborative thinking partner for exploring ideas, challenges, and decisions through structured dialogue
+- `devil-advocate` — Constructive critic and stress-tester for PM ideas, proposals, and strategies
+- `strategic-clarity` — Four-phase guided workflow for establishing team identity and strategic positioning (ABSORB → AUDIT → ARTICULATE → ALIGN)
 
-**Commands (5):**
+**Commands (7):**
 
 - `/strategy` — Create a complete 9-section Product Strategy Canvas
 - `/business-model` — Explore business models (`lean|full|startup|value-prop|all`)
 - `/value-proposition` — Design a value proposition using the 6-part JTBD template
 - `/market-scan` — Macro environment analysis combining SWOT + PESTLE + Porter's + Ansoff
 - `/pricing` — Design a pricing strategy with competitive analysis and experiments
+- `/think` — Think through a problem collaboratively — explore ideas, surface assumptions, and find clarity on tough decisions
+- `/challenge` — Stress-test an idea, proposal, or strategy — find weaknesses and strengthen your thinking
 
 **Examples:**
 
@@ -231,20 +236,25 @@ Skills:
 - `Compare Lean Canvas vs Business Model Canvas vs Startup Canvas for my marketplace startup`
 - `Design a value proposition for our AI writing assistant targeting non-native English speakers`
 - `Run a Porter's Five Forces analysis for the project management SaaS market`
+- `Help me think through whether we should build the new reporting dashboard or improve the existing one`
+- `Challenge my proposal to pause iOS development this quarter`
+- `I just started as PM for the messaging team — help me establish strategic clarity`
 
 Commands:
 - `/strategy B2B project management tool for agencies`
 - `/business-model startup — AI writing tool for non-native English speakers`
 - `/value-proposition SaaS onboarding tool for enterprise customers`
+- `/think Should we invest in improving our existing product or build something new?`
+- `/challenge [paste your PRD or proposal] Find the weaknesses`
 
 </details>
 
 <details>
-<summary><strong>3. pm-execution</strong> — PRDs, OKRs, roadmaps, sprints, retros, release notes, stakeholder management (15 skills, 10 commands)</summary>
+<summary><strong>3. pm-execution</strong> — PRDs, OKRs, roadmaps, sprints, retros, release notes, stakeholder management, writing, meeting prep (17 skills, 12 commands)</summary>
 
-Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, stakeholder management, user stories, and prioritization frameworks.
+Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, stakeholder management, user stories, prioritization frameworks, general-purpose writing, meeting preparation, stakeholder updates, and weekly planning.
 
-**Skills (15):**
+**Skills (17):**
 
 - `create-prd` — Comprehensive 8-section PRD template
 - `brainstorm-okrs` — Team-level OKRs aligned with company objectives
@@ -254,15 +264,17 @@ Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, re
 - `release-notes` — User-facing release notes from tickets, PRDs, or changelogs
 - `pre-mortem` — Risk analysis with Tigers/Paper Tigers/Elephants classification
 - `stakeholder-map` — Power × Interest grid with tailored communication plan
+- `stakeholder-update` — Structured stakeholder updates, status reports, and executive summaries with audience-calibrated detail levels
 - `summarize-meeting` — Meeting transcript → decisions + action items
+- `meeting-prep` — Prepare for any PM meeting — 1:1s, stakeholder alignments, leadership reviews, and cross-functional planning sessions
+- `writer` — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations
 - `user-stories` — User stories following the 3 C's and INVEST criteria
 - `job-stories` — Job stories: When [situation], I want to [motivation], so I can [outcome]
 - `wwas` — Product backlog items in Why-What-Acceptance format
 - `test-scenarios` — Test scenarios: happy paths, edge cases, error handling
-- `dummy-dataset` — Realistic dummy datasets as CSV, JSON, SQL, or Python
-- `prioritization-frameworks` — Reference guide to 9 prioritization frameworks (Opportunity Score, ICE, RICE, MoSCoW, Kano, etc.)
+- `prioritization` — Reference guide to 9 prioritization frameworks (Opportunity Score, ICE, RICE, MoSCoW, Kano, etc.)
 
-**Commands (10):**
+**Commands (12):**
 
 - `/write-prd` — Create a PRD from a feature idea or problem statement
 - `/plan-okrs` — Brainstorm team-level OKRs
@@ -273,7 +285,9 @@ Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, re
 - `/stakeholder-map` — Map stakeholders and create a communication plan
 - `/write-stories` — Break features into backlog items (`user|job|wwa`)
 - `/test-scenarios` — Generate test scenarios from user stories
-- `/generate-data` — Create realistic dummy datasets
+- `/prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria
+- `/write-update` — Create a polished stakeholder update or status report tailored to your audience
+- `/plan-week` — Plan your week as a PM — review last week, set priorities, allocate time, and flag risks
 
 **Examples:**
 
@@ -281,11 +295,17 @@ Skills:
 - `Which prioritization framework should I use for a 50-item backlog?`
 - `Map our stakeholders for the platform migration project`
 - `What's the difference between Opportunity Score, ICE, and RICE?`
+- `Help me write an email to my VP about why we need to delay the feature launch by 2 weeks`
+- `I have a 1:1 with my manager tomorrow — help me prepare talking points`
+- `Write a weekly status update for the push notifications project`
 
 Commands:
 - `/write-prd Smart notification system that reduces alert fatigue`
 - `/sprint retro — Here are the notes from our last sprint`
 - `/write-stories job — Break down the "team dashboard" feature into job stories`
+- `/prep-meeting 1:1 with my manager about project deprioritization`
+- `/write-update Weekly progress on the Search Redesign project for leadership`
+- `/plan-week I have a product review Thursday and sprint planning Friday`
 
 </details>
 
@@ -453,14 +473,15 @@ Commands:
 </details>
 
 <details>
-<summary><strong>9. pm-vibe-coding</strong> — NEW — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging (6 skills, 6 commands)</summary>
+<summary><strong>9. pm-vibe-coding</strong> — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging, technical analysis (7 skills, 6 commands)</summary>
 
-Skills for PMs building products with AI-assisted coding tools (Cursor, Replit, GitHub Copilot, Claude Code).
+Skills for PMs building products with AI-assisted coding tools (Cursor, Replit, GitHub Copilot, Claude Code) and understanding technical systems.
 
-**Skills (6):**
+**Skills (7):**
 
 - `vibe-coding-spec` — Write a natural-language specification optimized for AI coding assistants
 - `prototype-plan` — Plan an AI-assisted prototyping session with tool selection and build sequence
+- `technical-analyst` — Technical translator for PMs — helps understand systems, codebases, APIs, and technical concepts in PM-friendly terms
 - `technical-decision-guide` — Make technical architecture decisions without deep engineering background
 - `code-review-for-pms` — Review AI-generated code from a PM perspective
 - `deploy-checklist` — Pre-launch deployment checklist for PM-builders
@@ -476,6 +497,10 @@ Skills for PMs building products with AI-assisted coding tools (Cursor, Replit, 
 - `/debug-help` — Get help debugging AI-generated code
 
 **Examples:**
+
+Skills:
+- `Explain how the in-app messaging service works from a PM perspective`
+- `Our Android opt-in flows have lower conversion than iOS — can you figure out why from the code?`
 
 Commands:
 - `/vibe-spec A job board for climate tech roles`
@@ -521,68 +546,6 @@ Commands:
 - `/learn-interview` — Practice user interview techniques
 - `/learn-ai-pm` — Learn how to evaluate and manage AI features
 - `/learn-vibe-coding` — Get started building with AI coding tools
-
-</details>
-
-<details>
-<summary><strong>12. pm-communication</strong> — Writing, meeting prep, stakeholder updates (3 skills, 2 commands)</summary>
-
-Communication skills for PMs: general-purpose writing assistant, meeting preparation, and stakeholder updates covering briefs, emails, status reports, executive summaries, and presentation prep.
-
-**Skills (3):**
-
-- `writer` — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations — adapts tone and structure to audience
-- `meeting-prep` — Prepare for any PM meeting — 1:1s, stakeholder alignments, leadership reviews, and cross-functional planning sessions with structured talking points and anticipated questions
-- `stakeholder-update` — Create structured stakeholder updates, status reports, and executive summaries with audience-calibrated detail levels
-
-**Commands (2):**
-
-- `/prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria
-- `/write-update` — Create a polished stakeholder update or status report tailored to your audience
-
-**Examples:**
-
-Skills:
-- `Help me write an email to my VP about why we need to delay the feature launch by 2 weeks`
-- `I have a 1:1 with my manager tomorrow — help me prepare talking points`
-- `Write a weekly status update for the push notifications project`
-
-Commands:
-- `/prep-meeting 1:1 with my manager about project deprioritization`
-- `/write-update Weekly progress on the Search Redesign project for leadership`
-
-</details>
-
-<details>
-<summary><strong>13. pm-thinking-tools</strong> — Thinking partner, devil's advocate, strategic clarity, technical analysis (4 skills, 3 commands)</summary>
-
-Critical thinking and analysis skills for PMs: collaborative thinking partner, constructive criticism and stress-testing, strategic clarity for team identity, and technical translation for understanding systems and codebases.
-
-**Skills (4):**
-
-- `thought-partner` — Collaborative thinking partner for exploring ideas, challenges, and decisions through structured dialogue
-- `devil-advocate` — Constructive critic and stress-tester for PM ideas, proposals, and strategies — finds weaknesses and strengthens arguments
-- `strategic-clarity` — Four-phase guided workflow for establishing team identity and strategic positioning — ABSORB, AUDIT, ARTICULATE, ALIGN
-- `technical-analyst` — Technical translator for PMs — helps understand systems, codebases, APIs, and technical concepts in PM-friendly terms
-
-**Commands (3):**
-
-- `/think` — Think through a problem collaboratively — explore ideas, surface assumptions, and find clarity on tough decisions
-- `/challenge` — Stress-test an idea, proposal, or strategy — find weaknesses and strengthen your thinking before presenting to stakeholders
-- `/plan-week` — Plan your week as a PM — review last week, set priorities, allocate time, and flag risks
-
-**Examples:**
-
-Skills:
-- `Help me think through whether we should build the new reporting dashboard or improve the existing one`
-- `Challenge my proposal to add AI-generated playlist descriptions`
-- `I just started as PM for the messaging team — help me establish strategic clarity`
-- `Explain how the in-app messaging service works from a PM perspective`
-
-Commands:
-- `/think Should we invest in improving our existing product or build something new?`
-- `/challenge [paste your PRD or proposal] Find the weaknesses`
-- `/plan-week I have a product review Thursday and sprint planning Friday`
 
 </details>
 
