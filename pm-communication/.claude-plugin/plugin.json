@@ -1,0 +1,22 @@
+{
+  "name": "pm-communication",
+  "version": "1.0.0",
+  "description": "Communication skills for PMs: general-purpose writing assistant, meeting preparation, and stakeholder updates covering briefs, emails, status reports, executive summaries, and presentation prep.",
+  "author": {
+    "name": "Tarun Narang",
+    "email": "tarunccet@gmail.com",
+    "url": "https://github.com/tarunccet/pm-skills"
+  },
+  "keywords": [
+    "product-management",
+    "communication",
+    "writing",
+    "meeting-prep",
+    "stakeholder-updates",
+    "status-reports",
+    "executive-summary",
+    "presentations"
+  ],
+  "homepage": "https://github.com/tarunccet/pm-skills",
+  "license": "MIT"
+}
