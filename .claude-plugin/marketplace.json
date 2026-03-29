@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
   "version": "2.0.0",
-  "description": "Structured AI workflows for better product decisions. 80 skills and 57 commands across 11 plugins — discovery, strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.",
+  "description": "Structured AI workflows for better product decisions. 87 skills and 62 commands across 13 plugins — discovery, strategy, execution, launch, growth, AI product management, communication, critical thinking, vibe coding, and guided learning.",
   "owner": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -67,6 +67,18 @@
       "name": "pm-vibe-coding",
       "description": "Vibe coding skills for PM-builders: write AI coding specs, plan prototypes, make technical architecture decisions, review AI-generated code, run deployment checklists, and debug with AI assistance.",
       "source": "./pm-vibe-coding",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-communication",
+      "description": "Communication skills for PMs: general-purpose writing assistant, meeting preparation, and stakeholder updates covering briefs, emails, status reports, executive summaries, and presentation prep.",
+      "source": "./pm-communication",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-thinking-tools",
+      "description": "Critical thinking and analysis skills for PMs: collaborative thinking partner, constructive criticism and stress-testing, strategic clarity for team identity, and technical translation for understanding systems and codebases.",
+      "source": "./pm-thinking-tools",
       "category": "product-management"
     },
     {

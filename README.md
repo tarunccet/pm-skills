@@ -5,7 +5,7 @@
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
-**Agentic PM Skills** is a marketplace of 80 PM skills and 57 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
+**Agentic PM Skills** is a marketplace of 87 PM skills and 62 chained workflows across 13 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
 
 From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
 
@@ -27,6 +27,13 @@ Our commands chain multiple skills into end-to-end agentic processes. Just type 
 * **Writing a PRD?** → `/write-prd`
 * **Planning a launch?** → `/plan-launch`
 * **Defining metrics?** → `/product-metrics`
+
+### 💬 Communication & Thinking
+* **Preparing for a meeting?** → `/prep-meeting`
+* **Writing a status update?** → `/write-update`
+* **Need a thinking partner?** → `/think`
+* **Stress-testing an idea?** → `/challenge`
+* **Planning your week?** → `/plan-week`
 
 ### 🤖 AI Product Management & Building (New!)
 * **Building an AI feature?** → `/[Insert your AI PM command here, e.g., /ai-product-strategy]` 
@@ -514,6 +521,68 @@ Commands:
 - `/learn-interview` — Practice user interview techniques
 - `/learn-ai-pm` — Learn how to evaluate and manage AI features
 - `/learn-vibe-coding` — Get started building with AI coding tools
+
+</details>
+
+<details>
+<summary><strong>12. pm-communication</strong> — Writing, meeting prep, stakeholder updates (3 skills, 2 commands)</summary>
+
+Communication skills for PMs: general-purpose writing assistant, meeting preparation, and stakeholder updates covering briefs, emails, status reports, executive summaries, and presentation prep.
+
+**Skills (3):**
+
+- `writer` — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations — adapts tone and structure to audience
+- `meeting-prep` — Prepare for any PM meeting — 1:1s, stakeholder alignments, leadership reviews, and cross-functional planning sessions with structured talking points and anticipated questions
+- `stakeholder-update` — Create structured stakeholder updates, status reports, and executive summaries with audience-calibrated detail levels
+
+**Commands (2):**
+
+- `/prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria
+- `/write-update` — Create a polished stakeholder update or status report tailored to your audience
+
+**Examples:**
+
+Skills:
+- `Help me write an email to my VP about why we need to delay the feature launch by 2 weeks`
+- `I have a 1:1 with my manager tomorrow — help me prepare talking points`
+- `Write a weekly status update for the push notifications project`
+
+Commands:
+- `/prep-meeting 1:1 with my manager about project deprioritization`
+- `/write-update Weekly progress on the Search Redesign project for leadership`
+
+</details>
+
+<details>
+<summary><strong>13. pm-thinking-tools</strong> — Thinking partner, devil's advocate, strategic clarity, technical analysis (4 skills, 3 commands)</summary>
+
+Critical thinking and analysis skills for PMs: collaborative thinking partner, constructive criticism and stress-testing, strategic clarity for team identity, and technical translation for understanding systems and codebases.
+
+**Skills (4):**
+
+- `thought-partner` — Collaborative thinking partner for exploring ideas, challenges, and decisions through structured dialogue
+- `devil-advocate` — Constructive critic and stress-tester for PM ideas, proposals, and strategies — finds weaknesses and strengthens arguments
+- `strategic-clarity` — Four-phase guided workflow for establishing team identity and strategic positioning — ABSORB, AUDIT, ARTICULATE, ALIGN
+- `technical-analyst` — Technical translator for PMs — helps understand systems, codebases, APIs, and technical concepts in PM-friendly terms
+
+**Commands (3):**
+
+- `/think` — Think through a problem collaboratively — explore ideas, surface assumptions, and find clarity on tough decisions
+- `/challenge` — Stress-test an idea, proposal, or strategy — find weaknesses and strengthen your thinking before presenting to stakeholders
+- `/plan-week` — Plan your week as a PM — review last week, set priorities, allocate time, and flag risks
+
+**Examples:**
+
+Skills:
+- `Help me think through whether we should build the new reporting dashboard or improve the existing one`
+- `Challenge my proposal to add AI-generated playlist descriptions`
+- `I just started as PM for the messaging team — help me establish strategic clarity`
+- `Explain how the in-app messaging service works from a PM perspective`
+
+Commands:
+- `/think Should we invest in improving our existing product or build something new?`
+- `/challenge [paste your PRD or proposal] Find the weaknesses`
+- `/plan-week I have a product review Thursday and sprint planning Friday`
 
 </details>
 
