@@ -4,11 +4,11 @@
 
 > **Attribution**: This repository is a fork of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by Paweł Huryn. It has been significantly extended and maintained by [Tarun Narang](mailto:tarunccet@gmail.com).
 
-# PM Skills Marketplace: The AI Operating System for Better Product Decisions
+# PM Skills Marketplace — 80 structured AI skills for product managers
 
 > 80 PM skills and 57 chained workflows across 11 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.
 
-Designed for Claude Code and Cowork. Skills compatible with other AI assistants.
+Natively supported on **Claude Code** and **Claude Cowork** (full plugin + command support). Skills work with any AI assistant that reads markdown — including VS Code Copilot Chat, Cursor, Gemini CLI, OpenCode, Codex CLI, Kiro, and Windsurf.
 
 ## ✨ Featured Plugins
 
@@ -124,13 +124,15 @@ claude plugin install pm-guided-learning@pm-skills
 
 ### Other AI assistants (skills only)
 
-The `skills/*/SKILL.md` files follow the universal skill format and work with any tool that reads it. Commands (`/slash-commands`) are Claude-specific.
+The `skills/*/SKILL.md` files follow the universal skill format and work with any tool that reads markdown. Full plugin + command support (via `.claude-plugin/`) is currently available on Claude Code and Claude Cowork only.
 
 | Tool | How to use | What works |
 |------|-----------|------------|
+| **VS Code Copilot Chat** | Copy skill folders to `.github/skills/` or paste SKILL.md content into `.github/copilot-instructions.md` | Skills only |
 | **Gemini CLI** | Copy skill folders to `.gemini/skills/` | Skills only |
 | **OpenCode** | Copy skill folders to `.opencode/skills/` | Skills only |
 | **Cursor** | Copy skill folders to `.cursor/skills/` | Skills only |
+| **Windsurf** | Copy skill folders to `.windsurf/skills/` | Skills only |
 | **Codex CLI** | Copy skill folders to `.codex/skills/` | Skills only |
 | **Kiro** | Copy skill folders to `.kiro/skills/` | Skills only |
 
