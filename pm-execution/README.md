@@ -1,13 +1,13 @@
 # pm-execution
 
-Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization, and more.
+Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization, general-purpose writing, meeting preparation, and stakeholder updates.
 
-## Skills (15)
+## Skills (17)
 
 - **brainstorm-okrs** — Brainstorm team-level OKRs aligned with company objectives.
 - **create-prd** — Create a Product Requirements Document using a comprehensive 8-section template covering summary, background, objectives, market segments, value propositions, solution details, and release planning.
-- **dummy-dataset** — Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script).
 - **job-stories** — Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria.
+- **meeting-prep** — Prepare for any PM meeting — 1:1s, stakeholder alignments, leadership reviews, and cross-functional planning sessions with structured talking points and anticipated questions.
 - **outcome-roadmap** — Transform an output-focused roadmap into an outcome-focused one.
 - **pre-mortem** — Run a pre-mortem analysis on a PRD.
 - **prioritization** — Unified prioritization skill with four modes: features (ICE/RICE/Opportunity Score ranking), assumptions (Impact × Risk matrix with experiment design), backlog (strategic sequencing), and general (weighted decision matrix). Includes reference to all 9 prioritization frameworks.
@@ -15,23 +15,26 @@ Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mort
 - **retro** — Facilitate a structured sprint retrospective.
 - **sprint-plan** — Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification.
 - **stakeholder-map** — Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan.
+- **stakeholder-update** — Create structured stakeholder updates, status reports, and executive summaries with audience-calibrated detail levels.
 - **summarize-meeting** — Summarize a meeting transcript into a structured template with date, participants, topic, summary points, and action items.
 - **test-scenarios** — Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes.
 - **user-stories** — Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria.
+- **writer** — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations — adapts tone and structure to audience.
 - **wwas** — Create product backlog items in Why-What-Acceptance format.
 
-## Commands (10)
+## Commands (11)
 
-- `/pm-execution:generate-data` — Generate realistic dummy datasets for testing — CSV, JSON, SQL inserts, or Python scripts.
 - `/pm-execution:meeting-notes` — Summarize a meeting transcript into structured notes with decisions, action items, and follow-ups.
 - `/pm-execution:plan-okrs` — Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results.
 - `/pm-execution:pre-mortem` — Run a pre-mortem risk analysis on a PRD, launch plan, or feature — identify what could go wrong before it does.
+- `/pm-execution:prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria.
 - `/pm-execution:sprint` — Sprint lifecycle — plan a sprint, run a retrospective, or generate release notes.
 - `/pm-execution:stakeholder-map` — Map stakeholders on a Power × Interest grid and create a tailored communication plan.
 - `/pm-execution:test-scenarios` — Generate comprehensive test scenarios from user stories or feature specs — happy paths, edge cases, and error handling.
 - `/pm-execution:transform-roadmap` — Convert a feature-based roadmap into an outcome-focused roadmap that communicates strategic intent.
 - `/pm-execution:write-prd` — Create a comprehensive Product Requirements Document from a feature idea or problem statement.
 - `/pm-execution:write-stories` — Break a feature into backlog items — user stories, job stories, or WWA format with acceptance criteria.
+- `/pm-execution:write-update` — Create a polished stakeholder update or status report tailored to your audience.
 
 ## Maintainer
 

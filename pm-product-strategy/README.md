@@ -1,11 +1,12 @@
 # pm-product-strategy
 
-Product strategy skills for PMs: vision, strategy canvas, startup canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, pricing, and monetization.
+Product strategy skills for PMs: vision, strategy canvas, startup canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, pricing, monetization, and devil's advocate stress-testing.
 
-## Skills (12)
+## Skills (13)
 
 - **ansoff-matrix** — Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification.
 - **business-model** — Generate a Business Model Canvas with all 9 building blocks.
+- **devil-advocate** — Constructive critic and stress-tester for PM ideas, proposals, and strategies — finds weaknesses and strengthens arguments.
 - **lean-canvas** — Generate a Lean Canvas business model with sections for problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue.
 - **monetization-strategy** — Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments.
 - **pestle-analysis** — Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors.
@@ -17,9 +18,10 @@ Product strategy skills for PMs: vision, strategy canvas, startup canvas, value 
 - **swot-analysis** — Perform a detailed SWOT analysis identifying strengths, weaknesses, opportunities, and threats with actionable recommendations.
 - **value-proposition** — Design a value proposition using the 6-part JTBD template (Who, Why, What before, How, What after, Alternatives), then generate marketing-ready statements for specific segments and channels.
 
-## Commands (5)
+## Commands (6)
 
 - `/pm-product-strategy:business-model` — Explore business models using Lean Canvas, Business Model Canvas, Startup Canvas, or Value Proposition frameworks.
+- `/pm-product-strategy:challenge` — Stress-test an idea, proposal, or strategy — find weaknesses and strengthen your thinking before presenting to stakeholders.
 - `/pm-product-strategy:market-scan` — Comprehensive macro environment analysis — SWOT, PESTLE, Porter's Five Forces, and Ansoff Matrix in one scan.
 - `/pm-product-strategy:pricing` — Design a pricing strategy — models, competitive analysis, willingness-to-pay estimation, and pricing experiments.
 - `/pm-product-strategy:strategy` — Create a comprehensive product strategy using the 9-section Strategy Canvas — from vision to defensibility.

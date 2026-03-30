@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "pm-vibe-coding",
-  "version": "1.0.0",
-  "description": "Vibe coding skills for PM-builders: write AI coding specs, plan prototypes, make technical decisions, review AI-generated code, and ship with confidence.",
+  "version": "1.1.0",
+  "description": "Vibe coding skills for PM-builders: write AI coding specs, plan prototypes, make technical decisions, review AI-generated code, ship with confidence, and understand codebases and technical systems in PM-friendly terms.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -15,7 +15,8 @@
     "prototyping",
     "technical-decisions",
     "deployment",
-    "debugging"
+    "debugging",
+    "technical-analysis"
   ],
   "homepage": "https://github.com/tarunccet/pm-skills",
   "license": "MIT"
