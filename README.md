@@ -1,56 +1,155 @@
-# Agentic PM Skills: The AI Operating System for Product Managers
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
+# 🧠 Agentic PM Skills
+
+### The AI Operating System for Product Managers
+
+**9 Plugins** · **83 Skills** · **56 Commands**
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
-**Agentic PM Skills** is a marketplace of PM skills and chained workflows across 9 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
+*Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
+
+[Getting Started](#-quick-start-what-are-you-doing-right-now) · [What's New](#-whats-new-in-this-fork) · [Installation](#-installation) · [All Plugins](#-available-plugins)
+
+</div>
+
+---
+
+**Agentic PM Skills** is a marketplace of PM skills and chained workflows across 9 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine.
 
 From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
 
+> [!NOTE]
+> This repository is a heavily extended and actively maintained fork of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by **Paweł Huryn**. See [What's New in This Fork](#-whats-new-in-this-fork) for details.
+
+<br />
+
 ## 🚀 The "Aha" Moment: Why Use This?
 
-Generic AI gives you walls of text. This repository gives you structure. 
+Generic AI gives you walls of text. **This repository gives you structure.**
 
-Each skill encodes a specific, proven analytical framework. When you trigger a command, the AI doesn't just guess; it walks you through a step-by-step process for assumption mapping, prioritization, and strategy definition. 
+Each skill encodes a specific, proven analytical framework. When you trigger a command, the AI doesn't just guess; it walks you through a step-by-step process for assumption mapping, prioritization, and strategy definition.
 
-**The result:** Better, faster product decisions, not just faster documents.
+> **The result:** Better, faster product decisions — not just faster documents.
 
-## ⚡ Start Here: What Are You Doing Right Now?
+<br />
+
+## ⚡ Quick Start: What Are You Doing Right Now?
 
 | I am… | Start with | Then try |
-|--------|-----------|----------|
-| **Exploring a new idea** | `/discover` | → `/strategy` → `/plan-launch` |
-| **Shipping a feature** | `/write-prd` | → `/write-stories` → `/sprint` |
-| **Preparing for a meeting** | `/prep-meeting` | → `/write-update` → `/challenge` |
-| **Launching a product** | `/plan-launch` | → `/battlecard` → `/marketing-plan` |
-| **Building a prototype** | `/plan-prototype` | → `/vibe-spec` → `/deploy-check` |
-| **Building an AI feature** | `/ai-spec` | → `/ai-model-eval` → `/responsible-ai-review` |
-| **Defining metrics** | `/north-star` | → `/design-funnel` → `/plan-tracking` |
-| **New to PM / learning** | `/learn` | → Pick any `/learn-*` module |
-| **Not sure where to start?** | `/find-skill` | Describes your task, gets routed |
+|:-------|:-----------|:---------|
+| 💡 **Exploring a new idea** | `/discover` | → `/strategy` → `/plan-launch` |
+| 📦 **Shipping a feature** | `/write-prd` | → `/write-stories` → `/sprint` |
+| 🤝 **Preparing for a meeting** | `/prep-meeting` | → `/write-update` → `/challenge` |
+| 🚀 **Launching a product** | `/plan-launch` | → `/battlecard` → `/marketing-plan` |
+| 🛠️ **Building a prototype** | `/plan-prototype` | → `/vibe-spec` → `/deploy-check` |
+| 🤖 **Building an AI feature** | `/ai-spec` | → `/ai-model-eval` → `/responsible-ai-review` |
+| 📊 **Defining metrics** | `/north-star` | → `/design-funnel` → `/plan-tracking` |
+| 🎓 **New to PM / learning** | `/learn` | → Pick any `/learn-*` module |
+| 🧭 **Not sure where to start?** | `/find-skill` | Describes your task, gets routed |
 
+<br />
+
+## 🆕 What's New in This Fork
+
+This project is a **heavily extended fork** of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by **Paweł Huryn**. The table below highlights what this fork adds beyond the upstream version:
+
+<table>
+<tr>
+<th width="200">Area</th>
+<th width="300">Upstream (<a href="https://github.com/phuryn/pm-skills">phuryn/pm-skills</a>)</th>
+<th width="300">This Fork (<a href="https://github.com/tarunccet/pm-skills">tarunccet/pm-skills</a>)</th>
+</tr>
+<tr>
+<td><strong>📦 Plugins</strong></td>
+<td>8 plugins</td>
+<td><strong>9 plugins</strong> — 3 brand-new domains added</td>
+</tr>
+<tr>
+<td><strong>🧠 Skills</strong></td>
+<td>65 skills</td>
+<td><strong>83 skills</strong> (+28% coverage)</td>
+</tr>
+<tr>
+<td><strong>⚡ Commands</strong></td>
+<td>36 commands</td>
+<td><strong>56 commands</strong> (+56% more workflows)</td>
+</tr>
+<tr>
+<td><strong>🤖 AI Product Mgmt</strong></td>
+<td>—</td>
+<td>✅ <strong>New plugin:</strong> <code>pm-ai-product-management</code> — AI specs, model eval, responsible AI, prompt engineering (8 skills, 5 commands)</td>
+</tr>
+<tr>
+<td><strong>🛠️ Vibe Coding</strong></td>
+<td>—</td>
+<td>✅ <strong>New plugin:</strong> <code>pm-vibe-coding</code> — Prototype planning, vibe specs, code review for PMs, deploy checklists (7 skills, 6 commands)</td>
+</tr>
+<tr>
+<td><strong>🎓 Guided Learning</strong></td>
+<td>—</td>
+<td>✅ <strong>New plugin:</strong> <code>pm-guided-learning</code> — Socratic-method learning modules for discovery, strategy, metrics, AI PM, and more (8 skills, 10 commands)</td>
+</tr>
+<tr>
+<td><strong>😈 Devil's Advocate</strong></td>
+<td>—</td>
+<td>✅ <strong>New skill</strong> in pm-product-strategy — Stress-test ideas, proposals, and strategies</td>
+</tr>
+<tr>
+<td><strong>🔧 Tool Compatibility</strong></td>
+<td>Claude, Gemini CLI, OpenCode, Cursor, Codex CLI, Kiro</td>
+<td>All upstream + <strong>VS Code Copilot Chat</strong> and <strong>Windsurf</strong></td>
+</tr>
+<tr>
+<td><strong>📋 Skill Quality</strong></td>
+<td>Basic frontmatter</td>
+<td>Enhanced quality standards with required sections: Purpose, Domain Context, When to Use / Not Use, Examples</td>
+</tr>
+</table>
+
+> [!TIP]
+> The original upstream skills remain fully intact. This fork **extends** — it doesn't replace. All attribution to framework authors (Teresa Torres, Marty Cagan, Alberto Savoia, etc.) is preserved.
+
+<br />
 
 ---
-*Note: This repository is a heavily extended and actively maintained fork of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by Paweł Huryn. Maintained by Tarun Narang.*
 
+## 🏗️ How It Works (Skills, Commands, Plugins)
 
-## How It Works (Skills, Commands, Plugins)
+```mermaid
+graph LR
+    A["🧑‍💼 You"] -->|"/command"| B["⚡ Command"]
+    B -->|chains| C["🧠 Skill 1"]
+    B -->|chains| D["🧠 Skill 2"]
+    B -->|chains| E["🧠 Skill 3"]
+    C --> F["📄 Structured Output"]
+    D --> F
+    E --> F
+    F -->|suggests| G["⚡ Next Command"]
 
-**Skills** are the building blocks of the marketplace. Each skill gives the AI domain knowledge, analytical frameworks, or a guided workflow for a specific PM task. Some skills also work as reusable foundations that multiple commands share. 
+    style A fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style B fill:#7B68EE,stroke:#5B4ACE,color:#fff
+    style C fill:#3CB371,stroke:#2E8B57,color:#fff
+    style D fill:#3CB371,stroke:#2E8B57,color:#fff
+    style E fill:#3CB371,stroke:#2E8B57,color:#fff
+    style F fill:#FF8C00,stroke:#CC7000,color:#fff
+    style G fill:#7B68EE,stroke:#5B4ACE,color:#fff
+```
+
+| Concept | What it is | Example |
+|:--------|:-----------|:--------|
+| **🧠 Skill** | Domain knowledge, analytical framework, or guided workflow for a specific PM task. Loaded automatically when relevant. | `opportunity-solution-tree`, `prioritization` |
+| **⚡ Command** | User-triggered workflow (`/command-name`) that chains one or more skills into an end-to-end process. | `/discover` chains: ideation → assumptions → prioritization → experiments |
+| **📦 Plugin** | Installable package grouping related skills and commands by PM domain. | `pm-product-discovery`, `pm-execution` |
 
 Skills are loaded automatically when relevant to the conversation — no explicit invocation needed. If needed (e.g., prioritizing skills over general knowledge), you can **force loading skills** with `/plugin-name:skill-name` or `/skill-name`.
 
-**Commands** are user-triggered workflows invoked with `/command-name`. They chain one or more skills into an end-to-end process. For example, `/discover` chains four skills together: brainstorm-ideas → identify-assumptions → prioritize-assumptions → brainstorm-experiments.
+Installing the marketplace gives you all 9 plugins at once. Commands are designed to flow into each other, matching the PM workflow — after any command completes, it suggests relevant next commands.
 
-**Plugins** group related skills and commands into installable packages. Each plugin covers a PM domain — discovery, strategy, execution, and so on. Installing the marketplace gives you all 11 plugins at once.
+<br />
 
-Commands use skills. Some skills serve multiple commands. Some skills (like `prioritization-frameworks` or `opportunity-solution-tree`) are standalone references the AI draws on whenever relevant — no command needed.
-
-Commands are designed to flow into each other, matching the PM workflow. After any command completes, it suggests relevant next commands — just follow the prompts.
-
-## How Vibe Coding Skills Work
+## 🛠️ How Vibe Coding Skills Work
 
 Vibe coding is the practice of building software through natural language instructions to AI coding assistants, with the human providing product direction, design judgment, and validation rather than writing code line-by-line. The `pm-vibe-coding` plugin is designed specifically to help PMs do this effectively.
 
@@ -81,7 +180,9 @@ The build sequence recommended by `prototype-plan` guides you through:
 
 At each stage, checkpoints verify you're ready to move on. The `code-review-for-pms` skill helps you review AI-generated code from a product and security lens, and `debug-with-ai` guides you when things break. Before shipping, `/deploy-check` runs through a pre-launch checklist covering security, performance, and accessibility.
 
-## Installation
+<br />
+
+## 📥 Installation
 
 ### Claude Cowork (recommended for non-developers)
 
@@ -139,12 +240,48 @@ done
 
 ---
 
-## Available Plugins
+## 📚 Available Plugins
+
+> **9 plugins** · **83 skills** · **56 commands** — covering the full PM lifecycle
+
+```mermaid
+graph TD
+    subgraph "🔍 Discover & Research"
+        A["pm-product-discovery<br/>10 skills · 5 commands"]
+        B["pm-market-research<br/>6 skills · 3 commands"]
+    end
+    subgraph "🎯 Strategize & Plan"
+        C["pm-product-strategy<br/>13 skills · 6 commands"]
+        D["pm-data-analytics<br/>7 skills · 6 commands"]
+    end
+    subgraph "⚙️ Execute & Ship"
+        E["pm-execution<br/>17 skills · 11 commands"]
+        F["pm-go-to-market<br/>7 skills · 4 commands"]
+    end
+    subgraph "🆕 New in This Fork"
+        G["pm-ai-product-management<br/>8 skills · 5 commands"]
+        H["pm-vibe-coding<br/>7 skills · 6 commands"]
+        I["pm-guided-learning<br/>8 skills · 10 commands"]
+    end
+
+    A --> C
+    B --> C
+    C --> E
+    D --> E
+    E --> F
+    G -.->|"AI features"| E
+    H -.->|"build prototypes"| E
+    I -.->|"learn any domain"| A
+
+    style G fill:#2ECC71,stroke:#27AE60,color:#fff
+    style H fill:#2ECC71,stroke:#27AE60,color:#fff
+    style I fill:#2ECC71,stroke:#27AE60,color:#fff
+```
 
 <details>
-<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, OSTs, interviews (13 skills, 5 commands)</summary>
+<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, OSTs, interviews (10 skills, 5 commands)</summary>
 
-**Skills (13):**
+**Skills (10):**
 
 - `brainstorm-ideas-existing` — Multi-perspective ideation for existing products (PM, Designer, Engineer)
 - `brainstorm-ideas-new` — Ideation for new products in initial discovery
@@ -152,13 +289,10 @@ done
 - `brainstorm-experiments-new` — Design lean startup pretotypes for new products (Alberto Savoia)
 - `identify-assumptions-existing` — Identify risky assumptions across Value, Usability, Viability, and Feasibility
 - `identify-assumptions-new` — Identify risky assumptions across 8 risk categories including Go-to-Market, Strategy, and Team
-- `prioritize-assumptions` — Prioritize assumptions using an Impact × Risk matrix with experiment suggestions
-- `prioritize-features` — Prioritize a feature backlog based on impact, effort, risk, and strategic alignment
-- `analyze-feature-requests` — Analyze and categorize customer feature requests by theme and strategic fit
+- `analyze-feature-requests` — Analyze and prioritize feature requests by theme, strategic alignment, impact, effort, and risk
 - `opportunity-solution-tree` — Build an Opportunity Solution Tree (Teresa Torres) — outcome → opportunities → solutions → experiments
 - `interview-script` — Create a structured customer interview script with JTBD probing questions
 - `summarize-interview` — Summarize an interview transcript into JTBD, satisfaction signals, and action items
-- `metrics-dashboard` — Design a product metrics dashboard with North Star, input metrics, and alert thresholds
 
 **Commands (5):**
 
@@ -369,7 +503,7 @@ Commands:
 </details>
 
 <details>
-<summary><strong>6. pm-go-to-market</strong> — Beachhead segments, ICPs, messaging, growth loops, GTM motions, battlecards, marketing ideas, positioning, product naming (9 skills, 4 commands)</summary>
+<summary><strong>6. pm-go-to-market</strong> — Beachhead segments, ICPs, messaging, growth loops, GTM motions, battlecards, marketing ideas, positioning, product naming (7 skills, 4 commands)</summary>
 
 Go-to-market strategy: beachhead segments, ideal customer profiles, messaging, growth loops, GTM motions, competitive battlecards, marketing ideas, positioning, and product naming.
 
@@ -407,7 +541,45 @@ Commands:
 </details>
 
 <details>
-<summary><strong>7. pm-vibe-coding</strong> — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging, technical analysis (7 skills, 6 commands)</summary>
+<summary><strong>7. pm-ai-product-management</strong> 🆕 — AI feature specs, model evaluation, responsible AI, prompt engineering, AI incidents (8 skills, 5 commands)</summary>
+
+Skills for the full AI product lifecycle — from evaluating models and writing AI feature specs to running responsible AI reviews, handling AI incidents, and building data strategies.
+
+**Skills (8):**
+
+- `ai-feature-definition` — Write a complete AI feature spec: model behaviour, input/output examples, confidence thresholds, fallback logic
+- `ai-model-evaluation` — Evaluate and compare LLMs, ML APIs, and fine-tuned models for product fit across quality, latency, cost, and compliance
+- `ai-build-buy-partner` — Evaluate AI capability sourcing: build, buy, fine-tune, or partner using a structured decision matrix
+- `ai-data-strategy` — Data strategy for AI products: training data, data quality, labeling, feedback loops, and retraining
+- `ai-user-research` — Research user expectations, trust calibration, and interaction patterns for AI-powered features
+- `ai-incident-response` — Handle AI model failures, quality regressions, bias incidents, and safety issues
+- `prompt-engineering` — Craft and manage production-quality prompts: system prompts, few-shot examples, chain-of-thought, and guardrails
+- `responsible-ai` — Assess AI features for ethical risks, bias, safety, fairness gaps, and regulatory compliance
+
+**Commands (5):**
+
+- `/ai-spec` — Create an AI feature specification with behaviour requirements and fallback design
+- `/ai-model-eval` — Evaluate and compare AI models or vendors for a specific use case
+- `/responsible-ai-review` — Review an AI feature for ethical risks, bias, safety, and regulatory compliance
+- `/ai-metrics` — Define success metrics for an AI feature — model quality, operational, product, and business KPIs
+- `/ai-roadmap` — Create an AI product roadmap accounting for model uncertainty, data requirements, and iterative improvement
+
+**Examples:**
+
+Skills:
+- `Evaluate GPT-4 vs Claude vs Gemini for our customer support chatbot use case`
+- `Write an AI feature spec for smart email categorization with confidence thresholds`
+- `Assess our recommendation engine for bias and fairness issues`
+
+Commands:
+- `/ai-spec Smart document summarization for legal contracts`
+- `/ai-model-eval Which LLM should we use for code review suggestions?`
+- `/responsible-ai-review Our AI hiring screening tool — check for bias and compliance`
+
+</details>
+
+<details>
+<summary><strong>8. pm-vibe-coding</strong> 🆕 — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging, technical analysis (7 skills, 6 commands)</summary>
 
 Skills for PMs building products with AI-assisted coding tools (Cursor, Replit, GitHub Copilot, Claude Code) and understanding technical systems.
 
@@ -445,7 +617,7 @@ Commands:
 </details>
 
 <details>
-<summary><strong>8. pm-guided-learning</strong> — Interactive Socratic learning modules for PM skills (8 skills, 10 commands)</summary>
+<summary><strong>9. pm-guided-learning</strong> 🆕 — Interactive Socratic learning modules for PM skills (8 skills, 10 commands)</summary>
 
 **For PM aspirants, career-switchers, and PMs leveling up into new domains.**
 
@@ -494,33 +666,44 @@ Commands:
 
 ---
 
-## About
+## 📖 About & Attribution
 
-This marketplace evolves with product practice and AI capabilities.
+<div align="center">
 
-Originally curated by Paweł Huryn. Extended and maintained by [Tarun Narang](mailto:tarunccet@gmail.com).
+*This marketplace evolves with product practice and AI capabilities.*
 
-This project builds on the original [phuryn/pm-skills](https://github.com/phuryn/pm-skills) repository. Selected skills based on the work of:
+</div>
 
-- Teresa Torres — [*Continuous Discovery Habits*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309/)
-- Marty Cagan — [*INSPIRED*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/) and [*TRANSFORMED*](https://www.amazon.com/dp/1119697336/)
-- Alberto Savoia — [*The Right It*](https://www.amazon.com/Right-Many-Ideas-Yours-Succeed/dp/0062884654)
-- Dan Olsen — [*The Lean Product Playbook*](https://www.amazon.com/dp/1118960874/)
-- Roger L. Martin — [*Playing to Win*](https://www.amazon.com/Playing-Win-Expanded-Bonus-Articles/dp/B0F25SDYWV/)
-- Ash Maurya — [*Running Lean*](https://www.amazon.com/dp/B004J4XGN6/)
-- Strategyzer — [*Business Model Generation*](https://www.amazon.com/dp/0470876417/) and [*Value Proposition Design*](https://www.amazon.com/dp/1118968050/)
-- Christina Wodtke — [*Radical Focus*](https://www.amazon.com/Radical-Focus-Achieving-Important-Objectives/dp/0996006052)
-- Anthony W. Ulwick — [*Jobs to Be Done*](https://jobs-to-be-done-book.com/)
-- Alistair Croll & Benjamin Yoskovitz — [*Lean Analytics*](https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675/)
-- Sean Ellis — [*Hacking Growth*](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X/)
-- Maja Voje — [*Go-To-Market Strategist*](https://gtmstrategist.com/)
+Originally curated by **Paweł Huryn** ([phuryn/pm-skills](https://github.com/phuryn/pm-skills)). Extended and maintained by **[Tarun Narang](mailto:tarunccet@gmail.com)**.
 
+<details>
+<summary><strong>📚 Framework Authors & References</strong></summary>
+<br />
 
-## Contributing
+Selected skills are based on the work of:
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+| Author | Work |
+|:-------|:-----|
+| Teresa Torres | [*Continuous Discovery Habits*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309/) |
+| Marty Cagan | [*INSPIRED*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/) · [*TRANSFORMED*](https://www.amazon.com/dp/1119697336/) |
+| Alberto Savoia | [*The Right It*](https://www.amazon.com/Right-Many-Ideas-Yours-Succeed/dp/0062884654) |
+| Dan Olsen | [*The Lean Product Playbook*](https://www.amazon.com/dp/1118960874/) |
+| Roger L. Martin | [*Playing to Win*](https://www.amazon.com/Playing-Win-Expanded-Bonus-Articles/dp/B0F25SDYWV/) |
+| Ash Maurya | [*Running Lean*](https://www.amazon.com/dp/B004J4XGN6/) |
+| Strategyzer | [*Business Model Generation*](https://www.amazon.com/dp/0470876417/) · [*Value Proposition Design*](https://www.amazon.com/dp/1118968050/) |
+| Christina Wodtke | [*Radical Focus*](https://www.amazon.com/Radical-Focus-Achieving-Important-Objectives/dp/0996006052) |
+| Anthony W. Ulwick | [*Jobs to Be Done*](https://jobs-to-be-done-book.com/) |
+| Alistair Croll & Benjamin Yoskovitz | [*Lean Analytics*](https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675/) |
+| Sean Ellis | [*Hacking Growth*](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X/) |
+| Maja Voje | [*Go-To-Market Strategist*](https://gtmstrategist.com/) |
 
-## Known Issue on Windows
+</details>
+
+## 🤝 Contributing
+
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## ⚠️ Known Issue on Windows
 
 If your Cowork is unstable and can't start a VM ([claude-code/issues/27010](https://github.com/anthropics/claude-code/issues/27010)), try:
 
@@ -542,6 +725,16 @@ Register-ScheduledTask -TaskName "CoworkVMServiceMonitor" `
 It solves 90% of the issues on Windows.
 The remaining 10%: open services.msc > start "Claude" service manually
 
-## License
+## 📄 License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the PM community**
+
+[⬆ Back to top](#-agentic-pm-skills)
+
+</div>
