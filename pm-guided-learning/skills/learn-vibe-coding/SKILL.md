@@ -84,7 +84,7 @@ Key questions:
 3. Does this project need to store data? Does it need user accounts?
 4. What does "done" look like for you — a working prototype for yourself, something to show users, something to share publicly?
 
-**Quiz Checkpoint**: Ask the learner to describe their scoped MVP in one sentence. Then ask: "What is the single feature that, if it didn't work, would make the whole prototype pointless?" This tests whether they can ruthlessly prioritize — the core skill of good scoping.
+**Quiz Checkpoint 1**: Ask the learner to describe their scoped MVP in one sentence. Then ask: "What is the single feature that, if it didn't work, would make the whole prototype pointless?" This tests whether they can ruthlessly prioritize — the core skill of good scoping.
 
 ### Stage 2 — Tool Selection (10–15 min)
 Based on the scoped project, the mentor walks through the tool selection decision:
@@ -97,7 +97,7 @@ The mentor makes a specific recommendation and explains how to sign up and start
 
 **Practical checkpoint**: The mentor asks the learner to open the recommended tool in their browser and describe what they see — confirming they've actually started.
 
-**Quiz Checkpoint**: Present two project descriptions and ask the learner to recommend the best tool for each, with reasoning. Example: (1) "A simple landing page with email capture" (answer: Bolt.new — no backend needed, instant preview); (2) "A full-stack app with user accounts and a database" (answer: Cursor or Replit Agent — needs backend and auth).
+**Quiz Checkpoint 2**: Present two project descriptions and ask the learner to recommend the best tool for each, with reasoning. Example: (1) "A simple landing page with email capture" (answer: Bolt.new — no backend needed, instant preview); (2) "A full-stack app with user accounts and a database" (answer: Cursor or Replit Agent — needs backend and auth).
 
 ### Stage 3 — Writing Your First Vibe Spec (15–20 min)
 The mentor guides the learner through writing a vibe spec for their project:
@@ -111,7 +111,7 @@ The mentor critiques the learner's spec draft and asks follow-up questions to im
 
 **Practical checkpoint**: The learner pastes their spec into their chosen tool and shares the first response. The mentor helps interpret it.
 
-**Quiz Checkpoint**: Ask the learner: "Look at your spec. If you removed the data model section entirely, what would the AI likely get wrong?" (Tests understanding that ambiguity in specs causes hallucinated architecture.) Then: "What is one thing you would add to this spec after seeing the AI's first response?" (Tests the iteration mindset — specs improve after the first build attempt.)
+**Quiz Checkpoint 3**: Ask the learner: "Look at your spec. If you removed the data model section entirely, what would the AI likely get wrong?" (Tests understanding that ambiguity in specs causes hallucinated architecture.) Then: "What is one thing you would add to this spec after seeing the AI's first response?" (Tests the iteration mindset — specs improve after the first build attempt.)
 
 > **Going deeper?** For a more comprehensive spec structure including API contracts, UI descriptions, and AI session headers, use the **vibe-coding-spec** skill with `/vibe-spec`.
 
@@ -128,7 +128,7 @@ For each stage, the mentor explains:
 - What to check before moving to the next stage
 - Common mistakes at that stage and how to avoid them
 
-**Quiz Checkpoint**: Given three prototype project descriptions, the learner recommends the build sequence and tool for each.
+**Quiz Checkpoint 4**: Given three prototype project descriptions, the learner recommends the build sequence and tool for each.
 
 ### Stage 5 — When Things Go Wrong (10 min)
 The mentor covers the three most common vibe coding problems:
@@ -138,7 +138,7 @@ The mentor covers the three most common vibe coding problems:
 
 > **Need deeper debugging help?** The **debug-with-ai** skill (`/debug-help`) provides a comprehensive guide to classifying errors, forming effective debugging prompts, and deciding when to fix forward vs. start over.
 
-**Quiz Checkpoint**: Present a scenario: "You paste your spec into Cursor, it generates code, but clicking the 'Submit' button does nothing. What are the first three things you should check?" (Tests whether the learner can apply the debugging mindset: check the browser console, check the network tab for failed API calls, check that the button's click handler is wired up.)
+**Quiz Checkpoint 5**: Present a scenario: "You paste your spec into Cursor, it generates code, but clicking the 'Submit' button does nothing. What are the first three things you should check?" (Tests whether the learner can apply the debugging mindset: check the browser console, check the network tab for failed API calls, check that the button's click handler is wired up.)
 
 ### Final Debrief
 The mentor closes the module with a comprehensive summary:

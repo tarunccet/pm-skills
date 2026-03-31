@@ -13,7 +13,7 @@ tags: ["vibe-coding", "specification", "ai-coding", "cursor", "replit", "prototy
 |-------|-----------|---------|
 | Product idea or feature to build | ✅ Required | "A job board for climate tech roles with GitHub sign-in" |
 | Core user flow (step-by-step) | ✅ Required | "User lands → browses jobs → applies → gets email confirmation" |
-| Target AI coding tool | 🟡 Recommended | Cursor, Replit Agent, Claude Code, Bolt.new |
+| Target AI coding tool | 🟡 Recommended | Cursor, Replit Agent, Claude Code, Bolt.new, v0.dev, Windsurf |
 | Preferred tech stack | ⚪ Optional | Next.js + Supabase + Vercel, or "let AI decide" |
 | Known constraints | ⚪ Optional | "No backend, static only" / "Must use our existing auth" |
 
@@ -138,8 +138,14 @@ Provide the 3-5 prompts to use in sequence at the start of the coding session:
 4. "Now build the [core flow] frontend"
 5. "Add authentication using [auth solution]"
 
+## Output Format
+A single markdown document with all 9 spec sections (Steps 1–9), formatted for direct paste into an AI coding assistant context window. The AI-facing spec **must include only Sections 1–9**. Keep Step 10 (Spec Iteration Guide) in a clearly separated appendix or a separate document labeled e.g. `Appendix (PM-only — do not paste into AI)` with a visible delimiter such as `----- PM-only appendix below — do not paste into AI -----`; this PM-only content is **not** pasted into the AI. Aim for completeness over brevity — a 500-word spec is better than a 100-word spec when it prevents 2 hours of back-and-forth.
+
 ### Step 10: Spec Iteration Guide
-After the AI produces its first output, the spec almost always needs revision. Include this guidance at the end of the document for the spec writer (this section is for the PM's reference, not part of the spec pasted into the AI):
+
+> `----- PM-only appendix below — do not paste into AI -----`
+
+This section is a **PM-only reference** for revising your spec after the AI produces its first output. Do **not** paste this into the AI coding assistant.
 
 **After the first build attempt, revisit these sections:**
 1. **Data model gaps**: Did the AI invent fields you didn't specify, or miss fields you need? Update the data model section and re-prompt: "Update the schema to match this revised data model: [paste updated model]"
@@ -149,9 +155,6 @@ After the AI produces its first output, the spec almost always needs revision. I
 5. **Scope additions**: Did the AI add features you didn't ask for? Remove them: "Remove [feature]. It's out of scope. Focus only on the 3 user flows in the spec"
 
 **When to rewrite vs. patch**: If the AI's first output is 70%+ aligned with the spec, iterate with targeted corrections. If the AI went in a fundamentally wrong direction (wrong architecture, wrong data model structure), rewrite the relevant spec section with more explicit constraints and start that section fresh.
-
-## Output Format
-A single markdown document with all 9 spec sections (Steps 1–9), formatted for direct paste into an AI coding assistant context window. Step 10 (Spec Iteration Guide) is a separate reference for the PM to use after the first build attempt — it is not pasted into the AI. Aim for completeness over brevity — a 500-word spec is better than a 100-word spec when it prevents 2 hours of back-and-forth.
 
 ## Example
 
