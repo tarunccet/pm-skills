@@ -279,9 +279,9 @@ graph TD
 ```
 
 <details>
-<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, OSTs, interviews (13 skills, 5 commands)</summary>
+<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, OSTs, interviews (10 skills, 5 commands)</summary>
 
-**Skills (13):**
+**Skills (10):**
 
 - `brainstorm-ideas-existing` — Multi-perspective ideation for existing products (PM, Designer, Engineer)
 - `brainstorm-ideas-new` — Ideation for new products in initial discovery
@@ -289,13 +289,10 @@ graph TD
 - `brainstorm-experiments-new` — Design lean startup pretotypes for new products (Alberto Savoia)
 - `identify-assumptions-existing` — Identify risky assumptions across Value, Usability, Viability, and Feasibility
 - `identify-assumptions-new` — Identify risky assumptions across 8 risk categories including Go-to-Market, Strategy, and Team
-- `prioritize-assumptions` — Prioritize assumptions using an Impact × Risk matrix with experiment suggestions
-- `prioritize-features` — Prioritize a feature backlog based on impact, effort, risk, and strategic alignment
-- `analyze-feature-requests` — Analyze and categorize customer feature requests by theme and strategic fit
+- `analyze-feature-requests` — Analyze and prioritize feature requests by theme, strategic alignment, impact, effort, and risk
 - `opportunity-solution-tree` — Build an Opportunity Solution Tree (Teresa Torres) — outcome → opportunities → solutions → experiments
 - `interview-script` — Create a structured customer interview script with JTBD probing questions
 - `summarize-interview` — Summarize an interview transcript into JTBD, satisfaction signals, and action items
-- `metrics-dashboard` — Design a product metrics dashboard with North Star, input metrics, and alert thresholds
 
 **Commands (5):**
 
