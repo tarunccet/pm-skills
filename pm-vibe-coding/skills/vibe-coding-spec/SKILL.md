@@ -139,7 +139,7 @@ Provide the 3-5 prompts to use in sequence at the start of the coding session:
 5. "Add authentication using [auth solution]"
 
 ### Step 10: Spec Iteration Guide
-After the AI produces its first output, the spec almost always needs revision. Include a short iteration guide at the end of the spec:
+After the AI produces its first output, the spec almost always needs revision. Include this guidance at the end of the document for the spec writer (this section is for the PM's reference, not part of the spec pasted into the AI):
 
 **After the first build attempt, revisit these sections:**
 1. **Data model gaps**: Did the AI invent fields you didn't specify, or miss fields you need? Update the data model section and re-prompt: "Update the schema to match this revised data model: [paste updated model]"
@@ -151,7 +151,7 @@ After the AI produces its first output, the spec almost always needs revision. I
 **When to rewrite vs. patch**: If the AI's first output is 70%+ aligned with the spec, iterate with targeted corrections. If the AI went in a fundamentally wrong direction (wrong architecture, wrong data model structure), rewrite the relevant spec section with more explicit constraints and start that section fresh.
 
 ## Output Format
-A single markdown document with all 10 sections, formatted for direct paste into an AI coding assistant context window. Aim for completeness over brevity — a 500-word spec is better than a 100-word spec when it prevents 2 hours of back-and-forth.
+A single markdown document with all 9 spec sections (Steps 1–9), formatted for direct paste into an AI coding assistant context window. Step 10 (Spec Iteration Guide) is a separate reference for the PM to use after the first build attempt — it is not pasted into the AI. Aim for completeness over brevity — a 500-word spec is better than a 100-word spec when it prevents 2 hours of back-and-forth.
 
 ## Example
 
