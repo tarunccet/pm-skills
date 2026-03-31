@@ -1,12 +1,12 @@
 ---
-name: monetization-strategy
+name: monetization-models
 description: "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product."
 ---
-# Monetization Strategy
+# Monetization Models
 
 ## Metadata
-- **Name**: monetization-strategy
-- **Description**: Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, pricing strategies, or business model options.
+- **Name**: monetization-models
+- **Description**: Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, pricing strategies, or business model options. For detailed pricing tiers, willingness-to-pay, and price elasticity, use `pricing-strategy`.
 - **Triggers**: monetization strategy, revenue model, pricing strategy, how to monetize, make money
 
 ## Instructions

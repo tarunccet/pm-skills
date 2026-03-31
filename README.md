@@ -5,7 +5,7 @@
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
-**Agentic PM Skills** is a marketplace of 85 PM skills and 60 chained workflows across 11 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
+**Agentic PM Skills** is a marketplace of PM skills and chained workflows across 9 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine. 
 
 From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
 
@@ -17,30 +17,19 @@ Each skill encodes a specific, proven analytical framework. When you trigger a c
 
 **The result:** Better, faster product decisions, not just faster documents.
 
-## ⚡ Start Here: The Workflows
+## ⚡ Start Here: What Are You Doing Right Now?
 
-Our commands chain multiple skills into end-to-end agentic processes. Just type the command and let the AI guide you:
-
-### 🧠 Core Product Management
-* **New idea?** → `/discover`
-* **Need strategic clarity?** → `/strategy`
-* **Writing a PRD?** → `/write-prd`
-* **Planning a launch?** → `/plan-launch`
-* **Defining metrics?** → `/product-metrics`
-
-### 💬 Communication & Thinking
-* **Preparing for a meeting?** → `/prep-meeting`
-* **Writing a status update?** → `/write-update`
-* **Stress-testing an idea?** → `/challenge`
-
-### 🤖 AI Product Management & Building (New!)
-* **Building an AI feature?** → `/[Insert your AI PM command here, e.g., /ai-product-strategy]` 
-* **Vibe coding a prototype?** → `/vibe-spec`
-* **Designing AI evaluations?** → `/[Insert your AI eval command here]`
-
-### 📚 Growth & Navigation
-* **Learning PM skills?** → `/learn`
-* **Not sure where to start?** → `/find-skill`
+| I am… | Start with | Then try |
+|--------|-----------|----------|
+| **Exploring a new idea** | `/discover` | → `/strategy` → `/plan-launch` |
+| **Shipping a feature** | `/write-prd` | → `/write-stories` → `/sprint` |
+| **Preparing for a meeting** | `/prep-meeting` | → `/write-update` → `/challenge` |
+| **Launching a product** | `/plan-launch` | → `/battlecard` → `/marketing-plan` |
+| **Building a prototype** | `/plan-prototype` | → `/vibe-spec` → `/deploy-check` |
+| **Building an AI feature** | `/ai-spec` | → `/ai-model-eval` → `/responsible-ai-review` |
+| **Defining metrics** | `/north-star` | → `/design-funnel` → `/plan-tracking` |
+| **New to PM / learning** | `/learn` | → Pick any `/learn-*` module |
+| **Not sure where to start?** | `/find-skill` | Describes your task, gets routed |
 
 
 ---
@@ -101,7 +90,7 @@ At each stage, checkpoints verify you're ready to move on. The `code-review-for-
 3. Select **Add marketplace from GitHub**
 4. Enter: `tarunccet/pm-skills`
 
-All 11 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
+All 9 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
 
 ### Claude Code (CLI)
 
@@ -110,12 +99,10 @@ All 11 plugins install automatically. You get both commands (`/discover`, `/stra
 claude plugin marketplace add tarunccet/pm-skills
 
 # Step 2: Install individual plugins
-claude plugin install pm-utilities@pm-skills
 claude plugin install pm-product-strategy@pm-skills
 claude plugin install pm-product-discovery@pm-skills 
 claude plugin install pm-market-research@pm-skills 
 claude plugin install pm-data-analytics@pm-skills
-claude plugin install pm-marketing-growth@pm-skills
 claude plugin install pm-go-to-market@pm-skills
 claude plugin install pm-execution@pm-skills
 claude plugin install pm-ai-product-management@pm-skills
@@ -205,10 +192,10 @@ Product strategy, vision, business models, pricing, macro environment analysis, 
 - `product-strategy` — Comprehensive 9-section Product Strategy Canvas (vision → defensibility)
 - `startup-canvas` — Startup Canvas combining Product Strategy (9 sections) + Business Model — an alternative to BMC and Lean Canvas for new products
 - `product-vision` — Craft an inspiring, achievable, and emotional product vision
-- `value-proposition` — 6-part JTBD value proposition (Who, Why, What before, How, What after, Alternatives)
+- `value-proposition-canvas` — 6-part JTBD value proposition (Who, Why, What before, How, What after, Alternatives)
 - `lean-canvas` — Lean Canvas business model for startups and new products
 - `business-model` — Business Model Canvas with all 9 building blocks
-- `monetization-strategy` — Brainstorm 3–5 monetization strategies with validation experiments
+- `monetization-models` — Brainstorm 3–5 monetization strategies with validation experiments
 - `pricing-strategy` — Pricing models, competitive analysis, willingness-to-pay, and price elasticity
 - `swot-analysis` — SWOT analysis with actionable recommendations
 - `pestle-analysis` — Macro environment: Political, Economic, Social, Technological, Legal, Environmental
@@ -246,7 +233,9 @@ Commands:
 
 Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, stakeholder management, user stories, prioritization frameworks, general-purpose writing, meeting preparation, and stakeholder updates.
 
-**Skills (17):**
+#### Plan & Build
+
+**Skills:**
 
 - `create-prd` — Comprehensive 8-section PRD template
 - `brainstorm-okrs` — Team-level OKRs aligned with company objectives
@@ -254,29 +243,37 @@ Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, re
 - `sprint-plan` — Sprint planning with capacity estimation, story selection, and risk identification
 - `retro` — Structured sprint retrospective facilitation
 - `release-notes` — User-facing release notes from tickets, PRDs, or changelogs
-- `pre-mortem` — Risk analysis with Tigers/Paper Tigers/Elephants classification
-- `stakeholder-map` — Power × Interest grid with tailored communication plan
-- `stakeholder-update` — Structured stakeholder updates, status reports, and executive summaries with audience-calibrated detail levels
-- `summarize-meeting` — Meeting transcript → decisions + action items
-- `meeting-prep` — Prepare for any PM meeting — 1:1s, stakeholder alignments, leadership reviews, and cross-functional planning sessions
-- `writer` — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations
 - `user-stories` — User stories following the 3 C's and INVEST criteria
 - `job-stories` — Job stories: When [situation], I want to [motivation], so I can [outcome]
 - `wwas` — Product backlog items in Why-What-Acceptance format
 - `test-scenarios` — Test scenarios: happy paths, edge cases, error handling
 - `prioritization` — Reference guide to 9 prioritization frameworks (Opportunity Score, ICE, RICE, MoSCoW, Kano, etc.)
 
-**Commands (11):**
+**Commands:**
 
 - `/write-prd` — Create a PRD from a feature idea or problem statement
 - `/plan-okrs` — Brainstorm team-level OKRs
 - `/transform-roadmap` — Convert a feature-based roadmap into outcome-focused
 - `/sprint` — Sprint lifecycle (`plan|retro|release`)
+- `/write-stories` — Break features into backlog items (`user|job|wwa`)
+- `/test-scenarios` — Generate test scenarios from user stories
+
+#### Communicate & Align
+
+**Skills:**
+
+- `pre-mortem` — Risk analysis with Tigers/Paper Tigers/Elephants classification
+- `stakeholder-map` — Power × Interest grid with tailored communication plan
+- `stakeholder-update` — Structured stakeholder updates, status reports, and executive summaries with audience-calibrated detail levels
+- `summarize-meeting` — Meeting transcript → decisions + action items
+- `meeting-prep` — Prepare for any PM meeting — 1:1s, stakeholder alignments, leadership reviews, and cross-functional planning sessions
+- `writer` — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations
+
+**Commands:**
+
 - `/pre-mortem` — Pre-mortem risk analysis on a PRD or launch plan
 - `/meeting-notes` — Summarize a meeting transcript into structured notes
 - `/stakeholder-map` — Map stakeholders and create a communication plan
-- `/write-stories` — Break features into backlog items (`user|job|wwa`)
-- `/test-scenarios` — Generate test scenarios from user stories
 - `/prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria
 - `/write-update` — Create a polished stakeholder update or status report tailored to your audience
 
@@ -300,15 +297,14 @@ Commands:
 </details>
 
 <details>
-<summary><strong>4. pm-market-research</strong> — Personas, segmentation, journey maps, market sizing, competitor analysis (7 skills, 3 commands)</summary>
+<summary><strong>4. pm-market-research</strong> — Personas, segmentation, journey maps, market sizing, competitor analysis (6 skills, 3 commands)</summary>
 
 User research and competitive analysis: personas, segmentation, journey maps, market sizing, competitor analysis, and feedback analysis.
 
-**Skills (7):**
+**Skills (6):**
 
-- `user-personas` — Create refined user personas from research data
-- `market-segments` — Identify 3–5 customer segments with demographics, JTBD, and product fit
-- `user-segmentation` — Segment users from feedback data based on behavior, JTBD, and needs
+- `research-personas` — Create refined user personas from research data
+- `user-segmentation` — Unified segmentation: market segments, user/feedback segmentation, or beachhead selection
 - `customer-journey-map` — End-to-end journey map with stages, touchpoints, emotions, and pain points
 - `market-sizing` — TAM, SAM, SOM with top-down and bottom-up approaches
 - `competitor-analysis` — Competitor strengths, weaknesses, and differentiation opportunities
@@ -335,41 +331,49 @@ Commands:
 </details>
 
 <details>
-<summary><strong>5. pm-data-analytics</strong> — SQL generation, cohort analysis, A/B test analysis (3 skills, 3 commands)</summary>
+<summary><strong>5. pm-data-analytics</strong> — SQL generation, cohort analysis, A/B test analysis, funnel analysis, event tracking, metric definition, North Star (7 skills, 6 commands)</summary>
 
-Data analytics for PMs: SQL query generation, cohort analysis, and A/B test analysis.
+Data analytics for PMs: SQL query generation, cohort analysis, A/B test analysis, funnel analysis, event tracking planning, metric definition, and North Star metric definition.
 
-**Skills (3):**
+**Skills (7):**
 
 - `sql-queries` — Generate SQL from natural language (BigQuery, PostgreSQL, MySQL)
 - `cohort-analysis` — Retention curves, feature adoption, and engagement trends by cohort
 - `ab-test-analysis` — Statistical significance, sample size validation, and ship/extend/stop recommendations
+- `product-metrics` — Complete product metrics framework: North Star, input metrics, health metrics, dashboard design, and AI metrics layer
+- `funnel-analysis` — Analyze conversion funnels: drop-off points, conversion rates, leakage hypotheses, and improvement experiments
+- `event-tracking-plan` — Design an analytics instrumentation plan: events, properties, naming conventions, and tracking spec
+- `metric-definition` — Define and distinguish operational vs vanity vs actionable metrics with full metric specs
 
-**Commands (3):**
+**Commands (6):**
 
 - `/write-query` — Generate SQL queries from natural language
 - `/analyze-cohorts` — Cohort analysis on user engagement data
 - `/analyze-test` — Analyze A/B test results
+- `/north-star` — Define your North Star Metric and supporting input metrics
+- `/design-funnel` — Analyze a conversion funnel and get improvement recommendations
+- `/plan-tracking` — Design an analytics event tracking plan
 
 **Examples:**
 
 Skills:
 - `How large a sample do I need for 95% confidence with a 2% MDE?`
 - `What retention metrics should I track for a subscription app?`
+- `Design an event tracking plan for our onboarding flow`
 
 Commands:
 - `/write-query Show me monthly active users by country for Q4 2025 (BigQuery)`
-- `/analyze-test Here are the results from our checkout flow A/B test [attach CSV]`
-- `/analyze-cohorts Weekly retention for users who signed up in January vs February`
+- `/north-star Two-sided marketplace connecting freelancers with clients`
+- `/design-funnel Our signup → activation → first purchase funnel for an e-commerce app`
 
 </details>
 
 <details>
-<summary><strong>6. pm-go-to-market</strong> — Beachhead segments, ICPs, messaging, growth loops, GTM motions, battlecards (6 skills, 3 commands)</summary>
+<summary><strong>6. pm-go-to-market</strong> — Beachhead segments, ICPs, messaging, growth loops, GTM motions, battlecards, marketing ideas, positioning, product naming (9 skills, 4 commands)</summary>
 
-Go-to-market strategy: beachhead segments, ideal customer profiles, messaging, growth loops, GTM motions, and competitive battlecards.
+Go-to-market strategy: beachhead segments, ideal customer profiles, messaging, growth loops, GTM motions, competitive battlecards, marketing ideas, positioning, and product naming.
 
-**Skills (6):**
+**Skills (9):**
 
 - `gtm-strategy` — Full GTM strategy: channels, messaging, success metrics, and launch plan
 - `beachhead-segment` — Identify the first beachhead market segment
@@ -377,93 +381,33 @@ Go-to-market strategy: beachhead segments, ideal customer profiles, messaging, g
 - `growth-loops` — Design sustainable growth loops (flywheels)
 - `gtm-motions` — Evaluate GTM motions and tools (product-led, sales-led, etc.)
 - `competitive-battlecard` — Sales-ready battlecard with objection handling and win strategies
+- `marketing-ideas` — Creative, cost-effective marketing ideas with channels and messaging
+- `positioning-ideas` — Product positioning differentiated from competitors
+- `product-name` — Product name brainstorming aligned to brand values and audience
 
-**Commands (3):**
+**Commands (4):**
 
 - `/plan-launch` — Full GTM strategy from beachhead to launch plan
 - `/growth-strategy` — Design growth loops and evaluate GTM motions
 - `/battlecard` — Create a competitive battlecard
+- `/marketing-plan` — Brainstorm marketing ideas, positioning, value props, and product names
 
 **Examples:**
 
 Skills:
 - `What's the best beachhead segment for a developer productivity tool?`
 - `Design a growth loop for a B2B SaaS with a freemium tier`
-- `Define our ICP for an AI-powered HR screening platform`
+- `Brainstorm 5 positioning angles that differentiate us from Notion`
 
 Commands:
 - `/plan-launch AI code review tool targeting mid-size engineering teams`
 - `/battlecard Our CRM vs Salesforce for the SMB market`
-- `/growth-strategy Two-sided marketplace for connecting freelancers with startups`
+- `/marketing-plan B2B analytics dashboard for e-commerce managers`
 
 </details>
 
 <details>
-<summary><strong>7. pm-marketing-growth</strong> — Marketing ideas, positioning, value props, naming, North Star metrics (5 skills, 2 commands)</summary>
-
-Product marketing and growth: marketing ideas, positioning, value proposition statements, product naming, and North Star metrics.
-
-**Skills (5):**
-
-- `marketing-ideas` — Creative, cost-effective marketing ideas with channels and messaging
-- `positioning-ideas` — Product positioning differentiated from competitors
-- `value-prop-statements` — Value proposition statements for marketing, sales, and onboarding
-- `product-name` — Product name brainstorming aligned to brand values and audience
-- `north-star-metric` — North Star Metric + input metrics with business game classification
-
-**Commands (2):**
-
-- `/market-product` — Brainstorm marketing ideas, positioning, value props, and product names
-- `/north-star` — Define your North Star Metric and supporting input metrics
-
-**Examples:**
-
-Skills:
-- `Brainstorm 5 positioning angles that differentiate us from Notion`
-- `What's a good North Star Metric for a two-sided marketplace?`
-- `Generate value prop statements for our sales team's pitch deck`
-
-Commands:
-- `/market-product B2B analytics dashboard for e-commerce managers`
-- `/north-star Two-sided marketplace connecting freelancers with clients`
-
-</details>
-
-<details>
-<summary><strong>8. pm-utilities</strong> — Resume review, legal documents, proofreading, dummy datasets (5 skills, 6 commands)</summary>
-
-PM utilities beyond core product work: resume review, legal documents, and proofreading.
-
-**Skills (4):**
-
-- `review-resume` — PM resume review and tailoring against 10 best practices (XYZ+S formula, keywords, structure)
-- `draft-nda` — Non-Disclosure Agreement with jurisdiction-appropriate clauses
-- `privacy-policy` — Privacy policy covering GDPR/CCPA compliance
-- `grammar-check` — Grammar, logic, and flow checking with targeted fixes
-
-**Commands (5):**
-
-- `/review-resume` — Comprehensive PM resume review
-- `/tailor-resume` — Tailor a resume to a specific job description
-- `/draft-nda` — Draft an NDA
-- `/privacy-policy` — Draft a privacy policy
-- `/proofread` — Check grammar, logic, and flow
-
-**Examples:**
-
-Skills:
-- `Review my PM resume against best practices [attach PDF]`
-- `Check this product announcement for grammar and clarity`
-
-Commands:
-- `/review-resume [attach your PM resume]`
-- `/tailor-resume [attach resume + paste job description]`
-- `/proofread Here's the draft of our Q1 investor update`
-
-</details>
-
-<details>
-<summary><strong>9. pm-vibe-coding</strong> — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging, technical analysis (7 skills, 6 commands)</summary>
+<summary><strong>7. pm-vibe-coding</strong> — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging, technical analysis (7 skills, 6 commands)</summary>
 
 Skills for PMs building products with AI-assisted coding tools (Cursor, Replit, GitHub Copilot, Claude Code) and understanding technical systems.
 
@@ -501,7 +445,15 @@ Commands:
 </details>
 
 <details>
-<summary><strong>10. pm-guided-learning</strong> — Interactive Socratic learning modules for PM skills (8 skills, 9 commands)</summary>
+<summary><strong>8. pm-guided-learning</strong> — Interactive Socratic learning modules for PM skills (8 skills, 10 commands)</summary>
+
+**For PM aspirants, career-switchers, and PMs leveling up into new domains.**
+
+- 🟢 **New PMs** (0-2 years) — Start with `/learn-discovery` and `/learn-metrics`
+- 🟡 **Experienced PMs entering AI** — Start with `/learn-ai-pm` and `/learn-vibe-coding`
+- 🔵 **Experienced PMs refreshing fundamentals** — Use any module as a 15-minute refresher
+
+> Already a working PM? Skip to the doing plugins (`/discover`, `/write-prd`, `/plan-launch`). Come back here when you want to sharpen a specific skill.
 
 Interactive, Socratic-method learning modules. These skills teach PM concepts through guided exercises and simulations — they don't produce deliverables, they build skills.
 
@@ -516,7 +468,7 @@ Interactive, Socratic-method learning modules. These skills teach PM concepts th
 - `learn-ai-pm` — Guided learning on AI product management: model evaluation, responsible AI, prompt engineering, and AI metrics
 - `learn-vibe-coding` — Interactive guide to getting started with vibe coding: tool selection, writing specs, building prototypes, and shipping
 
-**Commands (9):**
+**Commands (10):**
 
 - `/learn` — Discover all learning modules and get a recommendation based on your experience level
 - `/learn-discovery` — Start the discovery learning module
@@ -527,6 +479,7 @@ Interactive, Socratic-method learning modules. These skills teach PM concepts th
 - `/learn-stakeholders` — Start the stakeholder management simulation
 - `/learn-ai-pm` — Start the AI product management learning module
 - `/learn-vibe-coding` — Start the vibe coding learning module
+- `/find-skill` — Discover the right PM skill for your current situation
 
 **Examples:**
 

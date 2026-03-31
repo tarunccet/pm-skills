@@ -4,6 +4,17 @@ description: "Create a go-to-market strategy covering marketing channels, messag
 ---
 # GTM Strategy
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Product description and launch context | ✅ Required | New AI code review tool entering the developer tools market |
+| Target customer and beachhead segment | ✅ Required | Engineering managers at 50–200 person startups |
+| Launch timeline and budget context | 🟡 Recommended | "Targeting Q2 launch, $50k marketing budget" |
+| Existing positioning or messaging | ⚪ Optional | Value proposition statement, brand guidelines |
+| Competitive landscape | ⚪ Optional | 3-5 main competitors and their positioning |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ## Overview
 Create a comprehensive go-to-market strategy for a product launch. This skill covers marketing channels, messaging development, success metrics definition, and launch planning.
 

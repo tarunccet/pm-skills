@@ -7,6 +7,16 @@ description: "Create a structured customer interview script with JTBD probing qu
 
 Create a structured interview script that surfaces real insights, not just opinions. Follows "The Mom Test" principles — ask about their life, not your idea.
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Product or problem area to explore | ✅ Required | "How teams manage async communication" |
+| Target interview participant type | ✅ Required | Engineering manager at a 50–200 person startup |
+| Discovery hypothesis to probe | 🟡 Recommended | "Teams struggle with too many async channels" |
+| Previous research context | ⚪ Optional | Existing personas, prior interview themes |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ### Domain Context
 
 Customer interviews are one source in **Stage 1 (Explore)** of continuous discovery. Other sources: stakeholder interviews, usage analytics, data analytics, surveys, market trends, SEO/SEM analysis. The PM needs direct access to users, stakeholders, engineers, and designers — "without proxies." The **Product Trio** (PM + Designer + Engineer — Teresa Torres) should work together on discovery, not just the PM alone.

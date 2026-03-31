@@ -7,6 +7,16 @@ description: "Brainstorm feature ideas for a new product in initial discovery fr
 
 Multi-perspective ideation for initial product discovery of a new product. Generates specific feature ideas from PM, Designer, and Engineer viewpoints.
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Product idea or problem to solve | ✅ Required | "AI writing assistant for non-native English speakers" |
+| Target audience | ✅ Required | B2B teams, freelancers, students |
+| Market or competitive context | 🟡 Recommended | Existing competitors, market research notes |
+| Business model hypothesis | ⚪ Optional | SaaS subscription, freemium |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ### Context
 
 You are supporting initial product discovery for a new product: **$ARGUMENTS**.

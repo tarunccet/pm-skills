@@ -31,7 +31,7 @@ Ask key questions:
 
 ### Step 2: Build the Value Proposition
 
-Apply the **value-proposition** skill to produce the 6-part template:
+Apply the **value-proposition-canvas** skill to produce the 6-part template:
 
 ```
 ## Value Proposition: [Product]

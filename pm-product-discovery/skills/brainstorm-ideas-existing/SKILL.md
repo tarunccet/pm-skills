@@ -7,6 +7,16 @@ description: "Brainstorm product ideas for an existing product using multi-persp
 
 Multi-perspective ideation for continuous product discovery. Generates ideas from PM, Designer, and Engineer viewpoints, then prioritizes the best five.
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Product description and current state | ✅ Required | B2B project management SaaS, 50k MAU |
+| Desired outcome or opportunity to address | ✅ Required | "Increase 7-day retention from 28% to 40%" |
+| User research or persona context | 🟡 Recommended | Interview notes, NPS verbatims, churn reasons |
+| Opportunity Solution Tree (if exists) | ⚪ Optional | Existing OST showing mapped opportunities |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ### Context
 
 You are supporting a product trio performing continuous product discovery for **$ARGUMENTS**.

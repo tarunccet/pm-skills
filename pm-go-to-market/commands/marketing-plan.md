@@ -3,16 +3,16 @@ description: Brainstorm marketing ideas, positioning, value prop statements, and
 argument-hint: "<product or marketing challenge>"
 ---
 
-# /market-product -- Marketing Creative Toolkit
+# /marketing-plan -- Marketing Creative Toolkit
 
 Generate creative marketing assets: campaign ideas, positioning statements, value prop copy, and product naming options. All in one workflow or pick specific modules.
 
 ## Invocation
 
 ```
-/market-product AI scheduling tool for remote teams — need launch marketing
-/market-product Help me position our analytics product against enterprise competitors
-/market-product We need a name for our new developer productivity feature
+/marketing-plan AI scheduling tool for remote teams — need launch marketing
+/marketing-plan Help me position our analytics product against enterprise competitors
+/marketing-plan We need a name for our new developer productivity feature
 ```
 
 ## Workflow
@@ -37,7 +37,7 @@ Ask:
 - Generate 3-5 positioning statements differentiated from each
 - Include rationale for each positioning angle
 
-**Value Proposition Statements** — apply **value-proposition** skill (in `pm-product-strategy`) to generate marketing-ready statements:
+**Value Proposition Statements** — apply **value-proposition-canvas** skill (in `pm-product-strategy`) to generate marketing-ready statements:
 - Generate copy for marketing, sales, and onboarding contexts
 - Segment-specific variations
 - Short (tagline), medium (elevator pitch), and long (landing page) versions

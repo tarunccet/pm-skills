@@ -8,6 +8,16 @@ tags: ["vibe-coding", "prototyping", "planning", "mvp", "build-sequence"]
 
 # Prototype Plan
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| What you want to build | ✅ Required | "A waitlist page with referral tracking and email capture" |
+| Primary purpose of the prototype | ✅ Required | Validate demand before building the full product |
+| Your technical comfort level | 🟡 Recommended | "I can read code but not write it" / "Comfortable with no-code" |
+| Deadline or time constraint | ⚪ Optional | "Need a demo-ready version in 3 days" |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ## Purpose
 Create a structured plan for building a product prototype using AI coding assistants. Covers tool selection, MVP scoping, build sequence (data model → backend → frontend → deploy), and effort estimation for a solo PM-builder. This prevents the common trap of starting to code without a plan and ending up with a broken half-built prototype.
 
