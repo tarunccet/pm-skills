@@ -32,6 +32,10 @@ Different AI tools interpret specs differently:
 - **Replit Agent**: Needs clear deployment targets and dependency lists
 - **Claude Code**: Benefits from step-by-step sequencing and explicit output formats
 - **GitHub Copilot**: Responds well to inline comments explaining intent
+- **Bolt.new / v0.dev**: Best with focused UI descriptions; keep backend concerns separate
+- **Windsurf**: Works well with multi-file change descriptions and clear module boundaries
+
+**Context window considerations**: Long specs (1500+ words) may need to be chunked when pasting into tools with smaller context windows. For Replit Agent and Bolt.new, lead with the problem statement and core flows — move API contracts and detailed schemas to follow-up prompts. For Cursor and Claude Code, paste the full spec upfront since they handle longer contexts well.
 
 ## When to Use
 - Use when starting a new product prototype with an AI coding assistant
@@ -134,8 +138,20 @@ Provide the 3-5 prompts to use in sequence at the start of the coding session:
 4. "Now build the [core flow] frontend"
 5. "Add authentication using [auth solution]"
 
+### Step 10: Spec Iteration Guide
+After the AI produces its first output, the spec almost always needs revision. Include a short iteration guide at the end of the spec:
+
+**After the first build attempt, revisit these sections:**
+1. **Data model gaps**: Did the AI invent fields you didn't specify, or miss fields you need? Update the data model section and re-prompt: "Update the schema to match this revised data model: [paste updated model]"
+2. **Flow mismatches**: Did the AI implement a flow differently than intended? Clarify the specific step: "In the [flow name] flow, step 3 should do [X] instead of [Y]. Here's the updated flow: [paste]"
+3. **Tech stack substitutions**: Did the AI swap a library or tool you specified? Explicitly correct it: "Replace [what AI used] with [what you specified]. Here's why: [reason]"
+4. **Missing error handling**: The first pass rarely includes proper error states. Add: "For every form submission and API call, add: loading state, success confirmation, and user-friendly error message"
+5. **Scope additions**: Did the AI add features you didn't ask for? Remove them: "Remove [feature]. It's out of scope. Focus only on the 3 user flows in the spec"
+
+**When to rewrite vs. patch**: If the AI's first output is 70%+ aligned with the spec, iterate with targeted corrections. If the AI went in a fundamentally wrong direction (wrong architecture, wrong data model structure), rewrite the relevant spec section with more explicit constraints and start that section fresh.
+
 ## Output Format
-A single markdown document with all 9 sections, formatted for direct paste into an AI coding assistant context window. Aim for completeness over brevity — a 500-word spec is better than a 100-word spec when it prevents 2 hours of back-and-forth.
+A single markdown document with all 10 sections, formatted for direct paste into an AI coding assistant context window. Aim for completeness over brevity — a 500-word spec is better than a 100-word spec when it prevents 2 hours of back-and-forth.
 
 ## Example
 
