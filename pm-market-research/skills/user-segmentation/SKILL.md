@@ -1,12 +1,15 @@
 ---
-name: segmentation
+name: user-segmentation
 description: "Unified segmentation skill with three modes: market segmentation (identify 3-5 opportunity segments with JTBD and fit analysis), user segmentation (cluster existing users from feedback data by behavior and needs), or beachhead selection (evaluate candidate segments against burning pain, WTP, winnability, and referral potential to pick the best launch segment). Use when exploring market opportunities, building a segmentation model from user data, or choosing where to focus first."
 category: research
 complexity: advanced
 tags: ["segmentation", "market-segments", "user-segmentation", "beachhead", "jtbd", "go-to-market"]
 ---
 
-# Segmentation
+# User Segmentation
+
+### When to Use
+Use for segmenting users from existing feedback/survey data (user mode), for strategic market segments (market mode), or for picking your best launch segment (beachhead mode). For detailed individual personas from research, use `research-personas`.
 
 ## Purpose
 Answer the right segmentation question for your current stage — whether you're exploring a market for opportunity sizing, clustering your existing users to target them differently, or picking the single best segment to dominate first at launch.

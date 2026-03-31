@@ -1,9 +1,12 @@
 ---
-name: user-personas
+name: research-personas
 description: "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions."
 ---
 
-# User Personas
+# Research Personas
+
+### When to Use
+Use for creating personas from research data. For market-level segmentation, use `user-segmentation`. For strategic market segments, use `user-segmentation` (market mode).
 
 ## Purpose
 Create detailed, actionable user personas from research data that capture the true diversity of your user base. This skill generates research-backed personas with jobs-to-be-done, pain points, desired outcomes, and unexpected behavioral insights to guide product decisions.

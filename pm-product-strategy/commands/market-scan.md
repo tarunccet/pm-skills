@@ -17,17 +17,29 @@ Run multiple strategic analysis frameworks to understand your competitive and ma
 
 ## Workflow
 
-### Step 1: Understand the Context
+### Step 1: Understand the Strategic Question
 
 Ask:
 - What product, company, or market are you analyzing?
+- **What strategic question are you trying to answer?** (This determines which framework to use)
 - What's the purpose? (strategic planning, market entry, investor prep, annual review)
-- Any specific frameworks you want to focus on? Or run all four?
 - What's your current position in this market?
 
-### Step 2: Run the Analysis
+### Step 2: Recommend the Right Framework
 
-Apply four skills in sequence, each building on insights from the previous:
+Based on the strategic question, recommend ONE primary framework:
+
+- **"Should we enter a new market / launch a new product?"** → **Ansoff Matrix** (growth direction and risk)
+- **"What external forces are affecting our business?"** → **PESTLE** (macro environment scanning)
+- **"How competitive is this market? Can we win?"** → **Porter's Five Forces** (industry attractiveness)
+- **"What are our strengths and where are we exposed?"** → **SWOT** (internal + external situation)
+- **"I need a full strategic overview"** → Run all four (warn the user this is comprehensive and time-intensive)
+
+Explain your recommendation in 1-2 sentences, then ask: "Shall I proceed with [framework]?"
+
+### Step 3: Run the Primary Framework
+
+Apply the selected skill:
 
 **SWOT Analysis** (apply **swot-analysis** skill):
 - Internal: Strengths and Weaknesses
@@ -46,62 +58,23 @@ Apply four skills in sequence, each building on insights from the previous:
 - Market penetration, market development, product development, diversification
 - Risk-adjusted growth opportunities
 
-### Step 3: Synthesize
-
-Cross-reference findings across frameworks to identify:
-- **Converging signals**: What multiple frameworks agree on
-- **Strategic imperatives**: Actions that appear critical across analyses
-- **Key risks**: Threats and forces to mitigate
-- **Growth opportunities**: Where the best risk-adjusted opportunities lie
-
 ### Step 4: Generate Report
 
 ```
-## Strategic Market Scan: [Market/Product]
+## Strategic Analysis: [Market/Product]
 
 **Date**: [today]
-**Purpose**: [strategic planning / market entry / etc.]
+**Strategic Question**: [the user's question]
+**Primary Framework Used**: [chosen framework]
 
-### Executive Summary
-[5-7 sentences covering the strategic situation and key recommendations]
+### [Framework Name] Analysis
+[Full framework output]
 
-### SWOT Analysis
-| Strengths | Weaknesses |
-|-----------|-----------|
-| [internal positives] | [internal negatives] |
-
-| Opportunities | Threats |
-|-------------|---------|
-| [external positives] | [external negatives] |
-
-**SWOT Actions**: [leverage S+O, mitigate W+T]
-
-### PESTLE Analysis
-| Factor | Current State | Impact | Trend | Timeframe |
-|--------|-------------|--------|-------|-----------|
-
-### Porter's Five Forces
-| Force | Intensity | Key Drivers | Implications |
-|-------|----------|------------|-------------|
-
-**Industry Attractiveness**: [High / Medium / Low]
-
-### Ansoff Growth Matrix
-| Strategy | Opportunity | Risk Level | Investment | Priority |
-|----------|-----------|-----------|-----------|----------|
-| Market Penetration | [specifics] | Low | [est.] | [H/M/L] |
-| Market Development | [specifics] | Medium | [est.] | [H/M/L] |
-| Product Development | [specifics] | Medium | [est.] | [H/M/L] |
-| Diversification | [specifics] | High | [est.] | [H/M/L] |
-
-### Cross-Framework Synthesis
-**Converging signals**: [what all frameworks agree on]
-**Strategic imperatives**: [must-do actions]
-**Key risks**: [highest-priority threats]
-**Best opportunities**: [risk-adjusted growth plays]
+### Key Findings
+[5-7 sentences summarizing the strategic situation and key recommendations]
 
 ### Strategic Recommendations
-1. [Recommendation with supporting evidence from multiple frameworks]
+1. [Recommendation with supporting evidence]
 2. ...
 3. ...
 
@@ -112,11 +85,15 @@ Cross-reference findings across frameworks to identify:
 
 Save as markdown.
 
-### Step 5: Offer Next Steps
+### Step 5: Offer Additional Frameworks
 
-- "Want me to **build a product strategy** based on these findings?"
-- "Should I **analyze specific competitors** identified in Porter's analysis?"
-- "Want me to **design a pricing strategy** for the market penetration opportunity?"
+After completing the primary analysis, suggest:
+
+> "Want to deepen the analysis? Here are the frameworks that would complement this most:
+> - [Framework 1]: [one sentence on what it would add]
+> - [Framework 2]: [one sentence on what it would add]"
+
+Let the user choose whether to layer on additional frameworks.
 
 ## Notes
 

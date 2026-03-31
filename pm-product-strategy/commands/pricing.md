@@ -17,6 +17,16 @@ Build a pricing strategy from first principles: analyze pricing models, estimate
 
 ## Workflow
 
+### Step 0: Triage — What Kind of Pricing Question Is This?
+
+**First, ask the user:**
+
+> "Are you exploring **how to charge** (pricing models, tiers, willingness-to-pay) or **what to charge for** (revenue streams, monetization approaches)?"
+
+- **"How to charge"** → This is a pricing design question. Proceed through Steps 1–5 using the **pricing-strategy** skill focused on tiers, price points, and packaging.
+- **"What to charge for"** → This is a monetization question. Apply the **monetization-models** skill to explore revenue stream options (subscription, marketplace take rate, freemium, usage-based, etc.) before proceeding to pricing design.
+- **"Both"** → Start with monetization model selection (Step 1a), then proceed to pricing design (Steps 1–5).
+
 ### Step 1: Understand the Pricing Context
 
 Ask:
@@ -28,7 +38,7 @@ Ask:
 
 ### Step 2: Analyze Pricing Models
 
-Apply the **pricing-strategy** and **monetization-strategy** skills:
+Apply the **pricing-strategy** and **monetization-models** skills:
 
 Evaluate applicable models:
 - **Flat-rate**: Simple, predictable — best for commoditized products

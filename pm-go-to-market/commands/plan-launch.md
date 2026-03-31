@@ -28,7 +28,7 @@ Ask:
 
 ### Step 2: Define Beachhead Segment
 
-Apply the **segmentation** skill in `beachhead` mode:
+Apply the **user-segmentation** skill in `beachhead` mode:
 
 - Evaluate potential market segments against:
   - Burning pain (how urgently they need this)

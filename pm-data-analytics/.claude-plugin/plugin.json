@@ -1,7 +1,7 @@
 {
   "name": "pm-data-analytics",
-  "version": "1.0.2",
-  "description": "Data analytics skills for PMs: SQL query generation, cohort analysis, A/B test analysis, and a unified product metrics framework covering North Star metric selection, input metrics, dashboard design, and AI-specific metrics layers.",
+  "version": "1.1.0",
+  "description": "Data analytics skills for PMs: SQL query generation, cohort analysis, A/B test analysis, funnel analysis, event tracking planning, metric definition, product metrics framework, and North Star metric definition.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -17,7 +17,9 @@
     "metrics",
     "kpi",
     "ai-metrics",
-    "dashboard"
+    "dashboard",
+    "funnel-analysis",
+    "event-tracking"
   ],
   "homepage": "https://github.com/tarunccet/pm-skills",
   "license": "MIT"

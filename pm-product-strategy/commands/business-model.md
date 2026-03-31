@@ -129,7 +129,7 @@ Apply the **startup-canvas** skill to produce a Startup Canvas with 9 strategy s
 
 Best for: Refining messaging, understanding user value, product-market fit analysis.
 
-Apply the **value-proposition** skill to produce a JTBD-framed value proposition:
+Apply the **value-proposition-canvas** skill to produce a JTBD-framed value proposition:
 
 ```
 ## Value Proposition: [Product]

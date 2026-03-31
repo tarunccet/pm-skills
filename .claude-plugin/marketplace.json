@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
-  "version": "2.0.0",
-  "description": "Structured AI workflows for better product decisions. 85 skills and 60 commands across 11 plugins — discovery, strategy, execution, launch, growth, AI product management, vibe coding, and guided learning.",
+  "version": "2.1.0",
+  "description": "Structured AI workflows for better product decisions. 9 plugins covering discovery, strategy, execution, research, analytics, go-to-market, AI product management, vibe coding, and guided learning.",
   "owner": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -41,26 +41,14 @@
     },
     {
       "name": "pm-data-analytics",
-      "description": "Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze user data, generate queries, and identify retention patterns.",
+      "description": "Data analytics skills for PMs: SQL query generation, cohort analysis, A/B test analysis, funnel analysis, event tracking planning, metric definition, and North Star metric definition.",
       "source": "./pm-data-analytics",
       "category": "product-management"
     },
     {
       "name": "pm-go-to-market",
-      "description": "Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, and ideal customer profiles.",
+      "description": "Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, ideal customer profiles, marketing ideas, positioning, product naming, and marketing plans.",
       "source": "./pm-go-to-market",
-      "category": "product-management"
-    },
-    {
-      "name": "pm-marketing-growth",
-      "description": "Product marketing and growth skills: marketing ideas, value proposition statements, North Star metrics, product naming, and positioning.",
-      "source": "./pm-marketing-growth",
-      "category": "product-management"
-    },
-    {
-      "name": "pm-utilities",
-      "description": "PM utility skills: resume review, NDA drafting, privacy policy generation, grammar/flow checking, dummy dataset generation, and skill discovery. Essential tools for product managers beyond core product work.",
-      "source": "./pm-utilities",
       "category": "product-management"
     },
     {

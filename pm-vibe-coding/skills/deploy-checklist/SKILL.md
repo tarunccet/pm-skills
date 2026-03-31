@@ -8,6 +8,13 @@ tags: ["vibe-coding", "deployment", "launch", "checklist", "devops", "security"]
 
 # Deploy Checklist
 
+> ⚠️ **This checklist helps you prepare for deployment, but it is NOT a substitute for engineering review.** Before any production deployment, ensure:
+> - A qualified engineer has reviewed the code
+> - Security review has been completed (especially auth, data handling, API keys)
+> - Load/performance testing appropriate to expected traffic has been done
+>
+> This checklist covers what a PM-builder can verify independently. Flag items you can't verify yourself — those are the ones that need engineering support.
+
 ## Purpose
 A structured pre-launch checklist for PM-builders deploying their first product or prototype. Covers the basics that AI-generated code often misses: environment variables, SSL, database backups, monitoring, error tracking, and analytics. Prevents the embarrassment of shipping with debug logs, exposed secrets, or no error visibility.
 
@@ -119,3 +126,11 @@ For a Next.js + Supabase app deployed to Vercel, before sharing with beta users:
 - ✅ SSL auto-configured by Vercel on the default `.vercel.app` domain
 - ✅ Tested core sign-up flow on mobile (iPhone Safari) — works correctly
 - ❌ **BLOCKER**: Supabase RLS not enabled on `signups` table — anyone with the anon key can read all signups. Enable RLS and add policy: `select for authenticated users only`
+
+### 🛑 Before You Ship
+The items above are what YOU can verify. The following require engineering support:
+- Security audit of auth and data handling
+- Infrastructure review (scaling, monitoring, alerts)
+- Dependency audit (outdated packages, known CVEs)
+
+→ Share this checklist with an engineer before going live.
