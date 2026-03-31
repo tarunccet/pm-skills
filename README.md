@@ -4,17 +4,13 @@
 
 ### The AI Operating System for Product Managers
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
-[![Skills](https://img.shields.io/badge/Skills-83-blue?style=for-the-badge&logo=bookstack&logoColor=white)](#available-plugins)
-[![Commands](https://img.shields.io/badge/Commands-56-purple?style=for-the-badge&logo=terminal&logoColor=white)](#available-plugins)
-[![Plugins](https://img.shields.io/badge/Plugins-9-orange?style=for-the-badge&logo=puzzle-piece&logoColor=white)](#available-plugins)
-
-<br />
+**9 Plugins** · **83 Skills** · **56 Commands**
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
 *Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
+
+[Getting Started](#-quick-start-what-are-you-doing-right-now) · [What's New](#-whats-new-in-this-fork) · [Installation](#-installation) · [All Plugins](#-available-plugins)
 
 </div>
 
