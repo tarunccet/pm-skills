@@ -8,8 +8,7 @@ tags: ["value-proposition", "jtbd", "marketing-copy", "positioning", "customer-v
 
 # Value Proposition Canvas
 
-### When to Use
-Use for crafting your strategic value proposition using the 6-part JTBD framework. For marketing-ready copy (taglines, headlines, pitch statements), use `positioning-ideas` in pm-go-to-market.
+> **Quick reference:** Use for crafting your strategic value proposition using the 6-part JTBD framework. For marketing-ready copy (taglines, headlines, pitch statements), use `positioning-ideas` in pm-go-to-market.
 
 ## Purpose
 Develop a comprehensive value proposition in two layers: first, a strategic JTBD-grounded value prop that clarifies *why* customers should choose your product; second, marketing-ready statements that translate that strategy into copy for specific segments, channels, and use cases.
@@ -33,8 +32,8 @@ Jobs-to-be-Done (JTBD) framework focuses on the progress the customer is trying 
 - Use when expanding to a new customer segment and need tailored messaging
 
 ## When NOT to Use
-- Don't use when you need full market segmentation (use the `segmentation` skill instead)
-- Don't use when you need product positioning against competitors (use `competitor-analysis` in battlecard mode)
+- Don't use when you need full market segmentation (use the `user-segmentation` skill instead)
+- Don't use when you need product positioning against competitors (use `competitive-battlecard` in pm-go-to-market)
 
 ## Instructions
 

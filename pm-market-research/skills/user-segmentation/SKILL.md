@@ -8,8 +8,7 @@ tags: ["segmentation", "market-segments", "user-segmentation", "beachhead", "jtb
 
 # User Segmentation
 
-### When to Use
-Use for segmenting users from existing feedback/survey data (user mode), for strategic market segments (market mode), or for picking your best launch segment (beachhead mode). For detailed individual personas from research, use `research-personas`.
+> **Quick reference:** Use for segmenting users from existing feedback/survey data (user mode), for strategic market segments (market mode), or for picking your best launch segment (beachhead mode). For detailed individual personas from research, use `research-personas`.
 
 ## Purpose
 Answer the right segmentation question for your current stage — whether you're exploring a market for opportunity sizing, clustering your existing users to target them differently, or picking the single best segment to dominate first at launch.

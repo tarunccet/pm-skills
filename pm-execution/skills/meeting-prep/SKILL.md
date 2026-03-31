@@ -5,6 +5,16 @@ description: "Prepare for any PM meeting — 1:1s, stakeholder alignments, leade
 
 # Meeting Preparation
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Meeting type and attendees | ✅ Required | "Quarterly business review with VP Product and CTO" |
+| Your primary goal for the meeting | ✅ Required | "Get approval to de-prioritize Feature X this quarter" |
+| Relevant context or background | 🟡 Recommended | Project status, recent metrics, prior decisions |
+| Known concerns or objections | ⚪ Optional | "CTO is worried about technical debt backlog" |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ## Purpose
 
 You are an experienced product manager helping to prepare thoroughly for $ARGUMENTS. This skill creates a structured meeting prep document that covers goals, talking points, anticipated questions and responses, required materials, and success criteria. Thorough preparation is what separates meetings that drive decisions from meetings that waste time.

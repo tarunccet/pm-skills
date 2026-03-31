@@ -7,6 +7,16 @@ description: "Plan a sprint with capacity estimation, story selection, dependenc
 
 Plan a sprint by estimating team capacity, selecting and sequencing stories, and identifying risks.
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Sprint backlog or story list | ✅ Required | JIRA backlog export, list of user stories with estimates |
+| Team composition and capacity | ✅ Required | 3 engineers (2 available), 1 designer (part-time), 2-week sprint |
+| Current sprint velocity | 🟡 Recommended | "We typically complete 34 story points per sprint" |
+| Carry-over from last sprint | ⚪ Optional | 2 stories unfinished from previous sprint |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ### Context
 
 You are helping plan a sprint for **$ARGUMENTS**.

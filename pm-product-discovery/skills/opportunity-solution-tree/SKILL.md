@@ -7,6 +7,16 @@ description: "Build an Opportunity Solution Tree (OST) to structure product disc
 
 A visual framework for structuring continuous product discovery. Connects a desired **outcome** to customer **opportunities**, possible **solutions**, and **experiments** to validate them.
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Desired outcome (measurable) | ✅ Required | "Increase 7-day retention from 28% to 40%" |
+| Product description | ✅ Required | B2B collaboration tool, enterprise segment |
+| Customer research / known pain points | 🟡 Recommended | Interview themes, NPS feedback, churn exit surveys |
+| Existing solution ideas to evaluate | ⚪ Optional | Feature backlog, team ideas |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ### Domain Context
 
 The **Opportunity Solution Tree** (Teresa Torres, *Continuous Discovery Habits*) is the backbone of modern product discovery. It prevents teams from jumping to solutions by forcing them to first map the opportunity space.

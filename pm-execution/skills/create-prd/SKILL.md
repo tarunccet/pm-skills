@@ -5,6 +5,17 @@ description: "Create a Product Requirements Document using a comprehensive 8-sec
 
 # Create a Product Requirements Document
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Feature idea or problem statement | ✅ Required | "Smart notification batching to reduce alert fatigue" |
+| Target user segment | ✅ Required | Enterprise teams using Slack integrations |
+| Business objective or outcome | ✅ Required | Reduce notification-driven churn by 15% |
+| User research or discovery findings | 🟡 Recommended | Interview quotes, NPS feedback, usage data |
+| Technical constraints | ⚪ Optional | Existing API limits, platform restrictions |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ## Purpose
 
 You are an experienced product manager responsible for creating a comprehensive Product Requirements Document (PRD) for $ARGUMENTS. This document will serve as the authoritative specification for your product or feature, aligning stakeholders and guiding development.

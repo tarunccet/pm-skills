@@ -8,6 +8,17 @@ tags: ["vibe-coding", "specification", "ai-coding", "cursor", "replit", "prototy
 
 # Vibe Coding Spec
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Product idea or feature to build | ✅ Required | "A job board for climate tech roles with GitHub sign-in" |
+| Core user flow (step-by-step) | ✅ Required | "User lands → browses jobs → applies → gets email confirmation" |
+| Target AI coding tool | 🟡 Recommended | Cursor, Replit Agent, Claude Code, Bolt.new |
+| Preferred tech stack | ⚪ Optional | Next.js + Supabase + Vercel, or "let AI decide" |
+| Known constraints | ⚪ Optional | "No backend, static only" / "Must use our existing auth" |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ## Purpose
 Generate a comprehensive "vibe spec" — a structured natural-language specification document designed to be fed directly into AI coding assistants (Cursor, GitHub Copilot, Replit Agent, Claude Code, etc.) to build a working product. A good vibe spec eliminates back-and-forth with the AI by front-loading decisions, context, and constraints.
 

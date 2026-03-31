@@ -4,6 +4,17 @@ description: "Create a comprehensive product strategy using the 9-section Produc
 ---
 # Product Strategy Canvas
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Product description and current state | ✅ Required | B2B project management tool, 2 years old, 15k paying customers |
+| Target market and competitive landscape | ✅ Required | Mid-market teams, competing with Asana and Linear |
+| Business objectives | 🟡 Recommended | "Reach $10M ARR in 18 months" |
+| Existing customer research / data | 🟡 Recommended | NPS scores, churn reasons, top customer segments |
+| Current strengths and constraints | ⚪ Optional | Engineering team size, existing partnerships |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ## Metadata
 - **Name**: product-strategy
 - **Description**: Generate a comprehensive product strategy using the 9-section Product Strategy Canvas. Covers vision, market segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility.

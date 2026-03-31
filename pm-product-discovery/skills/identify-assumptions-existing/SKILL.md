@@ -7,6 +7,16 @@ description: "Identify risky assumptions for a feature idea in an existing produ
 
 Devil's advocate analysis to surface risky assumptions across four risk areas.
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Feature idea or proposal to stress-test | ✅ Required | "Add AI-powered meeting summaries to our Slack bot" |
+| Product context (what exists today) | ✅ Required | Existing product, user base, technical stack |
+| Target user segment | 🟡 Recommended | Enterprise teams, 500+ employees |
+| Supporting research or PRD | ⚪ Optional | User interviews, prototype feedback |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ### Context
 
 You are stress-testing a feature idea for **$ARGUMENTS**.

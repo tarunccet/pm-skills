@@ -7,6 +7,16 @@ description: "Summarize a customer interview transcript into a structured templa
 
 Transform an interview transcript into a structured summary focused on Jobs to Be Done, satisfaction, and action items.
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Interview transcript | ✅ Required | Raw text, PDF, or audio transcription |
+| Product or discovery context | ✅ Required | What product area or hypothesis was being explored |
+| Interviewee type | 🟡 Recommended | Enterprise buyer, end user, churned customer |
+| Research questions the interview was trying to answer | ⚪ Optional | "Why do users abandon setup?" |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ### Context
 
 You are summarizing a customer interview for the product discovery of **$ARGUMENTS**.

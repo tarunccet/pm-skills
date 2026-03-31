@@ -6,7 +6,7 @@ description: "Create refined user personas from research data — 3 personas wit
 # Research Personas
 
 ### When to Use
-Use for creating personas from research data. For market-level segmentation, use `user-segmentation`. For strategic market segments, use `user-segmentation` (market mode).
+Use for creating personas from research data (interviews, surveys, usability sessions). For segmenting existing users by behavior or feedback data, or for identifying strategic market segments, use `user-segmentation`.
 
 ## Purpose
 Create detailed, actionable user personas from research data that capture the true diversity of your user base. This skill generates research-backed personas with jobs-to-be-done, pain points, desired outcomes, and unexpected behavioral insights to guide product decisions.

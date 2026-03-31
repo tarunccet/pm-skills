@@ -5,6 +5,17 @@ description: "Create structured stakeholder updates, status reports, and executi
 
 # Stakeholder Update
 
+### What You'll Need
+| Input | Required? | Example |
+|-------|-----------|---------|
+| Project or initiative name | ✅ Required | "Search Redesign — Q1 2026" |
+| Update type and audience | ✅ Required | Weekly update for VP Product and Engineering leads |
+| Current status and key progress | ✅ Required | Shipped user testing, starting development Phase 2 |
+| Risks or blockers | 🟡 Recommended | "Dependency on Design team bottlenecked until March 15" |
+| Key decisions needed | ⚪ Optional | "Approval needed on scope trade-off for deadline" |
+
+> **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
+
 ## Purpose
 
 You are an experienced product manager preparing a stakeholder update for $ARGUMENTS. This skill creates structured status updates, progress reports, and executive summaries that keep stakeholders informed, surface risks early, and make clear asks. The goal is to build trust through transparent, consistent communication that respects the reader's time.

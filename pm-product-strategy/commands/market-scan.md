@@ -33,7 +33,7 @@ Based on the strategic question, recommend ONE primary framework:
 - **"What external forces are affecting our business?"** → **PESTLE** (macro environment scanning)
 - **"How competitive is this market? Can we win?"** → **Porter's Five Forces** (industry attractiveness)
 - **"What are our strengths and where are we exposed?"** → **SWOT** (internal + external situation)
-- **"I need a full strategic overview"** → Run all four (warn the user this is comprehensive and time-intensive)
+- **"I need a full strategic overview"** → Run all four frameworks (SWOT + PESTLE + Porter's Five Forces + Ansoff Matrix) — warn the user this produces a comprehensive report and takes significantly more time
 
 Explain your recommendation in 1-2 sentences, then ask: "Shall I proceed with [framework]?"
 
