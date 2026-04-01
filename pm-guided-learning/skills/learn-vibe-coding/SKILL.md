@@ -84,6 +84,8 @@ Key questions:
 3. Does this project need to store data? Does it need user accounts?
 4. What does "done" look like for you — a working prototype for yourself, something to show users, something to share publicly?
 
+**Quiz Checkpoint 1**: Ask the learner to describe their scoped MVP in one sentence. Then ask: "What is the single feature that, if it didn't work, would make the whole prototype pointless?" This tests whether they can ruthlessly prioritize — the core skill of good scoping.
+
 ### Stage 2 — Tool Selection (10–15 min)
 Based on the scoped project, the mentor walks through the tool selection decision:
 1. Does the project need a backend / database? (If no → Bolt.new or v0.dev)
@@ -94,6 +96,8 @@ Based on the scoped project, the mentor walks through the tool selection decisio
 The mentor makes a specific recommendation and explains how to sign up and start a new project with that tool.
 
 **Practical checkpoint**: The mentor asks the learner to open the recommended tool in their browser and describe what they see — confirming they've actually started.
+
+**Quiz Checkpoint 2**: Present two project descriptions and ask the learner to recommend the best tool for each, with reasoning. Example: (1) "A simple landing page with email capture" (answer: Bolt.new — no backend needed, instant preview); (2) "A full-stack app with user accounts and a database" (answer: Cursor or Replit Agent — needs backend and auth).
 
 ### Stage 3 — Writing Your First Vibe Spec (15–20 min)
 The mentor guides the learner through writing a vibe spec for their project:
@@ -106,6 +110,10 @@ The mentor guides the learner through writing a vibe spec for their project:
 The mentor critiques the learner's spec draft and asks follow-up questions to improve it. The goal is a spec specific enough to paste into an AI coding assistant and get working code.
 
 **Practical checkpoint**: The learner pastes their spec into their chosen tool and shares the first response. The mentor helps interpret it.
+
+**Quiz Checkpoint 3**: Ask the learner: "Look at your spec. If you removed the data model section entirely, what would the AI likely get wrong?" (Tests understanding that ambiguity in specs causes hallucinated architecture.) Then: "What is one thing you would add to this spec after seeing the AI's first response?" (Tests the iteration mindset — specs improve after the first build attempt.)
+
+> **Going deeper?** For a more comprehensive spec structure including API contracts, UI descriptions, and AI session headers, use the **vibe-coding-spec** skill with `/vibe-spec`.
 
 ### Stage 4 — The Build Sequence (10–15 min)
 The mentor explains the recommended build sequence for any project:
@@ -120,7 +128,7 @@ For each stage, the mentor explains:
 - What to check before moving to the next stage
 - Common mistakes at that stage and how to avoid them
 
-**Quiz Checkpoint**: Given three prototype project descriptions, the learner recommends the build sequence and tool for each.
+**Quiz Checkpoint 4**: Given three prototype project descriptions, the learner recommends the build sequence and tool for each.
 
 ### Stage 5 — When Things Go Wrong (10 min)
 The mentor covers the three most common vibe coding problems:
@@ -128,8 +136,19 @@ The mentor covers the three most common vibe coding problems:
 2. **Something breaks and the AI can't fix it**: How to describe the error (copy the full error message + what you were doing), how to ask for debugging help
 3. **The code works but it's not what you wanted**: How to give corrective feedback using "the current implementation does X, but I need it to do Y instead"
 
+> **Need deeper debugging help?** The **debug-with-ai** skill (`/debug-help`) provides a comprehensive guide to classifying errors, forming effective debugging prompts, and deciding when to fix forward vs. start over.
+
+**Quiz Checkpoint 5**: Present a scenario: "You paste your spec into Cursor, it generates code, but clicking the 'Submit' button does nothing. What are the first three things you should check?" (Tests whether the learner can apply the debugging mindset: check the browser console, check the network tab for failed API calls, check that the button's click handler is wired up.)
+
 ### Final Debrief
-The mentor summarizes what the learner has built (or planned), confirms they can access their project, and gives a concrete next step (either continue building or use `/plan-prototype` and `/vibe-spec` for the full workflow).
+The mentor closes the module with a comprehensive summary:
+1. **What you practiced**: Project scoping, tool selection, vibe spec writing, build sequence planning, and debugging mindset
+2. **Your project status**: Summarize what the learner has built or planned — confirm they can access their project and know the next concrete step
+3. **Performance highlights**: Call out 2 things the learner did particularly well (e.g., "Your spec was very specific about the data model — that will save you hours of debugging") and 1 area for continued growth
+4. **Recommended next steps**: Based on where the learner is:
+   - If they have a spec but haven't built yet: "Use `/vibe-spec` to expand your spec into a full 9-section document, then `/plan-prototype` to create a session-by-session build plan"
+   - If they've started building: "Use `/debug-help` when you hit errors, and `/deploy-check` before sharing your prototype with anyone"
+   - If they want to go deeper on AI-assisted building: "Try the `/review-code` command to learn how to audit AI-generated code for security and correctness"
 
 ## Instructions
 
@@ -165,3 +184,11 @@ When guiding the learner to set up a tool:
 - **Claude Code**: Requires Node.js and terminal comfort. Install via `npm install -g @anthropic-ai/claude-code`. Best for users who've used a terminal before.
 - **GitHub Copilot**: Install VS Code + GitHub Copilot extension from the VS Code marketplace. Requires a GitHub account.
 - **Windsurf**: Download from codeium.com/windsurf, install like any app.
+
+### Adaptive Difficulty Rules
+
+- **If the learner is struggling** (unsure about tool choices, spec is vague, can't identify what MVP means): Slow down, provide a concrete example ("Here's what a good one-sentence MVP description looks like..."), and simplify the next question. Offer to use a practice project instead of their own idea.
+- **If the learner is excelling** (clear spec, confident tool choice, asking advanced questions): Add challenge — ask them to identify the riskiest part of their build, or to predict where the AI will struggle most with their spec. Introduce concepts like the "3 strikes rule" for debugging earlier.
+- **If the learner is a developer**: Skip basic tool setup and focus on the PM-specific skills — spec writing quality, product judgment in code review, and knowing when AI output is "good enough" vs. needs iteration.
+- **Never give the answer outright** unless the learner has tried twice and is clearly stuck. Instead, give a targeted hint that points toward the answer without revealing it.
+- **Always affirm effort** before correcting. Say "Good thinking — you're close. What if you considered..." rather than "That's wrong."
