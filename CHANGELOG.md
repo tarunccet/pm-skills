@@ -35,7 +35,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 - `CONTRIBUTING.md` skill quality standards and contribution guide
 - `DISAMBIGUATION.md` plugin and skill disambiguation reference
 - `validate_plugins.py` — automated validator for skill frontmatter and command structure
-- `ANALYSIS.md` — PM workflow and gap analysis
 
 ---
 

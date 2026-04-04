@@ -10,7 +10,7 @@
 
 *Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
 
-[Getting Started](#-quick-start-what-are-you-doing-right-now) · [What's New](#-whats-new-in-this-fork) · [MCP / npm](#-installation) · [Installation](#-installation) · [All Plugins](#-available-plugins)
+[Getting Started](#-quick-start-what-are-you-doing-right-now) · [What's New](#-whats-new-in-this-fork) · [MCP / npm](#-mcp-server--works-everywhere-zero-clone-needed) · [Plugin Install](#-installation) · [All Plugins](#-available-plugins)
 
 </div>
 

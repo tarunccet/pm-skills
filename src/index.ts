@@ -129,35 +129,47 @@ function loadCommands(pluginFilter?: string): Command[] {
   return commands;
 }
 
-function loadPlugins(): Plugin[] {
-  const plugins: Plugin[] = [];
-  for (const pluginDir of getPluginDirs()) {
-    const pluginName = path.basename(pluginDir);
-    const skills = loadSkills(pluginName);
-    const commands = loadCommands(pluginName);
-    // Try to get description from marketplace.json
-    let description = "";
-    const marketplacePath = path.join(
-      REPO_ROOT,
-      ".claude-plugin",
-      "marketplace.json"
-    );
-    if (fs.existsSync(marketplacePath)) {
-      try {
-        const marketplace = JSON.parse(
-          fs.readFileSync(marketplacePath, "utf8")
-        ) as { plugins?: Array<{ name: string; description: string }> };
-        const entry = marketplace.plugins?.find((p) => p.name === pluginName);
-        if (entry) description = entry.description;
-      } catch {
-        // ignore parse errors
-      }
+function loadMarketplaceDescriptions(): Map<string, string> {
+  const descriptions = new Map<string, string>();
+  const marketplacePath = path.join(REPO_ROOT, ".claude-plugin", "marketplace.json");
+  if (!fs.existsSync(marketplacePath)) return descriptions;
+  try {
+    const marketplace = JSON.parse(
+      fs.readFileSync(marketplacePath, "utf8")
+    ) as { plugins?: Array<{ name: string; description: string }> };
+    for (const plugin of marketplace.plugins ?? []) {
+      descriptions.set(plugin.name, plugin.description);
     }
+  } catch {
+    // ignore parse errors
+  }
+  return descriptions;
+}
+
+function loadPlugins(): Plugin[] {
+  const pluginDirs = getPluginDirs();
+  const allSkills = loadSkills();
+  const allCommands = loadCommands();
+  const marketplaceDescriptions = loadMarketplaceDescriptions();
+
+  const skillCounts = new Map<string, number>();
+  for (const skill of allSkills) {
+    skillCounts.set(skill.plugin, (skillCounts.get(skill.plugin) ?? 0) + 1);
+  }
+
+  const commandCounts = new Map<string, number>();
+  for (const command of allCommands) {
+    commandCounts.set(command.plugin, (commandCounts.get(command.plugin) ?? 0) + 1);
+  }
+
+  const plugins: Plugin[] = [];
+  for (const pluginDir of pluginDirs) {
+    const pluginName = path.basename(pluginDir);
     plugins.push({
       name: pluginName,
-      description,
-      skillCount: skills.length,
-      commandCount: commands.length,
+      description: marketplaceDescriptions.get(pluginName) ?? "",
+      skillCount: skillCounts.get(pluginName) ?? 0,
+      commandCount: commandCounts.get(pluginName) ?? 0,
     });
   }
   return plugins;

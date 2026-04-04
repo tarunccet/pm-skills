@@ -36,7 +36,7 @@
 | **Skills** | 83 skills |
 | **Commands** | 56 commands |
 | **License** | MIT |
-| **Distribution** | Git clone only |
+| **Distribution** | Git clone and npm package (`ai-pm-skills-mcp`) |
 | **Unique strengths** | AI PM, Vibe Coding, Guided Learning, Data Analytics, Go-to-Market |
 
 **Plugins:**
@@ -252,7 +252,7 @@ These are gaps beyond individual skills — they relate to how the library is or
 | **Workflow bundles** | 3 bundles (Feature Kickoff, Lean Startup, Triple Diamond) | None | Bundles chain skills in proven sequences for end-to-end workflows |
 | **AGENTS.md** | Present (auto-discovery for Copilot, Cursor, Windsurf) | Absent | Without AGENTS.md, AI tools cannot auto-discover skills |
 | **Skill output samples** | `library/skill-output-samples/` | Absent | Examples help users understand output quality expectations |
-| **CHANGELOG.md** | Full versioned history | Absent | Makes it hard to track what changed between versions |
+| **CHANGELOG.md** | Full versioned history | Present (added in v2.1.0) | ✅ Resolved |
 
 #### Documentation Gaps
 
@@ -268,8 +268,8 @@ These are gaps beyond individual skills — they relate to how the library is or
 
 | Feature | Reference Repo | This Repo |
 |---|---|---|
-| **npm package** | `npx pm-skills-mcp` (instant setup) | Not available |
-| **MCP server** | Full MCP server (38 tools, resources, prompts) | Not available |
+| **npm package** | `npx pm-skills-mcp` (instant setup) | `npx ai-pm-skills-mcp` (added in v2.1.0) | ✅ Resolved |
+| **MCP server** | Full MCP server (38 tools, resources, prompts) | 6-tool MCP server via `ai-pm-skills-mcp` (added in v2.1.0) | ✅ Resolved |
 | **Release ZIPs** | Tagged ZIP releases for each version | Not available |
 | **Build scripts** | `scripts/build-release.(sh|ps1)` | Not available |
 | **Sync scripts** | `scripts/sync-claude.(sh|ps1)` | Not available |
