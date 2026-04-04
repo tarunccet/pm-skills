@@ -1,2 +1,6 @@
 _Internal/
 CLAUDE.md
+
+# Node
+node_modules/
+dist/
