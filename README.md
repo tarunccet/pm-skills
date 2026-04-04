@@ -4,13 +4,13 @@
 
 ### The AI Operating System for Product Managers
 
-**9 Plugins** · **83 Skills** · **56 Commands**
+**9 Plugins** · **83 Skills** · **56 Commands** · **[MCP on npm](https://www.npmjs.com/package/ai-pm-skills-mcp)**
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
 *Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
 
-[Getting Started](#-quick-start-what-are-you-doing-right-now) · [What's New](#-whats-new-in-this-fork) · [Installation](#-installation) · [All Plugins](#-available-plugins)
+[Getting Started](#-quick-start-what-are-you-doing-right-now) · [What's New](#-whats-new-in-this-fork) · [MCP / npm](#-installation) · [Installation](#-installation) · [All Plugins](#-available-plugins)
 
 </div>
 
@@ -183,6 +183,74 @@ At each stage, checkpoints verify you're ready to move on. The `code-review-for-
 <br />
 
 ## 📥 Installation
+
+### ⚡ MCP Server — works everywhere, zero clone needed
+
+`ai-pm-skills-mcp` is an [MCP](https://modelcontextprotocol.io) server that exposes all 83 skills and 56 commands as tools to **any MCP-compatible client** — Claude Desktop, Claude Code, Cursor, Windsurf, and more — without cloning this repo.
+
+**One-time setup per client:**
+
+<details>
+<summary><strong>Claude Desktop</strong> (<code>~/Library/Application Support/Claude/claude_desktop_config.json</code>)</summary>
+
+```json
+{
+  "mcpServers": {
+    "pm-skills": {
+      "command": "npx",
+      "args": ["-y", "ai-pm-skills-mcp"]
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><strong>Claude Code</strong> (run once in your terminal)</summary>
+
+```bash
+claude mcp add pm-skills -- npx -y ai-pm-skills-mcp
+```
+</details>
+
+<details>
+<summary><strong>Cursor</strong> (<code>~/.cursor/mcp.json</code>)</summary>
+
+```json
+{
+  "mcpServers": {
+    "pm-skills": {
+      "command": "npx",
+      "args": ["-y", "ai-pm-skills-mcp"]
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><strong>Windsurf</strong> (Settings → MCP Servers → Add)</summary>
+
+```json
+{
+  "mcpServers": {
+    "pm-skills": {
+      "command": "npx",
+      "args": ["-y", "ai-pm-skills-mcp"]
+    }
+  }
+}
+```
+</details>
+
+Once configured, ask your AI assistant:
+- *"List all PM skills"* → calls `list_plugins` / `list_skills`
+- *"Get the lean-canvas skill"* → calls `get_skill`
+- *"Search for OKR skills"* → calls `search_skills`
+
+> **No git clone, no copy-paste, no manual updates.** `npx` always pulls the latest published version.
+
+---
 
 ### Claude Cowork (recommended for non-developers)
 
