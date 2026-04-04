@@ -26,7 +26,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ---
 
-## [2.0.0] — 2025-01-01
+## [2.0.0] — 2026-03-28
 
 ### Added
 - 9 plugins covering PM discovery, strategy, execution, market research, data analytics, go-to-market, AI product management, vibe coding, and guided learning
@@ -39,7 +39,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ---
 
-## [1.0.0] — 2024-06-01
+## [1.0.0] — 2026-03-27
 
 ### Added
 - Initial repository with foundational PM skill plugins
