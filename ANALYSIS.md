@@ -36,7 +36,7 @@
 | **Skills** | 83 skills |
 | **Commands** | 56 commands |
 | **License** | MIT |
-| **Distribution** | Git clone and npm package (`ai-pm-skills-mcp`) |
+| **Distribution** | Git clone · npm package (`ai-pm-skills-mcp`) · Claude Code plugin marketplace |
 | **Unique strengths** | AI PM, Vibe Coding, Guided Learning, Data Analytics, Go-to-Market |
 
 **Plugins:**
