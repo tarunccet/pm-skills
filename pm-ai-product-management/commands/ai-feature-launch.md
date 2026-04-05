@@ -117,7 +117,7 @@ Save the launch package as a markdown file to the user's workspace.
 
 ## Notes
 
-- This is a 30-45 minute structured workflow — let the user know upfront
+- This is a 45-60 minute structured workflow — let the user know upfront
 - At each checkpoint, the user can redirect, skip, or go deeper on any step
 - Skip Step 7 (Prompt Engineering) for classical ML features that don't use LLMs
 - If the user has existing evaluations or audits, incorporate them rather than starting fresh
