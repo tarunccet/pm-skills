@@ -25,7 +25,17 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Publish
-        run: npm publish --ignore-scripts --access public
+      - name: Publish main package
+        run: npm publish --access public --ignore-scripts
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish alias packages
+        run: |
+          npm publish --workspace=packages/pm-skills --access public
+          npm publish --workspace=packages/product-management-skills --access public
+          npm publish --workspace=packages/pm-playbook --access public
+          npm publish --workspace=packages/pm-learning --access public
+          npm publish --workspace=packages/pm-vibe-coding --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

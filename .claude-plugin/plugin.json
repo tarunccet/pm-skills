@@ -1,0 +1,11 @@
+{
+  "name": "product-management-skills",
+  "version": "1.0.0",
+  "description": "83 agentic PM skills for Claude Code — PRDs, discovery, strategy, GTM, analytics, AI PM, and more.",
+  "author": {
+    "name": "Tarun Narang",
+    "url": "https://github.com/tarunccet"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/tarunccet/pm-skills"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "pm-skills",
+  "version": "1.0.0",
+  "description": "83 agentic PM skills MCP server for Claude, Cursor, Windsurf and more. Alias for ai-pm-skills-mcp.",
+  "keywords": [
+    "mcp", "model-context-protocol", "product-management", "product-manager",
+    "pm-skills", "agent-skills", "claude-code", "cursor", "windsurf", "ai", "llm",
+    "prd", "user-stories", "product-discovery", "product-strategy", "go-to-market"
+  ],
+  "author": { "name": "Tarun Narang", "email": "tarunccet@gmail.com" },
+  "license": "MIT",
+  "homepage": "https://github.com/tarunccet/pm-skills",
+  "repository": { "type": "git", "url": "https://github.com/tarunccet/pm-skills.git" },
+  "bugs": { "url": "https://github.com/tarunccet/pm-skills/issues" },
+  "type": "module",
+  "bin": { "pm-skills": "./bin/run.js" },
+  "files": ["bin/", "README.md"],
+  "dependencies": { "ai-pm-skills-mcp": "latest" },
+  "engines": { "node": ">=18" }
+}

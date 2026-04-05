@@ -1,0 +1,20 @@
+{
+  "name": "pm-learning",
+  "version": "1.0.0",
+  "description": "Interactive PM learning modules — discovery, metrics, strategy, AI PM, stakeholder management and more. Alias for ai-pm-skills-mcp.",
+  "keywords": [
+    "mcp", "model-context-protocol", "product-management", "product-manager",
+    "pm-learning", "pm-skills", "agent-skills", "claude-code", "cursor",
+    "ai", "llm", "product-discovery", "product-strategy", "metrics", "okrs"
+  ],
+  "author": { "name": "Tarun Narang", "email": "tarunccet@gmail.com" },
+  "license": "MIT",
+  "homepage": "https://github.com/tarunccet/pm-skills",
+  "repository": { "type": "git", "url": "https://github.com/tarunccet/pm-skills.git" },
+  "bugs": { "url": "https://github.com/tarunccet/pm-skills/issues" },
+  "type": "module",
+  "bin": { "pm-learning": "./bin/run.js" },
+  "files": ["bin/", "README.md"],
+  "dependencies": { "ai-pm-skills-mcp": "latest" },
+  "engines": { "node": ">=18" }
+}
