@@ -1,0 +1,13 @@
+{
+  "name": "product-management-skills",
+  "displayName": "Product Management Skills",
+  "version": "1.0.0",
+  "description": "83 agentic PM skills for Cursor — PRDs, discovery, strategy, GTM, analytics, AI PM, vibe coding, and interactive learning.",
+  "author": {
+    "name": "Tarun Narang",
+    "url": "https://github.com/tarunccet"
+  },
+  "license": "MIT",
+  "keywords": ["product-management", "pm-skills", "agent-skills", "prd", "discovery", "strategy", "vibe-coding"],
+  "repository": "https://github.com/tarunccet/pm-skills"
+}

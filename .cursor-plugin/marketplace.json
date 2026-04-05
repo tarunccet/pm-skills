@@ -1,0 +1,18 @@
+{
+  "name": "product-management-skills",
+  "owner": {
+    "name": "Tarun Narang",
+    "url": "https://github.com/tarunccet"
+  },
+  "plugins": [
+    { "name": "pm-ai-product-management", "metadata": { "pluginRoot": "./pm-ai-product-management" } },
+    { "name": "pm-data-analytics",        "metadata": { "pluginRoot": "./pm-data-analytics" } },
+    { "name": "pm-execution",             "metadata": { "pluginRoot": "./pm-execution" } },
+    { "name": "pm-go-to-market",          "metadata": { "pluginRoot": "./pm-go-to-market" } },
+    { "name": "pm-guided-learning",       "metadata": { "pluginRoot": "./pm-guided-learning" } },
+    { "name": "pm-market-research",       "metadata": { "pluginRoot": "./pm-market-research" } },
+    { "name": "pm-product-discovery",     "metadata": { "pluginRoot": "./pm-product-discovery" } },
+    { "name": "pm-product-strategy",      "metadata": { "pluginRoot": "./pm-product-strategy" } },
+    { "name": "pm-vibe-coding",           "metadata": { "pluginRoot": "./pm-vibe-coding" } }
+  ]
+}
