@@ -4,3 +4,6 @@ CLAUDE.md
 # Node
 node_modules/
 dist/
+
+# macOS
+.DS_Store
