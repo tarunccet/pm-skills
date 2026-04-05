@@ -1,7 +1,7 @@
 {
   "name": "pm-data-analytics",
-  "version": "1.1.0",
-  "description": "Data analytics skills for PMs: SQL query generation, cohort analysis, A/B test analysis, funnel analysis, event tracking planning, metric definition, product metrics framework, and North Star metric definition.",
+  "version": "1.2.0",
+  "description": "Data analytics skills for PMs: SQL query generation, cohort analysis, A/B test analysis, funnel analysis, event tracking planning, metric definition, product metrics framework, North Star metric definition, and end-to-end data-driven discovery workflow.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",

@@ -1,7 +1,7 @@
 {
   "name": "pm-execution",
-  "version": "1.1.0",
-  "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization (features, assumptions, backlog, and general modes with all 9 frameworks), general-purpose writing, meeting preparation, and stakeholder updates.",
+  "version": "1.2.0",
+  "description": "Execution and product management skills: PRDs, solution briefs, Architecture Decision Records (ADRs), edge case analysis, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, unified prioritization (features, assumptions, backlog, and general modes with all 9 frameworks), general-purpose writing, meeting preparation, and stakeholder updates.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",

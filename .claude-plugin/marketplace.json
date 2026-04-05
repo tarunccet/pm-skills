@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
-  "version": "2.1.0",
-  "description": "Structured AI workflows for better product decisions. 9 plugins covering discovery, strategy, execution, research, analytics, go-to-market, AI product management, vibe coding, and guided learning.",
+  "version": "2.2.0",
+  "description": "Structured AI workflows for better product decisions. 9 plugins covering discovery, strategy, execution, research, analytics, go-to-market, AI product management, vibe coding, and guided learning. 89 skills and 59 commands.",
   "owner": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",
@@ -17,19 +17,19 @@
     },
     {
       "name": "pm-product-discovery",
-      "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.",
+      "description": "Product discovery skills for PMs: problem statements, testable hypotheses, ideation, experiments, assumption testing, lean validation, and customer interview synthesis.",
       "source": "./pm-product-discovery",
       "category": "product-management"
     },
     {
       "name": "pm-product-strategy",
-      "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, monetization, and devil's advocate stress-testing.",
+      "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, monetization, pivot decisions, and devil's advocate stress-testing.",
       "source": "./pm-product-strategy",
       "category": "product-management"
     },
     {
       "name": "pm-execution",
-      "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, general-purpose writing, meeting preparation, and stakeholder updates.",
+      "description": "Execution and product management skills: PRDs, solution briefs, ADRs, edge case analysis, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, general-purpose writing, meeting preparation, and stakeholder updates.",
       "source": "./pm-execution",
       "category": "product-management"
     },
