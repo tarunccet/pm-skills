@@ -18,11 +18,11 @@ This repository contains **9 plugins** with **89 skills** and **59 commands** or
 
 ### pm-ai-product-management — AI Feature Development
 Skills: `ai-build-buy-partner`, `ai-data-strategy`, `ai-feature-definition`, `ai-incident-response`, `ai-model-evaluation`, `ai-user-research`, `prompt-engineering`, `responsible-ai`
-Commands: `/ai-spec`, `/ai-model-eval`, `/responsible-ai-review`, `/ai-build-buy`, `/ai-data-review`, `/ai-feature-launch`
+Commands: `/ai-spec`, `/ai-model-eval`, `/responsible-ai-review`, `/ai-metrics`, `/ai-roadmap`, `/ai-feature-launch`
 
 ### pm-data-analytics — Metrics, Experiments, and SQL
 Skills: `ab-test-analysis`, `cohort-analysis`, `event-tracking-plan`, `funnel-analysis`, `metric-definition`, `product-metrics`, `sql-queries`
-Commands: `/analyze-test`, `/design-funnel`, `/north-star`, `/plan-tracking`, `/run-query`, `/define-metric`, `/data-driven-discovery`
+Commands: `/analyze-test`, `/analyze-cohorts`, `/design-funnel`, `/north-star`, `/plan-tracking`, `/write-query`, `/data-driven-discovery`
 
 ### pm-execution — PRDs, Sprints, Delivery
 Skills: `adr`, `brainstorm-okrs`, `create-prd`, `edge-cases`, `job-stories`, `meeting-prep`, `outcome-roadmap`, `pre-mortem`, `prioritization`, `release-notes`, `retro`, `solution-brief`, `sprint-plan`, `stakeholder-map`, `stakeholder-update`, `summarize-meeting`, `test-scenarios`, `user-stories`, `writer`, `wwas`
@@ -30,15 +30,15 @@ Commands: `/meeting-notes`, `/plan-okrs`, `/pre-mortem`, `/prep-meeting`, `/spri
 
 ### pm-go-to-market — Launch Strategy and Growth
 Skills: `growth-loops`, `gtm-motions`, `gtm-strategy`, `ideal-customer-profile`, `marketing-ideas`, `positioning-ideas`, `product-name`
-Commands: `/battlecard`, `/marketing-plan`, `/plan-launch`, `/product-name`
+Commands: `/battlecard`, `/growth-strategy`, `/marketing-plan`, `/plan-launch`
 
 ### pm-guided-learning — Interactive PM Learning
 Skills: `learn-ai-pm`, `learn-discovery`, `learn-metrics`, `learn-prioritization`, `learn-stakeholder-management`, `learn-strategy`, `learn-user-research`, `learn-vibe-coding`
-Commands: `/learn`, `/learn-ai-pm`, `/learn-discovery`, `/learn-metrics`, `/learn-prioritization`, `/learn-stakeholder-management`, `/learn-strategy`, `/learn-user-research`, `/learn-vibe-coding`, `/quiz`
+Commands: `/learn`, `/learn-ai-pm`, `/learn-discovery`, `/learn-interview`, `/learn-metrics`, `/learn-prioritization`, `/learn-stakeholders`, `/learn-strategy`, `/learn-vibe-coding`, `/find-skill`
 
 ### pm-market-research — Research and Analysis
 Skills: `competitor-analysis`, `customer-journey-map`, `market-sizing`, `research-personas`, `sentiment-analysis`, `user-segmentation`
-Commands: `/analyze-feedback`, `/market-scan`, `/segment-users`
+Commands: `/analyze-feedback`, `/competitive-analysis`, `/research-users`
 
 ### pm-product-discovery — Ideation and Validation
 Skills: `analyze-feature-requests`, `brainstorm-experiments-existing`, `brainstorm-experiments-new`, `brainstorm-ideas-existing`, `brainstorm-ideas-new`, `hypothesis`, `identify-assumptions-existing`, `identify-assumptions-new`, `interview-script`, `opportunity-solution-tree`, `problem-statement`, `summarize-interview`
@@ -50,7 +50,7 @@ Commands: `/business-model`, `/challenge`, `/market-scan`, `/pricing`, `/strateg
 
 ### pm-vibe-coding — PM Builders (Code with AI)
 Skills: `code-review-for-pms`, `debug-with-ai`, `deploy-checklist`, `prototype-plan`, `technical-analyst`, `technical-decision-guide`, `vibe-coding-spec`
-Commands: `/code-review`, `/debug`, `/deploy-check`, `/plan-prototype`, `/tech-decision`, `/vibe-spec`
+Commands: `/review-code`, `/debug-help`, `/deploy-check`, `/plan-prototype`, `/tech-decision`, `/vibe-spec`
 
 ## When to Use Which Skill
 
