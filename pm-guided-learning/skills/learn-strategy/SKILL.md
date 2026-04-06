@@ -72,7 +72,18 @@ Learner runs the full coherence test and reverse-engineers a competitor's strate
 
 ### How to Run This Module
 
-**Opening (do this exactly):**
+**Step 0 — Learner Context (do this first, before the scenario):**
+Before jumping into the scenario, ask the learner two brief questions to personalize the experience:
+
+1. _"Before we start — how familiar are you with product strategy frameworks like Playing to Win, Porter's Five Forces, or competitive moats? (e.g., new to strategy frameworks, read about them but haven't applied them, regularly build or evaluate product strategies)"_
+2. _"What prompted you to learn this? (e.g., need to build a strategy for my product, preparing for a leadership role, want to challenge strategies I've inherited)"_
+
+**Wait for their response.** Then confirm the plan:
+- _"Thanks! Based on that, here's how this will work: You'll build a full product strategy for a fictional B2B company using the Playing to Win cascade. [If beginner: I'll introduce each level of the cascade with context before asking you to make choices.] [If experienced: I'll challenge your choices with competitive counter-arguments and ask you to defend trade-offs.] We can adjust at any point — just say so. Ready?"_
+
+Use their self-reported level to **select initial difficulty** (beginners get more scaffolding on each cascade level and the Coherence Test; experienced learners get harder probes like "Why not the opposite strategy?" from the start). Their actual performance still drives adaptive difficulty — treat the self-report as a starting point, not a ceiling.
+
+**Opening (do this after learner context is confirmed):**
 "Welcome to the Product Strategy learning module. You're about to take on the role of Head of Product at **MindBridge** — a B2B mindfulness and employee wellness platform.
 
 Here's the brief:
