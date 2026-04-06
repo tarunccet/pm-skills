@@ -63,7 +63,7 @@ These are blockers. Do not share a URL publicly if any of these are failing.
 ### 🚨 Monitoring & Error Tracking
 You need to know when your app breaks before your users tell you.
 
-- [ ] **Error tracking is configured**: Set up an error tracking service (many have free tiers that cover prototype scale). Ask the user if they already have one or have a preference. The key requirement is that unhandled exceptions are captured and surfaced to you automatically
+- [ ] **Error tracking is configured**: If the user's error tracking tool is already known from prior context, verify it's set up. Otherwise, ask if they already have one or have a preference. The key requirement is that unhandled exceptions are captured and surfaced automatically
 - [ ] **You know how to view application logs**: In Vercel: go to your project → Functions → view logs in real-time. In Railway: Deployments tab → view logs. Test this before launch so you're not fumbling when something breaks
 - [ ] **Server errors are being surfaced**: Verify that a deliberate 500 error in your API is visible in your logs/error tracker. Throw a test error, deploy, trigger it, and confirm you see it
 - [ ] **Health check endpoint exists**: Create a simple `GET /api/health` endpoint that returns `{ status: "ok", timestamp: Date.now() }`. This lets you and monitoring tools verify the app is alive
@@ -72,7 +72,7 @@ You need to know when your app breaks before your users tell you.
 ### 📊 Analytics
 You need to know if people are actually using the product.
 
-- [ ] **Analytics are installed**: Ask the user: _"Are you already using an analytics tool? If not, do you prefer open-source/self-hosted, privacy-friendly, or a full-featured product analytics platform?"_ Recommend based on their preference and project needs. The key requirement is that the tool can track page views and custom events
+- [ ] **Analytics are installed**: If the user's analytics tool is already known from prior context, verify it's configured. Otherwise, ask: _"Are you already using an analytics tool? If not, do you prefer open-source/self-hosted, privacy-friendly, or a full-featured product analytics platform?"_ The key requirement is that the tool can track page views and custom events
 - [ ] **At least page views are tracked**: Verify analytics are firing by visiting your site and checking the analytics dashboard in real-time mode
 - [ ] **Key product events are tracked**: Define and track at minimum: sign_up, core_feature_used, and your primary conversion event. In Posthog: `posthog.capture('signed_up', { plan: 'free' })`
 - [ ] **You can answer "how many users are active today?"**: Open the analytics dashboard and confirm you can see real-time or daily active user counts

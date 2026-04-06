@@ -49,10 +49,12 @@ Different AI tools interpret specs differently — some work best with detailed 
 
 You are helping a PM-builder create a vibe coding specification for **$ARGUMENTS**.
 
-Ask the user these questions if not already provided:
+Check what's already known from $ARGUMENTS or the conversation context. **Only ask questions whose answers aren't already clear** — if the user has already shared their project details, stack preferences, or tool choices (e.g., from a prior `/plan-prototype` or `/tech-decision` session), use that context and skip to spec generation.
+
+If key context is missing, ask:
 1. What problem does this solve? Who is the primary user?
 2. What are the 2-3 core user flows?
-3. What tech stack preference do you have? (or say "recommend one")
+3. What tech stack preference do you have? (or say "recommend one based on my needs")
 4. Any constraints: budget, timeline, existing services to integrate?
 5. What does the MVP exclude? (scope boundaries)
 

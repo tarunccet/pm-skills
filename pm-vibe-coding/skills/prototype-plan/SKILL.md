@@ -54,7 +54,9 @@ Generate a prototype plan covering:
 - Minimum viable feature: what is the single most important thing — if you only shipped one feature, what would it be?
 
 ### 2. AI Coding Tool Selection
-Before recommending a tool, **ask the user these questions** (skip any they've already answered):
+Check what's already known from $ARGUMENTS or the conversation context. **Only ask questions whose answers aren't already clear** — if the user has already shared their project type, tech comfort, or tool preferences (e.g., in a prior session or earlier in this conversation), use that context and skip to the recommendation.
+
+If key context is missing, ask:
 
 1. _"Does this project need a backend or database, or is it frontend-only?"_
 2. _"How comfortable are you with installing software and using a terminal? (e.g., prefer browser-only, comfortable with basic installs, comfortable with terminal/CLI)"_

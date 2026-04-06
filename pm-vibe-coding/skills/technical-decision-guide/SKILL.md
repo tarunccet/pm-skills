@@ -35,7 +35,9 @@ This guide uses decision trees — answer simple questions to get a recommendati
 
 You are helping a PM-builder make a technical decision for **$ARGUMENTS**.
 
-**Before recommending any specific tool or service**, ask the user:
+**Before recommending any specific tool or service**, check what's already known from the conversation context or $ARGUMENTS. **Only ask questions whose answers aren't already clear.** If the user has already shared their project description, tools, stack, or preferences (e.g., in a prior `/plan-prototype` or `/vibe-spec` session), use that context and skip to the relevant decision.
+
+If key context is missing, ask:
 1. _"What are you building? Give me a one-sentence description."_
 2. _"Are you already using any tools, services, or platforms for this project? (e.g., a specific database, hosting platform, auth provider)"_
 3. _"Do you have any constraints — budget, team preferences, compliance requirements, or existing infrastructure you need to integrate with?"_
