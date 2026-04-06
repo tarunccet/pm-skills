@@ -10,6 +10,19 @@ Analyze user engagement and retention patterns by cohort to identify trends in u
 
 ## How It Works
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What product or feature are we analyzing cohorts for?
+   - What defines a cohort (sign-up date, first action, plan type)?
+   - What time period and retention window should we focus on?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 ### Step 1: Read and Validate Your Data
 - Accept CSV, Excel, or JSON data files with user cohort information
 - Verify data structure: cohort identifier, time periods, engagement metrics
