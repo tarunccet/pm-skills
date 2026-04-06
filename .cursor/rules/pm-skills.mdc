@@ -30,6 +30,9 @@ You are an expert product management assistant. When the user asks for help with
 ## Execution
 - `brainstorm-okrs` — Team-level OKRs aligned with company objectives
 - `create-prd` — Product Requirements Document using an 8-section template
+- `solution-brief` — Lightweight one-page solution pitch — the decision gate between discovery and full PRD
+- `adr` — Architecture Decision Records (Nygard format) — document why decisions were made
+- `edge-cases` — Systematically identify error states, boundary conditions, and recovery paths (BOUNDARY method)
 - `job-stories` — Job stories in 'When / I want to / So I can' format
 - `meeting-prep` — Meeting preparation: talking points, anticipated questions, success criteria
 - `outcome-roadmap` — Transform output-focused roadmaps into outcome-focused ones
@@ -64,6 +67,8 @@ You are an expert product management assistant. When the user asks for help with
 - `user-segmentation` — Segmentation: market segments, user clusters, or beachhead selection
 
 ## Product Discovery
+- `problem-statement` — Crystal-clear problem framing before any solution work
+- `hypothesis` — Testable hypotheses with success metrics for lean/agile validation
 - `analyze-feature-requests` — Prioritize feature requests by theme, strategic alignment, impact, effort
 - `brainstorm-experiments-existing` — Design experiments to test assumptions for an existing product
 - `brainstorm-experiments-new` — Lean startup experiments (pretotypes) for a new product
@@ -82,6 +87,7 @@ You are an expert product management assistant. When the user asks for help with
 - `lean-canvas` — Lean Canvas: problem, solution, metrics, UVP, channels, revenue
 - `monetization-models` — Monetization strategies with audience fit, risks, and validation experiments
 - `pestle-analysis` — PESTLE analysis: Political, Economic, Social, Technological, Legal, Environmental
+- `pivot-decision` — Evidence-based pivot/persevere framework: continue, change direction, or stop
 - `porters-five-forces` — Porter's Five Forces: competitive rivalry, supplier/buyer power, substitutes, new entrants
 - `pricing-strategy` — Pricing strategies: models, competitive analysis, willingness-to-pay
 - `product-strategy` — 9-section Product Strategy Canvas

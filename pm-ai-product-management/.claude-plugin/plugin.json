@@ -1,7 +1,7 @@
 {
   "name": "pm-ai-product-management",
-  "version": "1.0.1",
-  "description": "AI product management skills: model evaluation, responsible AI, prompt engineering, AI feature specs, build-vs-buy decisions, AI user research, data strategy, and AI incident response. AI competitive analysis and AI metrics are now part of the unified competitor-analysis and product-metrics skills.",
+  "version": "1.1.0",
+  "description": "AI product management skills: model evaluation, responsible AI, prompt engineering, AI feature specs, build-vs-buy decisions, AI user research, data strategy, AI incident response, and end-to-end AI feature launch workflow. AI competitive analysis and AI metrics are now part of the unified competitor-analysis and product-metrics skills.",
   "author": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",

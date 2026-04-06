@@ -4,13 +4,13 @@
 
 ### The AI Operating System for Product Managers
 
-**9 Plugins** · **83 Skills** · **56 Commands** · **[MCP on npm](https://www.npmjs.com/package/ai-pm-skills-mcp)**
+**9 Plugins** · **89 Skills** · **59 Commands** · **[MCP on npm](https://www.npmjs.com/package/ai-pm-skills-mcp)**
 
 > **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
 
 *Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
 
-[Getting Started](#-quick-start-what-are-you-doing-right-now) · [What's New](#-whats-new-in-this-fork) · [MCP / npm](#-mcp-server--works-everywhere-zero-clone-needed) · [Plugin Install](#-installation) · [All Plugins](#-available-plugins)
+[Getting Started](docs/getting-started.md) · [What's New](#-whats-new-in-this-fork) · [MCP / npm](#-mcp-server--works-everywhere-zero-clone-needed) · [Plugin Install](#-installation) · [All Plugins](#-available-plugins)
 
 </div>
 
@@ -40,12 +40,13 @@ Each skill encodes a specific, proven analytical framework. When you trigger a c
 | I am… | Start with | Then try |
 |:-------|:-----------|:---------|
 | 💡 **Exploring a new idea** | `/discover` | → `/strategy` → `/plan-launch` |
+| 🧪 **Validating assumptions** | `/lean-validation` | → A/B tests → `/write-prd` |
 | 📦 **Shipping a feature** | `/write-prd` | → `/write-stories` → `/sprint` |
 | 🤝 **Preparing for a meeting** | `/prep-meeting` | → `/write-update` → `/challenge` |
 | 🚀 **Launching a product** | `/plan-launch` | → `/battlecard` → `/marketing-plan` |
 | 🛠️ **Building a prototype** | `/plan-prototype` | → `/vibe-spec` → `/deploy-check` |
-| 🤖 **Building an AI feature** | `/ai-spec` | → `/ai-model-eval` → `/responsible-ai-review` |
-| 📊 **Defining metrics** | `/north-star` | → `/design-funnel` → `/plan-tracking` |
+| 🤖 **Building an AI feature** | `/ai-feature-launch` | → `/vibe-spec` → `/deploy-check` |
+| 📊 **Defining metrics** | `/data-driven-discovery` | → `/north-star` → `/plan-tracking` |
 | 🎓 **New to PM / learning** | `/learn` | → Pick any `/learn-*` module |
 | 🧭 **Not sure where to start?** | `/find-skill` | Describes your task, gets routed |
 
@@ -69,12 +70,12 @@ This project is a **heavily extended fork** of [phuryn/pm-skills](https://github
 <tr>
 <td><strong>🧠 Skills</strong></td>
 <td>65 skills</td>
-<td><strong>83 skills</strong> (+28% coverage)</td>
+<td><strong>89 skills</strong> (+37% coverage)</td>
 </tr>
 <tr>
 <td><strong>⚡ Commands</strong></td>
 <td>36 commands</td>
-<td><strong>56 commands</strong> (+56% more workflows)</td>
+<td><strong>59 commands</strong> (+64% more workflows)</td>
 </tr>
 <tr>
 <td><strong>🤖 AI Product Mgmt</strong></td>
@@ -186,7 +187,7 @@ At each stage, checkpoints verify you're ready to move on. The `code-review-for-
 
 ### ⚡ MCP Server — works everywhere, zero clone needed
 
-`ai-pm-skills-mcp` is an [MCP](https://modelcontextprotocol.io) server that exposes all 83 skills and 56 commands as tools to **any MCP-compatible client** — Claude Desktop, Claude Code, Cursor, Windsurf, and more — without cloning this repo.
+`ai-pm-skills-mcp` is an [MCP](https://modelcontextprotocol.io) server that exposes all 89 skills and 59 commands as tools to **any MCP-compatible client** — Claude Desktop, Claude Code, Cursor, Windsurf, and more — without cloning this repo.
 
 **One-time setup per client:**
 
@@ -310,24 +311,24 @@ done
 
 ## 📚 Available Plugins
 
-> **9 plugins** · **83 skills** · **56 commands** — covering the full PM lifecycle
+> **9 plugins** · **89 skills** · **59 commands** — covering the full PM lifecycle
 
 ```mermaid
 graph TD
     subgraph "🔍 Discover & Research"
-        A["pm-product-discovery<br/>10 skills · 5 commands"]
+        A["pm-product-discovery<br/>12 skills · 6 commands"]
         B["pm-market-research<br/>6 skills · 3 commands"]
     end
     subgraph "🎯 Strategize & Plan"
-        C["pm-product-strategy<br/>13 skills · 6 commands"]
-        D["pm-data-analytics<br/>7 skills · 6 commands"]
+        C["pm-product-strategy<br/>14 skills · 6 commands"]
+        D["pm-data-analytics<br/>7 skills · 7 commands"]
     end
     subgraph "⚙️ Execute & Ship"
-        E["pm-execution<br/>17 skills · 11 commands"]
+        E["pm-execution<br/>20 skills · 11 commands"]
         F["pm-go-to-market<br/>7 skills · 4 commands"]
     end
     subgraph "🆕 New in This Fork"
-        G["pm-ai-product-management<br/>8 skills · 5 commands"]
+        G["pm-ai-product-management<br/>8 skills · 6 commands"]
         H["pm-vibe-coding<br/>7 skills · 6 commands"]
         I["pm-guided-learning<br/>8 skills · 10 commands"]
     end
@@ -347,10 +348,12 @@ graph TD
 ```
 
 <details>
-<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, OSTs, interviews (10 skills, 5 commands)</summary>
+<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, problem statements, hypotheses, OSTs, interviews (12 skills, 6 commands)</summary>
 
-**Skills (10):**
+**Skills (12):**
 
+- `problem-statement` — Crystal-clear problem framing before any solution work — the foundation of good PM practice
+- `hypothesis` — Testable hypotheses with success metrics — core to lean/agile validation loops
 - `brainstorm-ideas-existing` — Multi-perspective ideation for existing products (PM, Designer, Engineer)
 - `brainstorm-ideas-new` — Ideation for new products in initial discovery
 - `brainstorm-experiments-existing` — Design experiments to test assumptions for existing products
@@ -362,9 +365,10 @@ graph TD
 - `interview-script` — Create a structured customer interview script with JTBD probing questions
 - `summarize-interview` — Summarize an interview transcript into JTBD, satisfaction signals, and action items
 
-**Commands (5):**
+**Commands (6):**
 
 - `/discover` — Full discovery cycle: ideation → assumption mapping → prioritization → experiment design
+- `/lean-validation` — Lean Startup validation: problem → hypothesis → assumptions → experiments → decide
 - `/brainstorm` — Multi-perspective ideation (`ideas|experiments` × `existing|new`)
 - `/triage-requests` — Analyze and prioritize a batch of feature requests
 - `/interview` — Prepare an interview script or summarize a transcript (`prep|summarize`)
@@ -385,11 +389,11 @@ Commands:
 </details>
 
 <details>
-<summary><strong>2. pm-product-strategy</strong> — Vision, business models, pricing, competitive landscape, devil's advocate (13 skills, 6 commands)</summary>
+<summary><strong>2. pm-product-strategy</strong> — Vision, business models, pricing, competitive landscape, devil's advocate, pivot decisions (14 skills, 6 commands)</summary>
 
-Product strategy, vision, business models, pricing, macro environment analysis, and stress-testing. Covers the full strategic toolkit from vision crafting through competitive landscape scanning to stress-testing ideas.
+Product strategy, vision, business models, pricing, macro environment analysis, pivot decisions, and stress-testing. Covers the full strategic toolkit from vision crafting through competitive landscape scanning to stress-testing ideas.
 
-**Skills (13):**
+**Skills (14):**
 
 - `product-strategy` — Comprehensive 9-section Product Strategy Canvas (vision → defensibility)
 - `startup-canvas` — Startup Canvas combining Product Strategy (9 sections) + Business Model — an alternative to BMC and Lean Canvas for new products
@@ -404,6 +408,7 @@ Product strategy, vision, business models, pricing, macro environment analysis, 
 - `porters-five-forces` — Competitive forces analysis (rivalry, suppliers, buyers, substitutes, new entrants)
 - `ansoff-matrix` — Growth strategy mapping across markets and products
 - `devil-advocate` — Constructive critic and stress-tester for PM ideas, proposals, and strategies
+- `pivot-decision` — Evidence-based pivot/persevere framework for deciding whether to continue, change direction, or stop
 
 **Commands (6):**
 
@@ -431,15 +436,16 @@ Commands:
 </details>
 
 <details>
-<summary><strong>3. pm-execution</strong> — PRDs, OKRs, roadmaps, sprints, retros, release notes, stakeholder management, writing, meeting prep (17 skills, 11 commands)</summary>
+<summary><strong>3. pm-execution</strong> — PRDs, OKRs, roadmaps, sprints, retros, release notes, ADRs, edge cases, solution briefs, stakeholder management, writing, meeting prep (20 skills, 11 commands)</summary>
 
-Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, stakeholder management, user stories, prioritization frameworks, general-purpose writing, meeting preparation, and stakeholder updates.
+Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, solution briefs, architecture decision records, edge case analysis, stakeholder management, user stories, prioritization frameworks, general-purpose writing, meeting preparation, and stakeholder updates.
 
 #### Plan & Build
 
 **Skills:**
 
 - `create-prd` — Comprehensive 8-section PRD template
+- `solution-brief` — Lightweight one-page solution pitch before committing to a full PRD — the decision gate between discovery and requirements
 - `brainstorm-okrs` — Team-level OKRs aligned with company objectives
 - `outcome-roadmap` — Transform a feature list into an outcome-focused roadmap
 - `sprint-plan` — Sprint planning with capacity estimation, story selection, and risk identification
@@ -449,6 +455,8 @@ Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, re
 - `job-stories` — Job stories: When [situation], I want to [motivation], so I can [outcome]
 - `wwas` — Product backlog items in Why-What-Acceptance format
 - `test-scenarios` — Test scenarios: happy paths, edge cases, error handling
+- `edge-cases` — Systematically identify error states, boundary conditions, and recovery paths using the BOUNDARY method
+- `adr` — Architecture Decision Records (Nygard format) — document why a technical or product decision was made
 - `prioritization` — Reference guide to 9 prioritization frameworks (Opportunity Score, ICE, RICE, MoSCoW, Kano, etc.)
 
 **Commands:**
@@ -533,7 +541,7 @@ Commands:
 </details>
 
 <details>
-<summary><strong>5. pm-data-analytics</strong> — SQL generation, cohort analysis, A/B test analysis, funnel analysis, event tracking, metric definition, North Star (7 skills, 6 commands)</summary>
+<summary><strong>5. pm-data-analytics</strong> — SQL generation, cohort analysis, A/B test analysis, funnel analysis, event tracking, metric definition, North Star (7 skills, 7 commands)</summary>
 
 Data analytics for PMs: SQL query generation, cohort analysis, A/B test analysis, funnel analysis, event tracking planning, metric definition, and North Star metric definition.
 
@@ -547,8 +555,9 @@ Data analytics for PMs: SQL query generation, cohort analysis, A/B test analysis
 - `event-tracking-plan` — Design an analytics instrumentation plan: events, properties, naming conventions, and tracking spec
 - `metric-definition` — Define and distinguish operational vs vanity vs actionable metrics with full metric specs
 
-**Commands (6):**
+**Commands (7):**
 
+- `/data-driven-discovery` — End-to-end data-driven discovery: metrics → tracking → funnels → cohorts → experiments → report
 - `/write-query` — Generate SQL queries from natural language
 - `/analyze-cohorts` — Cohort analysis on user engagement data
 - `/analyze-test` — Analyze A/B test results
@@ -609,7 +618,7 @@ Commands:
 </details>
 
 <details>
-<summary><strong>7. pm-ai-product-management</strong> 🆕 — AI feature specs, model evaluation, responsible AI, prompt engineering, AI incidents (8 skills, 5 commands)</summary>
+<summary><strong>7. pm-ai-product-management</strong> 🆕 — AI feature specs, model evaluation, responsible AI, prompt engineering, AI incidents, feature launch workflow (8 skills, 6 commands)</summary>
 
 Skills for the full AI product lifecycle — from evaluating models and writing AI feature specs to running responsible AI reviews, handling AI incidents, and building data strategies.
 
@@ -624,8 +633,9 @@ Skills for the full AI product lifecycle — from evaluating models and writing 
 - `prompt-engineering` — Craft and manage production-quality prompts: system prompts, few-shot examples, chain-of-thought, and guardrails
 - `responsible-ai` — Assess AI features for ethical risks, bias, safety, fairness gaps, and regulatory compliance
 
-**Commands (5):**
+**Commands (6):**
 
+- `/ai-feature-launch` — End-to-end AI feature workflow: model eval → spec → data strategy → build/buy → responsible AI → prompts → incident planning
 - `/ai-spec` — Create an AI feature specification with behaviour requirements and fallback design
 - `/ai-model-eval` — Evaluate and compare AI models or vendors for a specific use case
 - `/responsible-ai-review` — Review an AI feature for ethical risks, bias, safety, and regulatory compliance
