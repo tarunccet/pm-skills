@@ -35,7 +35,15 @@ This guide uses decision trees — answer simple questions to get a recommendati
 
 You are helping a PM-builder make a technical decision for **$ARGUMENTS**.
 
-Ask which decision they need help with, then provide a structured guide:
+**Before recommending any specific tool or service**, ask the user:
+1. _"What are you building? Give me a one-sentence description."_
+2. _"Are you already using any tools, services, or platforms for this project? (e.g., a specific database, hosting platform, auth provider)"_
+3. _"Do you have any constraints — budget, team preferences, compliance requirements, or existing infrastructure you need to integrate with?"_
+4. _"How comfortable are you with technical setup? (e.g., prefer managed services with minimal config, comfortable with some setup, experienced with infrastructure)"_
+
+Use their answers to tailor recommendations below. **If the user already has preferences or existing tools, work with those** — only suggest alternatives if there's a clear mismatch with their project needs, and explain the trade-off.
+
+Then ask which decision they need help with, and provide a structured guide:
 
 ### Decision 1: Database Selection
 
@@ -56,9 +64,9 @@ Ask which decision they need help with, then provide a structured guide:
 | PlanetScale (MySQL) | High-scale MySQL | Limited (changed 2024) | ⭐⭐⭐ | PlanetScale |
 | SQLite (Turso) | Simple apps, low traffic | Yes | ⭐⭐⭐ | Turso |
 
-**PM recommendation**: For 90% of PM-builder projects, PostgreSQL via Supabase is the right choice. It handles structured data, has a free tier, includes auth and storage, has a visual table editor, and engineers will thank you for it when they inherit the code. Avoid Firebase unless you specifically need real-time push or are building a mobile app.
+**How to recommend**: Based on the user's answers about their project and comfort level, recommend the option that best fits. If the user is already using a database, work with it unless there's a clear problem. Present trade-offs rather than a single "right answer."
 
-**What to tell your AI**: "Use Supabase with PostgreSQL. Connection string and anon key will be in environment variables SUPABASE_URL and SUPABASE_ANON_KEY. Use the Supabase JS client library, not raw SQL."
+**What to tell your AI**: Provide the connection details as environment variables. Use the database's official client library rather than raw SQL where available.
 
 ### Decision 2: Hosting & Deployment
 
@@ -80,9 +88,9 @@ Ask which decision they need help with, then provide a structured guide:
 | Replit | Quick demos, learning projects | Yes | None | Very Low |
 | AWS/GCP/Azure | Production enterprise | No | Full control | Very High |
 
-**PM recommendation**: Vercel (frontend) + Supabase (backend/DB) is the fastest zero-cost stack for most PM prototypes. If you need a persistent server or background jobs, add Railway. Avoid AWS/GCP/Azure until you have an engineer — the operational overhead is too high for solo PM-builders.
+**How to recommend**: Match the hosting platform to the user's framework and needs. If they're already deployed somewhere, work with that platform unless there's a clear limitation. Present the trade-offs (cost, cold starts, complexity) and let the user choose.
 
-**Cold start warning**: Render's free tier spins down after 15 minutes of inactivity and takes 30+ seconds to wake up. This is fine for a portfolio project; it's unacceptable for sharing with real users. Upgrade to a paid tier ($7/month) for any beta with real users.
+**Cold start warning**: Some free-tier hosting platforms spin down after inactivity and take 30+ seconds to wake up. This is fine for a portfolio project; it's unacceptable for sharing with real users. Ask the user about their use case before recommending a free tier.
 
 ### Decision 3: Authentication
 
@@ -104,7 +112,7 @@ Ask which decision they need help with, then provide a structured guide:
 | Auth0 | 30 min | Yes (many) | Free tier | ⭐⭐⭐ |
 | Magic Links | 30 min | No | Free (via Resend/SendGrid) | ⭐⭐⭐ |
 
-**PM recommendation**: Never build auth yourself for a prototype. Use **Clerk** if you want the best out-of-the-box UI (pre-built sign-in/sign-up components, user profile management). Use **Supabase Auth** if you're already on Supabase (lowest friction). Both have free tiers that cover prototype scale.
+**How to recommend**: Never build auth yourself for a prototype — always use an established auth provider. If the user is already using a platform that includes auth (e.g., a backend-as-a-service with built-in auth), use that for lowest friction. If choosing fresh, ask about their needs: Do they need social login? Pre-built UI components? Enterprise SSO? Match the recommendation to those needs.
 
 ### Decision 4: Monolith vs Microservices
 
@@ -154,20 +162,15 @@ Microservices are an organizational scaling solution designed for teams of 20+ e
 4. Is this a mobile app? → **React Native** (with Expo for easier setup) or **Flutter**
 5. Do you want to avoid JavaScript frameworks entirely? → **SvelteKit** (simpler mental model)
 
-**PM recommendation**: **Next.js 14+ with TypeScript and Tailwind CSS** is the default choice for PM-builders. It has the most AI training data (meaning better code generation), the best developer experience, built-in API routes (no separate backend needed for simple apps), and deploys in one click to Vercel.
+**How to recommend**: **Next.js with TypeScript** has the broadest AI training data, meaning most AI coding assistants produce better code with it. However, if the user already knows or prefers a different framework, work with that — the best framework for a PM-builder is often the one with the least friction, not the theoretically optimal one. Ask about their experience before recommending.
 
-**Add to your AI session header**: "Use Next.js 14 App Router with TypeScript strict mode, Tailwind CSS for styling, and shadcn/ui for components."
+**If the user has no preference**: Recommend the framework with the strongest AI code-generation support and ecosystem for their project type. Explain why, but make it clear they can change if it doesn't feel right.
 
 ### Decision 7: Payments
 
-**For PM-builders**: **Use Stripe.** It's the default for a reason.
+**How to recommend**: For most PM-builder prototypes, a well-established payment processor with good documentation and AI training data coverage is the safest choice. Ask the user: _"Are you handling subscriptions, one-time payments, or usage-based billing? Do you need to handle international tax/VAT?"_ Match the recommendation to their payment model. **Never** roll your own payment processing — security and compliance requirements make this dangerous and complex.
 
-- **Stripe**: Best documentation, best DX, most AI training data, supports subscriptions + one-time payments + usage-based. Free to set up, 2.9% + 30¢ per transaction.
-- **Lemon Squeezy**: Simpler for digital products, handles EU VAT, merchant of record model. Good if you sell software licenses.
-- **Paddle**: Similar to Lemon Squeezy, better for SaaS subscriptions with global tax handling.
-- **Never**: Roll your own payment processing. Security and compliance requirements make this dangerous and complex.
-
-**What to tell your AI**: "Use Stripe for payments. Use Stripe Checkout for the payment UI (don't build a custom card form). Store stripe_customer_id and subscription_status on the user record."
+**What to tell your AI**: Use the payment provider's hosted checkout UI rather than building a custom card form. Store the customer ID and subscription status on the user record.
 
 ## Output Format
-Decision recommendations with rationale, trade-offs, and specific tool recommendations. Written for a PM audience. Each decision includes what to say to your AI coding assistant to implement it.
+Decision recommendations with rationale, trade-offs, and specific tool recommendations **tailored to the user's stated needs, preferences, and existing tools**. Written for a PM audience. Each decision includes what to say to your AI coding assistant to implement it. When the user is struggling with a recommended tool mid-build, proactively offer alternatives: _"It sounds like [tool] isn't working well for your situation. Based on what you need, [alternative] might be a better fit because [reason]. Want to try switching?"_

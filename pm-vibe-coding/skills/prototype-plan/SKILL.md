@@ -22,7 +22,7 @@ tags: ["vibe-coding", "prototyping", "planning", "mvp", "build-sequence"]
 Create a structured plan for building a product prototype using AI coding assistants. Covers tool selection, MVP scoping, build sequence (data model → backend → frontend → deploy), and effort estimation for a solo PM-builder. This prevents the common trap of starting to code without a plan and ending up with a broken half-built prototype.
 
 ## Domain Context
-AI coding assistants (Cursor, Replit Agent, GitHub Copilot, Bolt.new, v0.dev, etc.) each have different strengths. Cursor excels at complex full-stack apps with a professional codebase. Replit Agent is fastest for quick standalone apps. Bolt.new/v0.dev are best for frontend-only. Choosing the wrong tool adds hours of friction.
+AI coding assistants each have different strengths — some are browser-based and require no setup, others are IDE-based with more control, and some are terminal-based for complex work. Choosing the right tool for your project and comfort level is critical: the wrong tool adds hours of friction. Rather than prescribing a specific tool, this skill helps you evaluate your needs and make an informed choice.
 
 The build sequence matters: data model → backend API → frontend → auth → deployment. Building frontend first and then trying to fit the data model is the #1 cause of PM-builder rewrites. Think of it like building a house: foundation before walls, walls before roof.
 
@@ -54,23 +54,24 @@ Generate a prototype plan covering:
 - Minimum viable feature: what is the single most important thing — if you only shipped one feature, what would it be?
 
 ### 2. AI Coding Tool Selection
-Recommend the best tool(s) based on the project's needs:
+Before recommending a tool, **ask the user these questions** (skip any they've already answered):
 
-| Tool | Best For | Strengths | Limitations |
-|------|----------|-----------|-------------|
-| **Bolt.new** | Frontend-only, React components, no backend | Instant preview, great UI generation | No persistent backend |
-| **v0.dev** | UI component generation, Shadcn UI | Beautiful components fast | Frontend only |
-| **Replit Agent** | Quick full-stack apps, demos | Zero setup, DB included, instant deploy | Less control, not production-grade |
-| **Cursor** | Complex full-stack apps, existing codebases | Fine-grained control, file editing | Requires setup, slower start |
-| **GitHub Copilot** | Existing VS Code projects, code completion | IDE-native, great for iteration | Not great for greenfield from scratch |
-| **Claude Code** | Complex logic, architecture, debugging, refactoring | Strong reasoning, great for debugging | Terminal-based, steeper learning curve |
-| **Windsurf** | Full-stack apps with agentic flows | Good at multi-file changes | Newer, less battle-tested |
+1. _"Does this project need a backend or database, or is it frontend-only?"_
+2. _"How comfortable are you with installing software and using a terminal? (e.g., prefer browser-only, comfortable with basic installs, comfortable with terminal/CLI)"_
+3. _"How much control do you want over the code structure? (e.g., just get it working fast, want some control, want full control over every file)"_
+4. _"Are you already using any AI coding tools or have a preference? If so, which ones?"_
+5. _"Any constraints — budget, timeline, or tools your team already uses?"_
 
-Explain specifically why your recommendation(s) fit this project. Consider:
-- Does this project need a backend? (If no: Bolt.new or v0.dev)
-- How much control do you need over the code? (High: Cursor; Low: Replit)
-- How fast do you need a demo? (Fastest: Replit Agent; Most polished: Cursor)
-- What's your comfort level with a terminal? (Low comfort: Replit; High: Claude Code)
+**After gathering answers**, recommend 1-2 tools based on their specific needs and preferences. Explain *why* each recommendation fits their situation using this decision logic:
+- **Frontend-only + browser-preferred** → recommend browser-based UI generation tools
+- **Full-stack + speed-priority + browser-preferred** → recommend browser-based full-stack tools with built-in deployment
+- **Full-stack + control-priority + comfortable with installs** → recommend IDE-based AI coding assistants
+- **Complex logic + terminal-comfortable** → recommend terminal-based AI coding tools
+- **Already using a tool** → work with their existing tool unless it's clearly wrong for the project; explain trade-offs if so
+
+**Important**: The AI coding tool landscape changes rapidly. Base your recommendations on the user's needs (backend required? terminal comfort? speed vs control?), not on a static list. If the user names a tool you're less familiar with, ask them about its capabilities rather than steering them away.
+
+**Mid-build tool check**: If the user reports significant friction with their chosen tool during the build (e.g., repeated failures, can't get past setup), proactively suggest: _"It sounds like [tool] is causing friction. Would you like to try a different approach? Based on what you're building, [alternative approach] might work better because [reason]. We won't lose your progress — I'll help you migrate what you have."_
 
 ### 3. Build Sequence (Session-by-Session Plan)
 Break the build into sessions (assuming 2-4 hour focused sessions):
@@ -113,14 +114,14 @@ Break the build into sessions (assuming 2-4 hour focused sessions):
 - **Checkpoint**: Is it live at a public URL? Can a stranger use it without guidance?
 
 ### 4. Effort Estimate
-| Session | Core Tasks | Estimated Hours | Recommended AI Tool |
-|---------|-----------|-----------------|---------------------|
-| 1: Foundation | Project setup, schema, DB connection | 2–3h | Cursor or Replit |
-| 2: Backend | API endpoints, validation, error handling | 3–4h | Cursor or Claude Code |
-| 3: Frontend | Core flow UI, API integration, mobile | 3–4h | Cursor + v0.dev for components |
-| 4: Auth | Sign-up, login, route protection | 2–3h | Cursor |
-| 5: Polish & Deploy | UX fixes, env vars, deploy, test | 2–3h | Cursor + Vercel |
-| **Total** | | **12–17 hours** | |
+| Session | Core Tasks | Estimated Hours |
+|---------|-----------|-----------------|
+| 1: Foundation | Project setup, schema, DB connection | 2–3h |
+| 2: Backend | API endpoints, validation, error handling | 3–4h |
+| 3: Frontend | Core flow UI, API integration, mobile | 3–4h |
+| 4: Auth | Sign-up, login, route protection | 2–3h |
+| 5: Polish & Deploy | UX fixes, env vars, deploy, test | 2–3h |
+| **Total** | | **12–17 hours** |
 
 Adjust estimates based on: complexity of data model (+/- 2h), number of external API integrations (+2h each), custom UI requirements (+2h), and your familiarity with the tech stack (+/- 3h).
 
@@ -138,8 +139,8 @@ Identify the top 3-5 risks for this specific project:
 Before starting Session 1, verify:
 - [ ] Vibe spec is written (or at minimum, user flows are clear)
 - [ ] Tech stack is decided
-- [ ] Dev environment is set up (Node.js, npm/pnpm, VS Code or Cursor)
-- [ ] Accounts created: GitHub, Supabase/Firebase, Vercel/Railway
+- [ ] Dev environment is set up (based on your chosen AI coding tool's requirements)
+- [ ] Accounts created for your chosen hosting, database, and version control platforms
 - [ ] You have 2+ uninterrupted hours for the first session
 
 ## Output Format
