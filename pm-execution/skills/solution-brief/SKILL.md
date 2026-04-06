@@ -37,6 +37,19 @@ If the user provides files (problem statements, experiment results, discovery no
 
 ## Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What problem or opportunity is this solution addressing?
+   - What options are being considered?
+   - What criteria matter most for the decision (speed, cost, quality, risk)?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 1. **Summarize the problem in one sentence**:
    - Reference the validated problem statement if one exists.
    - The problem should be clear enough that someone reading only this sentence understands what's broken and for whom.
