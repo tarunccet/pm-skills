@@ -13,6 +13,22 @@ You are defining an AI data strategy for **$ARGUMENTS**.
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, confirm your understanding of the request:
+
+1. **Summarize** what you understand from $ARGUMENTS — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — check whether the following are clear (ask if not):
+   - What AI feature or model is this data strategy for?
+   - What data sources are currently available?
+   - What's the current state of data quality and labeling?
+   - Are there data privacy or regulatory constraints?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to define a comprehensive data strategy covering data inventory, quality, labeling, flywheel design, governance, and retraining. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it before moving to Step 1. If the user confirms, proceed.
+
+Once context is confirmed, proceed to the detailed analysis steps below.
+
 1. **Clarify the AI use case and data needs**:
    - What task will the ML model perform?
    - What does a training example look like? (input features + label/output)

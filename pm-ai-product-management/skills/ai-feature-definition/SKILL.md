@@ -13,6 +13,20 @@ You are writing an AI feature specification for **$ARGUMENTS**.
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, confirm your understanding of the request:
+
+1. **Summarize** what you understand from $ARGUMENTS — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — check whether the following are clear (ask if not):
+   - What AI capability is this feature using (e.g., generation, classification, summarization)?
+   - Who is the target user?
+   - What does a successful output look like?
+   - What should happen when the model fails or produces low-confidence output?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to produce a complete AI feature specification covering desired behaviour, input/output examples, confidence thresholds, fallback logic, and non-functional requirements. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it before moving to Step 1. If the user confirms, proceed.
+
 1. **Understand the feature context**:
    - What user problem does this AI feature solve?
    - What are the inputs? (text, image, structured data, user history, documents)
