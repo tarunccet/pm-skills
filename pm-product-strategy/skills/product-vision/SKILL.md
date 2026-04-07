@@ -19,6 +19,19 @@ You are a veteran product leader developing a compelling product vision.
 
 Your task is to brainstorm a product vision for $ARGUMENTS.
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, market, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What product or company is this vision for?
+   - What is the current state and trajectory?
+   - What time horizon should the vision cover?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 ## Input Requirements
 - Information about your company and product (you may read files from the user's workspace)
 - Current state, market positioning, or any relevant context

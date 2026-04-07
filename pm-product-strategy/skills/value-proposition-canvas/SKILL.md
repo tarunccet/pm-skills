@@ -44,6 +44,19 @@ Your task is to develop a value proposition for **$ARGUMENTS**.
 
 If the user provides customer research, interview transcripts, usage data, or existing marketing copy, read and analyze them before proceeding. Ground the value proposition in evidence wherever possible.
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, market, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What product or feature is this value proposition for?
+   - Who is the target customer segment?
+   - What are the customer's primary jobs-to-be-done?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 ---
 
 ### Part 1: Strategic Value Proposition (6-Part JTBD Template)
