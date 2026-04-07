@@ -33,6 +33,19 @@ Your task is to analyze the competitive landscape for **$ARGUMENTS**.
 
 Use web search to research competitors. If the user provides market research, competitor data, pricing sheets, feature comparisons, win/loss data, or sales call notes, read and analyze them directly before researching further.
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, market, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What product or market are we analyzing competitors for?
+   - Who are the known competitors (or should I research them)?
+   - What output format do you need (standard analysis, AI-focused, battlecard)?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 ### Step 1: Choose Output Mode
 
 Ask the user which output mode they want:
