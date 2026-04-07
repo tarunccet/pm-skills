@@ -74,7 +74,7 @@ You need to know if people are actually using the product.
 
 - [ ] **Analytics are installed**: If the user's analytics tool is already known from prior context, verify it's configured. Otherwise, ask: _"Are you already using an analytics tool? If not, do you prefer open-source/self-hosted, privacy-friendly, or a full-featured product analytics platform?"_ The key requirement is that the tool can track page views and custom events
 - [ ] **At least page views are tracked**: Verify analytics are firing by visiting your site and checking the analytics dashboard in real-time mode
-- [ ] **Key product events are tracked**: Define and track at minimum: sign_up, core_feature_used, and your primary conversion event. In Posthog: `posthog.capture('signed_up', { plan: 'free' })`
+- [ ] **Key product events are tracked**: Define and track at minimum: sign_up, core_feature_used, and your primary conversion event. Example (adapt to your analytics tool): `analytics.capture('signed_up', { plan: 'free' })`
 - [ ] **You can answer "how many users are active today?"**: Open the analytics dashboard and confirm you can see real-time or daily active user counts
 
 ### 🌐 Domain & Branding Basics

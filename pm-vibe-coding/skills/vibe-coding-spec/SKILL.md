@@ -187,7 +187,7 @@ A landing page for a new product that captures waitlist signups, lets visitors s
 - Frontend: Next.js + Tailwind CSS (fast to build, strong AI code-generation support)
 - Backend: Next.js API routes (no separate backend needed at MVP scale)
 - Database: PostgreSQL via a managed service (free tier, handles structured data well)
-- Auth: Database provider's built-in auth (email/password for admin only)
+- Auth: Managed auth provider — e.g., a dedicated auth service or your backend platform's auth module (email/password for admin only)
 - Hosting: Platform that supports Next.js with one-click deploy
 - Cost: $0/month at MVP scale
 

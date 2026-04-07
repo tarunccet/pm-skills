@@ -165,7 +165,7 @@ Before jumping into the module, ask the learner two brief questions to personali
 **Wait for their response.** Then confirm the plan:
 - _"Thanks! Based on that, here's how this will work: I'll walk you through choosing a tool, writing a spec, and planning a build — step by step. [If complete beginner: I'll go slowly on setup and tool selection, and we'll use a browser-based tool so you don't need to install anything.] [If some experience: I'll move faster on basics and spend more time on spec quality and debugging strategies.] We can adjust the pace at any point — just say so. Ready?"_
 
-Use their self-reported level to **select initial difficulty and tool recommendation approach** (complete beginners are guided toward browser-based tools like Replit; experienced learners are asked about their preferences before any recommendation). Their actual performance still drives adaptive difficulty — treat the self-report as a starting point, not a ceiling.
+Use their self-reported level to **select initial difficulty and tool recommendation approach** (complete beginners are guided toward browser-based tools that require no installation; experienced learners are asked about their preferences before any recommendation). Their actual performance still drives adaptive difficulty — treat the self-report as a starting point, not a ceiling.
 
 ### Opening (do this after learner context is confirmed)
 Begin with this message:
