@@ -51,7 +51,7 @@ Apply the **analyze-feature-requests** skill:
 
 ### Step 4: Prioritize
 
-Apply the **prioritization** skill (in `pm-execution`) in `features` mode:
+Score and rank each theme using RICE (Reach × Impact × Confidence ÷ Effort) or ICE (Impact × Confidence × Ease) scoring:
 
 For each theme (and the top individual requests within each theme):
 

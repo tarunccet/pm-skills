@@ -6,7 +6,7 @@ Validates all plugins in the collection against the Claude Code plugin spec:
 - plugin.json manifest: required fields, author attribution, keywords
 - Skills: YAML frontmatter (name must match directory, description required)
 - Commands: YAML frontmatter (description and argument-hint required)
-- Cross-references: commands referencing skills that exist in the same plugin
+- Cross-references: commands must only reference skills within the same plugin (cross-plugin = ERROR)
 - README: exists and has expected sections
 
 Based on:
@@ -291,7 +291,12 @@ def validate_cross_references(
     skill_names: list[str],
     global_skill_names: Optional[set[str]] = None,
 ) -> ValidationResult:
-    """Check that commands reference skills that exist in this plugin or the collection."""
+    """Check that commands reference only skills that exist within the same plugin.
+
+    Cross-plugin skill references are treated as errors because plugins are
+    distributed individually via the marketplace — a user who installs only one
+    plugin must not encounter broken skill references.
+    """
     result = ValidationResult()
     cmds_dir = os.path.join(plugin_dir, "commands")
 
@@ -310,9 +315,13 @@ def validate_cross_references(
         for ref in refs:
             if ref not in skill_names:
                 if global_skill_names and ref in global_skill_names:
-                    result.note(f"Command {cmd_file} references skill '{ref}' from another plugin (cross-plugin reference)")
+                    result.error(
+                        f"Command '{cmd_file}' references skill '{ref}' from a different plugin. "
+                        f"Commands must only reference skills within the same plugin "
+                        f"(plugins are distributed individually via the marketplace)."
+                    )
                 else:
-                    result.warn(f"Command {cmd_file} references skill '{ref}' not found in this plugin or any other plugin")
+                    result.error(f"Command '{cmd_file}' references skill '{ref}' which does not exist in this plugin or any other plugin")
 
     return result
 

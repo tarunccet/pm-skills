@@ -28,7 +28,7 @@ Ask the user:
 
 ### Step 2: Define the Metrics Framework
 
-Apply the **product-metrics** skill (in `pm-data-analytics`):
+Define a metrics framework with a North Star metric, supporting input metrics, and a guardrail metric:
 
 Ask the user upfront: **Is this for an AI product or feature?** The skill adds a four-layer AI metrics stack (model quality, operational, product-level, business) when yes.
 

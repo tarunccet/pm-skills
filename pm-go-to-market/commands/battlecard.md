@@ -27,7 +27,7 @@ Ask:
 
 ### Step 2: Research the Competitor
 
-Apply the **competitor-analysis** skill in `battlecard` mode with web research:
+Research the competitor using public sources (website, G2/Capterra reviews, LinkedIn, press releases, product changelogs):
 
 - Current product capabilities and recent launches
 - Pricing model and published pricing

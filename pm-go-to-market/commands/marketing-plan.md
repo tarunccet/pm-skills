@@ -37,7 +37,7 @@ Ask:
 - Generate 3-5 positioning statements differentiated from each
 - Include rationale for each positioning angle
 
-**Value Proposition Statements** — apply **value-proposition-canvas** skill (in `pm-product-strategy`) to generate marketing-ready statements:
+**Value Proposition Statements** — generate marketing-ready value proposition statements aligned to the customer jobs, pains, and gains identified above:
 - Generate copy for marketing, sales, and onboarding contexts
 - Segment-specific variations
 - Short (tagline), medium (elevator pitch), and long (landing page) versions
