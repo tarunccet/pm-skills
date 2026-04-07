@@ -3,7 +3,7 @@ name: learn-vibe-coding
 description: "Interactive guide for PMs getting started with vibe coding: choosing and installing the right AI coding tools, writing your first spec, planning a build, and shipping a prototype."
 category: learning
 complexity: basic
-tags: ["learning", "vibe-coding", "ai-coding", "prototyping", "cursor", "replit", "tools", "getting-started"]
+tags: ["learning", "vibe-coding", "ai-coding", "prototyping", "tools", "getting-started"]
 ---
 
 # Learn: Vibe Coding for PMs
@@ -34,13 +34,12 @@ You are not trying to become a software engineer. Your job is:
 AI coding assistants work dramatically better when given a clear spec upfront. Ambiguity creates hallucinated architecture. Specificity creates working code. A PM who can write a precise spec will outperform one who just says "build me a CRM."
 
 **Common AI Coding Tools:**
-- **Bolt.new**: Best for frontend-only prototypes. Instant preview, no setup, great for React/UI.
-- **v0.dev** (Vercel): UI component generation. Produces production-quality Shadcn UI components.
-- **Replit Agent**: Best for quick full-stack demos. Zero setup, database included, one-click deploy.
-- **Cursor**: Best for complex full-stack apps. IDE-based, fine-grained control, great for iterating on existing code.
-- **GitHub Copilot**: Best for VS Code users working on existing projects. Not ideal for greenfield builds.
-- **Claude Code**: Best for complex logic, architecture, debugging. Terminal-based, requires comfort with command line.
-- **Windsurf**: Good for multi-file agentic flows. Newer but capable for full-stack work.
+AI coding tools generally fall into three categories. Rather than memorizing specific tools (which change rapidly), understand the categories:
+- **Browser-based tools** (no install required): Best for quick prototypes, frontend-only projects, and beginners who don't want to deal with setup. Trade-off: less control over the code.
+- **IDE-based tools** (install an app): Best for complex full-stack apps where you want fine-grained control over every file. Trade-off: more setup, steeper learning curve.
+- **Terminal-based tools** (command line): Best for complex logic, debugging, and working with existing codebases. Trade-off: requires comfort with the terminal.
+
+The right tool depends on your project, your comfort level, and your goals — not on which tool is "best" in general. This module will help you choose based on your specific situation.
 
 **Understanding your setup:**
 - Most tools require an account (free tiers available on most platforms)
@@ -87,17 +86,20 @@ Key questions:
 **Quiz Checkpoint 1**: Ask the learner to describe their scoped MVP in one sentence. Then ask: "What is the single feature that, if it didn't work, would make the whole prototype pointless?" This tests whether they can ruthlessly prioritize — the core skill of good scoping.
 
 ### Stage 2 — Tool Selection (10–15 min)
-Based on the scoped project, the mentor walks through the tool selection decision:
-1. Does the project need a backend / database? (If no → Bolt.new or v0.dev)
-2. How fast does the learner need a working demo? (Fastest → Replit Agent)
+Based on the scoped project, the mentor walks through the tool selection decision by asking questions:
+1. Does the project need a backend / database? (If no → browser-based UI tools are sufficient)
+2. How fast does the learner need a working demo? (Fastest → browser-based full-stack tools)
 3. How comfortable is the learner with installing software? (Not comfortable → browser-based tools)
-4. Does the learner plan to do more complex projects in the future? (If yes → Cursor is worth the setup time)
+4. Does the learner plan to do more complex projects in the future? (If yes → IDE-based tools may be worth the setup time)
+5. Is the learner already using a tool or have a preference? (If yes → work with that unless it's clearly wrong for the project)
 
-The mentor makes a specific recommendation and explains how to sign up and start a new project with that tool.
+The mentor makes a specific recommendation **based on the learner's answers** and explains how to sign up and start a new project with that tool. If the learner names a tool the mentor isn't deeply familiar with, ask the learner about its capabilities and work with it.
 
-**Practical checkpoint**: The mentor asks the learner to open the recommended tool in their browser and describe what they see — confirming they've actually started.
+**Mid-session check-in**: If the learner is struggling with the recommended tool (e.g., setup issues, confusing interface), proactively suggest: _"It sounds like this tool is causing friction. Would you like to try [alternative based on their needs]? It's [simpler/faster/doesn't require setup]. We won't lose your work — we'll just approach it differently."_
 
-**Quiz Checkpoint 2**: Present two project descriptions and ask the learner to recommend the best tool for each, with reasoning. Example: (1) "A simple landing page with email capture" (answer: Bolt.new — no backend needed, instant preview); (2) "A full-stack app with user accounts and a database" (answer: Cursor or Replit Agent — needs backend and auth).
+**Practical checkpoint**: The mentor asks the learner to open the recommended tool in their browser or app and describe what they see — confirming they've actually started.
+
+**Quiz Checkpoint 2**: Present two project descriptions and ask the learner to recommend the best *type* of tool for each, with reasoning. Example: (1) "A simple landing page with email capture" (answer: browser-based UI tool — no backend needed, instant preview); (2) "A full-stack app with user accounts and a database" (answer: IDE-based tool or browser-based full-stack tool — needs backend and auth, level of control depends on complexity).
 
 ### Stage 3 — Writing Your First Vibe Spec (15–20 min)
 The mentor guides the learner through writing a vibe spec for their project:
@@ -154,7 +156,18 @@ The mentor closes the module with a comprehensive summary:
 
 You are running the Vibe Coding learning module for a PM learner.
 
-### Opening
+### Step 0 — Learner Context (do this first, before the scenario)
+Before jumping into the module, ask the learner two brief questions to personalize the experience:
+
+1. _"Before we start — have you built anything with code or AI coding tools before? (e.g., never written code or used these tools, tried a no-code tool or followed a tutorial, have built a project with AI assistance)"_
+2. _"What brings you here? (e.g., I have a product idea I want to prototype, I want to understand what vibe coding can do, I want to build internal tools without waiting for engineering)"_
+
+**Wait for their response.** Then confirm the plan:
+- _"Thanks! Based on that, here's how this will work: I'll walk you through choosing a tool, writing a spec, and planning a build — step by step. [If complete beginner: I'll go slowly on setup and tool selection, and we'll use a browser-based tool so you don't need to install anything.] [If some experience: I'll move faster on basics and spend more time on spec quality and debugging strategies.] We can adjust the pace at any point — just say so. Ready?"_
+
+Use their self-reported level to **select initial difficulty and tool recommendation approach** (complete beginners are guided toward browser-based tools that require no installation; experienced learners are asked about their preferences before any recommendation). Their actual performance still drives adaptive difficulty — treat the self-report as a starting point, not a ceiling.
+
+### Opening (do this after learner context is confirmed)
 Begin with this message:
 
 _"Welcome to the vibe coding learning module. By the end of this session, you'll know how to choose the right AI coding tool for your project, write a spec that actually works, and get a prototype running._
@@ -176,14 +189,12 @@ _What brings you here today?"_
 This module covers multiple AI coding tools and should present all of them fairly without favoring any specific provider. Tool recommendations should be based entirely on the learner's project requirements and comfort level — not on which AI model is running this module. When the learner asks "which is best," always answer based on their specific use case, not brand preference.
 
 ### Installation Guidance
-When guiding the learner to set up a tool:
-- **Bolt.new**: No install needed. Go to bolt.new, click "Start a new project," describe what to build.
-- **v0.dev**: No install needed. Go to v0.dev, describe the UI component you want.
-- **Replit Agent**: No install needed. Go to replit.com, click "Create Repl," select "Agent," describe the app.
-- **Cursor**: Download from cursor.com, install like any app, open a new folder and start coding with the AI panel.
-- **Claude Code**: Requires Node.js and terminal comfort. Install via `npm install -g @anthropic-ai/claude-code`. Best for users who've used a terminal before.
-- **GitHub Copilot**: Install VS Code + GitHub Copilot extension from the VS Code marketplace. Requires a GitHub account.
-- **Windsurf**: Download from codeium.com/windsurf, install like any app.
+When guiding the learner to set up a tool, tailor the instructions to the specific tool they've chosen or been recommended. General guidance by category:
+- **Browser-based tools**: No install needed. Guide the learner to the tool's website, help them create an account, and start a new project.
+- **IDE-based tools**: Download from the tool's website, install like any app, and open a new folder to start a project with the AI assistant panel.
+- **Terminal-based tools**: May require Node.js or other runtime dependencies. Guide the learner through installation steps specific to the tool. Best for users who've used a terminal before.
+
+**If the learner is struggling with setup**, offer to switch to a browser-based alternative that requires no installation. The goal is to get building, not to fight with setup.
 
 ### Adaptive Difficulty Rules
 

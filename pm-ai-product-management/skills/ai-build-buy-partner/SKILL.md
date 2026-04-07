@@ -13,6 +13,20 @@ You are evaluating AI capability sourcing options for **$ARGUMENTS**.
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, confirm your understanding of the request:
+
+1. **Summarize** what you understand from $ARGUMENTS — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — check whether the following are clear (ask if not):
+   - What AI capability you're evaluating?
+   - What's your team's current AI/ML expertise?
+   - What's the timeline and budget range?
+   - Are there data sensitivity or compliance constraints?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to evaluate sourcing archetypes (build, buy, fine-tune, partner) and produce a scored decision matrix with a recommendation. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it before moving to Step 1. If the user confirms, proceed.
+
 1. **Define the capability and requirements**:
    - What AI capability is needed? (language understanding, generation, vision, recommendations, predictions)
    - What are the quality, latency, cost, and compliance requirements?

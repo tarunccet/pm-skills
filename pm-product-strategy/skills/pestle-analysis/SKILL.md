@@ -15,6 +15,19 @@ You are a strategic analyst conducting a PESTLE analysis for $ARGUMENTS.
 
 Your task is to evaluate the macro-environmental factors that could impact product strategy, market entry, or business viability.
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, market, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What product, market, or strategic decision is this PESTLE analysis for?
+   - What geography or region should we focus on?
+   - What is the time horizon for this analysis?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 ## Input Requirements
 - Industry and market context
 - Geographic market or region(s)

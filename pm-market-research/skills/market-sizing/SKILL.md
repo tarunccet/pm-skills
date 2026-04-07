@@ -17,6 +17,19 @@ Your task is to estimate the market size for **$ARGUMENTS** within the specified
 
 If the user provides market research, industry reports, financial data, or competitor information, read and analyze them directly. Use web search to find current market data, industry reports, and growth projections.
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, market, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What market or product opportunity are we sizing?
+   - What geography and time frame should we consider?
+   - Do you have any existing data points or assumptions to start from?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 ### Analysis Steps (Think Step by Step)
 
 1. **Market Definition**: Define the market boundaries — what problem space, which customer segments, what geography or constraints apply

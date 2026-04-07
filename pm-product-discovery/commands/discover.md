@@ -55,7 +55,7 @@ For each selected idea, apply the **identify-assumptions-existing** or **identif
 
 ### Step 4: Prioritize Assumptions (Focus Phase)
 
-Apply the **prioritization** skill in `assumptions` mode:
+Prioritize assumptions by mapping them on an Impact × Risk matrix:
 
 - Map assumptions on an Impact × Risk matrix
 - Identify the "leap of faith" assumptions — high impact, high uncertainty

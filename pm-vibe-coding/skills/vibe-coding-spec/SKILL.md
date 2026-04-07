@@ -3,7 +3,7 @@ name: vibe-coding-spec
 description: "Write a natural-language specification optimized for feeding to AI coding assistants. Covers problem statement, user flows, data model, API contracts, UI descriptions, tech stack, and constraints."
 category: vibe-coding
 complexity: intermediate
-tags: ["vibe-coding", "specification", "ai-coding", "cursor", "replit", "prototyping"]
+tags: ["vibe-coding", "specification", "ai-coding", "prototyping"]
 ---
 
 # Vibe Coding Spec
@@ -13,8 +13,8 @@ tags: ["vibe-coding", "specification", "ai-coding", "cursor", "replit", "prototy
 |-------|-----------|---------|
 | Product idea or feature to build | ✅ Required | "A job board for climate tech roles with GitHub sign-in" |
 | Core user flow (step-by-step) | ✅ Required | "User lands → browses jobs → applies → gets email confirmation" |
-| Target AI coding tool | 🟡 Recommended | Cursor, Replit Agent, Claude Code, Bolt.new, v0.dev, Windsurf |
-| Preferred tech stack | ⚪ Optional | Next.js + Supabase + Vercel, or "let AI decide" |
+| Target AI coding tool | 🟡 Recommended | The AI coding tool you plan to use (or say "help me choose") |
+| Preferred tech stack | ⚪ Optional | Your preferred frameworks and services, or "recommend one based on my needs" |
 | Known constraints | ⚪ Optional | "No backend, static only" / "Must use our existing auth" |
 
 > **Don't have everything?** Start anyway — the skill will work with what you provide and flag where richer input would improve the output.
@@ -27,15 +27,9 @@ Generate a comprehensive "vibe spec" — a structured natural-language specifica
 
 The key insight: AI coding assistants perform dramatically better with explicit data models, user flows, and constraints defined upfront. Ambiguity creates hallucinated architecture. Specificity creates working code.
 
-Different AI tools interpret specs differently:
-- **Cursor**: Works best with detailed file structure hints and explicit library preferences
-- **Replit Agent**: Needs clear deployment targets and dependency lists
-- **Claude Code**: Benefits from step-by-step sequencing and explicit output formats
-- **GitHub Copilot**: Responds well to inline comments explaining intent
-- **Bolt.new / v0.dev**: Best with focused UI descriptions; keep backend concerns separate
-- **Windsurf**: Works well with multi-file change descriptions and clear module boundaries
+Different AI tools interpret specs differently — some work best with detailed file structure hints and explicit library preferences, while others need clear deployment targets, and browser-based tools work best with focused UI descriptions. Ask the user which tool they're using (or help them choose based on their project needs) and tailor the spec format accordingly.
 
-**Context window considerations**: Long specs (1500+ words) may need to be chunked when pasting into tools with smaller context windows. For Replit Agent and Bolt.new, lead with the problem statement and core flows — move API contracts and detailed schemas to follow-up prompts. For Cursor and Claude Code, paste the full spec upfront since they handle longer contexts well.
+**Context window considerations**: Long specs (1500+ words) may need to be chunked when pasting into tools with smaller context windows. For browser-based tools, lead with the problem statement and core flows — move API contracts and detailed schemas to follow-up prompts. For IDE-based and terminal-based tools, paste the full spec upfront since they generally handle longer contexts well.
 
 ## When to Use
 - Use when starting a new product prototype with an AI coding assistant
@@ -55,10 +49,12 @@ Different AI tools interpret specs differently:
 
 You are helping a PM-builder create a vibe coding specification for **$ARGUMENTS**.
 
-Ask the user these questions if not already provided:
+Check what's already known from $ARGUMENTS or the conversation context. **Only ask questions whose answers aren't already clear** — if the user has already shared their project details, stack preferences, or tool choices (e.g., from a prior `/plan-prototype` or `/tech-decision` session), use that context and skip to spec generation.
+
+If key context is missing, ask:
 1. What problem does this solve? Who is the primary user?
 2. What are the 2-3 core user flows?
-3. What tech stack preference do you have? (or say "recommend one")
+3. What tech stack preference do you have? (or say "recommend one based on my needs")
 4. Any constraints: budget, timeline, existing services to integrate?
 5. What does the MVP exclude? (scope boundaries)
 
@@ -100,12 +96,18 @@ For each core flow (2-3 maximum):
 - Mobile vs desktop if relevant
 
 ### Step 6: Tech Stack Recommendation
-- Frontend framework and why
+If the user specified a preferred tech stack, use it. If they said "recommend one based on my needs," ask:
+1. _"Does this need a backend/database or is it frontend-only?"_
+2. _"Are you already using any platforms or services?"_
+3. _"Any budget constraints?"_
+
+Then recommend based on their answers:
+- Frontend framework and why (based on their comfort level and AI tool choice)
 - Backend/API approach
-- Database choice and why
-- Auth solution
+- Database choice and why (based on data relationships and their existing tools)
+- Auth solution (based on their existing platform or needs)
 - File storage (if needed)
-- Hosting/deployment target
+- Hosting/deployment target (based on their framework choice and budget)
 - Third-party APIs/services
 - Estimated monthly cost at MVP scale
 
@@ -181,20 +183,21 @@ A landing page for a new product that captures waitlist signups, lets visitors s
 | | password_hash | string | bcrypt hashed |
 
 ### Tech Stack
-- Frontend: Next.js 14 + Tailwind CSS (fast to build, easy deployment)
+*Based on user's stated preference for a lightweight setup with no backend complexity:*
+- Frontend: Next.js + Tailwind CSS (fast to build, strong AI code-generation support)
 - Backend: Next.js API routes (no separate backend needed at MVP scale)
-- Database: Supabase (free tier, Postgres, built-in auth)
-- Auth: Supabase Auth (email/password for admin only)
-- Hosting: Vercel (free tier, one-click deploy from GitHub)
+- Database: PostgreSQL via a managed service (free tier, handles structured data well)
+- Auth: Managed auth provider — e.g., a dedicated auth service or your backend platform's auth module (email/password for admin only)
+- Hosting: Platform that supports Next.js with one-click deploy
 - Cost: $0/month at MVP scale
 
 ### AI Session Header
 ```
 You are building a waitlist landing page with admin dashboard.
-Tech stack: Next.js 14, TypeScript, Tailwind CSS, Supabase (Postgres + Auth), deployed on Vercel.
+Tech stack: [user's chosen stack — e.g., Next.js, TypeScript, Tailwind CSS, chosen database + auth, chosen hosting].
 My goal: A landing page that captures email signups and an /admin route to manage them.
-Start by: Creating the Next.js project with TypeScript and Tailwind, then the Supabase schema.
-Coding style: TypeScript strict mode, functional React components, no class components, use shadcn/ui for UI components.
+Start by: Creating the project with TypeScript and Tailwind, then the database schema.
+Coding style: TypeScript strict mode, functional React components, no class components.
 When uncertain: Ask me before choosing a library or architecture pattern.
-Do not: Use Redux, write raw SQL, hardcode any secrets.
+Do not: Use complex state management libraries, write raw SQL, hardcode any secrets.
 ```

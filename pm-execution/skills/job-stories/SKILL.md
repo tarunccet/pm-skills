@@ -16,6 +16,19 @@ Create job stories using the 'When [situation], I want to [motivation], so I can
 
 ## Step-by-Step Process
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What product or feature are these job stories for?
+   - What situations or contexts trigger the user's need?
+   - What outcomes does the user want to achieve?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 1. **Identify user situations** that trigger the need
 2. **Define motivations** underlying the user's behavior
 3. **Clarify outcomes** the user wants to achieve

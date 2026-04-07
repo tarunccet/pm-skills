@@ -13,6 +13,20 @@ You are conducting a responsible AI review for **$ARGUMENTS**.
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, confirm your understanding of the request:
+
+1. **Summarize** what you understand from $ARGUMENTS — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — check whether the following are clear (ask if not):
+   - What AI feature or system is being assessed?
+   - What type of AI capability is it (generative, classification, recommendation, etc.)?
+   - Who are the affected user populations?
+   - Are there specific regulatory requirements (EU AI Act, NYC Local Law 144, etc.)?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to conduct a responsible AI review covering bias, safety, privacy, regulatory compliance, and stakeholder impact. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it before moving to Step 1. If the user confirms, proceed.
+
 1. **Gather context**:
    - What does the AI system do? What are its inputs and outputs?
    - Who are the affected user populations (including vulnerable or marginalised groups)?

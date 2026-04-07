@@ -30,6 +30,19 @@ If the user provides files (PRDs, user stories, technical specs, or past inciden
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What feature or user flow are we identifying edge cases for?
+   - What is the expected happy-path behavior?
+   - Are there known constraints (technical, regulatory, accessibility)?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 1. **Understand the feature scope**:
    - What is the happy path? Walk through the ideal user flow end-to-end.
    - What data does the feature accept, process, and output?

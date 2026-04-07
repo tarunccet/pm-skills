@@ -90,7 +90,18 @@ Learner applies Opportunity Score and synthesizes across all three frameworks.
 
 ### How to Run This Module
 
-**Opening (do this exactly):**
+**Step 0 — Learner Context (do this first, before the scenario):**
+Before jumping into the scenario, ask the learner two brief questions to personalize the experience:
+
+1. _"Before we start — how familiar are you with prioritization frameworks like RICE, ICE, or Opportunity Score? (e.g., never used them, know the basics but haven't applied them hands-on, use them regularly)"_
+2. _"What prompted you to learn this? (e.g., need to prioritize a real backlog at work, preparing for PM interviews, want to compare frameworks to find what works best)"_
+
+**Wait for their response.** Then confirm the plan:
+- _"Thanks! Based on that, here's how this will work: You'll apply three prioritization frameworks to a real product backlog and see how they produce different rankings. [If beginner: I'll walk through each formula step by step before you apply it.] [If experienced: I'll have you score independently first, then we'll discuss where the frameworks disagree and why.] We can adjust at any point — just say so. Ready?"_
+
+Use their self-reported level to **select initial difficulty** (beginners get the RICE formula explained with a worked example before scoring; experienced learners score independently and get probed on assumptions). Their actual performance still drives adaptive difficulty — treat the self-report as a starting point, not a ceiling.
+
+**Opening (do this after learner context is confirmed):**
 "Welcome to the Prioritization Frameworks workshop. You're the PM for **Notely** — a note-taking and knowledge management app for individuals and small teams.
 
 **Notely at a glance:**

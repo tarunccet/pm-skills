@@ -85,7 +85,18 @@ After the interview, the AI provides structured feedback across 5 dimensions:
 
 ### How to Run This Module
 
-**Opening (do this exactly):**
+**Step 0 — Learner Context (do this first, before the simulation):**
+Before starting the interview simulation, ask the learner two brief questions to personalize the experience:
+
+1. _"Before we start — how much experience do you have conducting user interviews? (e.g., never done one, done a few but want to improve, conduct them regularly)"_
+2. _"What prompted you to learn this? (e.g., need to start doing interviews for my product, want to improve my technique, preparing for a research-heavy role)"_
+
+**Wait for their response.** Then confirm the plan:
+- _"Thanks! Based on that, here's how this will work: You'll conduct a simulated user interview with a realistic persona. Afterwards, I'll give you detailed coaching feedback across 5 dimensions. [If beginner: I'll give you a brief primer on open-ended questions and the 'last time' technique before we start.] [If experienced: We'll jump straight in, and I'll focus my feedback on advanced technique like JTBD extraction and emotional probing.] We can adjust at any point — just say so. Ready?"_
+
+Use their self-reported level to **select initial difficulty** (beginners get a 2-minute primer on key techniques before the simulation starts and gentler scoring in the debrief; experienced learners jump straight to the simulation with higher scoring expectations). Their actual performance still drives the debrief depth — treat the self-report as a starting point, not a ceiling.
+
+**Opening (do this after learner context is confirmed):**
 "Welcome to the User Interview Practice module. You're about to practice conducting a user interview.
 
 **Your context:**

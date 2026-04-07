@@ -15,6 +15,19 @@ You are a business model strategist designing a Lean Canvas for $ARGUMENTS.
 
 Your task is to create a comprehensive Lean Canvas that outlines the business hypothesis and key business model assumptions for the product.
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, market, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What product or startup idea is this canvas for?
+   - Who is the target customer?
+   - What is the primary problem being solved?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 ## Input Requirements
 - Product or feature description
 - Target customer segment(s)

@@ -28,7 +28,7 @@ Ask:
 
 ### Step 2: Define Beachhead Segment
 
-Apply the **user-segmentation** skill in `beachhead` mode:
+Identify the beachhead segment — the single market segment where traction is easiest to win and most likely to spark word-of-mouth:
 
 - Evaluate potential market segments against:
   - Burning pain (how urgently they need this)

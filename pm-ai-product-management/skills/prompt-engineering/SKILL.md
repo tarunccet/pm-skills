@@ -13,6 +13,22 @@ You are engineering prompts for **$ARGUMENTS**.
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, confirm your understanding of the request:
+
+1. **Summarize** what you understand from $ARGUMENTS — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — check whether the following are clear (ask if not):
+   - What task must the model perform?
+   - What is the expected input format and output format?
+   - What failure modes must be prevented?
+   - Is there an existing prompt to improve, or are we starting from scratch?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to design a production-ready prompt with system instructions, few-shot examples, guardrails, and an evaluation strategy. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it before moving to Step 1. If the user confirms, proceed.
+
+Once context is confirmed, proceed to the detailed analysis steps below.
+
 1. **Clarify the prompt requirements**:
    - What task must the model perform?
    - What is the expected input format and output format?

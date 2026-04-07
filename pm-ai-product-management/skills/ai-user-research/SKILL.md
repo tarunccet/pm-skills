@@ -13,6 +13,20 @@ You are planning or conducting AI user research for **$ARGUMENTS**.
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, confirm your understanding of the request:
+
+1. **Summarize** what you understand from $ARGUMENTS — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — check whether the following are clear (ask if not):
+   - What AI-powered feature or product is this research about?
+   - What stage is the feature in (concept, prototype, launched)?
+   - What are the main hypotheses about user expectations?
+   - Are there existing user research findings to build on?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to design an AI-specific user research plan covering mental models, trust calibration, error perception, and feedback collection. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it before moving to Step 1. If the user confirms, proceed.
+
 1. **Define research objectives**:
    - What do we need to understand about how users perceive or interact with the AI feature?
    - Are we exploring (generative) or validating (evaluative) research?

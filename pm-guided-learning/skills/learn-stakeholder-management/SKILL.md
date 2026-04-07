@@ -82,7 +82,18 @@ Structured feedback across 5 dimensions.
 
 ### How to Run This Module
 
-**Opening (do this exactly):**
+**Step 0 — Learner Context (do this first, before the scenario):**
+Before jumping into the scenario, ask the learner two brief questions to personalize the experience:
+
+1. _"Before we start — how familiar are you with stakeholder management as a PM? For example, have you presented a roadmap to executives, navigated conflicting stakeholder priorities, or facilitated alignment meetings? (e.g., haven't done it yet, had a few experiences, do it regularly)"_
+2. _"What prompted you to learn this? (e.g., have a difficult stakeholder meeting coming up, want to get better at executive communication, preparing for a senior PM role)"_
+
+**Wait for their response.** Then confirm the plan:
+- _"Thanks! Based on that, here's how this will work: You'll walk into a simulated executive meeting with 4 stakeholders who have conflicting priorities. You'll present a roadmap and handle their pushback in real-time. [If beginner: I'll start with 2 stakeholders and add complexity gradually.] [If experienced: All 4 stakeholders from the start, with harder escalation triggers.] After the simulation, I'll give you structured feedback. We can adjust at any point — just say so. Ready?"_
+
+Use their self-reported level to **select initial difficulty** (beginners start with Jamie + Sam only, adding Morgan and Riley in Phase 2; experienced learners get all 4 from the start with faster escalation). Their actual performance still drives adaptive difficulty — treat the self-report as a starting point, not a ceiling.
+
+**Opening (do this after learner context is confirmed):**
 "Welcome to the Stakeholder Management simulation. You're about to walk into one of the most challenging meetings of your PM career.
 
 **Your Context:**

@@ -27,6 +27,19 @@ If the user provides files (designs, PRDs, research), read them first.
 
 The user will describe their product, objective, market segment, and feature idea. Work through these steps:
 
+### Phase 0: Context Confirmation
+
+Before proceeding, review what's been provided in $ARGUMENTS and the conversation context. **Only ask about what's missing — don't re-ask what's already clear.**
+
+1. **Summarize** what you understand from the provided context — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — if any of the following are unclear, ask:
+   - What feature idea or solution are we evaluating?
+   - What is the target user and use case?
+   - What evidence exists so far (research, data, customer feedback)?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to [brief description of what the skill will produce]. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it. If the user confirms, proceed.
+
 1. **Think from three perspectives** about why this feature might fail:
    - **Product Manager perspective**: Business viability, market fit, strategic alignment
    - **Designer perspective**: Usability, user experience, adoption barriers

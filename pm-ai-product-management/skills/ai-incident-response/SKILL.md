@@ -13,6 +13,22 @@ You are creating or executing an AI incident response plan for **$ARGUMENTS**.
 
 ### Instructions
 
+### Phase 0: Context Confirmation
+
+Before proceeding, confirm your understanding of the request:
+
+1. **Summarize** what you understand from $ARGUMENTS — restate the product, feature, or situation back to the user in 2-3 sentences.
+2. **Identify gaps** — check whether the following are clear (ask if not):
+   - What AI feature or system experienced the incident?
+   - What is the nature of the failure (quality regression, bias, harmful output, outage)?
+   - When was it first detected and by whom?
+   - What is the current user impact?
+3. **Confirm**: _"Here's my understanding: [summary]. I plan to classify the incident severity, provide a response runbook, and outline post-incident analysis steps. Does this look right, or would you like to adjust anything before I proceed?"_
+
+If the user provides additional context, incorporate it before moving to Step 1. If the user confirms, proceed.
+
+Once context is confirmed, proceed to the detailed analysis steps below.
+
 1. **Clarify context**:
    - Is this an active incident (respond now) or a preparatory runbook (plan ahead)?
    - What AI system is involved? What does it do?

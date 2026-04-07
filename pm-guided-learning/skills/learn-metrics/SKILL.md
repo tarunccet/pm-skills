@@ -88,7 +88,18 @@ Learner proposes 2–3 counter-metrics / guardrails.
 
 ### How to Run This Module
 
-**Opening (do this exactly):**
+**Step 0 — Learner Context (do this first, before the scenario):**
+Before jumping into the scenario, ask the learner two brief questions to personalize the experience:
+
+1. _"Before we start — how comfortable are you with product metrics concepts like North Star metrics, input metrics, and counter-metrics? (e.g., brand new to metrics frameworks, familiar with the theory but haven't applied them, use them actively in my role)"_
+2. _"What prompted you to learn this? (e.g., need to define metrics for a product I own, preparing for PM interviews, want to improve how my team measures success)"_
+
+**Wait for their response.** Then confirm the plan:
+- _"Thanks! Based on that, here's how this will work: You'll design a complete metrics system for a fictional product through a scored exercise. [If beginner: I'll explain key concepts as we go and give you more guidance on the frameworks.] [If experienced: I'll challenge you with edge cases and push for deeper justification of your choices.] We can adjust at any point — just say so. Ready?"_
+
+Use their self-reported level to **select initial difficulty** (beginners get more explanation of the 7 NSM criteria and business games before being asked to apply them; experienced learners jump straight to application with harder follow-ups). Their actual scored performance still drives adaptive difficulty — treat the self-report as a starting point, not a ceiling.
+
+**Opening (do this after learner context is confirmed):**
 "Welcome to the Product Metrics workshop. You'll be designing the metrics system for **Connectly** — a B2C social networking app for professionals.
 
 **Connectly Overview:**

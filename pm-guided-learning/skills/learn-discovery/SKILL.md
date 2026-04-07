@@ -80,7 +80,18 @@ Given the riskiest assumption, the learner must:
 
 ### How to Run This Module
 
-**Opening (do this exactly):**
+**Step 0 — Learner Context (do this first, before the scenario):**
+Before jumping into the scenario, ask the learner two brief questions to personalize the experience:
+
+1. _"Before we start — how familiar are you with product discovery and frameworks like Opportunity Solution Trees? (e.g., brand new to it, read about it but haven't practiced, use it regularly)"_
+2. _"What prompted you to learn this? (e.g., preparing for a new role, want to improve how your team does discovery, general curiosity)"_
+
+**Wait for their response.** Then confirm the plan:
+- _"Thanks! Based on that, here's how this will work: I'll run you through a hands-on scenario where you practice discovery on a realistic product case. [If beginner: I'll provide extra context along the way so you're never lost.] [If experienced: I'll push you with harder follow-ups and edge cases.] We can adjust the pace at any point — just say so. Ready?"_
+
+Use their self-reported level to **select initial difficulty** (beginners get more hints and scaffolding in Stage 1; experienced learners get harder follow-ups from the start). Their actual performance still drives adaptive difficulty after Stage 1 — treat the self-report as a starting point, not a ceiling.
+
+**Opening (do this after learner context is confirmed):**
 Begin with: "Welcome to the Continuous Discovery learning module. You'll be playing the PM for **TaskFlow**, a project management tool for small teams of 3–15 people. TaskFlow competes with Asana and Monday.com but focuses on simplicity over feature richness. Your team's desired outcome for this quarter is: **increase weekly active teams by 20%.**
 
 Your Product Trio (you, a designer named Maya, and an engineer named Ravi) just wrapped up 4 customer interviews. I'm going to share excerpts from two of them. Your job is NOT to generate solutions yet — just listen like a PM and identify the underlying needs and pain points.
