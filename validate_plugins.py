@@ -286,8 +286,12 @@ def validate_readme(plugin_dir: str) -> ValidationResult:
     return result
 
 
-def validate_cross_references(plugin_dir: str, skill_names: list[str]) -> ValidationResult:
-    """Check that commands reference skills that actually exist in this plugin."""
+def validate_cross_references(
+    plugin_dir: str,
+    skill_names: list[str],
+    global_skill_names: Optional[set[str]] = None,
+) -> ValidationResult:
+    """Check that commands reference skills that exist in this plugin or the collection."""
     result = ValidationResult()
     cmds_dir = os.path.join(plugin_dir, "commands")
 
@@ -305,14 +309,17 @@ def validate_cross_references(plugin_dir: str, skill_names: list[str]) -> Valida
         refs = re.findall(r'\*\*(\w[\w-]+)\*\*\s+skill', content)
         for ref in refs:
             if ref not in skill_names:
-                result.warn(f"Command {cmd_file} references skill '{ref}' not found in this plugin")
+                if global_skill_names and ref in global_skill_names:
+                    result.note(f"Command {cmd_file} references skill '{ref}' from another plugin (cross-plugin reference)")
+                else:
+                    result.warn(f"Command {cmd_file} references skill '{ref}' not found in this plugin or any other plugin")
 
     return result
 
 
 # ─── Main Validator ──────────────────────────────────────────────────────────
 
-def validate_plugin(plugin_dir: str) -> dict:
+def validate_plugin(plugin_dir: str, global_skill_names: Optional[set[str]] = None) -> dict:
     """Run all validations on a single plugin."""
     plugin_name = os.path.basename(plugin_dir)
     results = {"name": plugin_name, "sections": {}}
@@ -348,7 +355,7 @@ def validate_plugin(plugin_dir: str) -> dict:
     results["sections"]["readme"] = validate_readme(plugin_dir)
 
     # 5. Cross-references
-    results["sections"]["cross-refs"] = validate_cross_references(plugin_dir, skill_names)
+    results["sections"]["cross-refs"] = validate_cross_references(plugin_dir, skill_names, global_skill_names)
 
     return results
 
@@ -492,10 +499,19 @@ def main():
 
     print(f"Found {len(plugin_dirs)} plugins in {base_path}\n")
 
+    # Pre-collect all skill names across the collection for cross-plugin reference checks
+    global_skill_names: set[str] = set()
+    for pd in plugin_dirs:
+        skills_dir = os.path.join(pd, "skills")
+        if os.path.isdir(skills_dir):
+            for entry in os.listdir(skills_dir):
+                if os.path.isdir(os.path.join(skills_dir, entry)):
+                    global_skill_names.add(entry)
+
     # Validate each plugin
     all_results = []
     for pd in plugin_dirs:
-        all_results.append(validate_plugin(pd))
+        all_results.append(validate_plugin(pd, global_skill_names))
 
     # Print report
     errors = print_report(all_results)
