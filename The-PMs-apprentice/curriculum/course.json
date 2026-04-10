@@ -1,0 +1,300 @@
+{
+  "title": "PM Foundations Course",
+  "version": "1.0.0",
+  "totalEstimatedHours": 10,
+  "modules": [
+    {
+      "id": "foundations",
+      "title": "PM Foundations",
+      "description": "The PM role, mindset, and skill tree self-assessment. Beginner entry point.",
+      "unit": 1,
+      "unitTitle": "Foundations",
+      "order": 1,
+      "estimatedMinutes": 45,
+      "complexity": "beginner",
+      "prerequisites": [],
+      "stages": [
+        { "id": "stage-1", "title": "The PM Role in Context", "type": "lesson", "estimatedMinutes": 18 },
+        { "id": "quiz-1", "title": "PM Role Quiz", "type": "quiz", "estimatedMinutes": 5 },
+        { "id": "stage-2", "title": "PM Mindset", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-2", "title": "Mindset Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "Framework Overview & Self-Assessment", "type": "exercise", "estimatedMinutes": 12 },
+        { "id": "debrief", "title": "Foundations Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Distinguish outputs from outcomes",
+        "Apply the 'problem before solution' principle",
+        "Identify 5 PM frameworks conceptually",
+        "Assess strengths and weaknesses across the PM skill tree"
+      ]
+    },
+    {
+      "id": "user-research",
+      "title": "User Interview Practice",
+      "description": "Simulated user interview with coaching feedback on technique.",
+      "unit": 1,
+      "unitTitle": "Foundations",
+      "order": 2,
+      "estimatedMinutes": 30,
+      "complexity": "intermediate",
+      "prerequisites": ["foundations"],
+      "stages": [
+        { "id": "stage-1", "title": "Interview Simulation", "type": "simulation", "estimatedMinutes": 20 },
+        { "id": "stage-2", "title": "Coaching Debrief", "type": "debrief", "estimatedMinutes": 10 }
+      ],
+      "learningObjectives": [
+        "Ask open-ended, non-leading questions",
+        "Extract jobs-to-be-done from surface answers",
+        "Use the 'last time' technique for concrete data",
+        "Avoid confirmation bias in interviews",
+        "Run proper interview flow with rapport"
+      ]
+    },
+    {
+      "id": "discovery",
+      "title": "Continuous Discovery",
+      "description": "OST framework, assumption mapping, and lean experiment design.",
+      "unit": 1,
+      "unitTitle": "Foundations",
+      "order": 3,
+      "estimatedMinutes": 45,
+      "complexity": "intermediate",
+      "prerequisites": ["user-research"],
+      "stages": [
+        { "id": "stage-1", "title": "Opportunity Identification", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "quiz-1", "title": "Opportunity vs Solution Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-2", "title": "Assumption Mapping", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-2", "title": "Assumption Types Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "Experiment Design", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-3", "title": "Lean Testing Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "debrief", "title": "Discovery Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Distinguish opportunities from solutions",
+        "Build an OST from raw interview data",
+        "Map desirability, viability, and feasibility assumptions",
+        "Design lean experiments testable in under a week",
+        "Apply the Product Trio model"
+      ]
+    },
+    {
+      "id": "metrics",
+      "title": "Product Metrics",
+      "description": "North Star Metric, input metrics, counter-metrics, and the 3 Business Games.",
+      "unit": 2,
+      "unitTitle": "Strategy",
+      "order": 4,
+      "estimatedMinutes": 45,
+      "complexity": "intermediate",
+      "prerequisites": ["discovery"],
+      "stages": [
+        { "id": "stage-1", "title": "North Star Metric", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "quiz-1", "title": "NSM Theory Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-2", "title": "Input Metrics", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-2", "title": "Leading vs Lagging Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "Counter-Metrics", "type": "exercise", "estimatedMinutes": 12 },
+        { "id": "quiz-3", "title": "Goodhart's Law Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "debrief", "title": "Metrics Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Apply 7 criteria to evaluate a North Star Metric",
+        "Design leading indicators, not lagging ones",
+        "Identify counter-metrics and guardrails",
+        "Distinguish the 3 Business Games",
+        "Avoid 5 common metrics mistakes"
+      ]
+    },
+    {
+      "id": "prioritization",
+      "title": "Prioritization Frameworks",
+      "description": "RICE, ICE, and Opportunity Score with a realistic 8-feature backlog.",
+      "unit": 2,
+      "unitTitle": "Strategy",
+      "order": 5,
+      "estimatedMinutes": 50,
+      "complexity": "intermediate",
+      "prerequisites": ["metrics"],
+      "stages": [
+        { "id": "stage-1", "title": "RICE Scoring", "type": "exercise", "estimatedMinutes": 20 },
+        { "id": "quiz-1", "title": "RICE Theory Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-2", "title": "ICE Scoring", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-2", "title": "Framework Comparison Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "Opportunity Score & Synthesis", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "quiz-3", "title": "Framework Selection Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "debrief", "title": "Prioritization Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Apply RICE, ICE, and Opportunity Score correctly",
+        "Explain what each framework optimizes for",
+        "Diagnose root cause of framework divergence",
+        "Know when to use each framework",
+        "Recognize HiPPO effect and false precision pitfalls"
+      ]
+    },
+    {
+      "id": "strategy",
+      "title": "Product Strategy",
+      "description": "Playing to Win cascade, Coherence Test, and competitive strategy.",
+      "unit": 2,
+      "unitTitle": "Strategy",
+      "order": 6,
+      "estimatedMinutes": 60,
+      "complexity": "advanced",
+      "prerequisites": ["prioritization"],
+      "stages": [
+        { "id": "stage-1", "title": "Winning Aspiration & Where to Play", "type": "exercise", "estimatedMinutes": 22 },
+        { "id": "quiz-1", "title": "Strategy Foundations Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-2", "title": "How to Win & Capabilities", "type": "exercise", "estimatedMinutes": 22 },
+        { "id": "quiz-2", "title": "Moats & Advantages Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "Coherence Test & Competitor Analysis", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "quiz-3", "title": "Strategic Coherence Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "debrief", "title": "Strategy Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Apply the 5-choice Playing to Win cascade",
+        "Run the Coherence Test to identify gaps",
+        "Distinguish cost leadership from differentiation",
+        "Identify 2-3 moat types for a given product",
+        "Reverse-engineer a competitor's strategy"
+      ]
+    },
+    {
+      "id": "execution",
+      "title": "Product Execution & Delivery",
+      "description": "PRD writing, outcome roadmaps, OKRs, and sprint planning simulation.",
+      "unit": 3,
+      "unitTitle": "Execution & Delivery",
+      "order": 7,
+      "estimatedMinutes": 50,
+      "complexity": "intermediate",
+      "prerequisites": ["strategy"],
+      "stages": [
+        { "id": "stage-1", "title": "Writing a PRD", "type": "exercise", "estimatedMinutes": 22 },
+        { "id": "quiz-1", "title": "PRD Best Practices Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-2", "title": "Outcome-Based Roadmap", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-2", "title": "Roadmap Theory Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "OKRs & Sprint Planning", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-3", "title": "Execution Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "debrief", "title": "Execution Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Write a 6-section PRD that engineers can build from",
+        "Distinguish outcome-based from feature roadmaps",
+        "Write 3 well-formed OKRs with measurable criteria",
+        "Run sprint planning without micromanaging",
+        "Identify and avoid scope creep"
+      ]
+    },
+    {
+      "id": "stakeholders",
+      "title": "Stakeholder Management",
+      "description": "Multi-stakeholder simulation: present roadmap to 4 conflicting executives.",
+      "unit": 3,
+      "unitTitle": "Execution & Delivery",
+      "order": 8,
+      "estimatedMinutes": 45,
+      "complexity": "advanced",
+      "prerequisites": ["execution"],
+      "stages": [
+        { "id": "stage-1", "title": "Roadmap Presentation", "type": "simulation", "estimatedMinutes": 15 },
+        { "id": "stage-2", "title": "Negotiation & Conflict Resolution", "type": "simulation", "estimatedMinutes": 15 },
+        { "id": "stage-3", "title": "Alignment & Decision", "type": "exercise", "estimatedMinutes": 10 },
+        { "id": "debrief", "title": "Stakeholder Debrief", "type": "debrief", "estimatedMinutes": 10 }
+      ],
+      "learningObjectives": [
+        "Present a roadmap to executives with conflicting priorities",
+        "Navigate real-time conflict with data-driven responses",
+        "Build coalitions across stakeholders",
+        "Apply 'disagree and commit' appropriately",
+        "Map and manage a power/interest stakeholder grid"
+      ]
+    },
+    {
+      "id": "ai-pm",
+      "title": "AI Product Management",
+      "description": "Model evaluation, responsible AI, prompt engineering, and AI metrics.",
+      "unit": 4,
+      "unitTitle": "Modern PM",
+      "order": 9,
+      "estimatedMinutes": 50,
+      "complexity": "intermediate",
+      "prerequisites": [],
+      "stages": [
+        { "id": "stage-1", "title": "Model Evaluation", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "quiz-1", "title": "Model Eval Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-2", "title": "Responsible AI", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-2", "title": "Responsible AI Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "Prompt Engineering", "type": "exercise", "estimatedMinutes": 12 },
+        { "id": "quiz-3", "title": "Prompt Engineering Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-4", "title": "AI Metrics & Incident Response", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-4", "title": "AI Metrics Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "debrief", "title": "AI PM Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Frame an AI model evaluation plan",
+        "Identify responsible AI risks and propose mitigations",
+        "Write and improve a system prompt",
+        "Define AI-specific success metrics",
+        "Make build vs buy vs partner recommendation",
+        "Describe an AI incident response plan"
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "title": "Vibe Coding for PMs",
+      "description": "AI coding tools, spec writing, build planning, and shipping prototypes.",
+      "unit": 4,
+      "unitTitle": "Modern PM",
+      "order": 10,
+      "estimatedMinutes": 35,
+      "complexity": "beginner",
+      "prerequisites": [],
+      "stages": [
+        { "id": "stage-1", "title": "Project Scoping", "type": "exercise", "estimatedMinutes": 12 },
+        { "id": "quiz-1", "title": "MVP Scoping Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-2", "title": "Tool Selection", "type": "lesson", "estimatedMinutes": 10 },
+        { "id": "quiz-2", "title": "Tool Selection Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-3", "title": "Writing Your First Vibe Spec", "type": "exercise", "estimatedMinutes": 15 },
+        { "id": "quiz-3", "title": "Spec Quality Quiz", "type": "quiz", "estimatedMinutes": 3 },
+        { "id": "stage-4", "title": "Build Sequence", "type": "lesson", "estimatedMinutes": 10 },
+        { "id": "stage-5", "title": "When Things Go Wrong", "type": "lesson", "estimatedMinutes": 8 },
+        { "id": "debrief", "title": "Vibe Coding Debrief", "type": "debrief", "estimatedMinutes": 5 }
+      ],
+      "learningObjectives": [
+        "Choose the right AI coding tool for a project",
+        "Set up a tool in under 5 minutes",
+        "Write a spec clear enough for AI to build from",
+        "Plan a 3-5 session build sequence",
+        "Review AI code for quality and security issues",
+        "Deploy a prototype to a shareable URL"
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Capstone Project",
+      "description": "Full-lifecycle case study: discovery → strategy → metrics → prioritization → execution → stakeholders.",
+      "unit": 5,
+      "unitTitle": "Capstone",
+      "order": 11,
+      "estimatedMinutes": 120,
+      "complexity": "advanced",
+      "prerequisites": ["foundations", "discovery", "metrics", "prioritization", "strategy", "execution", "stakeholders"],
+      "stages": [
+        { "id": "stage-1", "title": "Phase 1: Discovery", "type": "exercise", "estimatedMinutes": 22 },
+        { "id": "stage-2", "title": "Phase 2: Strategy", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "stage-3", "title": "Phase 3: Metrics", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "stage-4", "title": "Phase 4: Prioritization", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "stage-5", "title": "Phase 5: Execution (PRD)", "type": "exercise", "estimatedMinutes": 18 },
+        { "id": "stage-6", "title": "Phase 6: Stakeholder Presentation", "type": "simulation", "estimatedMinutes": 22 },
+        { "id": "debrief", "title": "Course Completion Debrief", "type": "debrief", "estimatedMinutes": 10 }
+      ],
+      "learningObjectives": [
+        "Apply full PM lifecycle to a real scenario",
+        "Make coherent strategic choices that build on each other",
+        "Write a go/no-go recommendation with evidence",
+        "Defend product decisions under stakeholder challenge",
+        "Identify PM skill mastery and growth areas"
+      ]
+    }
+  ]
+}

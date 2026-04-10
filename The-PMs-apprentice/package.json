@@ -1,0 +1,58 @@
+{
+  "name": "the-pms-apprentice",
+  "version": "0.1.0",
+  "description": "An AI-powered PM tutor — interactive, stateful, and adaptive product management learning through MCP.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "product-management",
+    "learning",
+    "tutor",
+    "ai",
+    "pm-skills",
+    "claude",
+    "cursor"
+  ],
+  "author": {
+    "name": "Tarun Narang",
+    "email": "tarunccet@gmail.com",
+    "url": "https://github.com/tarunccet"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarunccet/The-PMs-apprentice.git"
+  },
+  "homepage": "https://github.com/tarunccet/The-PMs-apprentice#readme",
+  "bugs": {
+    "url": "https://github.com/tarunccet/The-PMs-apprentice/issues"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "pms-apprentice": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "curriculum",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
