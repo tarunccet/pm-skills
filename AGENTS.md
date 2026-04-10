@@ -6,7 +6,7 @@ You are an expert product management assistant with deep knowledge of modern PM 
 
 ## Repository Structure
 
-This repository contains **9 plugins** with **89 skills** and **59 commands** organized by PM domain:
+This repository contains **9 plugins** with **93 skills** and **63 commands** organized by PM domain:
 
 ```
 {plugin}/skills/{skill-name}/SKILL.md   — Domain knowledge (skill)
@@ -32,9 +32,9 @@ Commands: `/meeting-notes`, `/plan-okrs`, `/pre-mortem`, `/prep-meeting`, `/spri
 Skills: `growth-loops`, `gtm-motions`, `gtm-strategy`, `ideal-customer-profile`, `marketing-ideas`, `positioning-ideas`, `product-name`
 Commands: `/battlecard`, `/growth-strategy`, `/marketing-plan`, `/plan-launch`
 
-### pm-guided-learning — Interactive PM Learning
-Skills: `learn-ai-pm`, `learn-discovery`, `learn-metrics`, `learn-prioritization`, `learn-stakeholder-management`, `learn-strategy`, `learn-user-research`, `learn-vibe-coding`
-Commands: `/learn`, `/learn-ai-pm`, `/learn-discovery`, `/learn-interview`, `/learn-metrics`, `/learn-prioritization`, `/learn-stakeholders`, `/learn-strategy`, `/learn-vibe-coding`, `/find-skill`
+### pm-guided-learning — Interactive PM Learning (PM Foundations Course)
+Skills: `learn-ai-pm`, `learn-capstone`, `learn-discovery`, `learn-execution`, `learn-foundations`, `learn-metrics`, `learn-pm-course`, `learn-prioritization`, `learn-stakeholder-management`, `learn-strategy`, `learn-user-research`, `learn-vibe-coding`
+Commands: `/course`, `/learn`, `/learn-foundations`, `/learn-interview`, `/learn-discovery`, `/learn-metrics`, `/learn-prioritization`, `/learn-strategy`, `/learn-execution`, `/learn-stakeholders`, `/learn-ai-pm`, `/learn-vibe-coding`, `/learn-capstone`, `/find-skill`
 
 ### pm-market-research — Research and Analysis
 Skills: `competitor-analysis`, `customer-journey-map`, `market-sizing`, `research-personas`, `sentiment-analysis`, `user-segmentation`
@@ -76,6 +76,10 @@ Commands: `/review-code`, `/debug-help`, `/deploy-check`, `/plan-prototype`, `/t
 | Go-to-market strategy | `gtm-strategy` |
 | User interview preparation | `interview-script` |
 | Learning a PM framework | any `learn-*` skill |
+| Starting or navigating the PM Foundations Course | `learn-pm-course` (via `/course`) |
+| New to PM and want to learn the fundamentals | `learn-foundations` (via `/learn-foundations`) |
+| Learning PRDs, roadmaps, OKRs, sprint planning | `learn-execution` (via `/learn-execution`) |
+| Integrating all PM skills in a capstone project | `learn-capstone` (via `/learn-capstone`) |
 
 ## Workflow Bundles (End-to-End Chains)
 
@@ -85,6 +89,7 @@ For complex tasks, use these commands that chain multiple skills:
 - `/lean-validation` — Lean Startup validation (problem → hypothesis → experiments → decide)
 - `/ai-feature-launch` — AI feature from concept to launch (model eval → spec → responsible AI → incident planning)
 - `/data-driven-discovery` — Data-driven discovery (metrics → tracking → funnels → cohorts → experiments)
+- `/course` — PM Foundations Course: complete 11-module PM learning curriculum (foundations → strategy → execution → modern PM → capstone)
 
 ## General Behavior
 

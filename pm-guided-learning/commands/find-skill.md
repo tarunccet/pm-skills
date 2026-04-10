@@ -42,6 +42,6 @@ For each recommendation, include:
 - **GTM**: gtm-strategy, gtm-motions, growth-loops, ideal-customer-profile, marketing-ideas, positioning-ideas, product-name
 - **AI Product**: ai-feature-definition, ai-model-evaluation, responsible-ai, prompt-engineering, ai-build-buy-partner, ai-user-research, ai-data-strategy, ai-incident-response
 - **Vibe Coding**: vibe-coding-spec, prototype-plan, code-review-for-pms, technical-decision-guide, debug-with-ai, deploy-checklist
-- **Learning**: learn-discovery, learn-strategy, learn-prioritization, learn-metrics, learn-user-research, learn-stakeholder-management
+- **Learning**: learn-foundations, learn-discovery, learn-strategy, learn-prioritization, learn-metrics, learn-user-research, learn-stakeholder-management, learn-execution, learn-ai-pm, learn-vibe-coding, learn-capstone, learn-pm-course
 
 **End with:** "You can also browse the full plugin list in [marketplace.json](../../.claude-plugin/marketplace.json) or see the skill overview in the [README](../../README.md)."

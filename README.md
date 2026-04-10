@@ -90,7 +90,7 @@ This project is a **heavily extended fork** of [phuryn/pm-skills](https://github
 <tr>
 <td><strong>🎓 Guided Learning</strong></td>
 <td>—</td>
-<td>✅ <strong>New plugin:</strong> <code>pm-guided-learning</code> — Socratic-method learning modules for discovery, strategy, metrics, AI PM, and more (8 skills, 10 commands)</td>
+<td>✅ <strong>Enhanced:</strong> <code>pm-guided-learning</code> — PM Foundations Course: structured 11-module end-to-end PM curriculum (12 skills, 14 commands)</td>
 </tr>
 <tr>
 <td><strong>😈 Devil's Advocate</strong></td>
@@ -330,7 +330,7 @@ graph TD
     subgraph "🆕 New in This Fork"
         G["pm-ai-product-management<br/>8 skills · 6 commands"]
         H["pm-vibe-coding<br/>7 skills · 6 commands"]
-        I["pm-guided-learning<br/>8 skills · 10 commands"]
+        I["pm-guided-learning<br/>12 skills · 14 commands"]
     end
 
     A --> C
@@ -695,48 +695,65 @@ Commands:
 </details>
 
 <details>
-<summary><strong>9. pm-guided-learning</strong> 🆕 — Interactive Socratic learning modules for PM skills (8 skills, 10 commands)</summary>
+<summary><strong>9. pm-guided-learning</strong> 🆕 — PM Foundations Course: structured 11-module PM curriculum (12 skills, 14 commands)</summary>
 
-**For PM aspirants, career-switchers, and PMs leveling up into new domains.**
+**The PM Foundations Course — an end-to-end tutor for product managers at every level.**
 
-- 🟢 **New PMs** (0-2 years) — Start with `/learn-discovery` and `/learn-metrics`
+- 🟢 **New PMs / career-switchers** — Start with `/course` or `/learn-foundations`
 - 🟡 **Experienced PMs entering AI** — Start with `/learn-ai-pm` and `/learn-vibe-coding`
-- 🔵 **Experienced PMs refreshing fundamentals** — Use any module as a 15-minute refresher
+- 🔵 **All levels** — `/learn-capstone` for an integrated full-lifecycle case study
 
-> Already a working PM? Skip to the doing plugins (`/discover`, `/write-prd`, `/plan-launch`). Come back here when you want to sharpen a specific skill.
+> Already a working PM? Use individual modules as 30–60 min skill refreshers. New to PM? Start `/course` for the full structured curriculum.
 
-Interactive, Socratic-method learning modules. These skills teach PM concepts through guided exercises and simulations — they don't produce deliverables, they build skills.
+Interactive, Socratic-method learning modules organized as the **PM Foundations Course** — a structured 11-module curriculum across 5 units. Each module teaches PM skills through guided scenarios, Socratic questioning, and scored feedback.
 
-**Skills (8):**
+**Course Structure (5 Units, 11 Modules):**
 
-- `learn-discovery` — Guided learning on continuous discovery (Teresa Torres's OST framework) via simulated scenario
-- `learn-strategy` — Guided learning on product strategy using Roger Martin's Playing to Win cascade
-- `learn-metrics` — Interactive metrics workshop: define NSM, input metrics, and counter-metrics for a fictional product
-- `learn-prioritization` — Apply RICE, ICE, and Opportunity Score to the same backlog and compare results
-- `learn-user-research` — Simulated user interview practice with feedback on question quality and bias
-- `learn-stakeholder-management` — Simulated stakeholder alignment scenario with conflicting priorities
-- `learn-ai-pm` — Guided learning on AI product management: model evaluation, responsible AI, prompt engineering, and AI metrics
-- `learn-vibe-coding` — Interactive guide to getting started with vibe coding: tool selection, writing specs, building prototypes, and shipping
+| Unit | Modules |
+|------|---------|
+| **1. Foundations** | `learn-foundations`, `learn-user-research`, `learn-discovery` |
+| **2. Strategy** | `learn-metrics`, `learn-prioritization`, `learn-strategy` |
+| **3. Execution** | `learn-execution`, `learn-stakeholder-management` |
+| **4. Modern PM** | `learn-ai-pm`, `learn-vibe-coding` |
+| **5. Capstone** | `learn-capstone` |
 
-**Commands (10):**
+**Skills (12):**
 
-- `/learn` — Discover all learning modules and get a recommendation based on your experience level
+- `learn-pm-course` — Course coordinator: enrollment, progress tracking, and personalized paths
+- `learn-foundations` — PM role, mindset, output vs. outcome, PM skill tree (beginner)
+- `learn-user-research` — Simulated user interview practice with scored feedback
+- `learn-discovery` — Continuous discovery via OST (Teresa Torres's framework)
+- `learn-metrics` — North Star Metric, input metrics, counter-metrics (scored workshop)
+- `learn-prioritization` — RICE, ICE, Opportunity Score applied to a real backlog
+- `learn-strategy` — Product strategy via Roger Martin's Playing to Win cascade
+- `learn-execution` — PRDs, outcome-based roadmaps, OKRs, sprint planning
+- `learn-stakeholder-management` — Multi-stakeholder alignment simulation
+- `learn-ai-pm` — AI model evaluation, responsible AI, prompt engineering, AI metrics
+- `learn-vibe-coding` — Vibe coding tool selection, spec writing, prototyping
+- `learn-capstone` — Full-lifecycle capstone project integrating all prior modules
+
+**Commands (14):**
+
+- `/course` — **Course hub**: enroll, track progress, get a personalized learning path
+- `/learn` — Quick reference: see all modules and get a recommendation
+- `/learn-foundations` — Start the PM Foundations module
+- `/learn-interview` — Start the user research interview practice
 - `/learn-discovery` — Start the discovery learning module
-- `/learn-strategy` — Start the strategy learning module
 - `/learn-metrics` — Start the metrics learning module
 - `/learn-prioritization` — Start the prioritization learning module
-- `/learn-interview` — Start the user research interview practice
+- `/learn-strategy` — Start the strategy learning module
+- `/learn-execution` — Start the execution & delivery module
 - `/learn-stakeholders` — Start the stakeholder management simulation
 - `/learn-ai-pm` — Start the AI product management learning module
 - `/learn-vibe-coding` — Start the vibe coding learning module
-- `/find-skill` — Discover the right PM skill for your current situation
+- `/learn-capstone` — Start the full-lifecycle capstone project
+- `/find-skill` — Discover the right PM skill for any situation
 
 **Examples:**
 
-Commands:
-- `/learn` — I'm a new PM, what should I learn first?
-- `/learn-discovery` — Start the OST discovery module
-- `/learn-interview` — Practice user interview techniques
+- `/course` — Enroll in the PM Foundations Course and get a personalized learning path
+- `/learn-foundations` — Start here if you're new to PM
+- `/learn-capstone` — Apply all skills in a single integrated case study
 - `/learn-ai-pm` — Learn how to evaluate and manage AI features
 - `/learn-vibe-coding` — Get started building with AI coding tools
 
