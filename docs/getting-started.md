@@ -1,14 +1,58 @@
 # Getting Started with Agentic PM Skills
 
-Welcome! This guide gets you from zero to productive in 5 minutes. Whether you use Claude Code, Cursor, VS Code Copilot, Windsurf, or any MCP-compatible client, this guide covers your setup.
+Welcome! This guide gets you from zero to productive in 5 minutes. Whether you use Claude Cowork, Claude Code, VS Code Copilot, Cursor, Windsurf, Gemini CLI, or any other AI assistant, this guide covers your setup.
 
 ---
 
 ## 1. Choose Your Installation Method
 
-### Option A: MCP Server (recommended — works everywhere)
+> **Plugin install** gives the full experience (slash commands + auto-loaded skills). **Skills-only install** copies skill files to your tool. **MCP** exposes all skills as tools via a server — no cloning needed.
 
-Install the MCP server and every MCP-compatible AI client gets access to all 89 skills instantly.
+### Option A: Claude Cowork (easiest — no terminal needed)
+
+1. Open **Customize** (bottom-left)
+2. Go to **Browse plugins** → **Personal** → **+**
+3. Select **Add marketplace from GitHub**
+4. Enter: `tarunccet/pm-skills`
+
+All 9 plugins install automatically. Full command and skill support.
+
+### Option B: Claude Code Plugin Marketplace
+
+```bash
+# Add the marketplace and install plugins
+claude plugin marketplace add tarunccet/pm-skills
+claude plugin install pm-execution@pm-skills
+claude plugin install pm-product-discovery@pm-skills
+# ... (see docs/claude-code-setup.md for all 9 plugins)
+```
+
+### Option C: Clone the Repository
+
+```bash
+# In your project directory:
+git clone https://github.com/tarunccet/pm-skills.git .claude/plugins/pm-skills
+```
+
+Claude Code automatically discovers plugins from `.claude/plugins/`.
+
+### Option D: Copy Skills to Your IDE
+
+Copy skill files into your tool's skills/rules directory. Each tool has a dedicated setup guide:
+
+| Tool | Setup Guide | Quick Command |
+|------|------------|---------------|
+| **VS Code / Copilot** | [docs/vscode-copilot-setup.md](vscode-copilot-setup.md) | Copy to `.github/skills/` |
+| **Cursor** | [docs/cursor-setup.md](cursor-setup.md) | Copy to `.cursor/rules/` |
+| **Windsurf** | [docs/windsurf-setup.md](windsurf-setup.md) | Copy `WINDSURF.md` to `.windsurfrules` |
+| **Gemini CLI** | [docs/gemini-cli-setup.md](gemini-cli-setup.md) | Copy to `.gemini/skills/` |
+| **OpenCode** | [docs/opencode-setup.md](opencode-setup.md) | Clone + `AGENTS.md` |
+| **Kiro** | [docs/kiro-setup.md](kiro-setup.md) | Copy to `.kiro/skills/` |
+| **Codex CLI** | — | Copy to `.codex/skills/` |
+
+### Option E: MCP Server (auto-updates, no cloning)
+
+For MCP-compatible clients (Claude Desktop, Claude Code, Cursor, Windsurf, VS Code):
 
 **Claude Desktop** — add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 ```json
@@ -39,25 +83,7 @@ claude mcp add pm-skills -- npx -y ai-pm-skills-mcp
 }
 ```
 
-### Option B: Clone the Repository (for Claude Code plugin system)
-
-```bash
-# In your project directory:
-git clone https://github.com/tarunccet/pm-skills.git .claude/plugins/pm-skills
-```
-
-Claude Code automatically discovers plugins from `.claude/plugins/`.
-
-### Option C: Install Individual Plugins
-
-If you only need specific domains, install individual plugins:
-
-```bash
-# In Claude Code:
-/install-plugin pm-execution
-/install-plugin pm-product-discovery
-/install-plugin pm-ai-product-management
-```
+See each tool's setup guide above for more MCP configuration details.
 
 ---
 

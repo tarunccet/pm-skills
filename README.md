@@ -10,7 +10,7 @@
 
 *Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
 
-[Getting Started](docs/getting-started.md) · [What's New](#-whats-new-in-this-fork) · [MCP / npm](#-mcp-server--works-everywhere-zero-clone-needed) · [Plugin Install](#-installation) · [All Plugins](#-available-plugins)
+[Getting Started](docs/getting-started.md) · [What's New](#-whats-new-in-this-fork) · [Installation](#-installation) · [All Plugins](#-available-plugins)
 
 </div>
 
@@ -185,11 +185,140 @@ At each stage, checkpoints verify you're ready to move on. The `code-review-for-
 
 ## 📥 Installation
 
-### ⚡ MCP Server — works everywhere, zero clone needed
+> **Pick the method that matches your tool.** Plugin install gives you the full experience (slash commands + auto-loaded skills). Skills-only install works everywhere. MCP gives you all skills as tools in any MCP-compatible client.
 
-`ai-pm-skills-mcp` is an [MCP](https://modelcontextprotocol.io) server that exposes all 89 skills and 59 commands as tools to **any MCP-compatible client** — Claude Desktop, Claude Code, Cursor, Windsurf, and more — without cloning this repo.
+### Claude Cowork (recommended for non-developers)
 
-**One-time setup per client:**
+No terminal needed. 4 clicks:
+
+1. Open **Customize** (bottom-left)
+2. Go to **Browse plugins** → **Personal** → **+**
+3. Select **Add marketplace from GitHub**
+4. Enter: `tarunccet/pm-skills`
+
+All 9 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
+
+See [docs/claude-cowork-setup.md](docs/claude-cowork-setup.md) for details.
+
+### Claude Code (CLI)
+
+```bash
+# Step 1: Add the marketplace
+claude plugin marketplace add tarunccet/pm-skills
+
+# Step 2: Install plugins
+claude plugin install pm-product-strategy@pm-skills
+claude plugin install pm-product-discovery@pm-skills 
+claude plugin install pm-market-research@pm-skills 
+claude plugin install pm-data-analytics@pm-skills
+claude plugin install pm-go-to-market@pm-skills
+claude plugin install pm-execution@pm-skills
+claude plugin install pm-ai-product-management@pm-skills
+claude plugin install pm-vibe-coding@pm-skills
+claude plugin install pm-guided-learning@pm-skills
+```
+
+See [docs/claude-code-setup.md](docs/claude-code-setup.md) for alternative install methods.
+
+### VS Code / GitHub Copilot
+
+VS Code Insiders supports agent skills via `.github/skills/`:
+
+```bash
+# Copy all skills into your project
+git clone https://github.com/tarunccet/pm-skills.git /tmp/pm-skills
+mkdir -p .github/skills
+for plugin in /tmp/pm-skills/pm-*/; do
+  cp -r "$plugin/skills/"* .github/skills/ 2>/dev/null
+done
+```
+
+Or add PM context to `.github/copilot-instructions.md`. See [docs/vscode-copilot-setup.md](docs/vscode-copilot-setup.md) for full options.
+
+### Cursor
+
+Copy skills to `.cursor/rules/` for auto-loading, or use MCP for full access:
+
+```bash
+# Option A: Rules (auto-loaded)
+git clone https://github.com/tarunccet/pm-skills.git /tmp/pm-skills
+mkdir -p .cursor/rules
+for plugin in /tmp/pm-skills/pm-*/; do
+  for skill in "$plugin/skills/"*/SKILL.md; do
+    skill_name=$(basename $(dirname "$skill"))
+    cp "$skill" ".cursor/rules/${skill_name}.md" 2>/dev/null
+  done
+done
+```
+
+See [docs/cursor-setup.md](docs/cursor-setup.md) for Notepads, MCP, and recommended configuration.
+
+### Windsurf
+
+Copy the pre-built rules file, or add skills to `.windsurf/skills/`:
+
+```bash
+# Option A: Use the bundled Windsurf rules
+git clone https://github.com/tarunccet/pm-skills.git /tmp/pm-skills
+cp /tmp/pm-skills/WINDSURF.md .windsurfrules
+```
+
+See [docs/windsurf-setup.md](docs/windsurf-setup.md) for MCP and other options.
+
+### Gemini CLI
+
+Install skills for auto-discovery:
+
+```bash
+# Copy all skills to Gemini's skills directory
+git clone https://github.com/tarunccet/pm-skills.git /tmp/pm-skills
+mkdir -p .gemini/skills
+for plugin in /tmp/pm-skills/pm-*/; do
+  cp -r "$plugin/skills/"* .gemini/skills/ 2>/dev/null
+done
+```
+
+See [docs/gemini-cli-setup.md](docs/gemini-cli-setup.md) for GEMINI.md and advanced options.
+
+### OpenCode
+
+Clone the repo and let `AGENTS.md` handle automatic skill routing:
+
+```bash
+git clone https://github.com/tarunccet/pm-skills.git
+```
+
+See [docs/opencode-setup.md](docs/opencode-setup.md) for details.
+
+### Kiro
+
+Copy skills to `.kiro/skills/`:
+
+```bash
+git clone https://github.com/tarunccet/pm-skills.git /tmp/pm-skills
+mkdir -p .kiro/skills
+for plugin in /tmp/pm-skills/pm-*/; do
+  cp -r "$plugin/skills/"* .kiro/skills/ 2>/dev/null
+done
+```
+
+See [docs/kiro-setup.md](docs/kiro-setup.md) for global install and AGENTS.md options.
+
+### Codex CLI / Other Agents
+
+Skills are plain Markdown — they work with any agent that accepts system prompts or instruction files:
+
+```bash
+git clone https://github.com/tarunccet/pm-skills.git /tmp/pm-skills
+mkdir -p .codex/skills  # or your agent's preferred directory
+for plugin in /tmp/pm-skills/pm-*/; do
+  cp -r "$plugin/skills/"* .codex/skills/ 2>/dev/null
+done
+```
+
+### ⚡ MCP Server — works with any MCP-compatible client
+
+`ai-pm-skills-mcp` is an [MCP](https://modelcontextprotocol.io) server that exposes all 89 skills and 59 commands as tools — no cloning needed. Best if you want all skills available across multiple tools from a single install, or if you prefer auto-updates via `npx`.
 
 <details>
 <summary><strong>Claude Desktop</strong> (<code>~/Library/Application Support/Claude/claude_desktop_config.json</code>)</summary>
@@ -244,68 +373,29 @@ claude mcp add pm-skills -- npx -y ai-pm-skills-mcp
 ```
 </details>
 
+<details>
+<summary><strong>VS Code / Copilot</strong></summary>
+
+Add to your VS Code MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "pm-skills": {
+      "command": "npx",
+      "args": ["-y", "ai-pm-skills-mcp"]
+    }
+  }
+}
+```
+</details>
+
 Once configured, ask your AI assistant:
 - *"List all PM skills"* → calls `list_plugins` / `list_skills`
 - *"Get the lean-canvas skill"* → calls `get_skill`
 - *"Search for OKR skills"* → calls `search_skills`
 
 > **No git clone, no copy-paste, no manual updates.** `npx` always pulls the latest published version.
-
----
-
-### Claude Cowork (recommended for non-developers)
-
-1. Open **Customize** (bottom-left)
-2. Go to **Browse plugins** → **Personal** → **+**
-3. Select **Add marketplace from GitHub**
-4. Enter: `tarunccet/pm-skills`
-
-All 9 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
-
-### Claude Code (CLI)
-
-```bash
-# Step 1: Add the marketplace
-claude plugin marketplace add tarunccet/pm-skills
-
-# Step 2: Install individual plugins
-claude plugin install pm-product-strategy@pm-skills
-claude plugin install pm-product-discovery@pm-skills 
-claude plugin install pm-market-research@pm-skills 
-claude plugin install pm-data-analytics@pm-skills
-claude plugin install pm-go-to-market@pm-skills
-claude plugin install pm-execution@pm-skills
-claude plugin install pm-ai-product-management@pm-skills
-claude plugin install pm-vibe-coding@pm-skills
-claude plugin install pm-guided-learning@pm-skills
-```
-
-### Other AI assistants (skills only)
-
-The `skills/*/SKILL.md` files follow the universal skill format and work with any tool that reads markdown. Full plugin + command support (via `.claude-plugin/`) is currently available on Claude Code and Claude Cowork only.
-
-| Tool | How to use | What works |
-|------|-----------|------------|
-| **VS Code Copilot Chat** | Copy skill folders to `.github/skills/` or paste SKILL.md content into `.github/copilot-instructions.md` | Skills only |
-| **Gemini CLI** | Copy skill folders to `.gemini/skills/` | Skills only |
-| **OpenCode** | Copy skill folders to `.opencode/skills/` | Skills only |
-| **Cursor** | Copy skill folders to `.cursor/skills/` | Skills only |
-| **Windsurf** | Copy skill folders to `.windsurf/skills/` | Skills only |
-| **Codex CLI** | Copy skill folders to `.codex/skills/` | Skills only |
-| **Kiro** | Copy skill folders to `.kiro/skills/` | Skills only |
-
-```bash
-# Example: copy all skills for OpenCode (project-level)
-for plugin in pm-*/; do
-  mkdir -p .opencode/skills/
-  cp -r "$plugin/skills/"* .opencode/skills/ 2>/dev/null
-done
-
-# Example: copy all skills for Gemini CLI (global)
-for plugin in pm-*/; do
-  cp -r "$plugin/skills/"* ~/.gemini/skills/ 2>/dev/null
-done
-```
 
 ---
 
