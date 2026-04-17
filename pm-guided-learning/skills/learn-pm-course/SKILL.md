@@ -244,7 +244,7 @@ _What you've earned:_
 
 _Your next growth frontier: [personalized recommendation based on capstone debrief gaps]._
 
-_Share your completion with `/course-certificate` or continue your PM development with advanced skills in `pm-product-strategy`, `pm-ai-product-management`, or `pm-data-analytics`."_
+_Review your course completion in `/course` or continue your PM development with advanced skills in `pm-product-strategy`, `pm-ai-product-management`, or `pm-data-analytics`."_
 
 ### Cross-References
 - All modules in `pm-guided-learning` are part of this course
