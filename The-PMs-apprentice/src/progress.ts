@@ -113,12 +113,16 @@ export function advanceStage(
   // Move to next stage
   const nextIdx = currentIdx + 1;
   if (nextIdx < mp.stages.length) {
-    mp.stages[nextIdx].status = "available";
-    mp.currentStageId = mp.stages[nextIdx].stageId;
+    const nextStage = mp.stages[nextIdx];
+    nextStage.status = "available";
+    if (!nextStage.startedAt) {
+      nextStage.startedAt = new Date().toISOString();
+    }
+    mp.currentStageId = nextStage.stageId;
     saveLearner(data);
     return {
       previousStageId,
-      nextStageId: mp.stages[nextIdx].stageId,
+      nextStageId: nextStage.stageId,
       moduleCompleted: false,
     };
   }
