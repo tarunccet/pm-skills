@@ -10,7 +10,10 @@
 
 *Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
 
-[Getting Started](docs/getting-started.md) · [What's New](#-whats-new-in-this-fork) · [MCP / npm](#-mcp-server--works-everywhere-zero-clone-needed) · [Plugin Install](#-installation) · [All Plugins](#-available-plugins)
+[![Listed in Claude Code Community Plugins](https://img.shields.io/badge/Claude%20Code-Community%20Plugin-%23CC785C?style=flat-square&logo=anthropic&logoColor=white)](https://github.com/anthropics/claude-code-community-plugins)
+[![Listed in Cursor Directory](https://img.shields.io/badge/Cursor-Listed%20in%20Directory-%23000000?style=flat-square&logo=cursor&logoColor=white)](https://cursor.directory)
+
+[Getting Started](docs/getting-started.md) · [What's Unique](#-whats-unique) · [MCP / npm](#-mcp-server--works-everywhere-zero-clone-needed) · [Plugin Install](#-installation) · [All Plugins](#-available-plugins)
 
 </div>
 
@@ -19,9 +22,6 @@
 **Agentic PM Skills** is a marketplace of PM skills and chained workflows across 9 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine.
 
 From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
-
-> [!NOTE]
-> This repository is a heavily extended and actively maintained fork of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by **Paweł Huryn**. See [What's New in This Fork](#-whats-new-in-this-fork) for details.
 
 <br />
 
@@ -52,15 +52,13 @@ Each skill encodes a specific, proven analytical framework. When you trigger a c
 
 <br />
 
-## 🆕 What's New in This Fork
-
-This project is a **heavily extended fork** of [phuryn/pm-skills](https://github.com/phuryn/pm-skills), originally created by **Paweł Huryn**. The table below highlights what this fork adds beyond the upstream version:
+## 🆕 What's Unique
 
 <table>
 <tr>
 <th width="200">Area</th>
-<th width="300">Upstream (<a href="https://github.com/phuryn/pm-skills">phuryn/pm-skills</a>)</th>
-<th width="300">This Fork (<a href="https://github.com/tarunccet/pm-skills">tarunccet/pm-skills</a>)</th>
+<th width="300">Original</th>
+<th width="300">This Repo (<a href="https://github.com/tarunccet/pm-skills">tarunccet/pm-skills</a>)</th>
 </tr>
 <tr>
 <td><strong>📦 Plugins</strong></td>
@@ -110,7 +108,7 @@ This project is a **heavily extended fork** of [phuryn/pm-skills](https://github
 </table>
 
 > [!TIP]
-> The original upstream skills remain fully intact. This fork **extends** — it doesn't replace. All attribution to framework authors (Teresa Torres, Marty Cagan, Alberto Savoia, etc.) is preserved.
+> All attribution to framework authors (Teresa Torres, Marty Cagan, Alberto Savoia, etc.) is preserved throughout.
 
 <br />
 
