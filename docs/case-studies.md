@@ -8,7 +8,7 @@ It focuses on **evidence-style examples**, not invented customer testimonials.
 
 ## Generic AI vs. PM Skills
 
-| Task | Generic AI often does | PM Skills adds |
+| Task | Generic AI often does | Agentic PM Skills adds |
 |---|---|---|
 | Discovery | brainstorms feature ideas | frames the problem, maps assumptions, picks experiments |
 | PRD writing | writes a polished document quickly | adds structure, objectives, users, constraints, release plan |

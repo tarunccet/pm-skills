@@ -4,7 +4,7 @@
 
 ### The PM operating system for AI-native product teams
 
-**9 Plugins** · **93 Skills** · **63 Commands** · **[MCP on npm](https://www.npmjs.com/package/ai-pm-skills-mcp)**
+**9 Plugins** · **93 Skills** · **63 Commands** · [MCP on npm](https://www.npmjs.com/package/ai-pm-skills-mcp)
 
 > **Turn vague prompting into structured PM workflows for discovery, strategy, execution, AI product work, GTM, analytics, and PM learning.**
 

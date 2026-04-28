@@ -2,7 +2,7 @@
 
 This guide gets you from zero to value fast.
 
-**What you get:** **9 plugins**, **93 skills**, and **63 commands** for discovery, strategy, execution, analytics, go-to-market, AI product work, PM-builder workflows, and guided learning.
+**What you get:** 9 plugins, 93 skills, and 63 commands for discovery, strategy, execution, analytics, go-to-market, AI product work, PM-builder workflows, and guided learning.
 
 ---
 
