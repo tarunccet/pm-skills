@@ -181,7 +181,7 @@ function loadPlugins(): Plugin[] {
 
 const server = new McpServer({
   name: "pm-skills",
-  version: "2.1.0",
+  version: "2.2.0",
 });
 
 // Tool: list_plugins
