@@ -28,7 +28,7 @@ Then install the plugins you want.
 
 ### Option C — Skills-only install
 
-Copy `SKILL.md` folders into your tool's skills directory if your assistant supports markdown skills.
+Copy the skill directories that contain `SKILL.md` into your tool's skills directory if your assistant supports markdown skills.
 
 See the full [compatibility matrix](./compatibility-matrix.md).
 
