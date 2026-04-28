@@ -1,7 +1,7 @@
 # FAQ
 
 ## What is this repository?
-It is a catalog of PM skills and chained workflows designed for AI assistants. It helps turn common PM work into structured, repeatable flows.
+It is the PM operating system for AI-native product teams. It helps turn common PM work into structured, repeatable workflows through skills and chained commands for AI assistants.
 
 ## Is this just a prompt library?
 No. Skills encode frameworks, scope, steps, output shape, and routing guidance. Commands chain multiple skills into end-to-end workflows.
