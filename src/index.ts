@@ -47,6 +47,10 @@ interface Plugin {
   commandCount: number;
 }
 
+interface PackageMetadata {
+  version?: string;
+}
+
 // ---------------------------------------------------------------------------
 // Discovery helpers
 // ---------------------------------------------------------------------------
@@ -175,13 +179,25 @@ function loadPlugins(): Plugin[] {
   return plugins;
 }
 
+function loadServerVersion(): string {
+  const packageJsonPath = path.join(REPO_ROOT, "package.json");
+  try {
+    const packageJson = JSON.parse(
+      fs.readFileSync(packageJsonPath, "utf8")
+    ) as PackageMetadata;
+    return packageJson.version ?? "0.0.0";
+  } catch {
+    return "0.0.0";
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Server
 // ---------------------------------------------------------------------------
 
 const server = new McpServer({
   name: "pm-skills",
-  version: "2.1.0",
+  version: loadServerVersion(),
 });
 
 // Tool: list_plugins

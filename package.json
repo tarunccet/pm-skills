@@ -1,7 +1,7 @@
 {
   "name": "ai-pm-skills-mcp",
   "version": "2.2.0",
-  "description": "MCP server exposing agentic PM skills — discovery, strategy, execution, research, analytics, GTM, AI PM, vibe coding, and guided learning — to any MCP-compatible AI client.",
+  "description": "The PM operating system for AI-native product teams: 93 PM skills and 63 commands for MCP-compatible assistants.",
   "keywords": [
     "mcp",
     "model-context-protocol",

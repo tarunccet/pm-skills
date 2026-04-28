@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
   "version": "2.2.0",
-  "description": "Structured AI workflows for better product decisions. 9 plugins covering discovery, strategy, execution, research, analytics, go-to-market, AI product management, vibe coding, and guided learning. 89 skills and 59 commands.",
+  "description": "The PM operating system for AI-native product teams. Structured AI workflows for discovery, strategy, execution, research, analytics, go-to-market, AI product management, vibe coding, and guided learning. 93 skills and 63 commands.",
   "owner": {
     "name": "Tarun Narang",
     "email": "tarunccet@gmail.com",

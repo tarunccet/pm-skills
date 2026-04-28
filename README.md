@@ -2,821 +2,336 @@
 
 # 🧠 Agentic PM Skills
 
-### The AI Operating System for Product Managers
+### The PM operating system for AI-native product teams
 
-**9 Plugins** · **89 Skills** · **59 Commands** · **[MCP on npm](https://www.npmjs.com/package/ai-pm-skills-mcp)**
+**9 Plugins** · **93 Skills** · **63 Commands** · [MCP on npm](https://www.npmjs.com/package/ai-pm-skills-mcp)
 
-> **Stop writing prompts from scratch. Start executing proven PM frameworks with agentic AI.**
+> **Turn vague prompting into structured PM workflows for discovery, strategy, execution, AI product work, GTM, analytics, and PM learning.**
 
-*Designed for Claude Code & Cowork · Compatible with Cursor, Gemini CLI, VS Code Copilot, Windsurf, and more*
+*Designed for Claude Code & Cowork · Works with MCP clients like Claude Desktop, Cursor, and Windsurf · Skills also work in Copilot, Gemini CLI, OpenCode, Codex CLI, and more*
 
-[![Listed in Claude Code Community Plugins](https://img.shields.io/badge/Claude%20Code-Community%20Plugin-%23CC785C?style=flat-square&logo=anthropic&logoColor=white)](https://github.com/anthropics/claude-code-community-plugins)
-[![Listed in Cursor Directory](https://img.shields.io/badge/Cursor-Listed%20in%20Directory-%23000000?style=flat-square&logo=cursor&logoColor=white)](https://cursor.directory)
-
-[Getting Started](docs/getting-started.md) · [What's Unique](#-whats-unique) · [MCP / npm](#-mcp-server--works-everywhere-zero-clone-needed) · [Plugin Install](#-installation) · [All Plugins](#-available-plugins)
+[Getting Started](docs/getting-started.md) · [Starter Packs](docs/starter-packs.md) · [Proof & Examples](docs/case-studies.md) · [Compatibility Matrix](docs/compatibility-matrix.md) · [FAQ](docs/faq.md)
 
 </div>
 
 ---
 
-**Agentic PM Skills** is a marketplace of PM skills and chained workflows across 9 plugins. Designed natively for Claude Code and Cowork (and compatible with other AI assistants), it transforms your LLM from a generic text generator into a structured, rigorous Product Management engine.
+**Agentic PM Skills** packages proven PM frameworks into reusable skills and workflows so your AI helps you think more clearly, not just write faster.
 
-From continuous discovery to go-to-market strategy, execution, and vibe coding—get the rigor of industry leaders (like Teresa Torres and Marty Cagan) built directly into your daily automated workflow.
+Instead of prompting from scratch every time, you get structured commands for discovery, PRDs, prioritization, go-to-market, AI features, prototyping, and guided PM learning.
 
-<br />
+## ⚡ 30-Second Quickstart
 
-## 🚀 The "Aha" Moment: Why Use This?
+### 1) Install once
 
-Generic AI gives you walls of text. **This repository gives you structure.**
-
-Each skill encodes a specific, proven analytical framework. When you trigger a command, the AI doesn't just guess; it walks you through a step-by-step process for assumption mapping, prioritization, and strategy definition.
-
-> **The result:** Better, faster product decisions — not just faster documents.
-
-<br />
-
-## ⚡ Quick Start: What Are You Doing Right Now?
-
-| I am… | Start with | Then try |
-|:-------|:-----------|:---------|
-| 💡 **Exploring a new idea** | `/discover` | → `/strategy` → `/plan-launch` |
-| 🧪 **Validating assumptions** | `/lean-validation` | → A/B tests → `/write-prd` |
-| 📦 **Shipping a feature** | `/write-prd` | → `/write-stories` → `/sprint` |
-| 🤝 **Preparing for a meeting** | `/prep-meeting` | → `/write-update` → `/challenge` |
-| 🚀 **Launching a product** | `/plan-launch` | → `/battlecard` → `/marketing-plan` |
-| 🛠️ **Building a prototype** | `/plan-prototype` | → `/vibe-spec` → `/deploy-check` |
-| 🤖 **Building an AI feature** | `/ai-feature-launch` | → `/vibe-spec` → `/deploy-check` |
-| 📊 **Defining metrics** | `/data-driven-discovery` | → `/north-star` → `/plan-tracking` |
-| 🎓 **New to PM / learning** | `/learn` | → Pick any `/learn-*` module |
-| 🧭 **Not sure where to start?** | `/find-skill` | Describes your task, gets routed |
-
-<br />
-
-## 🆕 What's Unique
-
-<table>
-<tr>
-<th width="200">Area</th>
-<th width="300">Original</th>
-<th width="300">This Repo (<a href="https://github.com/tarunccet/pm-skills">tarunccet/pm-skills</a>)</th>
-</tr>
-<tr>
-<td><strong>📦 Plugins</strong></td>
-<td>8 plugins</td>
-<td><strong>9 plugins</strong> — 3 brand-new domains added</td>
-</tr>
-<tr>
-<td><strong>🧠 Skills</strong></td>
-<td>65 skills</td>
-<td><strong>89 skills</strong> (+37% coverage)</td>
-</tr>
-<tr>
-<td><strong>⚡ Commands</strong></td>
-<td>36 commands</td>
-<td><strong>59 commands</strong> (+64% more workflows)</td>
-</tr>
-<tr>
-<td><strong>🤖 AI Product Mgmt</strong></td>
-<td>—</td>
-<td>✅ <strong>New plugin:</strong> <code>pm-ai-product-management</code> — AI specs, model eval, responsible AI, prompt engineering (8 skills, 5 commands)</td>
-</tr>
-<tr>
-<td><strong>🛠️ Vibe Coding</strong></td>
-<td>—</td>
-<td>✅ <strong>New plugin:</strong> <code>pm-vibe-coding</code> — Prototype planning, vibe specs, code review for PMs, deploy checklists (7 skills, 6 commands)</td>
-</tr>
-<tr>
-<td><strong>🎓 Guided Learning</strong></td>
-<td>—</td>
-<td>✅ <strong>Enhanced:</strong> <code>pm-guided-learning</code> — PM Foundations Course: structured 11-module end-to-end PM curriculum (12 skills, 14 commands)</td>
-</tr>
-<tr>
-<td><strong>😈 Devil's Advocate</strong></td>
-<td>—</td>
-<td>✅ <strong>New skill</strong> in pm-product-strategy — Stress-test ideas, proposals, and strategies</td>
-</tr>
-<tr>
-<td><strong>🔧 Tool Compatibility</strong></td>
-<td>Claude, Gemini CLI, OpenCode, Cursor, Codex CLI, Kiro</td>
-<td>All upstream + <strong>VS Code Copilot Chat</strong> and <strong>Windsurf</strong></td>
-</tr>
-<tr>
-<td><strong>📋 Skill Quality</strong></td>
-<td>Basic frontmatter</td>
-<td>Enhanced quality standards with required sections: Purpose, Domain Context, When to Use / Not Use, Examples</td>
-</tr>
-</table>
-
-> [!TIP]
-> All attribution to framework authors (Teresa Torres, Marty Cagan, Alberto Savoia, etc.) is preserved throughout.
-
-<br />
-
----
-
-## 🏗️ How It Works (Skills, Commands, Plugins)
-
-```mermaid
-graph LR
-    A["🧑‍💼 You"] -->|"/command"| B["⚡ Command"]
-    B -->|chains| C["🧠 Skill 1"]
-    B -->|chains| D["🧠 Skill 2"]
-    B -->|chains| E["🧠 Skill 3"]
-    C --> F["📄 Structured Output"]
-    D --> F
-    E --> F
-    F -->|suggests| G["⚡ Next Command"]
-
-    style A fill:#4A90D9,stroke:#2C5F8A,color:#fff
-    style B fill:#7B68EE,stroke:#5B4ACE,color:#fff
-    style C fill:#3CB371,stroke:#2E8B57,color:#fff
-    style D fill:#3CB371,stroke:#2E8B57,color:#fff
-    style E fill:#3CB371,stroke:#2E8B57,color:#fff
-    style F fill:#FF8C00,stroke:#CC7000,color:#fff
-    style G fill:#7B68EE,stroke:#5B4ACE,color:#fff
-```
-
-| Concept | What it is | Example |
-|:--------|:-----------|:--------|
-| **🧠 Skill** | Domain knowledge, analytical framework, or guided workflow for a specific PM task. Loaded automatically when relevant. | `opportunity-solution-tree`, `prioritization` |
-| **⚡ Command** | User-triggered workflow (`/command-name`) that chains one or more skills into an end-to-end process. | `/discover` chains: ideation → assumptions → prioritization → experiments |
-| **📦 Plugin** | Installable package grouping related skills and commands by PM domain. | `pm-product-discovery`, `pm-execution` |
-
-Skills are loaded automatically when relevant to the conversation — no explicit invocation needed. If needed (e.g., prioritizing skills over general knowledge), you can **force loading skills** with `/plugin-name:skill-name` or `/skill-name`.
-
-Installing the marketplace gives you all 9 plugins at once. Commands are designed to flow into each other, matching the PM workflow — after any command completes, it suggests relevant next commands.
-
-<br />
-
-## 🛠️ How Vibe Coding Skills Work
-
-Vibe coding is the practice of building software through natural language instructions to AI coding assistants, with the human providing product direction, design judgment, and validation rather than writing code line-by-line. The `pm-vibe-coding` plugin is designed specifically to help PMs do this effectively.
-
-### Starting Out
-Use `/plan-prototype` or ask _"Help me plan a prototype build"_. The skill helps you scope the MVP to the minimum features needed, identify the single most important user story, and define what "done" looks like — before writing a single line of code.
-
-### Choosing and Installing the Right Tools
-The `prototype-plan` skill includes a built-in tool selection guide based on your project's needs:
-
-| What you're building | Recommended tool |
-|----------------------|-----------------|
-| Frontend UI only (no backend needed) | Bolt.new or v0.dev |
-| Quick full-stack demo, zero setup | Replit Agent |
-| Complex full-stack app with fine-grained control | Cursor |
-| Existing VS Code project or iterative work | GitHub Copilot |
-| Complex logic, debugging, architecture | Claude Code |
-| Multi-file agentic flows | Windsurf |
-
-Once you pick a tool, `/vibe-spec` generates the natural-language spec document that you paste directly into your chosen AI coding assistant — giving it all the context it needs to build correctly the first time.
-
-### Starting to Code
-The build sequence recommended by `prototype-plan` guides you through:
-1. **Foundation**: Set up the project, define data model, connect database
-2. **Backend/API**: Build core endpoints, add validation, test with a client
-3. **Frontend**: Build the primary user flow, connect to backend
-4. **Auth**: Add sign-up/login, protect routes
-5. **Deploy**: Deploy to hosting, set environment variables, run final checklist
-
-At each stage, checkpoints verify you're ready to move on. The `code-review-for-pms` skill helps you review AI-generated code from a product and security lens, and `debug-with-ai` guides you when things break. Before shipping, `/deploy-check` runs through a pre-launch checklist covering security, performance, and accessibility.
-
-<br />
-
-## 📥 Installation
-
-### ⚡ MCP Server — works everywhere, zero clone needed
-
-`ai-pm-skills-mcp` is an [MCP](https://modelcontextprotocol.io) server that exposes all 89 skills and 59 commands as tools to **any MCP-compatible client** — Claude Desktop, Claude Code, Cursor, Windsurf, and more — without cloning this repo.
-
-**One-time setup per client:**
-
-<details>
-<summary><strong>Claude Desktop</strong> (<code>~/Library/Application Support/Claude/claude_desktop_config.json</code>)</summary>
-
-```json
-{
-  "mcpServers": {
-    "pm-skills": {
-      "command": "npx",
-      "args": ["-y", "ai-pm-skills-mcp"]
-    }
-  }
-}
-```
-</details>
-
-<details>
-<summary><strong>Claude Code</strong> (run once in your terminal)</summary>
+**MCP (recommended):** add the server to your AI client.
 
 ```bash
 claude mcp add pm-skills -- npx -y ai-pm-skills-mcp
 ```
-</details>
 
-<details>
-<summary><strong>Cursor</strong> (<code>~/.cursor/mcp.json</code>)</summary>
+For Claude Desktop, Cursor, and Windsurf setup snippets, see [docs/getting-started.md](docs/getting-started.md).
 
-```json
-{
-  "mcpServers": {
-    "pm-skills": {
-      "command": "npx",
-      "args": ["-y", "ai-pm-skills-mcp"]
-    }
-  }
-}
+### 2) Start with a real PM task
+
+```text
+/discover Improve activation for first-time users
+/write-prd Smart notification batching for enterprise teams
+/ai-feature-launch AI copilot for support ticket triage
+/plan-prototype Internal tool for customer interview synthesis
 ```
-</details>
 
-<details>
-<summary><strong>Windsurf</strong> (Settings → MCP Servers → Add)</summary>
+### 3) Keep moving through the workflow
 
-```json
-{
-  "mcpServers": {
-    "pm-skills": {
-      "command": "npx",
-      "args": ["-y", "ai-pm-skills-mcp"]
-    }
-  }
-}
+Typical flow:
+
+```text
+/discover → /strategy → /write-prd → /write-stories → /sprint → /plan-launch
 ```
-</details>
-
-Once configured, ask your AI assistant:
-- *"List all PM skills"* → calls `list_plugins` / `list_skills`
-- *"Get the lean-canvas skill"* → calls `get_skill`
-- *"Search for OKR skills"* → calls `search_skills`
-
-> **No git clone, no copy-paste, no manual updates.** `npx` always pulls the latest published version.
 
 ---
 
-### Claude Cowork (recommended for non-developers)
+## 🎯 Why teams use this
 
-1. Open **Customize** (bottom-left)
+Generic AI often gives you long answers. This repo gives you **structured PM thinking**.
+
+- **Better decisions** — use established PM frameworks instead of ad hoc prompting
+- **Faster output** — go from idea to artifact quickly with pre-built workflows
+- **More consistency** — get repeatable PRDs, research outputs, strategy docs, and launch plans
+- **Safer AI feature work** — cover model selection, responsible AI, data strategy, and incidents
+- **Faster PM onboarding** — use the guided learning plugin as a PM Foundations course
+
+## 👥 Start here by role
+
+| If you are... | Start with | Then use |
+|---|---|---|
+| **Product Manager** | `/discover` | `/strategy` → `/write-prd` |
+| **PM-builder / prototype owner** | `/plan-prototype` | `/vibe-spec` → `/deploy-check` |
+| **AI PM** | `/ai-feature-launch` | `/responsible-ai-review` → `/ai-metrics` |
+| **PM leader / operator** | `/plan-okrs` | `/transform-roadmap` → `/write-update` |
+| **New PM / learner** | `/course` | `/learn-foundations` → `/learn-capstone` |
+| **Not sure where to start** | `/find-skill` | Follow the recommended next command |
+
+## 🔟 Top starting commands
+
+| Command | Best for | What it gives you |
+|---|---|---|
+| `/discover` | New ideas | Discovery cycle: ideation → assumptions → prioritization → experiments |
+| `/lean-validation` | Problem validation | Problem framing, hypotheses, assumptions, experiments, decision support |
+| `/write-prd` | Shipping work | Full PRD from a feature idea or problem statement |
+| `/strategy` | Product direction | Product Strategy Canvas |
+| `/plan-launch` | GTM planning | Launch plan, channels, messaging, and metrics |
+| `/data-driven-discovery` | Analytics-led PM work | Metrics → tracking → funnel → cohorts → experiments |
+| `/ai-feature-launch` | AI features | End-to-end AI feature definition and launch planning |
+| `/plan-prototype` | PM vibe coding | MVP scope, tool choice, build sequence |
+| `/course` | PM learning | Guided PM Foundations Course |
+| `/find-skill` | Routing | Best skill or command for the task at hand |
+
+## 📋 Copy/paste examples by persona
+
+### PM
+```text
+/write-prd Enterprise SSO with SCIM provisioning for IT admins
+```
+
+### PM-builder
+```text
+/plan-prototype Customer interview repository with tagging, search, and AI summaries
+```
+
+### AI PM
+```text
+/ai-model-eval Which model should we use for support ticket summarization with strict PII controls?
+```
+
+### Learner
+```text
+/learn-foundations
+```
+
+---
+
+## 🧰 Starter packs
+
+Use these bundles when you want a simpler entry point than the full catalog.
+
+| Starter pack | Best for | Includes |
+|---|---|---|
+| **PM Core** | Most PMs | discovery + strategy + execution |
+| **AI PM** | AI feature teams | AI PM + analytics + strategy |
+| **PM Builder** | PMs prototyping with AI tools | vibe coding + execution + AI PM |
+| **PM Learning** | New PMs and team onboarding | guided learning + execution + discovery |
+
+See full pack definitions in [docs/starter-packs.md](docs/starter-packs.md).
+
+---
+
+## 🏆 Proof, not just promises
+
+This repo now includes buyer-style proof assets so people can evaluate it faster.
+
+### Mini case studies
+- [Discovery turnaround: onboarding drop-off → testable plan](docs/case-studies.md#1-discovery-example-onboarding-drop-off)
+- [Execution example: vague feature ask → strong PRD](docs/case-studies.md#2-execution-example-vague-feature-request-to-prd)
+- [AI PM example: risky AI idea → safer launch plan](docs/case-studies.md#3-ai-pm-example-ai-ticket-triage)
+
+### Before/after comparisons
+- [Generic AI vs. PM Skills side-by-side examples](docs/case-studies.md#generic-ai-vs-pm-skills)
+
+### Example outputs
+- [10 realistic output samples](docs/skill-output-samples)
+
+### Demo asset
+- [90-second demo walkthrough script](docs/demo-walkthrough.md)
+
+> Note: this repository includes proof-based examples and walkthrough assets. It does **not** invent customer testimonials or fake user quotes.
+
+---
+
+## 🏗️ How it works
+
+```mermaid
+graph LR
+    A["You"] -->|/command| B["Workflow"]
+    B --> C["Skill 1"]
+    B --> D["Skill 2"]
+    B --> E["Skill 3"]
+    C --> F["Structured output"]
+    D --> F
+    E --> F
+    F --> G["Suggested next step"]
+```
+
+| Concept | What it means |
+|---|---|
+| **Skill** | A reusable PM framework or guided workflow |
+| **Command** | A slash-command that chains one or more skills |
+| **Plugin** | A domain pack such as discovery, strategy, execution, AI PM, or learning |
+
+---
+
+## 📦 Available plugins
+
+> **9 plugins · 93 skills · 63 commands** covering the full PM lifecycle
+
+| Plugin | Scope | Skills | Commands | Best starting commands |
+|---|---|---:|---:|---|
+| [`pm-product-discovery`](pm-product-discovery) | ideas, assumptions, interviews, experiments | 12 | 6 | `/discover`, `/lean-validation`, `/triage-requests` |
+| [`pm-product-strategy`](pm-product-strategy) | strategy, business models, pricing, decision quality | 14 | 6 | `/strategy`, `/pricing`, `/challenge` |
+| [`pm-execution`](pm-execution) | PRDs, roadmaps, stories, sprints, communication | 20 | 11 | `/write-prd`, `/write-stories`, `/sprint` |
+| [`pm-market-research`](pm-market-research) | personas, segmentation, journeys, market sizing, competitors | 6 | 3 | `/research-users`, `/competitive-analysis` |
+| [`pm-data-analytics`](pm-data-analytics) | metrics, funnels, SQL, cohorts, A/B tests | 7 | 7 | `/data-driven-discovery`, `/north-star`, `/design-funnel` |
+| [`pm-go-to-market`](pm-go-to-market) | GTM strategy, ICP, growth, positioning, naming | 7 | 4 | `/plan-launch`, `/growth-strategy`, `/marketing-plan` |
+| [`pm-ai-product-management`](pm-ai-product-management) | AI specs, model eval, responsible AI, prompts, incidents | 8 | 6 | `/ai-feature-launch`, `/ai-model-eval`, `/responsible-ai-review` |
+| [`pm-vibe-coding`](pm-vibe-coding) | PM prototyping, tech decisions, code review, deployment | 7 | 6 | `/plan-prototype`, `/vibe-spec`, `/deploy-check` |
+| [`pm-guided-learning`](pm-guided-learning) | PM Foundations Course and guided practice | 12 | 14 | `/course`, `/learn-foundations`, `/find-skill` |
+
+For workflow-based browsing, see [docs/workflows.md](docs/workflows.md).
+
+---
+
+## 🛠️ Installation
+
+## 1. MCP server — best default
+
+`ai-pm-skills-mcp` exposes all **93 skills** and **63 commands** to MCP-compatible clients without cloning this repo.
+
+### Claude Desktop
+Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "pm-skills": {
+      "command": "npx",
+      "args": ["-y", "ai-pm-skills-mcp"]
+    }
+  }
+}
+```
+
+### Claude Code
+```bash
+claude mcp add pm-skills -- npx -y ai-pm-skills-mcp
+```
+
+### Cursor / Windsurf
+Use the same MCP server command in your MCP settings:
+
+```json
+{
+  "mcpServers": {
+    "pm-skills": {
+      "command": "npx",
+      "args": ["-y", "ai-pm-skills-mcp"]
+    }
+  }
+}
+```
+
+## 2. Claude marketplace install
+
+### Claude Cowork
+1. Open **Customize**
 2. Go to **Browse plugins** → **Personal** → **+**
 3. Select **Add marketplace from GitHub**
 4. Enter: `tarunccet/pm-skills`
 
-All 9 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
+### Claude Code marketplace
+```bash
+claude plugin marketplace add tarunccet/pm-skills
+```
 
-### Claude Code (CLI)
+Then install the plugins you want:
 
 ```bash
-# Step 1: Add the marketplace
-claude plugin marketplace add tarunccet/pm-skills
-
-# Step 2: Install individual plugins
+claude plugin install pm-product-discovery@pm-skills
 claude plugin install pm-product-strategy@pm-skills
-claude plugin install pm-product-discovery@pm-skills 
-claude plugin install pm-market-research@pm-skills 
+claude plugin install pm-execution@pm-skills
 claude plugin install pm-data-analytics@pm-skills
 claude plugin install pm-go-to-market@pm-skills
-claude plugin install pm-execution@pm-skills
+claude plugin install pm-market-research@pm-skills
 claude plugin install pm-ai-product-management@pm-skills
 claude plugin install pm-vibe-coding@pm-skills
 claude plugin install pm-guided-learning@pm-skills
 ```
 
-### Other AI assistants (skills only)
+## 3. Skills-only install for other assistants
 
-The `skills/*/SKILL.md` files follow the universal skill format and work with any tool that reads markdown. Full plugin + command support (via `.claude-plugin/`) is currently available on Claude Code and Claude Cowork only.
+The `SKILL.md` files work in tools that read markdown-based skills.
 
-| Tool | How to use | What works |
-|------|-----------|------------|
-| **VS Code Copilot Chat** | Copy skill folders to `.github/skills/` or paste SKILL.md content into `.github/copilot-instructions.md` | Skills only |
-| **Gemini CLI** | Copy skill folders to `.gemini/skills/` | Skills only |
-| **OpenCode** | Copy skill folders to `.opencode/skills/` | Skills only |
-| **Cursor** | Copy skill folders to `.cursor/skills/` | Skills only |
-| **Windsurf** | Copy skill folders to `.windsurf/skills/` | Skills only |
-| **Codex CLI** | Copy skill folders to `.codex/skills/` | Skills only |
-| **Kiro** | Copy skill folders to `.kiro/skills/` | Skills only |
+| Tool | Install path | Support |
+|---|---|---|
+| VS Code Copilot Chat | `.github/skills/` or `.github/copilot-instructions.md` | Skills |
+| Gemini CLI | `.gemini/skills/` | Skills |
+| OpenCode | `.opencode/skills/` | Skills |
+| Cursor | `.cursor/skills/` | Skills, or use MCP |
+| Windsurf | `.windsurf/skills/` | Skills, or use MCP |
+| Codex CLI | `.codex/skills/` | Skills |
+| Kiro | `.kiro/skills/` | Skills |
 
-```bash
-# Example: copy all skills for OpenCode (project-level)
-for plugin in pm-*/; do
-  mkdir -p .opencode/skills/
-  cp -r "$plugin/skills/"* .opencode/skills/ 2>/dev/null
-done
-
-# Example: copy all skills for Gemini CLI (global)
-for plugin in pm-*/; do
-  cp -r "$plugin/skills/"* ~/.gemini/skills/ 2>/dev/null
-done
-```
+For a full matrix, see [docs/compatibility-matrix.md](docs/compatibility-matrix.md).
 
 ---
 
-## 📚 Available Plugins
-
-> **9 plugins** · **89 skills** · **59 commands** — covering the full PM lifecycle
-
-```mermaid
-graph TD
-    subgraph "🔍 Discover & Research"
-        A["pm-product-discovery<br/>12 skills · 6 commands"]
-        B["pm-market-research<br/>6 skills · 3 commands"]
-    end
-    subgraph "🎯 Strategize & Plan"
-        C["pm-product-strategy<br/>14 skills · 6 commands"]
-        D["pm-data-analytics<br/>7 skills · 7 commands"]
-    end
-    subgraph "⚙️ Execute & Ship"
-        E["pm-execution<br/>20 skills · 11 commands"]
-        F["pm-go-to-market<br/>7 skills · 4 commands"]
-    end
-    subgraph "🆕 New in This Fork"
-        G["pm-ai-product-management<br/>8 skills · 6 commands"]
-        H["pm-vibe-coding<br/>7 skills · 6 commands"]
-        I["pm-guided-learning<br/>12 skills · 14 commands"]
-    end
-
-    A --> C
-    B --> C
-    C --> E
-    D --> E
-    E --> F
-    G -.->|"AI features"| E
-    H -.->|"build prototypes"| E
-    I -.->|"learn any domain"| A
-
-    style G fill:#2ECC71,stroke:#27AE60,color:#fff
-    style H fill:#2ECC71,stroke:#27AE60,color:#fff
-    style I fill:#2ECC71,stroke:#27AE60,color:#fff
-```
-
-<details>
-<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, problem statements, hypotheses, OSTs, interviews (12 skills, 6 commands)</summary>
-
-**Skills (12):**
-
-- `problem-statement` — Crystal-clear problem framing before any solution work — the foundation of good PM practice
-- `hypothesis` — Testable hypotheses with success metrics — core to lean/agile validation loops
-- `brainstorm-ideas-existing` — Multi-perspective ideation for existing products (PM, Designer, Engineer)
-- `brainstorm-ideas-new` — Ideation for new products in initial discovery
-- `brainstorm-experiments-existing` — Design experiments to test assumptions for existing products
-- `brainstorm-experiments-new` — Design lean startup pretotypes for new products (Alberto Savoia)
-- `identify-assumptions-existing` — Identify risky assumptions across Value, Usability, Viability, and Feasibility
-- `identify-assumptions-new` — Identify risky assumptions across 8 risk categories including Go-to-Market, Strategy, and Team
-- `analyze-feature-requests` — Analyze and prioritize feature requests by theme, strategic alignment, impact, effort, and risk
-- `opportunity-solution-tree` — Build an Opportunity Solution Tree (Teresa Torres) — outcome → opportunities → solutions → experiments
-- `interview-script` — Create a structured customer interview script with JTBD probing questions
-- `summarize-interview` — Summarize an interview transcript into JTBD, satisfaction signals, and action items
-
-**Commands (6):**
-
-- `/discover` — Full discovery cycle: ideation → assumption mapping → prioritization → experiment design
-- `/lean-validation` — Lean Startup validation: problem → hypothesis → assumptions → experiments → decide
-- `/brainstorm` — Multi-perspective ideation (`ideas|experiments` × `existing|new`)
-- `/triage-requests` — Analyze and prioritize a batch of feature requests
-- `/interview` — Prepare an interview script or summarize a transcript (`prep|summarize`)
-- `/setup-metrics` — Design a product metrics dashboard
-
-**Examples:**
-
-Skills:
-- `What are the riskiest assumptions for our AI writing assistant idea?`
-- `Help me build an Opportunity Solution Tree for improving user activation`
-- `Prioritize these 12 feature requests from our enterprise customers [attach CSV]`
-
-Commands:
-- `/discover AI-powered meeting summarizer for remote teams`
-- `/brainstorm experiments existing — We need to reduce churn in our onboarding flow`
-- `/interview prep — We're interviewing enterprise buyers about their procurement workflow`
-
-</details>
-
-<details>
-<summary><strong>2. pm-product-strategy</strong> — Vision, business models, pricing, competitive landscape, devil's advocate, pivot decisions (14 skills, 6 commands)</summary>
-
-Product strategy, vision, business models, pricing, macro environment analysis, pivot decisions, and stress-testing. Covers the full strategic toolkit from vision crafting through competitive landscape scanning to stress-testing ideas.
-
-**Skills (14):**
-
-- `product-strategy` — Comprehensive 9-section Product Strategy Canvas (vision → defensibility)
-- `startup-canvas` — Startup Canvas combining Product Strategy (9 sections) + Business Model — an alternative to BMC and Lean Canvas for new products
-- `product-vision` — Craft an inspiring, achievable, and emotional product vision
-- `value-proposition-canvas` — 6-part JTBD value proposition (Who, Why, What before, How, What after, Alternatives)
-- `lean-canvas` — Lean Canvas business model for startups and new products
-- `business-model` — Business Model Canvas with all 9 building blocks
-- `monetization-models` — Brainstorm 3–5 monetization strategies with validation experiments
-- `pricing-strategy` — Pricing models, competitive analysis, willingness-to-pay, and price elasticity
-- `swot-analysis` — SWOT analysis with actionable recommendations
-- `pestle-analysis` — Macro environment: Political, Economic, Social, Technological, Legal, Environmental
-- `porters-five-forces` — Competitive forces analysis (rivalry, suppliers, buyers, substitutes, new entrants)
-- `ansoff-matrix` — Growth strategy mapping across markets and products
-- `devil-advocate` — Constructive critic and stress-tester for PM ideas, proposals, and strategies
-- `pivot-decision` — Evidence-based pivot/persevere framework for deciding whether to continue, change direction, or stop
-
-**Commands (6):**
-
-- `/strategy` — Create a complete 9-section Product Strategy Canvas
-- `/business-model` — Explore business models (`lean|full|startup|value-prop|all`)
-- `/value-proposition` — Design a value proposition using the 6-part JTBD template
-- `/market-scan` — Macro environment analysis combining SWOT + PESTLE + Porter's + Ansoff
-- `/pricing` — Design a pricing strategy with competitive analysis and experiments
-- `/challenge` — Stress-test an idea, proposal, or strategy — find weaknesses and strengthen your thinking
-
-**Examples:**
-
-Skills:
-- `Compare Lean Canvas vs Business Model Canvas vs Startup Canvas for my marketplace startup`
-- `Design a value proposition for our AI writing assistant targeting non-native English speakers`
-- `Run a Porter's Five Forces analysis for the project management SaaS market`
-- `Challenge my proposal to pause iOS development this quarter`
-
-Commands:
-- `/strategy B2B project management tool for agencies`
-- `/business-model startup — AI writing tool for non-native English speakers`
-- `/value-proposition SaaS onboarding tool for enterprise customers`
-- `/challenge [paste your PRD or proposal] Find the weaknesses`
-
-</details>
-
-<details>
-<summary><strong>3. pm-execution</strong> — PRDs, OKRs, roadmaps, sprints, retros, release notes, ADRs, edge cases, solution briefs, stakeholder management, writing, meeting prep (20 skills, 11 commands)</summary>
-
-Day-to-day product management: PRDs, OKRs, roadmaps, sprints, retrospectives, release notes, pre-mortems, solution briefs, architecture decision records, edge case analysis, stakeholder management, user stories, prioritization frameworks, general-purpose writing, meeting preparation, and stakeholder updates.
-
-#### Plan & Build
-
-**Skills:**
-
-- `create-prd` — Comprehensive 8-section PRD template
-- `solution-brief` — Lightweight one-page solution pitch before committing to a full PRD — the decision gate between discovery and requirements
-- `brainstorm-okrs` — Team-level OKRs aligned with company objectives
-- `outcome-roadmap` — Transform a feature list into an outcome-focused roadmap
-- `sprint-plan` — Sprint planning with capacity estimation, story selection, and risk identification
-- `retro` — Structured sprint retrospective facilitation
-- `release-notes` — User-facing release notes from tickets, PRDs, or changelogs
-- `user-stories` — User stories following the 3 C's and INVEST criteria
-- `job-stories` — Job stories: When [situation], I want to [motivation], so I can [outcome]
-- `wwas` — Product backlog items in Why-What-Acceptance format
-- `test-scenarios` — Test scenarios: happy paths, edge cases, error handling
-- `edge-cases` — Systematically identify error states, boundary conditions, and recovery paths using the BOUNDARY method
-- `adr` — Architecture Decision Records (Nygard format) — document why a technical or product decision was made
-- `prioritization` — Reference guide to 9 prioritization frameworks (Opportunity Score, ICE, RICE, MoSCoW, Kano, etc.)
-
-**Commands:**
-
-- `/write-prd` — Create a PRD from a feature idea or problem statement
-- `/plan-okrs` — Brainstorm team-level OKRs
-- `/transform-roadmap` — Convert a feature-based roadmap into outcome-focused
-- `/sprint` — Sprint lifecycle (`plan|retro|release`)
-- `/write-stories` — Break features into backlog items (`user|job|wwa`)
-- `/test-scenarios` — Generate test scenarios from user stories
-
-#### Communicate & Align
-
-**Skills:**
-
-- `pre-mortem` — Risk analysis with Tigers/Paper Tigers/Elephants classification
-- `stakeholder-map` — Power × Interest grid with tailored communication plan
-- `stakeholder-update` — Structured stakeholder updates, status reports, and executive summaries with audience-calibrated detail levels
-- `summarize-meeting` — Meeting transcript → decisions + action items
-- `meeting-prep` — Prepare for any PM meeting — 1:1s, stakeholder alignments, leadership reviews, and cross-functional planning sessions
-- `writer` — General-purpose PM writing assistant for briefs, emails, Slack messages, proposals, and presentations
-
-**Commands:**
-
-- `/pre-mortem` — Pre-mortem risk analysis on a PRD or launch plan
-- `/meeting-notes` — Summarize a meeting transcript into structured notes
-- `/stakeholder-map` — Map stakeholders and create a communication plan
-- `/prep-meeting` — Prepare for any PM meeting with structured talking points, anticipated questions, and success criteria
-- `/write-update` — Create a polished stakeholder update or status report tailored to your audience
-
-**Examples:**
-
-Skills:
-- `Which prioritization framework should I use for a 50-item backlog?`
-- `Map our stakeholders for the platform migration project`
-- `What's the difference between Opportunity Score, ICE, and RICE?`
-- `Help me write an email to my VP about why we need to delay the feature launch by 2 weeks`
-- `I have a 1:1 with my manager tomorrow — help me prepare talking points`
-- `Write a weekly status update for the push notifications project`
-
-Commands:
-- `/write-prd Smart notification system that reduces alert fatigue`
-- `/sprint retro — Here are the notes from our last sprint`
-- `/write-stories job — Break down the "team dashboard" feature into job stories`
-- `/prep-meeting 1:1 with my manager about project deprioritization`
-- `/write-update Weekly progress on the Search Redesign project for leadership`
-
-</details>
-
-<details>
-<summary><strong>4. pm-market-research</strong> — Personas, segmentation, journey maps, market sizing, competitor analysis (6 skills, 3 commands)</summary>
-
-User research and competitive analysis: personas, segmentation, journey maps, market sizing, competitor analysis, and feedback analysis.
-
-**Skills (6):**
-
-- `research-personas` — Create refined user personas from research data
-- `user-segmentation` — Unified segmentation: market segments, user/feedback segmentation, or beachhead selection
-- `customer-journey-map` — End-to-end journey map with stages, touchpoints, emotions, and pain points
-- `market-sizing` — TAM, SAM, SOM with top-down and bottom-up approaches
-- `competitor-analysis` — Competitor strengths, weaknesses, and differentiation opportunities
-- `sentiment-analysis` — Sentiment analysis and theme extraction from user feedback
-
-**Commands (3):**
-
-- `/research-users` — Build personas, segment users, and map the customer journey
-- `/competitive-analysis` — Analyze the competitive landscape
-- `/analyze-feedback` — Sentiment analysis and segment insights from user feedback
-
-**Examples:**
-
-Skills:
-- `Estimate TAM/SAM/SOM for an AI code review tool in the US market`
-- `Create a customer journey map for our e-commerce checkout flow`
-- `Segment these survey respondents by behavior and needs [attach CSV]`
-
-Commands:
-- `/research-users We have interview data from 12 users of our fitness app`
-- `/competitive-analysis Figma competitors in the design tool space`
-- `/analyze-feedback Here's 200 NPS responses from Q4 [attach file]`
-
-</details>
-
-<details>
-<summary><strong>5. pm-data-analytics</strong> — SQL generation, cohort analysis, A/B test analysis, funnel analysis, event tracking, metric definition, North Star (7 skills, 7 commands)</summary>
-
-Data analytics for PMs: SQL query generation, cohort analysis, A/B test analysis, funnel analysis, event tracking planning, metric definition, and North Star metric definition.
-
-**Skills (7):**
-
-- `sql-queries` — Generate SQL from natural language (BigQuery, PostgreSQL, MySQL)
-- `cohort-analysis` — Retention curves, feature adoption, and engagement trends by cohort
-- `ab-test-analysis` — Statistical significance, sample size validation, and ship/extend/stop recommendations
-- `product-metrics` — Complete product metrics framework: North Star, input metrics, health metrics, dashboard design, and AI metrics layer
-- `funnel-analysis` — Analyze conversion funnels: drop-off points, conversion rates, leakage hypotheses, and improvement experiments
-- `event-tracking-plan` — Design an analytics instrumentation plan: events, properties, naming conventions, and tracking spec
-- `metric-definition` — Define and distinguish operational vs vanity vs actionable metrics with full metric specs
-
-**Commands (7):**
-
-- `/data-driven-discovery` — End-to-end data-driven discovery: metrics → tracking → funnels → cohorts → experiments → report
-- `/write-query` — Generate SQL queries from natural language
-- `/analyze-cohorts` — Cohort analysis on user engagement data
-- `/analyze-test` — Analyze A/B test results
-- `/north-star` — Define your North Star Metric and supporting input metrics
-- `/design-funnel` — Analyze a conversion funnel and get improvement recommendations
-- `/plan-tracking` — Design an analytics event tracking plan
-
-**Examples:**
-
-Skills:
-- `How large a sample do I need for 95% confidence with a 2% MDE?`
-- `What retention metrics should I track for a subscription app?`
-- `Design an event tracking plan for our onboarding flow`
-
-Commands:
-- `/write-query Show me monthly active users by country for Q4 2025 (BigQuery)`
-- `/north-star Two-sided marketplace connecting freelancers with clients`
-- `/design-funnel Our signup → activation → first purchase funnel for an e-commerce app`
-
-</details>
-
-<details>
-<summary><strong>6. pm-go-to-market</strong> — Beachhead segments, ICPs, messaging, growth loops, GTM motions, battlecards, marketing ideas, positioning, product naming (7 skills, 4 commands)</summary>
-
-Go-to-market strategy: beachhead segments, ideal customer profiles, messaging, growth loops, GTM motions, competitive battlecards, marketing ideas, positioning, and product naming.
-
-**Skills (9):**
-
-- `gtm-strategy` — Full GTM strategy: channels, messaging, success metrics, and launch plan
-- `beachhead-segment` — Identify the first beachhead market segment
-- `ideal-customer-profile` — ICP with demographics, behaviors, JTBD, and needs
-- `growth-loops` — Design sustainable growth loops (flywheels)
-- `gtm-motions` — Evaluate GTM motions and tools (product-led, sales-led, etc.)
-- `competitive-battlecard` — Sales-ready battlecard with objection handling and win strategies
-- `marketing-ideas` — Creative, cost-effective marketing ideas with channels and messaging
-- `positioning-ideas` — Product positioning differentiated from competitors
-- `product-name` — Product name brainstorming aligned to brand values and audience
-
-**Commands (4):**
-
-- `/plan-launch` — Full GTM strategy from beachhead to launch plan
-- `/growth-strategy` — Design growth loops and evaluate GTM motions
-- `/battlecard` — Create a competitive battlecard
-- `/marketing-plan` — Brainstorm marketing ideas, positioning, value props, and product names
-
-**Examples:**
-
-Skills:
-- `What's the best beachhead segment for a developer productivity tool?`
-- `Design a growth loop for a B2B SaaS with a freemium tier`
-- `Brainstorm 5 positioning angles that differentiate us from Notion`
-
-Commands:
-- `/plan-launch AI code review tool targeting mid-size engineering teams`
-- `/battlecard Our CRM vs Salesforce for the SMB market`
-- `/marketing-plan B2B analytics dashboard for e-commerce managers`
-
-</details>
-
-<details>
-<summary><strong>7. pm-ai-product-management</strong> 🆕 — AI feature specs, model evaluation, responsible AI, prompt engineering, AI incidents, feature launch workflow (8 skills, 6 commands)</summary>
-
-Skills for the full AI product lifecycle — from evaluating models and writing AI feature specs to running responsible AI reviews, handling AI incidents, and building data strategies.
-
-**Skills (8):**
-
-- `ai-feature-definition` — Write a complete AI feature spec: model behaviour, input/output examples, confidence thresholds, fallback logic
-- `ai-model-evaluation` — Evaluate and compare LLMs, ML APIs, and fine-tuned models for product fit across quality, latency, cost, and compliance
-- `ai-build-buy-partner` — Evaluate AI capability sourcing: build, buy, fine-tune, or partner using a structured decision matrix
-- `ai-data-strategy` — Data strategy for AI products: training data, data quality, labeling, feedback loops, and retraining
-- `ai-user-research` — Research user expectations, trust calibration, and interaction patterns for AI-powered features
-- `ai-incident-response` — Handle AI model failures, quality regressions, bias incidents, and safety issues
-- `prompt-engineering` — Craft and manage production-quality prompts: system prompts, few-shot examples, chain-of-thought, and guardrails
-- `responsible-ai` — Assess AI features for ethical risks, bias, safety, fairness gaps, and regulatory compliance
-
-**Commands (6):**
-
-- `/ai-feature-launch` — End-to-end AI feature workflow: model eval → spec → data strategy → build/buy → responsible AI → prompts → incident planning
-- `/ai-spec` — Create an AI feature specification with behaviour requirements and fallback design
-- `/ai-model-eval` — Evaluate and compare AI models or vendors for a specific use case
-- `/responsible-ai-review` — Review an AI feature for ethical risks, bias, safety, and regulatory compliance
-- `/ai-metrics` — Define success metrics for an AI feature — model quality, operational, product, and business KPIs
-- `/ai-roadmap` — Create an AI product roadmap accounting for model uncertainty, data requirements, and iterative improvement
-
-**Examples:**
-
-Skills:
-- `Evaluate GPT-4 vs Claude vs Gemini for our customer support chatbot use case`
-- `Write an AI feature spec for smart email categorization with confidence thresholds`
-- `Assess our recommendation engine for bias and fairness issues`
-
-Commands:
-- `/ai-spec Smart document summarization for legal contracts`
-- `/ai-model-eval Which LLM should we use for code review suggestions?`
-- `/responsible-ai-review Our AI hiring screening tool — check for bias and compliance`
-
-</details>
-
-<details>
-<summary><strong>8. pm-vibe-coding</strong> 🆕 — Vibe specs, prototyping plans, tech decisions, code review, deployment, debugging, technical analysis (7 skills, 6 commands)</summary>
-
-Skills for PMs building products with AI-assisted coding tools (Cursor, Replit, GitHub Copilot, Claude Code) and understanding technical systems.
-
-**Skills (7):**
-
-- `vibe-coding-spec` — Write a natural-language specification optimized for AI coding assistants
-- `prototype-plan` — Plan an AI-assisted prototyping session with tool selection and build sequence
-- `technical-analyst` — Technical translator for PMs — helps understand systems, codebases, APIs, and technical concepts in PM-friendly terms
-- `technical-decision-guide` — Make technical architecture decisions without deep engineering background
-- `code-review-for-pms` — Review AI-generated code from a PM perspective
-- `deploy-checklist` — Pre-launch deployment checklist for PM-builders
-- `debug-with-ai` — Guide through debugging AI-generated code
-
-**Commands (6):**
-
-- `/vibe-spec` — Create a vibe coding specification
-- `/plan-prototype` — Plan an AI-assisted build session
-- `/tech-decision` — Get guidance on a technical architecture decision
-- `/review-code` — Review AI-generated code from a PM perspective
-- `/deploy-check` — Run through a deployment checklist
-- `/debug-help` — Get help debugging AI-generated code
-
-**Examples:**
-
-Skills:
-- `Explain how the in-app messaging service works from a PM perspective`
-- `Our Android opt-in flows have lower conversion than iOS — can you figure out why from the code?`
-
-Commands:
-- `/vibe-spec A job board for climate tech roles`
-- `/plan-prototype A waitlist page with referral tracking`
-- `/tech-decision Which database should I use for my app?`
-- `/deploy-check My Next.js app before sharing with beta users`
-
-</details>
-
-<details>
-<summary><strong>9. pm-guided-learning</strong> 🆕 — PM Foundations Course: structured 11-module PM curriculum (12 skills, 14 commands)</summary>
-
-**The PM Foundations Course — an end-to-end tutor for product managers at every level.**
-
-- 🟢 **New PMs / career-switchers** — Start with `/course` or `/learn-foundations`
-- 🟡 **Experienced PMs entering AI** — Start with `/learn-ai-pm` and `/learn-vibe-coding`
-- 🔵 **All levels** — `/learn-capstone` for an integrated full-lifecycle case study
-
-> Already a working PM? Use individual modules as 30–60 min skill refreshers. New to PM? Start `/course` for the full structured curriculum.
-
-Interactive, Socratic-method learning modules organized as the **PM Foundations Course** — a structured 11-module curriculum across 5 units. Each module teaches PM skills through guided scenarios, Socratic questioning, and scored feedback.
-
-**Course Structure (5 Units, 11 Modules):**
-
-| Unit | Modules |
-|------|---------|
-| **1. Foundations** | `learn-foundations`, `learn-user-research`, `learn-discovery` |
-| **2. Strategy** | `learn-metrics`, `learn-prioritization`, `learn-strategy` |
-| **3. Execution** | `learn-execution`, `learn-stakeholder-management` |
-| **4. Modern PM** | `learn-ai-pm`, `learn-vibe-coding` |
-| **5. Capstone** | `learn-capstone` |
-
-**Skills (12):**
-
-- `learn-pm-course` — Course coordinator: enrollment, progress tracking, and personalized paths
-- `learn-foundations` — PM role, mindset, output vs. outcome, PM skill tree (beginner)
-- `learn-user-research` — Simulated user interview practice with scored feedback
-- `learn-discovery` — Continuous discovery via OST (Teresa Torres's framework)
-- `learn-metrics` — North Star Metric, input metrics, counter-metrics (scored workshop)
-- `learn-prioritization` — RICE, ICE, Opportunity Score applied to a real backlog
-- `learn-strategy` — Product strategy via Roger Martin's Playing to Win cascade
-- `learn-execution` — PRDs, outcome-based roadmaps, OKRs, sprint planning
-- `learn-stakeholder-management` — Multi-stakeholder alignment simulation
-- `learn-ai-pm` — AI model evaluation, responsible AI, prompt engineering, AI metrics
-- `learn-vibe-coding` — Vibe coding tool selection, spec writing, prototyping
-- `learn-capstone` — Full-lifecycle capstone project integrating all prior modules
-
-**Commands (14):**
-
-- `/course` — **Course hub**: enroll, track progress, get a personalized learning path
-- `/learn` — Quick reference: see all modules and get a recommendation
-- `/learn-foundations` — Start the PM Foundations module
-- `/learn-interview` — Start the user research interview practice
-- `/learn-discovery` — Start the discovery learning module
-- `/learn-metrics` — Start the metrics learning module
-- `/learn-prioritization` — Start the prioritization learning module
-- `/learn-strategy` — Start the strategy learning module
-- `/learn-execution` — Start the execution & delivery module
-- `/learn-stakeholders` — Start the stakeholder management simulation
-- `/learn-ai-pm` — Start the AI product management learning module
-- `/learn-vibe-coding` — Start the vibe coding learning module
-- `/learn-capstone` — Start the full-lifecycle capstone project
-- `/find-skill` — Discover the right PM skill for any situation
-
-**Examples:**
-
-- `/course` — Enroll in the PM Foundations Course and get a personalized learning path
-- `/learn-foundations` — Start here if you're new to PM
-- `/learn-capstone` — Apply all skills in a single integrated case study
-- `/learn-ai-pm` — Learn how to evaluate and manage AI features
-- `/learn-vibe-coding` — Get started building with AI coding tools
-
-</details>
+## 🧭 Best starting workflows
+
+| Goal | Recommended path |
+|---|---|
+| Explore a new product idea | `/discover` → `/strategy` → `/plan-launch` |
+| Validate a risky problem | `/lean-validation` → `/setup-metrics` → `/write-prd` |
+| Turn a feature request into a build plan | `/write-prd` → `/write-stories` → `/test-scenarios` → `/sprint` |
+| Launch an AI feature safely | `/ai-feature-launch` → `/responsible-ai-review` → `/ai-metrics` |
+| Build a prototype with AI coding tools | `/plan-prototype` → `/vibe-spec` → `/review-code` → `/deploy-check` |
+| Level up a PM team | `/course` → `/learn-foundations` → `/learn-capstone` |
+
+See more buyer-style use cases in [docs/workflows.md](docs/workflows.md).
 
 ---
 
-## 📖 About & Attribution
+## ✅ Release readiness and contributor trust
 
-<div align="center">
+This repo includes:
+- `python3 validate_plugins.py` for plugin validation
+- TypeScript MCP server source in `src/`
+- docs for onboarding, proof, FAQ, workflows, and compatibility
+- a visible [release checklist](docs/release-checklist.md)
 
-*This marketplace evolves with product practice and AI capabilities.*
+---
 
-</div>
+## ❓ FAQ
+
+### Is this just a prompt library?
+No. It is a structured library of PM skills and chained workflows with explicit frameworks, output shapes, and routing guidance.
+
+### Do I need to clone the repo?
+No for MCP usage. Yes only if you want local plugin files, direct editing, or manual skills-only installs.
+
+### What is the fastest way to get value?
+Install via MCP, run one of `/discover`, `/write-prd`, `/ai-feature-launch`, or `/plan-prototype`, then follow the suggested next command.
+
+### Which pack should I start with?
+Most users should start with **PM Core**. If you are building AI features, choose **AI PM**. If you are building prototypes, choose **PM Builder**. If you are onboarding PMs, choose **PM Learning**.
+
+### Do commands work everywhere?
+Commands work in Claude marketplace installs and through the MCP server. Skills-only installs work in more tools, but slash-command behavior depends on the host.
+
+### How do contributors validate changes?
+Run `python3 validate_plugins.py`. For MCP/server changes, also run `npm run build` after installing dependencies.
+
+See the full [FAQ](docs/faq.md).
+
+---
+
+## 📖 About & attribution
 
 Originally curated by **Paweł Huryn** ([phuryn/pm-skills](https://github.com/phuryn/pm-skills)). Extended and maintained by **[Tarun Narang](mailto:tarunccet@gmail.com)**.
 
-<details>
-<summary><strong>📚 Framework Authors & References</strong></summary>
-<br />
-
-Selected skills are based on the work of:
-
-| Author | Work |
-|:-------|:-----|
-| Teresa Torres | [*Continuous Discovery Habits*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309/) |
-| Marty Cagan | [*INSPIRED*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/) · [*TRANSFORMED*](https://www.amazon.com/dp/1119697336/) |
-| Alberto Savoia | [*The Right It*](https://www.amazon.com/Right-Many-Ideas-Yours-Succeed/dp/0062884654) |
-| Dan Olsen | [*The Lean Product Playbook*](https://www.amazon.com/dp/1118960874/) |
-| Roger L. Martin | [*Playing to Win*](https://www.amazon.com/Playing-Win-Expanded-Bonus-Articles/dp/B0F25SDYWV/) |
-| Ash Maurya | [*Running Lean*](https://www.amazon.com/dp/B004J4XGN6/) |
-| Strategyzer | [*Business Model Generation*](https://www.amazon.com/dp/0470876417/) · [*Value Proposition Design*](https://www.amazon.com/dp/1118968050/) |
-| Christina Wodtke | [*Radical Focus*](https://www.amazon.com/Radical-Focus-Achieving-Important-Objectives/dp/0996006052) |
-| Anthony W. Ulwick | [*Jobs to Be Done*](https://jobs-to-be-done-book.com/) |
-| Alistair Croll & Benjamin Yoskovitz | [*Lean Analytics*](https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675/) |
-| Sean Ellis | [*Hacking Growth*](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X/) |
-| Maja Voje | [*Go-To-Market Strategist*](https://gtmstrategist.com/) |
-
-</details>
+Framework inspiration and attribution remain preserved throughout the skills.
 
 ## 🤝 Contributing
 
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## ⚠️ Known Issue on Windows
-
-If your Cowork is unstable and can't start a VM ([claude-code/issues/27010](https://github.com/anthropics/claude-code/issues/27010)), try:
-
-```powershell
-$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle Hidden -Command `"if ((Get-Service CoworkVMService).Status -ne 'Running') { Start-Service CoworkVMService }`""
-
-$trigger = New-ScheduledTaskTrigger -RepetitionInterval (New-TimeSpan -Minutes 1) -Once -At (Get-Date)
-
-$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
-
-Register-ScheduledTask -TaskName "CoworkVMServiceMonitor" `
-  -Action $action `
-  -Trigger $trigger `
-  -Settings $settings `
-  -RunLevel Highest `
-  -User "SYSTEM"
-```
-
-It solves 90% of the issues on Windows.
-The remaining 10%: open services.msc > start "Claude" service manually
+Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## 📄 License
 
