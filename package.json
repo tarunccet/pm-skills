@@ -1,6 +1,6 @@
 {
   "name": "ai-pm-skills-mcp",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "The PM operating system for AI-native product teams: 93 PM skills and 63 commands for MCP-compatible assistants.",
   "keywords": [
     "mcp",
