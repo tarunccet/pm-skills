@@ -1,6 +1,6 @@
 {
   "name": "pm-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "83 agentic PM skills MCP server for Claude, Cursor, Windsurf and more. Alias for ai-pm-skills-mcp.",
   "keywords": [
     "mcp", "model-context-protocol", "product-management", "product-manager",
