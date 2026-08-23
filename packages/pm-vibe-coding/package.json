@@ -1,6 +1,6 @@
 {
   "name": "pm-vibe-coding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vibe coding skills for PM builders — prototype planning, specs for AI coding tools, technical decisions and deploy checklists. Alias for ai-pm-skills-mcp.",
   "keywords": [
     "mcp", "model-context-protocol", "product-management", "vibe-coding",
